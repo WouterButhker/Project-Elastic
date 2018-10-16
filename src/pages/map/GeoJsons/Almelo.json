@@ -1,0 +1,514 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Almelo-Nordhorn Kanaal",
+        "time" : "1886",
+        "picture": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.653852462768555,
+            52.35995556339012
+          ],
+          [
+            6.657586097717285,
+            52.361239753739746
+          ],
+          [
+            6.662049293518066,
+            52.36205218142054
+          ],
+          [
+            6.665182113647461,
+            52.36215700971062
+          ],
+          [
+            6.673378944396972,
+            52.36215700971062
+          ],
+          [
+            6.6803741455078125,
+            52.36378181640311
+          ],
+          [
+            6.702260971069336,
+            52.369258547155596
+          ],
+          [
+            6.704835891723633,
+            52.3693633583475
+          ],
+          [
+            6.707496643066405,
+            52.36910132990146
+          ],
+          [
+            6.744275093078613,
+            52.36100388484089
+          ],
+          [
+            6.746528148651122,
+            52.36082043038239
+          ],
+          [
+            6.749274730682373,
+            52.361108715618066
+          ],
+          [
+            6.765260696411133,
+            52.36323148534417
+          ],
+          [
+            6.773929595947266,
+            52.364856252523566
+          ],
+          [
+            6.783714294433594,
+            52.365694818657445
+          ],
+          [
+            6.789464950561523,
+            52.36543276845041
+          ],
+          [
+            6.819398403167725,
+            52.36785667355634
+          ],
+          [
+            6.826822757720947,
+            52.3678697753847
+          ],
+          [
+            6.851863861083984,
+            52.37282198816532
+          ],
+          [
+            6.955804824829102,
+            52.387334799335875
+          ],
+          [
+            6.958208084106445,
+            52.38749195168672
+          ],
+          [
+            6.970481872558594,
+            52.38696810834162
+          ],
+          [
+            7.005500793457031,
+            52.38743956763194
+          ],
+          [
+            7.019920349121094,
+            52.39021583687557
+          ],
+          [
+            7.053480148315429,
+            52.40074312027673
+          ],
+          [
+            7.065496444702148,
+            52.417602489992824
+          ],
+          [
+            7.076654434204102,
+            52.42629144910477
+          ],
+          [
+            7.0775556564331055,
+            52.42807090414696
+          ],
+          [
+            7.077083587646484,
+            52.432623888510506
+          ],
+          [
+            7.075839042663574,
+            52.43411528111789
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Bellinckhof",
+        "time" : "1919",
+        "picture": "Pictures/Almelo/huizebellinckhof.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.635699272155762,
+          52.354634948622525
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Bendien Confectie",
+        "time" : "1890-1985",
+        "picture": "Pictures/Almelo/bendienconfectiebedrijf.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6642433404922485,
+          52.35303929458621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Egger Vitrage",
+        "time" : "1927-heden",
+        "picture": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.673523783683776,
+          52.34709849909437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Haven aan de Molenkolk",
+        "time" : "tot 1701",
+        "picture": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6653189063072205,
+          52.35580134510498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "De Schutten",
+        "time" : "1701-1855",
+        "picture": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.664581298828125,
+          52.35465460724527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Hofkeshuis",
+        "time" : "1775",
+        "picture": "Pictures/Almelo/hofkeshuisvroeger.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.66593849658966,
+          52.3568186404993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Hedeman Stoomkatoenweverij",
+        "time" : "1880-1977",
+        "picture": "Pictures/Almelo/Hedemanstoomkatoen.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.682517230510712,
+          52.36658250218258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Ijzergieterij W. ten Cate en Zn.",
+        "time" : "1820-1992",
+        "picture": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.670364141464233,
+          52.3617049359333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Klooster-esch",
+        "time" : "1925",
+        "picture": "Pictures/Almelo/kloosteresch.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.659855246543883,
+          52.35500354634348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Landhuis Wendelgoor",
+        "time" : "1931",
+        "picture": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.62351131439209,
+          52.357223258728084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Haven aan de markt",
+        "time" : "1855-1953",
+        "picture": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.663626432418823,
+          52.35655162320185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Haven NZ en ZZ",
+        "time" : "1953",
+        "picture": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.660370230674743,
+          52.35729205983975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Ledeboer & Co Bankgebouw",
+        "time" : "1908",
+        "picture": "Pictures/Almelo/twentschebank.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.663529872894287,
+          52.35526729660358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Twenthe stoomspinnerij",
+        "time" : "1981-2002",
+        "picture": "Pictures/Almelo/twenthestoomspinnerij.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.658143997192383,
+          52.356495926138905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Almelosche Ververij en Chemische Wasscherij Gebr. Palthe",
+        "time" : "1873-1993",
+        "picture": "Pictures/Almelo/palthe.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.662360429763794,
+          52.357681930782604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "SESA pakhuis",
+        "time" : "1862",
+        "picture": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.661920547485352,
+          52.35321295172049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "SESA fabriek",
+        "time" : "1887-1970",
+        "picture": "Pictures/Almelo/sesafabriekmetschoorsteen.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.661303639411926,
+          52.35299342277643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Wevershuisje",
+        "time" : "~1700",
+        "picture": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.665560305118561,
+          52.358584517959535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Ten Cate: Java, Holland en Tubantia",
+        "time" : "1860-1995",
+        "picture" : "Pictures/Almelo/Java.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.657650470733643,
+          52.35808817919812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Het kunsttorentje",
+        "time" : "",
+        "picture" : "Pictures/Almelo/torentje.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6587018966674805,
+          52.357649168650866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Ten Cate: Indië",
+        "time" : "",
+        "picture" : "Pictures/Almelo/indieterrein.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.653509140014648,
+          52.36275976755196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Moskee",
+        "time" : "",
+        "picture" : ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.655424237251282,
+          52.354738156294296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "8 zaligheden",
+        "time" : "",
+        "picture" : "Pictures/Almelo/ongebruikt/8 zaligheden1.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.660504341125488,
+          52.360093156998474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Station Almelo",
+        "time" : "",
+        "picture" : "Pictures/Almelo/ongebruikt/ns station 1908.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.654324531555176,
+          52.35772779772621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name" : "Heracles Stadion",
+        "time" : "1903",
+        "picture" : ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.649770140647888,
+          52.33887247259727
+        ]
+      }
+    }
+  ]
+}
