@@ -14,15 +14,16 @@ export class MapPage {
 
   constructor(public navCtrl: NavController) {
 
- //test
-
-
   }
+
+
 
   ionViewDidLoad() {
     this.initMap();
-    this.loadData();
+    this.map.data.loadGeoJson('assets/Json/Test.geojson');
+
   }
+
 
   initMap() {
     const almelo = new google.maps.LatLng(52.3570267, 6.668491899999935);
@@ -34,21 +35,16 @@ export class MapPage {
 
     this.map = new google.maps.Map(this.mapElement.nativeElement, options);
 
-    var marker = new google.maps.Marker( {
-      position: almelo,
-      map:this.map,
-      title: "YESS"
-    })
-
-    this.map.data.loadGeoJson('GeoJsons/Almelo.json');
-
-
   }
 
-  loadData() {
+  // loadData($) {
+  //   $.getJSON('Test.geojson', function (eventsData) {
+  //     var eventsSize = Object.size(eventsData);
+  //     console.log(eventsSize);
+  //   })
+  // }
 
 
-  }
 
 
 
