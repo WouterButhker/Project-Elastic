@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-import {HttpClient, HttpErrorResponse} from "@angular/common/http";
-import {Observable} from "rxjs";
-
+import {HttpClient} from "@angular/common/http";
 
 
 @Component({
@@ -12,74 +10,24 @@ import {Observable} from "rxjs";
 
 export class HomePage {
 
-    locations;
-    testArray : number[];
-    testString : string;
-    testObj : object[];
+    locations; //variable that holds the list of locations and their features
+
     constructor(private http: HttpClient) {
-        this.testString = "test";
+
         this.locations = this.loadDataFromJson();
-        this.testArray = [1,2,3,4];
-        this.testObj = [
-            {
-                "properties": {
-                    "name" : "fail"
-                }
-            },
-            {
-                "properties" : {
-                    "name" : "fail"
-                }
-            }
-        ];
+
     }
 
 
-    ionViewDidLoad() {
+    async loadDataFromJson() { //gets the json from a local file and returns it when ready
+        //https://medium.com/@balramchavan/using-async-await-feature-in-angular-587dd56fdc77
+        //TODO: add support for different Json files
 
-        //
+        let locationsDing = await this.http.get('/assets/Json/ALmelo.json').toPromise();
+        return locationsDing['features'];
+
     }
 
-
-    async loadDataFromJson() {
-        // load the json data from a file
-        // let locations;
-        //
-        // this.http.get('/assets/Json/Almelo.json').subscribe(
-        //     data => {
-        //         locations = data['features'];
-        //
-        //
-        //         console.log("succes");
-        //
-        //     }, (err: HttpErrorResponse) => {
-        //         console.log(err.message);
-        //     }
-        // );
-        // console.log("nope");
-        // return locations;
-
-
-        return await this.resolveThing();
-    }
-
-    resolveThing() {
-        return new Promise(resolve => {
-
-            this.http.get('/assets/Json/Almelo.json').subscribe(
-                data => {
-                    let locations = data['features'];
-
-                    resolve(locations);
-                    console.log("succes");
-
-                }, (err: HttpErrorResponse) => {
-                    console.log(err.message);
-                }
-            );
-
-        });
-    }
 
 
 }

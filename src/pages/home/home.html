@@ -1,23 +1,19 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welkom Bij Elastic</h2>
-  <p>
-    Deze app is in ontwikkeling
-  </p>
+    <h2>Welkom Bij Elastic</h2>
+    <p>Deze app is in ontwikkeling</p>
+
 
     <ion-list>
-        <ion-item *ngFor="let item of locations | async ">
-            {{item.properties.name}}
+        <ion-item *ngFor="let locationFeature of locations | async ">
+            {{locationFeature.properties.name}}
+        </ion-item>
 
-        </ion-item>
-        <ion-item>
-            {{testString}}
-        </ion-item>
     </ion-list>
 
 </ion-content>
