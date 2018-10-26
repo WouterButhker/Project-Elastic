@@ -12,7 +12,7 @@ import {Observable} from "rxjs";
 
 export class HomePage {
 
-    locations : Observable<object[]>;
+    locations;
     testArray : number[];
     testString : string;
     testObj : object[];
@@ -41,23 +41,44 @@ export class HomePage {
     }
 
 
-    loadDataFromJson() {
+    async loadDataFromJson() {
         // load the json data from a file
-        let locations;
+        // let locations;
+        //
+        // this.http.get('/assets/Json/Almelo.json').subscribe(
+        //     data => {
+        //         locations = data['features'];
+        //
+        //
+        //         console.log("succes");
+        //
+        //     }, (err: HttpErrorResponse) => {
+        //         console.log(err.message);
+        //     }
+        // );
+        // console.log("nope");
+        // return locations;
 
-        this.http.get('/assets/Json/Almelo.json').subscribe(
-            data => {
-                locations = data['features'];
 
+        return await this.resolveThing();
+    }
 
-                console.log("succes");
-                return locations;
-            }, (err: HttpErrorResponse) => {
-                console.log(err.message);
-            }
-        );
-        console.log("nope");
-        return locations;
+    resolveThing() {
+        return new Promise(resolve => {
+
+            this.http.get('/assets/Json/Almelo.json').subscribe(
+                data => {
+                    let locations = data['features'];
+
+                    resolve(locations);
+                    console.log("succes");
+
+                }, (err: HttpErrorResponse) => {
+                    console.log(err.message);
+                }
+            );
+
+        });
     }
 
 
