@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
+import { NavController } from "ionic-angular";
+import { DetailPage } from "../detail/detail";
 
 
 @Component({
@@ -12,7 +14,7 @@ export class HomePage {
 
     locations; //variable that holds the list of locations and their features
 
-    constructor(private http: HttpClient) {
+    constructor(private http: HttpClient, public navCtrl: NavController) {
 
         this.locations = this.loadDataFromJson();
 
@@ -25,6 +27,14 @@ export class HomePage {
 
         let locationsDing = await this.http.get('/assets/Json/ALmelo.json').toPromise();
         return locationsDing['features'];
+
+    }
+
+    public viewDetailPage(locationFeature) {
+        //alert(locationFeature.properties.name);
+        this.navCtrl.push(DetailPage, {
+            locationFeature: locationFeature
+        })
 
     }
 

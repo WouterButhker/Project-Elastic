@@ -10,9 +10,9 @@
 
 
     <ion-list>
-        <ion-item *ngFor="let locationFeature of locations | async ">
+        <button ion-item *ngFor="let locationFeature of locations | async " (click)="viewDetailPage(locationFeature)">
             {{locationFeature.properties.name}}
-        </ion-item>
+        </button>
 
     </ion-list>
 
