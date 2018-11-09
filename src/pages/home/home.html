@@ -1,6 +1,6 @@
 <ion-header>
     <ion-toolbar color="primary">
-        <ion-title start>Home</ion-title>
+        <ion-title>Home</ion-title>
 
         <ion-buttons end>
             <button class="flag" (click)="presentToast()">
@@ -21,7 +21,7 @@
 
     <button ion-item *ngFor="let locationFeature of locations | async " (click)="viewDetailPage(locationFeature)">
         <ion-card>
-            <img src="assets/{{locationFeature.properties.picture}}" alt="">
+            <img src="assets/{{locationFeature.properties.picture}}" alt="" padding="10px">
             <ion-card-header text-wrap="white-space: normal">
                 {{locationFeature.properties.name}}
             </ion-card-header>
