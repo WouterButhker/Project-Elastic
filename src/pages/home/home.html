@@ -1,7 +1,16 @@
 <ion-header>
-    <ion-navbar>
-        <ion-title>Home</ion-title>
-    </ion-navbar>
+    <ion-toolbar color="primary">
+        <ion-title start>Home</ion-title>
+
+        <ion-buttons end>
+            <button class="flag" (click)="presentToast()">
+                <img src="assets/Pictures/Almelo/flag.png" float="right">
+            </button>
+
+        </ion-buttons>
+
+
+    </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
@@ -9,11 +18,24 @@
     <p>Deze app is in ontwikkeling</p>
 
 
-    <ion-list>
-        <button ion-item *ngFor="let locationFeature of locations | async " (click)="viewDetailPage(locationFeature)">
-            {{locationFeature.properties.name}}
-        </button>
 
-    </ion-list>
+    <button ion-item *ngFor="let locationFeature of locations | async " (click)="viewDetailPage(locationFeature)">
+        <ion-card>
+            <img src="assets/{{locationFeature.properties.picture}}" alt="">
+            <ion-card-header text-wrap="white-space: normal">
+                {{locationFeature.properties.name}}
+            </ion-card-header>
+
+            <ion-card-content text-wrap="white-space: normal">
+                <p>
+                    {{locationFeature.properties.short_description}}
+                </p>
+            </ion-card-content>
+        </ion-card>
+    </button>>
+
+
+
+
 
 </ion-content>

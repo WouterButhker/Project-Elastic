@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>{{locationDetails.properties.name}}</ion-title>
   </ion-navbar>
 
@@ -15,16 +15,13 @@
 <!--    TODO: add support for all properties
         TODO: add support for pictures -->
 <ion-content padding>
-    <ion-list>
-        <ion-item>
-            Naam locatie: {{locationDetails.properties.name}}
-        </ion-item>
-        <ion-item>
-            Relevante tijd: {{locationDetails.properties.time}}
-        </ion-item>
-        <ion-item>
-            Afbeelding: {{locationDetails.properties.picture}}
-        </ion-item>
-    </ion-list>
+
+    <img src="assets/{{locationDetails.properties.picture}}" alt="">
+    <ion-title>
+        {{locationDetails.properties.name}}
+    </ion-title>
+    <p>
+        {{locationDetails.properties.description}}
+    </p>
 
 </ion-content>

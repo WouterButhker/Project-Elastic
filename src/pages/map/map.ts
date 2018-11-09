@@ -1,5 +1,6 @@
 import { Component, ViewChild} from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ToastController } from 'ionic-angular';
+import { DetailPage } from "../detail/detail";
 
 declare var google: any;
 
@@ -12,7 +13,7 @@ export class MapPage {
 
     @ViewChild('map') mapElement;
 
-    constructor(public navCtrl: NavController) {
+    constructor(public navCtrl: NavController, public toastCtrl: ToastController) {
 
     }
 
@@ -29,7 +30,9 @@ export class MapPage {
         const options = {
             center: almelo,
             zoom: 14,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            mapTypeControl: false,
+            fullscreenControl: false
         };
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
@@ -47,7 +50,7 @@ export class MapPage {
 
 
             var content =
-                '<div id="infowindow"> ' +
+                '<button id="infowindow" (click)=""> ' +
                     '<div id="thumbnail">' +
                         '<img id="thumbnailPicture" src=" ' + picture + ' "> ' +
                     '</div> ' +
@@ -56,7 +59,7 @@ export class MapPage {
                         '<h2>' + name + '</h2>' +
                         ' <p id="time"> ' + time + '</p> ' +
                     '</div> ' +
-                '</div>';
+                '</button>';
 
             infoWindow.setContent(content);
 
@@ -88,6 +91,17 @@ export class MapPage {
         // }
 
     }
+
+    public viewDetailPage(locationFeature) { //TODO: fix de infowindows
+        //alert(locationFeature.properties.name);
+        console.log("HUH?");
+        this.navCtrl.push(DetailPage, {
+            locationFeature: locationFeature
+        })
+        console.log("2")
+
+    }
+
 
 
 
