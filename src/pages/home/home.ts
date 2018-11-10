@@ -27,7 +27,7 @@ export class HomePage {
         //https://medium.com/@balramchavan/using-async-await-feature-in-angular-587dd56fdc77
         //TODO: add support for different Json files
 
-        let locationsDing = await this.http.get('assets/Json/ALmelo.json').toPromise();
+        let locationsDing = await this.http.get('assets/Json/Almelo.json').toPromise();
         return locationsDing['features'];
 
     }
