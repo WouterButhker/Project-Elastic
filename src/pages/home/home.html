@@ -20,8 +20,10 @@
 
 
     <button ion-item *ngFor="let locationFeature of locations | async " (click)="viewDetailPage(locationFeature)">
-        <ion-card>
+        <ion-card id="card">
+
             <img src="assets/{{locationFeature.properties.picture}}" alt="" padding="10px">
+
             <ion-card-header text-wrap="white-space: normal">
                 {{locationFeature.properties.name}}
             </ion-card-header>

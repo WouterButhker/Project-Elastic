@@ -12,18 +12,20 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 @Component({
   selector: 'page-detail',
   templateUrl: 'detail.html',
+
 })
-export class DetailPage {
+export class DetailPage { //TODO: fix backbutton closing the page in browser on android
 
     locationDetails;
 
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
       this.locationDetails = this.navParams.get('locationFeature');
+
+
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad DetailPage');
-  }
+
 
 
 
