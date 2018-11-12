@@ -13,6 +13,7 @@ import { DetailPage} from "../pages/detail/detail";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {LanguageSelectorComponent} from "../components/language-selector/language-selector";
 
 @NgModule({
     declarations: [
@@ -21,7 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
         ContactPage,
         HomePage,
         TabsPage,
-        DetailPage
+        DetailPage,
+        LanguageSelectorComponent
     ],
     imports: [
         BrowserModule,
@@ -35,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
         ContactPage,
         HomePage,
         TabsPage,
-        DetailPage
+        DetailPage,
+        LanguageSelectorComponent
     ],
     providers: [
         StatusBar,

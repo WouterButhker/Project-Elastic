@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
-import { NavController, ToastController } from "ionic-angular";
+import { NavController, ToastController, PopoverController } from "ionic-angular";
 import { DetailPage } from "../detail/detail";
+import { LanguageSelectorComponent } from "../../components/language-selector/language-selector";
 
 
 @Component({
@@ -15,10 +16,14 @@ export class HomePage {
     locations; //variable that holds the list of locations and their features
     categories;
 
-    constructor(private http: HttpClient, public navCtrl: NavController, public toastCtrl: ToastController) {
+    constructor(
+        private http: HttpClient,
+        public popoverCtrl: PopoverController,
+        public navCtrl: NavController,
+        public toastCtrl: ToastController) {
 
-        this.locations = this.loadDataFromJson();
-        this.categories = ["factory", "factory owner's home", "other"]
+            this.locations = this.loadDataFromJson();
+            this.categories = ["factory", "factory owner's home", "other"]
 
     }
 
@@ -47,6 +52,18 @@ export class HomePage {
         });
 
         toast.present();
+
+    }
+
+    openLanguageSelector(myEvent) {
+        let popover = this.popoverCtrl.create(
+            LanguageSelectorComponent,
+            {},
+            {cssClass: 'custom-popover'});
+
+        popover.present( {
+            ev: myEvent
+        });
 
     }
 

@@ -1,0 +1,106 @@
+<!-- Generated template for the LanguageSelectorComponent component -->
+<div>
+
+
+    <ion-title class="title">
+        Stad
+    </ion-title>
+    <!--Start of the city selector radio-->
+    <ion-list radio-group="selectedCity" [(ngModel)]="selectedCity" >
+
+
+        <!--Almelo-->
+        <ion-item>
+            <ion-label>
+
+                <img src="assets/Pictures/Flags/netherlands.png">
+                Almelo
+
+            </ion-label>
+
+            <ion-radio value="Almelo" > </ion-radio>
+        </ion-item>
+
+        <!--Nordhorn-->
+        <ion-item>
+            <ion-label>
+                <img src="assets/Pictures/Flags/germany.png" class="flag">
+                Nordhorn
+            </ion-label>
+
+            <ion-radio value="Nordhorn"> </ion-radio>
+        </ion-item>
+
+        <!--Zelow-->
+        <ion-item>
+            <ion-label>
+                <img src="assets/Pictures/Flags/poland.png" class="flag">
+                Zelów
+            </ion-label>
+
+            <ion-radio value="Zelow"> </ion-radio>
+        </ion-item>
+
+        <!--Valasske-->
+        <ion-item>
+            <ion-label>
+                <img src="assets/Pictures/Flags/czech-republic.png" class="flag">
+                Valašské Klobouky
+            </ion-label>
+
+            <ion-radio value="Valasske"> </ion-radio>
+        </ion-item>
+    </ion-list>
+    <!--End city radio-->
+
+    <ion-title class="title">
+        Language
+    </ion-title>
+
+    <!--Start language radio-->
+    <ion-list radio-group [(ngModel)]="selectedLanguage" >
+
+        <!--Native language-->
+        <ion-item>
+            <ion-label>
+                <img src="assets/Pictures/Flags/{{nativeFlag}}" class="flag">
+                {{nativeLanguage}}
+            </ion-label>
+
+            <ion-radio value="{{nativeLanguage}}">
+                {{nativeLanguage}}
+            </ion-radio>
+        </ion-item>
+
+        <!--English-->
+        <ion-item>
+            <ion-label>
+                <img src="assets/Pictures/Flags/united-kingdom.png" class="flag">
+                English
+            </ion-label>
+
+            <ion-radio value="English">
+                English
+            </ion-radio>
+        </ion-item>
+
+    </ion-list>
+    <!--end language radio-->
+
+    <ion-row>
+        <ion-col>
+            <button id="cancelButton">
+                Cancel
+            </button>
+        </ion-col>
+
+        <ion-col>
+            <button  id="saveButton" (click)="saveLanguage()">
+                Save
+            </button>
+        </ion-col>
+    </ion-row>
+
+
+
+</div>

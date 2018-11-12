@@ -3,8 +3,8 @@
         <ion-title>Home</ion-title>
 
         <ion-buttons end>
-            <button class="flag" (click)="presentToast()">
-                <img src="assets/Pictures/Almelo/flag.png" float="right">
+            <button class="flag" (click)="openLanguageSelector($event)">
+                <img src="assets/Pictures/Flags/netherlands.png" float="right">
             </button>
 
         </ion-buttons>
@@ -23,6 +23,8 @@
         <ion-card id="card">
 
             <img src="assets/{{locationFeature.properties.picture}}" alt="" padding="10px">
+            <!--TODO: look into using ion-img instead of img-->
+
 
             <ion-card-header text-wrap="white-space: normal">
                 {{locationFeature.properties.name}}
