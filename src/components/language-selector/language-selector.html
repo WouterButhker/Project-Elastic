@@ -6,50 +6,18 @@
         Stad
     </ion-title>
     <!--Start of the city selector radio-->
-    <ion-list radio-group="selectedCity" [(ngModel)]="selectedCity" >
+    <ion-list radio-group="selectedCity" [(ngModel)]="selectedCity">
 
-
-        <!--Almelo-->
-        <ion-item>
+        <!--loop through the cities and show them in the radio with flag-->
+        <ion-item *ngFor="let city of cities" >
             <ion-label>
-
-                <img src="assets/Pictures/Flags/netherlands.png">
-                Almelo
-
+                <img src="{{city.image}}">
+                {{city.viewName}}
             </ion-label>
 
-            <ion-radio value="Almelo" > </ion-radio>
+            <ion-radio value="{{city.name}}"></ion-radio>
         </ion-item>
 
-        <!--Nordhorn-->
-        <ion-item>
-            <ion-label>
-                <img src="assets/Pictures/Flags/germany.png" class="flag">
-                Nordhorn
-            </ion-label>
-
-            <ion-radio value="Nordhorn"> </ion-radio>
-        </ion-item>
-
-        <!--Zelow-->
-        <ion-item>
-            <ion-label>
-                <img src="assets/Pictures/Flags/poland.png" class="flag">
-                Zelów
-            </ion-label>
-
-            <ion-radio value="Zelow"> </ion-radio>
-        </ion-item>
-
-        <!--Valasske-->
-        <ion-item>
-            <ion-label>
-                <img src="assets/Pictures/Flags/czech-republic.png" class="flag">
-                Valašské Klobouky
-            </ion-label>
-
-            <ion-radio value="Valasske"> </ion-radio>
-        </ion-item>
     </ion-list>
     <!--End city radio-->
 
@@ -63,13 +31,22 @@
         <!--Native language-->
         <ion-item>
             <ion-label>
-                <img src="assets/Pictures/Flags/{{nativeFlag}}" class="flag">
-                {{nativeLanguage}}
+                <img src="{{cities[checkCity(selectedCity)].image}}" class="flag">
+                {{cities[checkCity(selectedCity)].viewLanguage}}
             </ion-label>
 
-            <ion-radio value="{{nativeLanguage}}">
-                {{nativeLanguage}}
-            </ion-radio>
+            <ion-radio value="{{cities[checkCity(selectedCity)].language}}"> </ion-radio>
+        </ion-item>
+
+
+        <!--Display extra German language when Almelo is selected-->
+        <ion-item *ngIf="cities[checkCity(selectedCity)].name == 'Almelo'">
+            <ion-label>
+                <img src="{{cities[1].image}}">
+                {{cities[1].viewLanguage}}
+            </ion-label>
+
+            <ion-radio value="{{cities[1].language}}"></ion-radio>
         </ion-item>
 
         <!--English-->
@@ -89,13 +66,13 @@
 
     <ion-row>
         <ion-col>
-            <button id="cancelButton">
+            <button class="button" (click)="cancelLanguage()" id="cancelButton">
                 Cancel
             </button>
         </ion-col>
 
         <ion-col>
-            <button  id="saveButton" (click)="saveLanguage()">
+            <button  class="button" id="saveButton" (click)="saveLanguage()">
                 Save
             </button>
         </ion-col>
