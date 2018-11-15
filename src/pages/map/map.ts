@@ -97,7 +97,7 @@ export class MapPage {
         console.log("HUH?");
         this.navCtrl.push(DetailPage, {
             locationFeature: locationFeature
-        })
+        });
         console.log("2")
 
     }

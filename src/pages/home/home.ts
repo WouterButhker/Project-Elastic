@@ -42,7 +42,6 @@ export class HomePage {
 
     async loadDataFromJson(city) { //gets the json from a local file and returns it when ready
         //https://medium.com/@balramchavan/using-async-await-feature-in-angular-587dd56fdc77
-        //TODO: add support for different Json files
 
         let locationsDing = await this.http.get('assets/Json/' + city + '.json').toPromise();
         return locationsDing['features'];
