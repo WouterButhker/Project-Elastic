@@ -31,16 +31,16 @@
         <!--Native language-->
         <ion-item>
             <ion-label>
-                <img src="{{cities[checkCity(selectedCity)].image}}" class="flag">
-                {{cities[checkCity(selectedCity)].viewLanguage}}
+                <img src="{{getCityByName(selectedCity).image}}" class="flag">
+                {{getCityByName(selectedCity).viewLanguage}}
             </ion-label>
 
-            <ion-radio value="{{cities[checkCity(selectedCity)].language}}"> </ion-radio>
+            <ion-radio value="{{getCityByName(selectedCity).language}}"> </ion-radio>
         </ion-item>
 
 
         <!--Display extra German language when Almelo is selected-->
-        <ion-item *ngIf="cities[checkCity(selectedCity)].name == 'Almelo'">
+        <ion-item *ngIf="getCityByName(selectedCity).name == 'Almelo'">
             <ion-label>
                 <img src="{{cities[1].image}}">
                 {{cities[1].viewLanguage}}

@@ -13,16 +13,15 @@ import { ViewController, Events } from "ionic-angular";
 })
 export class LanguageSelectorComponent {
 
-    selectedCity: string;
-    selectedLanguage: string;
+    selectedCity: string = "Almelo";
+    selectedLanguage: string = 'Dutch';
     cities: object[];
     imgBasePath: string;
 
     constructor(private event: Events, public viewCtrl: ViewController) {
 
         this.imgBasePath = 'assets/Pictures/Flags/';
-        this.selectedLanguage = 'Dutch';
-        this.selectedCity = "Almelo";
+
 
         this.cities = [
             {
@@ -72,31 +71,35 @@ export class LanguageSelectorComponent {
         // for Almelo there is an exception because it can be viewed in both native language, English and German
 
         // @ts-ignore
-        if (this.selectedLanguage != this.cities[this.checkCity(this.selectedCity)].language && this.selectedLanguage != "English" && !almeloInGerman) {
+        if (this.selectedLanguage != this.getCityByName(this.selectedCity).language && this.selectedLanguage != "English" && !almeloInGerman) {
             console.log("Language error");
 
+            // FIXME there should be a better way to do this
             // change the language to the native language of the city
             // this is also where the checkmark appeared for the user
             // @ts-ignore
-            this.selectedLanguage = this.cities[this.checkCity(this.selectedCity)].language;
+            this.selectedLanguage = this.getCityByName(this.selectedCity).language;
         }
 
-        this.event.publish("Language + city", [this.selectedLanguage, this.selectedCity])
+        // pass the language and city on to the homePage
+        // @ts-ignore
+        let img = this.getCityByName(this.selectedCity).image;
+        this.event.publish("Language + city", [this.selectedLanguage, this.selectedCity, img])
 
-
-
+        // close the view after everything is done
+        this.viewCtrl.dismiss();
 
     }
 
-    checkCity(cityName) { // get the index of this.cities by name
+    getCityByName(cityName) { // get the city of this.cities by name
         if (cityName == "Almelo") {
-            return 0;
+            return this.cities[0];
         } else if (cityName == "Nordhorn") {
-            return 1;
+            return this.cities[1];
         } else if (cityName == "Zelow") {
-            return 2;
+            return this.cities[2];
         } else if (cityName == "Valasske") {
-            return 3;
+            return this.cities[3];
         }
     }
 }
