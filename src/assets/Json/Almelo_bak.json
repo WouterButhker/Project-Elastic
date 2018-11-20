@@ -10,7 +10,7 @@
           "short_description" : "Dit is het kanaal tussen Almelo en Nordhorn",
           "description" : "Het kanaal Almelo-Nordhorn werd gegraven aan het eind van de 19e eeuw. Het kanaalvak van Almelo tot de grens bij Denekamp werd in 1886 in gebruik genomen. Het laatste gedeelte, de verbinding met het Eems-Vechtkanaal in Nordhorn, kwam gereed in 1902. Aanleiding van de aanleg was een verdrag tussen de Nederlandse en Pruisische regering uit 1876, dat gesloten werd omdat men hoge verwachtingen had van verbindingen tussen waterwegen in Duitsland en Nederland. Tot drukke scheepvaart kwam het niet, omdat bij de voltooiing van het kanaal de schepen al te groot waren voor het ondiepe water. In het topjaar 1912 telden de sluiswachters nog geen vijfhonderd schepen, minder dan twee per dag. Dit aantal nam nog verder af na de opening van het Twentekanaal. In 1960 voer het laatste (turf-)schip door het kanaal. ",
           "picture_folder": "Kanaal",
-          "picture_name" : ["Almelo-Nordhorn Kanaal.JPG", "Test"]
+          "picture_name" : ["Almelo-Nordhorn Kanaal.JPG", "test"]
       },
       "geometry": {
         "type": "LineString",

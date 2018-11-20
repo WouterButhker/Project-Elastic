@@ -1,0 +1,277 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "Church 1",
+        "ordinal number": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.212822765111923,
+          51.46855578949475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "Church 2",
+        "ordinal number": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.220162630081177,
+          51.46327888915288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "Church 3",
+        "ordinal number": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.219604730606076,
+          51.463793572533824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "Church 4",
+        "ordinal number": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.220393300056458,
+          51.460793956230624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "TZMO",
+        "ordinal number": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.195706248283386,
+          51.47824244284504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "ZSO",
+        "ordinal number": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.22361195087433,
+          51.46949814825779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "Fanar",
+        "ordinal number": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.220441579818726,
+          51.46731598998556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "Town hall",
+        "ordinal number": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.216528236865997,
+          51.46766855095573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "Stone 1",
+        "ordinal number": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.21774461865425,
+          51.467311812706534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "Library",
+        "ordinal number": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.22006070613861,
+          51.46518970552671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "Post office",
+        "ordinal number": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.21706736087799,
+          51.46524902561153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "monument",
+        "ordinal number": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.219434410333633,
+          51.46489686369637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "hut",
+        "ordinal number": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.203409552574154,
+          51.4688364941404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "Stone 2",
+        "ordinal number": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.219175577163696,
+          51.4653476137509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "memory board",
+        "ordinal number": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.219132661819458,
+          51.4652506965987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "picture": "",
+        "name": "workshop",
+        "ordinal number": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.225779175758362,
+          51.46051487326844
+        ]
+      }
+    }
+  ]
+}

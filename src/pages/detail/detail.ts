@@ -17,6 +17,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class DetailPage {
 
     locationDetails;
+    city: string;
+    picturePath: string;
+    language: string;
 
 
   constructor(
@@ -24,7 +27,13 @@ export class DetailPage {
           public navParams: NavParams) {
 
       this.locationDetails = this.navParams.get('locationFeature');
+      this.city = this.navParams.get("city");
+      // TODO: add support for different languages in DetailPage
+      this.language = this.navParams.get("language");
 
+      // TODO: add support for multiple pictures
+      // set the path for the
+      this.picturePath = "assets/Pictures/" + this.city + "/" + this.locationDetails.properties.picture_folder + "/" + this.locationDetails.properties.picture_name[0]
 
   }
 

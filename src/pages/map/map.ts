@@ -1,5 +1,5 @@
 import { Component, ViewChild} from '@angular/core';
-import { NavController, ToastController } from 'ionic-angular';
+import { NavController, ToastController, Events } from 'ionic-angular';
 import { DetailPage } from "../detail/detail";
 
 declare var google: any;
@@ -10,10 +10,21 @@ declare var google: any;
 })
 export class MapPage {
     map: any;
+    city: string = 'Almelo';
 
     @ViewChild('map') mapElement;
 
-    constructor(public navCtrl: NavController, public toastCtrl: ToastController) {
+    constructor(
+        public navCtrl: NavController,
+        public toastCtrl: ToastController,
+        private event: Events) {
+
+
+        // check if the language or city has changed
+        this.event.subscribe("Language + city", (languageCity) => {
+            this.changeCity(languageCity[1]);
+
+        })
 
     }
 
@@ -26,9 +37,9 @@ export class MapPage {
 
 
     initMap() {
-        const almelo = new google.maps.LatLng(52.3570267, 6.668491899999935);
+        const Almelo = new google.maps.LatLng(52.3570267, 6.668491899999935);
         const options = {
-            center: almelo,
+            center: Almelo,
             zoom: 14,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             mapTypeControl: false,
@@ -37,9 +48,9 @@ export class MapPage {
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
 
-        this.map.data.loadGeoJson('assets/Json/Almelo.json'); //TODO: add compatibility for other places
 
-        var infoWindow = new google.maps.InfoWindow();
+
+        var infoWindow = new google.maps.InfoWindow(); //FIXME infoWindows
 
 
 
@@ -93,7 +104,7 @@ export class MapPage {
     }
 
     public viewDetailPage(locationFeature) { //TODO: fix de infowindows
-        //alert(locationFeature.properties.name);
+        //alert(loc.properties.name);
         console.log("HUH?");
         this.navCtrl.push(DetailPage, {
             locationFeature: locationFeature
@@ -103,6 +114,17 @@ export class MapPage {
     }
 
 
+    public changeCity(city) {
+
+        // don't change the city if it is already selected
+        if (city == this.city) {
+            return;
+        }
+
+
+        this.map.data.loadGeoJson('assets/Json/' + city + '.json');
+        this.city = city;
+    }
 
 
 }

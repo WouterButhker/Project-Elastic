@@ -28,6 +28,7 @@ export class HomePage {
 
             this.currentLanguage = "Dutch"; // sets Dutch as default language
             this.currentCity = "Almelo"; // sets Almelo as default city
+            // TODO: fix Almelo.json
             this.currentCountryImage = "assets/Pictures/Flags/netherlands.png";
 
             this.locations = this.loadDataFromJson(this.currentCity);
@@ -42,21 +43,33 @@ export class HomePage {
                 this.changeCityAndLanguage(city, language, img);
             })
 
+
     }
 
+
+    public getPicturePath(locationFeature) {
+        let pathToPictureArray = "assets/Pictures/" + this.currentCity + "/" +
+            locationFeature.properties.picture_folder + "/" +
+            locationFeature.properties.picture_name[0];
+        console.log(pathToPictureArray);
+        return pathToPictureArray;
+    }
 
     async loadDataFromJson(city) { //gets the json from a local file and returns it when ready
         //https://medium.com/@balramchavan/using-async-await-feature-in-angular-587dd56fdc77
 
         let locationsDing = await this.http.get('assets/Json/' + city + '.json').toPromise();
+        console.log(locationsDing['features'].length + "Lang");
         return locationsDing['features'];
 
     }
 
     public viewDetailPage(locationFeature) {
-        //alert(locationFeature.properties.name);
+        //alert(loc.properties.name);
         this.navCtrl.push(DetailPage, {
-            locationFeature: locationFeature
+            locationFeature: locationFeature,
+            city: this.currentCity,
+            language: this.currentLanguage
         })
 
     }

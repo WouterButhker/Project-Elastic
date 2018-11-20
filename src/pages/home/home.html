@@ -20,20 +20,20 @@
 
 
 
-    <button ion-item *ngFor="let locationFeature of locations | async " (click)="viewDetailPage(locationFeature)">
+    <button ion-item *ngFor="let loc of locations | async " (click)="viewDetailPage(loc)">
         <ion-card id="card">
 
-            <img src="assets/{{locationFeature.properties.picture}}" alt="" padding="10px">
+            <img src="{{getPicturePath(loc)}}" alt="" padding="10px">
             <!--TODO: look into using ion-img instead of img-->
 
 
             <ion-card-header text-wrap="white-space: normal">
-                {{locationFeature.properties.name}}
+                {{loc.properties.name}}
             </ion-card-header>
 
             <ion-card-content text-wrap="white-space: normal">
                 <p>
-                    {{locationFeature.properties.short_description}}
+                    {{loc.properties.short_description}}
                 </p>
             </ion-card-content>
         </ion-card>
