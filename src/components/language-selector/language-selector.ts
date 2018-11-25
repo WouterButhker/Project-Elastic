@@ -60,10 +60,6 @@ export class LanguageSelectorComponent {
     }
 
     saveLanguage() {
-        // console.log(this.selectedCity);
-        // console.log(this.selectedLanguage);
-
-
         // do not allow cities to be viewed in languages they do not support
         // eg view Nordhorn in Dutch
         // this checks if the language is the native language of the city or english

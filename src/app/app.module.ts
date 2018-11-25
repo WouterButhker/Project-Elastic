@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { HttpClientModule} from "@angular/common/http";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
 
 import { MapPage } from '../pages/map/map';
 import { ContactPage } from '../pages/contact/contact';
@@ -13,7 +13,10 @@ import { DetailPage} from "../pages/detail/detail";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import {LanguageSelectorComponent} from "../components/language-selector/language-selector";
+
+import { LanguageSelectorComponent} from "../components/language-selector/language-selector";
+import { TranslateModule, TranslateLoader} from "@ngx-translate/core";
+import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 
 @NgModule({
     declarations: [
@@ -28,7 +31,14 @@ import {LanguageSelectorComponent} from "../components/language-selector/languag
     imports: [
         BrowserModule,
         IonicModule.forRoot(MyApp),
-        HttpClientModule
+        HttpClientModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: (setTranslateLoader),
+                deps: [HttpClient]
+            }
+        })
     ],
     bootstrap: [IonicApp],
     entryComponents: [
@@ -47,4 +57,12 @@ import {LanguageSelectorComponent} from "../components/language-selector/languag
         HttpClientModule
     ]
 })
-export class AppModule {}
+export class AppModule {
+
+
+}
+
+// changes default translation folder to /assets/i18n/
+export function setTranslateLoader(http: HttpClient) {
+    return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}

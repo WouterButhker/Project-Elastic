@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { TranslateService } from "@ngx-translate/core";
 
 /**
  * Generated class for the DetailPage page.
@@ -24,7 +25,8 @@ export class DetailPage {
 
   constructor(
           public navCtrl: NavController,
-          public navParams: NavParams) {
+          public navParams: NavParams,
+          public translate: TranslateService) {
 
       this.locationDetails = this.navParams.get('locationFeature');
       this.city = this.navParams.get("city");
@@ -62,5 +64,21 @@ export class DetailPage {
     }
 
 
+
+    public getPropertyName() {
+      let object = this.locationDetails.properties;
+        if (this.language == "English") {
+            return object.name_en
+        }
+        return object.name
+    }
+
+    public getPropertyDescription() {
+      let object = this.locationDetails.properties;
+        if (this.language == "English") {
+            return object.description_en
+        }
+        return object.description
+    }
 
 }

@@ -15,8 +15,8 @@
 </ion-header>
 
 <ion-content padding>
-    <h2>Welkom Bij Elastic</h2>
-    <p>Deze app is in ontwikkeling</p>
+    <h2>{{"welcome" | translate }}</h2>
+    <p>{{"development" | translate }}</p>
 
 
 
@@ -28,12 +28,12 @@
 
 
             <ion-card-header text-wrap="white-space: normal">
-                {{loc.properties.name}}
+                {{getPropertyName(loc.properties)}}
             </ion-card-header>
 
             <ion-card-content text-wrap="white-space: normal">
                 <p>
-                    {{loc.properties.short_description}}
+                    {{getPropertyShortDescription(loc.properties)}}
                 </p>
             </ion-card-content>
         </ion-card>
