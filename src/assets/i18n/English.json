@@ -1,4 +1,7 @@
 {
     "welcome" : "Welcome to Elastic!",
-    "development" : "This app is in development"
+    "development" : "This app is in development",
+    "tab_home" : "Home",
+    "tab_map" : "Map",
+    "tab_contact" : "Contact"
 }
