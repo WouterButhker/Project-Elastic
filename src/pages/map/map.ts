@@ -11,6 +11,7 @@ declare var google: any;
 export class MapPage {
     map: any;
     city: string = 'Almelo';
+    color: string = "almelo_green";
 
     @ViewChild('map') mapElement;
 
@@ -22,8 +23,8 @@ export class MapPage {
 
         // check if the language or city has changed
         this.event.subscribe("Language + city", (languageCity) => {
-            this.changeCity(languageCity[1]);
-
+            this.changeCity(languageCity.city);
+            this.color = languageCity.color; // changes the navbar color
         })
 
     }

@@ -21,6 +21,8 @@ export class DetailPage {
     city: string;
     picturePath: string;
     language: string;
+    color: string;
+
 
 
   constructor(
@@ -30,8 +32,8 @@ export class DetailPage {
 
       this.locationDetails = this.navParams.get('locationFeature');
       this.city = this.navParams.get("city");
-      // TODO: add support for different languages in DetailPage
       this.language = this.navParams.get("language");
+      this.color = this.navParams.get("color");
 
       // TODO: add support for multiple pictures
       // set the path for the
@@ -65,7 +67,7 @@ export class DetailPage {
 
 
 
-    public getPropertyName() {
+    public getPropertyName() { // makes sure the name is returned in the correct language
       let object = this.locationDetails.properties;
         if (this.language == "English") {
             return object.name_en
@@ -73,7 +75,7 @@ export class DetailPage {
         return object.name
     }
 
-    public getPropertyDescription() {
+    public getPropertyDescription() { // makes sure the description is returned in the correct language
       let object = this.locationDetails.properties;
         if (this.language == "English") {
             return object.description_en

@@ -80,7 +80,14 @@ export class LanguageSelectorComponent {
         // pass the language and city on to the homePage
         // @ts-ignore
         let img = this.getCityByName(this.selectedCity).image;
-        this.event.publish("Language + city", [this.selectedLanguage, this.selectedCity, img])
+        this.event.publish(
+            "Language + city",
+            {
+                "language" : this.selectedLanguage,
+                "city" : this.selectedCity,
+                "image" : img,
+                "color" : this.getNavBarColor()
+            });
 
         // close the view after everything is done
         this.viewCtrl.dismiss();
@@ -96,6 +103,19 @@ export class LanguageSelectorComponent {
             return this.cities[2];
         } else if (cityName == "Valasske") {
             return this.cities[3];
+        }
+    }
+
+    getNavBarColor() {
+        // change navbar color
+        if (this.selectedCity == "Almelo") {
+            return "almelo_green";
+        } else if (this.selectedCity == "Nordhorn") {
+            return "primary";
+        } else if (this.selectedCity == "Zelow") {
+            return "almelo_pink";
+        } else if (this.selectedCity == "Valasske") {
+            return "almelo_orange"
         }
     }
 }

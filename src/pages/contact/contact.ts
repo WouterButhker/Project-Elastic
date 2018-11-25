@@ -9,7 +9,6 @@ export class ContactPage {
     @ViewChild(List) list: List;
 
     constructor(public navCtrl: NavController) {
-
     }
 
 

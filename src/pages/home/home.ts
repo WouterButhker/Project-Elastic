@@ -19,6 +19,7 @@ export class HomePage {
     currentLanguage: string;
     currentCity: string;
     currentCountryImage: string;
+    color: string;
 
     constructor(
         private http: HttpClient,
@@ -31,6 +32,7 @@ export class HomePage {
 
             this.currentLanguage = "Dutch"; // sets Dutch as default language
             this.currentCity = "Almelo"; // sets Almelo as default city
+            this.color = "almelo_green";
             // TODO: fix Almelo.json
             this.currentCountryImage = "assets/Pictures/Flags/netherlands.png";
 
@@ -40,10 +42,16 @@ export class HomePage {
 
             // check if the language or city changed
             this.event.subscribe("Language + city", (languageCity) => {
-                let language = languageCity[0];
-                let city = languageCity[1];
-                let img = languageCity[2];
+
+                let language = languageCity.language;
+                let city = languageCity.city;
+                let img = languageCity.image;
                 this.changeCityAndLanguage(city, language, img);
+
+                // changes navbar color
+                console.log(this.color + "ADFA");
+                this.color = languageCity.color;
+                console.log(this.color + "BCDA");
             })
 
 
@@ -54,18 +62,17 @@ export class HomePage {
         let pathToPictureArray = "assets/Pictures/" + this.currentCity + "/" +
             locationFeature.properties.picture_folder + "/" +
             locationFeature.properties.picture_name[0];
-        console.log(pathToPictureArray);
         return pathToPictureArray;
     }
 
-    public getPropertyName(object) {
+    getPropertyName(object) {
         if (this.currentLanguage == "English") {
             return object.name_en
         }
         return object.name
     }
 
-    public getPropertyShortDescription(object) {
+    getPropertyShortDescription(object) {
         if (this.currentLanguage == "English") {
             return object.short_description_en
         }
@@ -76,7 +83,7 @@ export class HomePage {
         //https://medium.com/@balramchavan/using-async-await-feature-in-angular-587dd56fdc77
 
         let locationsDing = await this.http.get('assets/Json/' + city + '.json').toPromise();
-        console.log(locationsDing['features'].length + "Lang");
+
         return locationsDing['features'];
 
     }
@@ -86,7 +93,8 @@ export class HomePage {
         this.navCtrl.push(DetailPage, {
             locationFeature: locationFeature,
             city: this.currentCity,
-            language: this.currentLanguage
+            language: this.currentLanguage,
+            color: this.color
         })
 
     }
@@ -134,6 +142,8 @@ export class HomePage {
             // change the icon in the navbar to the correct country
             this.currentCountryImage = img;
         }
+
+
 
 
 
