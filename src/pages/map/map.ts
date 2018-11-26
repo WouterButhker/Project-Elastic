@@ -1,6 +1,7 @@
-import { Component, ViewChild} from '@angular/core';
-import { NavController, ToastController, Events } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { NavController, ToastController, Events, NavParams, PopoverController } from 'ionic-angular';
 import { DetailPage } from "../detail/detail";
+import { LanguageSelectorComponent } from "../../components/language-selector/language-selector";
 
 declare var google: any;
 
@@ -11,20 +12,25 @@ declare var google: any;
 export class MapPage {
     map: any;
     city: string = 'Almelo';
-    color: string = "almelo_green";
+    language: string = "Dutch";
+    public color: string = "almelo_green";
+    public cityFlag: string = "assets/Pictures/Flags/netherlands.png";
 
     @ViewChild('map') mapElement;
 
     constructor(
         public navCtrl: NavController,
+        public navParams: NavParams,
         public toastCtrl: ToastController,
-        private event: Events) {
+        private event: Events,
+        public popoverCtrl: PopoverController) {
 
 
         // check if the language or city has changed
         this.event.subscribe("Language + city", (languageCity) => {
-            this.changeCity(languageCity.city);
+            this.changeCityLanguage(languageCity.city, languageCity.language);
             this.color = languageCity.color; // changes the navbar color
+            this.cityFlag = languageCity.image; // changes the flag
         })
 
     }
@@ -34,11 +40,15 @@ export class MapPage {
     ionViewDidLoad() {
         this.initMap();
 
+        // change the city and color to the correct value on first load of the page
+        // after the first load the they will be changed by the event
+        this.initColorCity();
+
     }
 
 
     initMap() {
-        const Almelo = new google.maps.LatLng(52.3570267, 6.668491899999935);
+        const Almelo = new google.maps.LatLng(52.3570267, 6.668491899999935); // TODO: change center for different locations
         const options = {
             center: Almelo,
             zoom: 14,
@@ -51,17 +61,17 @@ export class MapPage {
 
 
 
-        var infoWindow = new google.maps.InfoWindow(); //FIXME infoWindows
+        var infoWindow = new google.maps.InfoWindow();
 
 
 
         this.map.data.addListener('click', function (event) {
-            var name = event.feature.getProperty('name');
-            var time = event.feature.getProperty('time');
-            var picture = event.feature.getProperty('picture');
+            let name = event.feature.getProperty('name');
+            let time = event.feature.getProperty('time');
+            let picture = event.feature.getProperty('picture');
 
 
-            var content =
+            let content =
                 '<button id="infowindow" (click)=""> ' +
                     '<div id="thumbnail">' +
                         '<img id="thumbnailPicture" src=" ' + picture + ' "> ' +
@@ -115,16 +125,51 @@ export class MapPage {
     }
 
 
-    public changeCity(city) {
+    public changeCityLanguage(city, language) { //TODO: changing city should also possibly change language
 
-        // don't change the city if it is already selected
-        if (city == this.city) {
+        // don't change the city and language if they are already selected
+        if (city == this.city && this.language == language) {
             return;
         }
 
 
         this.map.data.loadGeoJson('assets/Json/' + city + '.json');
         this.city = city;
+        console.log("City changed to: " + city);
+
+
+    }
+
+    public initColorCity() {
+        // change city and language
+        if (this.city != this.navParams.get("city") && this.navParams.get("city") != undefined) {
+            this.changeCityLanguage(this.navParams.get("city"), this.navParams.get("language"))
+        }
+
+        // change color
+        if (this.color != this.navParams.get("color") && this.navParams.get("color") != undefined) {
+            this.color = this.navParams.get("color");
+        }
+
+        // change city flag
+        if (this.cityFlag != this.navParams.get("image") && this.navParams.get("image") != undefined) {
+            this.cityFlag = this.navParams.get("image");
+            console.log("FLAG CHANGED TO" + this.cityFlag)
+        }
+    }
+
+
+
+    openLanguageSelector(myEvent) {
+        let popover = this.popoverCtrl.create(
+            LanguageSelectorComponent,
+            {},
+            {cssClass: 'custom-popover'});
+
+        popover.present( {
+            ev: myEvent
+        });
+
     }
 
 

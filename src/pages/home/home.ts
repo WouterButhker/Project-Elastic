@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
-import { HttpClient } from "@angular/common/http";
-import { NavController, ToastController, PopoverController, Events } from "ionic-angular";
-import { DetailPage } from "../detail/detail";
-import { LanguageSelectorComponent } from "../../components/language-selector/language-selector";
-import { TranslateService } from "@ngx-translate/core";
+import {Component} from '@angular/core';
+import {HttpClient} from "@angular/common/http";
+import {Events, NavController, PopoverController, ToastController} from "ionic-angular";
+import {DetailPage} from "../detail/detail";
+import {LanguageSelectorComponent} from "../../components/language-selector/language-selector";
+import {TranslateService} from "@ngx-translate/core";
 
 
 @Component({
@@ -14,8 +14,8 @@ import { TranslateService } from "@ngx-translate/core";
 
 export class HomePage {
 
-    locations; //variable that holds the list of locations and their features
-    categories;
+    locations: object;
+    categories; // TODO: categories
     currentLanguage: string;
     currentCity: string;
     currentCountryImage: string;
@@ -49,9 +49,8 @@ export class HomePage {
                 this.changeCityAndLanguage(city, language, img);
 
                 // changes navbar color
-                console.log(this.color + "ADFA");
                 this.color = languageCity.color;
-                console.log(this.color + "BCDA");
+
             })
 
 
@@ -59,10 +58,9 @@ export class HomePage {
 
 
     getPicturePath(locationFeature) {
-        let pathToPictureArray = "assets/Pictures/" + this.currentCity + "/" +
+        return "assets/Pictures/" + this.currentCity + "/" +
             locationFeature.properties.picture_folder + "/" +
             locationFeature.properties.picture_name[0];
-        return pathToPictureArray;
     }
 
     getPropertyName(object) {

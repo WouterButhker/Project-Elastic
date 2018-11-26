@@ -1,5 +1,5 @@
 <ion-tabs color="{{color}}">
   <ion-tab [root]="tab1Root" tabTitle=" {{'tab_home' | translate }}" tabIcon="home"></ion-tab>
-  <ion-tab [root]="tab2Root" tabTitle=" {{'tab_map' | translate}}" tabIcon="map"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle=" {{'tab_map' | translate}}" tabIcon="map" [rootParams]="languageCityObj"></ion-tab>
   <ion-tab [root]="tab3Root" tabTitle=" {{'tab_contact' | translate}}" tabIcon="contacts"></ion-tab>
 </ion-tabs>

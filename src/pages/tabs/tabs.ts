@@ -14,6 +14,8 @@ export class TabsPage {
   tab2Root = MapPage;
   tab3Root = ContactPage;
   color: string = "almelo_green";
+  languageCityObj: object;
+
 
   constructor(private event: Events) {
 
@@ -21,7 +23,11 @@ export class TabsPage {
       // check if the city changed and change the color of the navbar
       this.event.subscribe("Language + city", (languageCity) => {
           this.color = languageCity.color;
+          this.languageCityObj = languageCity;
+      });
 
-      })
+
+
+
   }
 }
