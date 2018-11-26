@@ -35,7 +35,7 @@
                 "marker-size": "medium",
                 "name": "Kościół Ewangelicko-Reformowany w Zelowie",
                 "ordinal number": 4,
-                "name_en ": "Evangelical Reformed Church in Zelów",
+                "name_en": "Evangelical Reformed Church in Zelów",
                 "short_description": "[will be added]",
                 "short_description_en": "The church comes from from the Swiss Reformation movement, whose teaching and organization was largely influenced by Jan Kalwin.",
                 "description": "[will be added]",
@@ -65,9 +65,9 @@
                 "short_description_en": "The only currently operating factory in Zelów",
                 "description": "Fabryka produkuje produkty dla marek takich jak: Bella, Happy, Matopat, Seni, Dr Max, Eva Natura, Eva Sun and Kanion. Są one sprzedawane na ponad 60 rynkach: w Unii Europejskiej, w Centralnej i Wschodniej Europie, Afryce i na Dalekim Wschodzie. Są one obecne na rynkach z całego świata.  Wszystko zaczęło się w 1933 roku, kiedy zostały podjęte działania w sektorze tekstylnym. Fabryka na Herbertowie produkowała wtedy bandaże na potrzeby armii. W 1951 r. W Toruniu rozpoczęto produkcję tkaniny opatrunkowej dla Ministerstwa Obrony Narodowej i Centralnego Zakładu Urządzeń Górniczych. Produkcja miała zostać zakończona po zrealizowaniu zamówienia, w ciągu około 6 miesięcy, ale ze względu na wysoką jakość pracy pojawiły się kolejne zlecenia. Po tym wydarzeniu Firma Toruńskie Zakłady Materiałów Opatrunkowych została założona i zaczęła podbój rynków zagranicznych. Wtedy produkty TZMO trafiły do ​​krajów europejskich, afrykańskich i azjatyckich. W 1997 r. Fabryka, jako pierwsza firma w sektorze ochrony zdrowia w Polsce, była uprawniona do oznaczania swoich produktów europejskim znakiem bezpieczeństwa CE. W 1998 roku TZMO zakupiło pierwsze krosna pneumatyczne, które przyczyniły się do sukcesu fabryki.  Obecnie Grupa TZMO  ma fabryki w innych polskich miastach, takich jak: Bydgoszcz, Szczecin, Kraków, Łódź, Frydrychowo Pomorskie, Zabagno czy Warszawa.",
                 "description_en": "The factory produces products for brands: Bella, Happy, Matopat, Seni, Dr Max, Eva Natura, Eva Sun and Kanion. They are sold in over 60 markets: European Union, Central and Eastern Europe, Africa and Far East. We are present in the markets inhabited by population of the world.  Everything started in 1933, when the first activity in the textile sector appeared. The textile factory in Herbertów used to produce bandages for the needs of the army. In 1951 the production of the dressing fabric for the Ministry of National Defense and the Central Mining Office Supply started in Toruń. Production was set to expire after completing the order, within about 6 months, but due to the high quality of work, further tasks appeared. The company Toruńskie Zakłady Materiałów Opatrunkowych is established and began conquering foreign markets. At that time, the products of TZMO went to the European, African and Asian countries. In 1997 the factory, as the first company in the health care sector in Poland – was entitled to mark its products with European CE safety mark. In 1998 TZMO bought first pneumatic looms, which contributed to the factory’s success. In 2007 the factory started knitting and in 2009 it was the first time with spinning.  Nowadays TZMO Group has its centers in another Polish cities: Bydgoszcz, Szczecin, Cracow, Łódź, Frydrychowo Pomorskie, Zabagno and Warsaw.",
-                "category ": "factory",
+                "category": "factory",
                 "picture_folder": "TZMO",
-                "picture_name" : "TZMO.JPG"
+                "picture_name" : "TZMO.jpg"
             },
             "geometry": {
                 "type": "Point",
