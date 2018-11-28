@@ -9,12 +9,28 @@ declare var google: any;
     selector: 'page-map',
     templateUrl: 'map.html'
 })
+
 export class MapPage {
     map: any;
-    city: string = 'Almelo';
+    city: string = "Almelo";
     language: string = "Dutch";
     public color: string = "almelo_green";
     public cityFlag: string = "assets/Pictures/Flags/netherlands.png";
+    mapCenter: object = {
+        "Almelo" : {
+            lat : 52.3570267,
+            lng : 6.668491899999935},
+        "Nordhorn" : {
+            lat : 52.435920583590125,
+            lng : 7.070775032043457},
+        "Zelow" : {
+            lat : 51.4648429739109,
+            lng : 19.219454526901245},
+        "Valasske" : {
+            lat : 49.14050570701386,
+            lng : 18.0080509185791}
+    };
+
 
     @ViewChild('map') mapElement;
 
@@ -40,15 +56,18 @@ export class MapPage {
     ionViewDidLoad() {
         this.initMap();
 
+
         // change the city and color to the correct value on first load of the page
         // after the first load the they will be changed by the event
+        // also sets the correct json and language on first load
         this.initColorCity();
+
 
     }
 
 
     initMap() {
-        const Almelo = new google.maps.LatLng(52.3570267, 6.668491899999935); // TODO: change center for different locations
+        const Almelo = new google.maps.LatLng(52.3570267, 6.668491899999935);
         const options = {
             center: Almelo,
             zoom: 14,
@@ -114,6 +133,49 @@ export class MapPage {
 
     }
 
+    public initColorCity() {
+        // gets the values passed from the home screen on first load of the page
+        // these values will return undefined if the user never changed the language
+        let initialCity = this.navParams.get("city");
+        let initialLanguage = this.navParams.get("language");
+        let initialFlag = this.navParams.get("image");
+        let initialColor = this.navParams.get("color");
+
+
+        // load the correct json and language
+        // if the user hasn't changed the city or language yet load the default values
+        if (initialCity == undefined && initialLanguage == undefined) {
+            this.changeCityLanguage(this.city, this.language)
+        } else if (this.city != initialCity && initialCity != undefined) {
+            this.changeCityLanguage(initialCity, initialLanguage)
+        }
+
+        // change color
+        if (this.color != initialColor && initialColor != undefined) {
+            this.color = initialColor;
+        }
+
+        // change city flag
+        if (this.cityFlag != initialFlag && initialFlag != undefined) {
+            this.cityFlag = initialFlag;
+            console.log("FLAG CHANGED TO" + this.cityFlag)
+        }
+
+
+    }
+
+    public changeCityLanguage(city, language) { //TODO: changing city should also change language
+
+        // load the new json file
+        this.map.data.loadGeoJson('assets/Json/' + city + '.json');
+        this.city = city;
+        console.log("City changed to: " + city);
+
+        // center the map on the new city
+        this.map.panTo(this.mapCenter[city]);
+
+    }
+
     public viewDetailPage(locationFeature) { //TODO: fix de infowindows
         //alert(loc.properties.name);
         console.log("HUH?");
@@ -125,38 +187,9 @@ export class MapPage {
     }
 
 
-    public changeCityLanguage(city, language) { //TODO: changing city should also possibly change language
-
-        // don't change the city and language if they are already selected
-        if (city == this.city && this.language == language) {
-            return;
-        }
 
 
-        this.map.data.loadGeoJson('assets/Json/' + city + '.json');
-        this.city = city;
-        console.log("City changed to: " + city);
 
-
-    }
-
-    public initColorCity() {
-        // change city and language
-        if (this.city != this.navParams.get("city") && this.navParams.get("city") != undefined) {
-            this.changeCityLanguage(this.navParams.get("city"), this.navParams.get("language"))
-        }
-
-        // change color
-        if (this.color != this.navParams.get("color") && this.navParams.get("color") != undefined) {
-            this.color = this.navParams.get("color");
-        }
-
-        // change city flag
-        if (this.cityFlag != this.navParams.get("image") && this.navParams.get("image") != undefined) {
-            this.cityFlag = this.navParams.get("image");
-            console.log("FLAG CHANGED TO" + this.cityFlag)
-        }
-    }
 
 
 

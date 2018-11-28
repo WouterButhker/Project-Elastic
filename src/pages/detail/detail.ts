@@ -22,7 +22,7 @@ export class DetailPage {
     picturePath: string;
     language: string;
     color: string;
-
+    private APIKey: string = "AIzaSyCXopP8dS5mRg9il5qfZO_qI3L6TxObF4c"; // TODO: get apiKey from file
 
 
   constructor(
@@ -81,6 +81,15 @@ export class DetailPage {
             return object.description_en
         }
         return object.description
+    }
+
+    public getStaticMap() {
+      let coordinates = this.locationDetails.geometry.coordinates[0];
+      let signature = "q62hxW91A_AyMKSbAjl1NPIOj4w=";
+
+      return "https://maps.googleapis.com/maps/api/staticmap?size=600x300&maptype=roadmap&markers=" + coordinates +
+          "&key=" + this.APIKey;
+
     }
 
 }

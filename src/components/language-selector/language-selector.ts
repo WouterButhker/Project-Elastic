@@ -24,6 +24,7 @@ export class LanguageSelectorComponent {
         // TODO: on launch it should select the selected language and city in the radio
 
 
+
         this.cities = [
             {
                 name: "Almelo",
@@ -60,6 +61,7 @@ export class LanguageSelectorComponent {
         this.viewCtrl.dismiss();
     }
 
+    // gets executed when user clicks save
     saveLanguage() {
         // do not allow cities to be viewed in languages they do not support
         // eg view Zelow in Dutch
@@ -95,6 +97,7 @@ export class LanguageSelectorComponent {
 
     }
 
+    // TODO: refactor this.cities to make this method useless
     getCityByName(cityName) { // get the city of this.cities by name
         if (cityName == "Almelo") {
             return this.cities[0];
