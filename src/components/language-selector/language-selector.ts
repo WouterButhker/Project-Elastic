@@ -21,6 +21,7 @@ export class LanguageSelectorComponent {
     constructor(private event: Events, public viewCtrl: ViewController) {
 
         this.imgBasePath = 'assets/Pictures/Flags/';
+        // TODO: on launch it should select the selected language and city in the radio
 
 
         this.cities = [
@@ -61,7 +62,7 @@ export class LanguageSelectorComponent {
 
     saveLanguage() {
         // do not allow cities to be viewed in languages they do not support
-        // eg view Nordhorn in Dutch
+        // eg view Zelow in Dutch
         // this checks if the language is the native language of the city or english
         let almeloInGerman = (this.selectedCity == "Almelo" && this.selectedLanguage == "German");
         // for Almelo there is an exception because it can be viewed in both native language, English and German

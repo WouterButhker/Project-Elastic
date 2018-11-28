@@ -1,5 +1,4 @@
 <ion-header>
-    <!--TODO: change color on city or language change-->
     <ion-toolbar  color="{{color}}">
         <ion-title>Home</ion-title>
 
@@ -20,7 +19,7 @@
 
 
 
-    <button ion-item *ngFor="let loc of locations | async " (click)="viewDetailPage(loc)">
+    <button ion-item (click)="viewDetailPage(loc)" *ngFor="let loc of locations | async">
         <ion-card id="card">
 
             <img src="{{getPicturePath(loc)}}" alt="" padding="10px">
