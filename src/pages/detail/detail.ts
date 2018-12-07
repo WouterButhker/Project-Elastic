@@ -37,6 +37,7 @@ export class DetailPage {
 
       // TODO: add support for multiple pictures
       // set the path for the
+      // TODO: fix bug on TZMO Zelow
       this.picturePath = "assets/Pictures/" + this.city + "/" + this.locationDetails.properties.picture_folder + "/" + this.locationDetails.properties.picture_name[0]
 
   }
