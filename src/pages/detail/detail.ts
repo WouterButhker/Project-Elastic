@@ -85,7 +85,8 @@ export class DetailPage {
     }
 
     public getStaticMap() {
-      let coordinates = this.locationDetails.geometry.coordinates[0];
+      // TODO: fix static maps
+      let coordinates = this.locationDetails.geometry.coordinates;
       let signature = "q62hxW91A_AyMKSbAjl1NPIOj4w=";
 
       return "https://maps.googleapis.com/maps/api/staticmap?size=600x300&maptype=roadmap&markers=" + coordinates +

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ViewController, Events } from "ionic-angular";
+import { TranslateService } from "@ngx-translate/core";
 
 /**
  * Generated class for the LanguageSelectorComponent component.
@@ -13,15 +14,19 @@ import { ViewController, Events } from "ionic-angular";
 })
 export class LanguageSelectorComponent {
 
-    selectedCity: string = "Almelo";
-    selectedLanguage: string = 'Dutch';
+    selectedCity: string;
+    selectedLanguage: string;
     cities: object[];
-    imgBasePath: string;
+    imgBasePath: string = 'assets/Pictures/Flags/';
 
-    constructor(private event: Events, public viewCtrl: ViewController) {
+    constructor(private event: Events,
+                public viewCtrl: ViewController,
+                public translate: TranslateService) {
 
-        this.imgBasePath = 'assets/Pictures/Flags/';
-        // TODO: on launch it should select the selected language and city in the radio
+
+
+        this.selectedCity = this.viewCtrl.getNavParams().get('city');
+        this.selectedLanguage = this.viewCtrl.getNavParams().get('language');
 
 
 
@@ -97,7 +102,6 @@ export class LanguageSelectorComponent {
 
     }
 
-    // TODO: refactor this.cities to make this method useless
     getCityByName(cityName) { // get the city of this.cities by name
         if (cityName == "Almelo") {
             return this.cities[0];
@@ -121,5 +125,10 @@ export class LanguageSelectorComponent {
         } else if (this.selectedCity == "Valasske") {
             return "almelo_orange"
         }
+    }
+
+    changeButtonLang() {
+        this.translate.use(this.selectedLanguage);
+        console.log("LANGUAGE CHANGED")
     }
 }

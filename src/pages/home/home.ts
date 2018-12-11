@@ -110,7 +110,9 @@ export class HomePage {
     openLanguageSelector(myEvent) {
         let popover = this.popoverCtrl.create(
             LanguageSelectorComponent,
-            {},
+
+            // pass the current city and language so the user will see the correct radio buttons selected
+            {'language': this.currentLanguage, 'city': this.currentCity},
             {cssClass: 'custom-popover'});
 
         popover.present( {
@@ -126,19 +128,21 @@ export class HomePage {
             this.locations = this.loadDataFromJson(city);
             console.log("data changed to " + city);
             this.currentCity = city;
+
+            // change the icon in the navbar to the correct country
+            this.currentCountryImage = img;
         }
 
         // change language
         // only update the language if the language actually changed
         if (this.currentLanguage != language && language != '') {
 
-            this.translate.use(language);
+            // this.translate.use(language);
 
             console.log("language changed to " + language);
             this.currentLanguage = language;
 
-            // change the icon in the navbar to the correct country
-            this.currentCountryImage = img;
+
         }
 
 

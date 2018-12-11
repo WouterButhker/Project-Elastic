@@ -3,5 +3,7 @@
     "development" : "Deze app is in ontwikkeling",
     "tab_home" : "Home",
     "tab_map" : "Kaart",
-    "tab_contact" : "Contact"
+    "tab_contact" : "Contact",
+    "save" : "Opslaan",
+    "cancel" : "Annuleren"
 }

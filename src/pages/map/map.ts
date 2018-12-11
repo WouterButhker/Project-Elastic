@@ -124,13 +124,6 @@ export class MapPage {
 
             })
 
-        // loadData($) {
-        //   $.getJSON('Test.geojson', function (eventsData) {
-        //     var eventsSize = Object.size(eventsData);
-        //     console.log(eventsSize);
-        //   })
-        // }
-
     }
 
     public initColorCity() {
@@ -158,7 +151,6 @@ export class MapPage {
         // change city flag
         if (this.cityFlag != initialFlag && initialFlag != undefined) {
             this.cityFlag = initialFlag;
-            console.log("FLAG CHANGED TO" + this.cityFlag)
         }
 
 
@@ -196,7 +188,8 @@ export class MapPage {
     openLanguageSelector(myEvent) {
         let popover = this.popoverCtrl.create(
             LanguageSelectorComponent,
-            {},
+            // pass the current city and language so the user will see the correct radio buttons selected
+            {'city': this.city, 'language': this.language},
             {cssClass: 'custom-popover'});
 
         popover.present( {

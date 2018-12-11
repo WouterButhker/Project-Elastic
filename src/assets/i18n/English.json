@@ -3,5 +3,7 @@
     "development" : "This app is under development",
     "tab_home" : "Home",
     "tab_map" : "Map",
-    "tab_contact" : "Contact"
+    "tab_contact" : "Contact",
+    "save" : "Save",
+    "cancel" : "Cancel"
 }
