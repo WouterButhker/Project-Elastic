@@ -1,0 +1,83 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "",
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "name": "Kościół Ewangelicko-Augsburski w Zelowie",
+                "ordinal number": 1,
+                "name_en": "The Augsburg Church in Zelów",
+                "short_description": "Kościół Ewangelicko-Augsburski w Zelowie, świątynia luteran.",
+                "short_description_en": " The Augsburg Church in Zelów, the Lutheran temple.",
+                "description": "Kościół został wybudowany z inicjatywy wiernych z Zelowa, ponieważ dostęp do najbliższego kościoła stanowił dla nich problem. Budowa rozpoczęła się w 1931 r., a po pięciu latach kościół (poświęcony Gustavowi Adolfowi) został ukończony. W 1940 r. Powstała samodzielna parafia w Zelowie. Jej pierwszym proboszczem był Karol Robert Liersch. Jednak po zakończeniu II wojny światowej kościół ten praktycznie przestał funkcjonować. W sierpniu 1951 r. świątynia została odnowiona i ponownie oddana do użytku. Obecnie proboszczem parafii jest ksiądz Piotr Żydeł. Wspólnota parafialna ma około 20 wiernych. ",
+                "description_en": "The church was found on the initiative of the faithful from Zelów, because access to the nearest church was a problem for them. Construction began in 1931 and after five years the church (dedicated to Gustav Adolf) was completed. In 1940, an independent parish was established in Zelów. Her first pastor was Karol Robert Liersch. However, after the end of World War II, this church stopped to function practically. In August 1951, the temple was renovated and given back to serve again. Currently, the pastor of the parish is priest Piotr Żydeł. The parish community has about 20 faithful.",
+                "category": "church",
+                "picture_folder": "Augsburg_Church",
+                "picture_name" : ["zelow-kosciol-002.jpg"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.212822765111923,
+                    51.46855578949475
+                ]
+            }
+        },
+
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "",
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "name": "Kościół Ewangelicko-Reformowany w Zelowie",
+                "ordinal number": 4,
+                "name_en": "Evangelical Reformed Church in Zelów",
+                "short_description": "[will be added]",
+                "short_description_en": "The church comes from from the Swiss Reformation movement, whose teaching and organization was largely influenced by Jan Kalwin.",
+                "description": "[will be added]",
+                "description_en": "The church comes from from the Swiss Reformation movement, whose teaching and organization was largely influenced by Jan Kalwin (1509 - 1564). The roots of the parish are connected with the arrival of a group of settlers of the confession of Czech Brethren to Zelów, known for their deep life of faith and being hard-working. In December 1802, they bought the land in Zelów, as a result the congregation was established, and also the Czech traditions continued in the town. The grand opening of the newly built church took place on July 3, 1825. At that time, the congregation had about 700 people. The number of the people at the turn of the 19th and 20th centuries increased to about 3,000. In the parish, apart from the normal activities connected with faith there were: Sunday schools (with Czech language),  Charity actions,  Orphanage, nursing home,  male choirs and mixed choirs, And many more…  After the first world war, Zelów was „reborn”. After the second world war, about 90% of the members of the parish went to the Czech Republic, but the others still obeyed the rules of faith and the tradition of the Unity of the Czech Brethren.  In Parish nowadays there are still a lot of organizations working: For children - not only from the parish - the Educational Kindergarten  the handbell choir \"Zelowskie Dzwonki„ Association of Czech Minorities in Poland, which opened a Czech club with a library and movie rental.  Royal Rangers  There are also a lot of meetings for people to pray and sing. The Evangelical-Reformed Church is the first monumental building in Zelów. This was built according to the design of architect, John Zille, guided by classicistic style.  The exterior of the church was based on the rules of the provincial classicism, which was popular for XIX century in the Lodz region. The interior in accordance with the Evangelical foundations is without decoration. Inside there are stone tablets in memory of John Hus, John Kalwin, John Łaski and John Komensky. There is also a cemetery where tombstones and monuments with inscriptions in Czech and German are still to be found today. Among them are the graves of some founders of Zelów.  There have been 36 clergy so far. On September 14, 2003, Wiera Jelinek was the first woman in the history of the Evangelical Reformed Church in Poland to be ordained a priest. From 1982 to 2010, she served in the Zelów church.",
+                "category": "church",
+                "picture_folder": "Evangelical_Reformed_Church",
+                "picture_name" : ["Ewangelicko-Augsburski.jpg"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.220393300056458,
+                    51.460793956230624
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "",
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "name": "Toruńskie Zakłady Materiałów Opatrunkowych",
+                "ordinal number": 5,
+                "name_en": "TZMO (The Dressing Materials Factory of Toruń)",
+                "short_description": "Jedyna funkcjonująca obecnie fabryka w Zelowie",
+                "short_description_en": "The only currently operating factory in Zelów",
+                "description": "Fabryka produkuje produkty dla marek takich jak: Bella, Happy, Matopat, Seni, Dr Max, Eva Natura, Eva Sun and Kanion. Są one sprzedawane na ponad 60 rynkach: w Unii Europejskiej, w Centralnej i Wschodniej Europie, Afryce i na Dalekim Wschodzie. Są one obecne na rynkach z całego świata.  Wszystko zaczęło się w 1933 roku, kiedy zostały podjęte działania w sektorze tekstylnym. Fabryka na Herbertowie produkowała wtedy bandaże na potrzeby armii. W 1951 r. W Toruniu rozpoczęto produkcję tkaniny opatrunkowej dla Ministerstwa Obrony Narodowej i Centralnego Zakładu Urządzeń Górniczych. Produkcja miała zostać zakończona po zrealizowaniu zamówienia, w ciągu około 6 miesięcy, ale ze względu na wysoką jakość pracy pojawiły się kolejne zlecenia. Po tym wydarzeniu Firma Toruńskie Zakłady Materiałów Opatrunkowych została założona i zaczęła podbój rynków zagranicznych. Wtedy produkty TZMO trafiły do ​​krajów europejskich, afrykańskich i azjatyckich. W 1997 r. Fabryka, jako pierwsza firma w sektorze ochrony zdrowia w Polsce, była uprawniona do oznaczania swoich produktów europejskim znakiem bezpieczeństwa CE. W 1998 roku TZMO zakupiło pierwsze krosna pneumatyczne, które przyczyniły się do sukcesu fabryki.  Obecnie Grupa TZMO  ma fabryki w innych polskich miastach, takich jak: Bydgoszcz, Szczecin, Kraków, Łódź, Frydrychowo Pomorskie, Zabagno czy Warszawa.",
+                "description_en": "The factory produces products for brands: Bella, Happy, Matopat, Seni, Dr Max, Eva Natura, Eva Sun and Kanion. They are sold in over 60 markets: European Union, Central and Eastern Europe, Africa and Far East. We are present in the markets inhabited by population of the world.  Everything started in 1933, when the first activity in the textile sector appeared. The textile factory in Herbertów used to produce bandages for the needs of the army. In 1951 the production of the dressing fabric for the Ministry of National Defense and the Central Mining Office Supply started in Toruń. Production was set to expire after completing the order, within about 6 months, but due to the high quality of work, further tasks appeared. The company Toruńskie Zakłady Materiałów Opatrunkowych is established and began conquering foreign markets. At that time, the products of TZMO went to the European, African and Asian countries. In 1997 the factory, as the first company in the health care sector in Poland – was entitled to mark its products with European CE safety mark. In 1998 TZMO bought first pneumatic looms, which contributed to the factory’s success. In 2007 the factory started knitting and in 2009 it was the first time with spinning.  Nowadays TZMO Group has its centers in another Polish cities: Bydgoszcz, Szczecin, Cracow, Łódź, Frydrychowo Pomorskie, Zabagno and Warsaw.",
+                "category": "factory",
+                "picture_folder": "TZMO",
+                "picture_name" : ["tzmo.jpg"]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.195706248283386,
+                    51.47824244284504
+                ]
+            }
+
+
+        }
+    ]
+}

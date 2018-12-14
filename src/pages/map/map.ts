@@ -87,20 +87,17 @@ export class MapPage {
         this.map.data.addListener('click', function (event) {
             let name = event.feature.getProperty('name');
             let time = event.feature.getProperty('time');
-            let picture = event.feature.getProperty('picture');
+            let picture = event.feature.getProperty('picture_name')[0];
 
 
-            let content =
-                '<button id="infowindow" (click)=""> ' +
-                    '<div id="thumbnail">' +
-                        '<img id="thumbnailPicture" src=" ' + picture + ' "> ' +
-                    '</div> ' +
-
-                    '<div id="content"> ' +
-                        '<h2>' + name + '</h2>' +
-                        ' <p id="time"> ' + time + '</p> ' +
-                    '</div> ' +
-                '</button>';
+            let content = `
+                <div>
+                    <ion-item>
+                        <img src=" ` + picture + `" float-left>
+                        
+                    </ion-item>
+                </div>
+            `;
 
             infoWindow.setContent(content);
 

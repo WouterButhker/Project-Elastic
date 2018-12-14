@@ -11,8 +11,7 @@
                 "name_en": "Almelo_Nordhorn Canal",
                 "name": "Almelo-Nordhorn Kanaal",
                 "picture_folder": "Kanaal",
-                "time": "1886",
-                "picture": "Pictures/Almelo/Almelo-Nordhorn Kanaal.JPG"
+                "time": "1886"
             },
             "type": "Feature",
             "geometry": {
