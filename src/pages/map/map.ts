@@ -43,11 +43,16 @@ export class MapPage {
         public popoverCtrl: PopoverController) {
 
 
-        // check if the language or city has changed
+        // check if the language or city changed
         this.event.subscribe("Language + city", (languageCity) => {
-            this.changeCityLanguage(languageCity.city, languageCity.language);
-            this.color = languageCity.color; // changes the navbar color
-            this.cityFlag = languageCity.image; // changes the flag
+
+            let language = languageCity.language;
+            let city = languageCity.city;
+            this.changeCityAndLanguage(city, language);
+
+            // changes navbar color
+            this.color = languageCity.color;
+
         })
 
     }
@@ -56,7 +61,6 @@ export class MapPage {
 
     ionViewDidLoad() {
         this.initMap();
-        this.setupInfoWindows(true);
 
         // change the city and color to the correct value on first load of the page
         // after the first load the they will be changed by the event
@@ -87,22 +91,34 @@ export class MapPage {
         let infoWindow = new google.maps.InfoWindow();
         const self = this; // access this from nested functions
 
-        // listens to a click on a item (e.g. marker)
+        // listens to a click on a item (e.g. marker) and display the infowindow
         this.map.data.addListener('click', function (event) {
             // TODO: make compatible for different languages
 
-            let name = event.feature.getProperty('name');
-            let description = event.feature.getProperty('short_description');
+            let name;
+            let description;
             let picture = self.getPicPath(event.feature.getProperty('picture_folder'), event.feature.getProperty('picture_name')[0]);
 
 
+            // if English is selected as language use English names in the infowindow
+            if (self.language == "English") {
+                name = event.feature.getProperty('name_en');
+                description = event.feature.getProperty('short_description_en');
+
+            // otherwise use the native language
+            } else {
+                name = event.feature.getProperty('name');
+                description = event.feature.getProperty('short_description');
+            }
+
             let content = `
                 <div id="infoWindowDiv">
-                    <button ion-item id="infoWindowButton" (click)="self.viewDetailPage()">
-                        <img src=" ` + picture + `" float-left id="infoWindowPicture">
+                    <ion-item id="infoWindowButton" (click)="self.viewDetailPage()">
+                        <img src=" ` + picture + `" id="infoWindowPicture">
+                        <br clear="left">
                         <h2> ` + name + `</h2>
                         <p> ` + description + ` </p>
-                    </button>
+                    </ion-item>
                 </div>
             `;
 
@@ -121,7 +137,6 @@ export class MapPage {
             google.maps.event.addListenerOnce(infoWindow, 'domready', function () {
                 document.getElementById('infoWindowDiv').addEventListener('click', () => {
 
-                    //console.log(event.feature.getGeometry());
                     self.viewDetailPage(event.feature);
 
 
@@ -153,9 +168,9 @@ export class MapPage {
         // load the correct json and language
         // if the user hasn't changed the city or language yet load the default values
         if (initialCity == undefined && initialLanguage == undefined) {
-            this.changeCityLanguage(this.city, this.language)
+            this.changeCityAndLanguage(this.city, this.language)
         } else if (this.city != initialCity && initialCity != undefined) {
-            this.changeCityLanguage(initialCity, initialLanguage)
+            this.changeCityAndLanguage(initialCity, initialLanguage)
         }
 
         // change color
@@ -171,7 +186,7 @@ export class MapPage {
 
     }
 
-    private changeCityLanguage(city, language) { //TODO: changing city should also change language
+    private changeCityAndLanguage(city, language) { //TODO: changing city should also change language
 
         // load the new json file
         this.map.data.loadGeoJson('assets/Json/' + city + '.json');
@@ -181,8 +196,10 @@ export class MapPage {
         // center the map on the new city
         this.map.panTo(this.mapCenter[city]);
 
-        // TODO: changing city should change picturepath to show pictures
-        this.setupInfoWindows(false);
+        // change language
+        console.log("language changed to " + language);
+        this.language = language;
+
 
 
     }
@@ -197,11 +214,14 @@ export class MapPage {
             "properties": locFeat.l,
             "type" : "Feature",
             "geometry" : {
+                "type" : locFeat.getGeometry().getType()
                // TODO: add the correct coordinates
+                // event.latlng
             }
         };
 
 
+        // open detailpage with the correct data
         this.navCtrl.push(DetailPage, {
             locationFeature: locationFeature,
             city: this.city,
@@ -212,9 +232,6 @@ export class MapPage {
 
     }
 
-    private setupInfoWindows(firstTime) {
-
-    }
 
     private openLanguageSelector(myEvent) {
         let popover = this.popoverCtrl.create(
