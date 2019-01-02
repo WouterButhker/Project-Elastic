@@ -16,6 +16,7 @@ export class MapPage {
     language: string = "Dutch";
     public color: string = "almelo_green";
     public cityFlag: string = "assets/Pictures/Flags/netherlands.png";
+    public listener;
     mapCenter: object = {
         "Almelo" : {
             lat : 52.3570267,
@@ -55,7 +56,7 @@ export class MapPage {
 
     ionViewDidLoad() {
         this.initMap();
-
+        this.setupInfoWindows(true);
 
         // change the city and color to the correct value on first load of the page
         // after the first load the they will be changed by the event
@@ -67,7 +68,7 @@ export class MapPage {
 
 
 
-    initMap() {
+    private initMap() {
         const Almelo = new google.maps.LatLng(52.3570267, 6.668491899999935);
         const options = {
             center: Almelo,
@@ -79,65 +80,11 @@ export class MapPage {
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
 
-        let infoWindow = new google.maps.InfoWindow();
-
-        let city = this.city;
-        function getPicPath(folder, name) {
-            return "assets/Pictures/" +
-                city + "/" +
-                folder + "/" +
-                name
-        }
-
-
-        this.map.data.addListener('click', function (event) {
-            // TODO: make compatible for different languages
-            let name = event.feature.getProperty('name');
-            let description = event.feature.getProperty('short_description');
-            let picture = getPicPath(event.feature.getProperty('picture_folder'), event.feature.getProperty('picture_name')[0]);
-
-
-
-            // TODO: change picture to {{picture}}
-            let content = `
-                <div>
-                    <button ion-item>
-                        <img src=" ` + picture + `" float-left id="infoWindowPicture" id="infoWindowPicture">
-                        <h2> ` + name + `</h2>
-                        <p> ` + description + ` </p>
-                    </button>
-                </div>
-            `;
-
-            infoWindow.setContent(content);
-
-            // only show picture and time when there actually is a picture
-            // if(picture === "") {
-            //     document.getElementById('thumbnail').style.display = 'none';
-            // }
-            // if (time === undefined) {
-            //     document.getElementById('time').style.display = 'none';
-            // }
-
-            infoWindow.setPosition(event.latLng);
-
-            // bij markers de infowindow boven de marker weergeven ipv er in
-            infoWindow.setOptions({pixelOffset: new google.maps.Size(0,0)});
-            if (event.feature.getGeometry().getType() === "Point") {
-                infoWindow.setOptions({pixelOffset: new google.maps.Size(0,-40)});
-            }
-
-            infoWindow.open(this.map);
-            })
-
-    }
-
-    public getPicturePath(folder, name) {
-
     }
 
 
-    public initColorCity() {
+
+    private initColorCity() {
         // gets the values passed from the home screen on first load of the page
         // these values will return undefined if the user never changed the language
         let initialCity = this.navParams.get("city");
@@ -167,7 +114,7 @@ export class MapPage {
 
     }
 
-    public changeCityLanguage(city, language) { //TODO: changing city should also change language
+    private changeCityLanguage(city, language) { //TODO: changing city should also change language
 
         // load the new json file
         this.map.data.loadGeoJson('assets/Json/' + city + '.json');
@@ -177,9 +124,13 @@ export class MapPage {
         // center the map on the new city
         this.map.panTo(this.mapCenter[city]);
 
+        // TODO: changing city should change picturepath to show pictures
+        this.setupInfoWindows(false);
+
+
     }
 
-    public viewDetailPage(locationFeature) { //TODO: fix de infowindows
+    private viewDetailPage(locationFeature) { //TODO: fix de infowindows
         //alert(loc.properties.name);
         console.log("HUH?");
         this.navCtrl.push(DetailPage, {
@@ -189,14 +140,71 @@ export class MapPage {
 
     }
 
+    private setupInfoWindows(firstTime) {
+        let infoWindow = new google.maps.InfoWindow();
+
+        // if the city is changed remove the old infowindow and create a new one
+        if (!firstTime) {
+            this.listener.remove()
+        }
+
+        let city = this.city;
+        function getPicPath(folder, name) {
+            return "assets/Pictures/" +
+                city + "/" +
+                folder + "/" +
+                name
+        }
 
 
 
+        this.listener = this.map.data.addListener('click', function (event) {
+            // TODO: make compatible for different languages
+            let name = event.feature.getProperty('name');
+            let description = event.feature.getProperty('short_description');
+            let picture = getPicPath(event.feature.getProperty('picture_folder'), event.feature.getProperty('picture_name')[0]);
+            let data = 0;
 
 
+            let content = `
+                <div id="infoWindowDiv">
+                    <ion-item id="infoWindowButton">
+                        <img src=" ` + picture + `" float-left id="infoWindowPicture" id="infoWindowPicture">
+                        <h2> ` + name + `</h2>
+                        <p> ` + description + ` </p>
+                    </ion-item>
+                </div>
+            `;
 
+            infoWindow.setContent(content);
 
-    openLanguageSelector(myEvent) {
+            let self = this;
+            infoWindow.setPosition(event.latLng);
+
+            // bij markers de infowindow boven de marker weergeven ipv er in
+            infoWindow.setOptions({pixelOffset: new google.maps.Size(0,0)});
+            if (event.feature.getGeometry().getType() === "Point") {
+                infoWindow.setOptions({pixelOffset: new google.maps.Size(0,-40)});
+            }
+
+            infoWindow.open(this.map);
+
+            // the onclick event for the infowindow
+            google.maps.event.addListenerOnce(infoWindow, 'domready', function () {
+                document.getElementById('infoWindowDiv').addEventListener('click', () => {
+
+                    // TODO: open DetailPage with arguments
+                    self.viewDetailPage()
+
+                    // loop through the locations to find the correct location feature
+
+                })
+            });
+
+        })
+    }
+
+    private openLanguageSelector(myEvent) {
         let popover = this.popoverCtrl.create(
             LanguageSelectorComponent,
             // pass the current city and language so the user will see the correct radio buttons selected
