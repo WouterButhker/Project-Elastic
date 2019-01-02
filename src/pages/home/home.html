@@ -1,5 +1,14 @@
+
+
 <ion-header>
-    <ion-toolbar  color="{{color}}">
+
+    <ion-navbar color="{{color}}">
+        <ion-buttons>
+            <button ion-button menuToggle>
+                <ion-icon name="menu"></ion-icon>
+            </button>
+        </ion-buttons>
+
         <ion-title>Home</ion-title>
 
         <ion-buttons end>
@@ -10,8 +19,11 @@
         </ion-buttons>
 
 
-    </ion-toolbar>
+    </ion-navbar>
 </ion-header>
+
+
+
 
 <ion-content padding>
     <h2>{{'welcome' | translate }}</h2>
@@ -19,7 +31,7 @@
 
 
 
-    <button ion-item (click)="viewDetailPage(loc)" *ngFor="let loc of locations | async">
+    <button ion-item *ngFor="let loc of locations | async" (click)="viewDetailPage(loc)" >
         <ion-card id="card">
 
             <img src="{{getPicturePath(loc)}}" alt="" padding="10px">

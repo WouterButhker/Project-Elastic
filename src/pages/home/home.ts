@@ -11,6 +11,7 @@ import {TranslateService} from "@ngx-translate/core";
     templateUrl: 'home.html'
 })
 
+// TODO: Add introduction page
 
 export class HomePage {
 

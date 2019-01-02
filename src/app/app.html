@@ -1,1 +1,14 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="content">
+    <ion-list>
+        <button ion-item>
+            Almelo
+        </button>
+        <button ion-item>
+            Nordhorn
+        </button>
+
+    </ion-list>
+</ion-menu>
+
+
+<ion-nav #content [root]="rootPage"></ion-nav>

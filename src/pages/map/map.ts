@@ -12,7 +12,7 @@ declare var google: any;
 
 export class MapPage {
     map: any;
-    city: string = "Almelo";
+    public city: string = "Almelo";
     language: string = "Dutch";
     public color: string = "almelo_green";
     public cityFlag: string = "assets/Pictures/Flags/netherlands.png";
@@ -66,6 +66,7 @@ export class MapPage {
     }
 
 
+
     initMap() {
         const Almelo = new google.maps.LatLng(52.3570267, 6.668491899999935);
         const options = {
@@ -78,24 +79,33 @@ export class MapPage {
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
 
+        let infoWindow = new google.maps.InfoWindow();
 
-
-        var infoWindow = new google.maps.InfoWindow();
-
+        let city = this.city;
+        function getPicPath(folder, name) {
+            return "assets/Pictures/" +
+                city + "/" +
+                folder + "/" +
+                name
+        }
 
 
         this.map.data.addListener('click', function (event) {
+            // TODO: make compatible for different languages
             let name = event.feature.getProperty('name');
-            let time = event.feature.getProperty('time');
-            let picture = event.feature.getProperty('picture_name')[0];
+            let description = event.feature.getProperty('short_description');
+            let picture = getPicPath(event.feature.getProperty('picture_folder'), event.feature.getProperty('picture_name')[0]);
 
 
+
+            // TODO: change picture to {{picture}}
             let content = `
                 <div>
-                    <ion-item>
-                        <img src=" ` + picture + `" float-left>
-                        
-                    </ion-item>
+                    <button ion-item>
+                        <img src=" ` + picture + `" float-left id="infoWindowPicture" id="infoWindowPicture">
+                        <h2> ` + name + `</h2>
+                        <p> ` + description + ` </p>
+                    </button>
                 </div>
             `;
 
@@ -118,10 +128,14 @@ export class MapPage {
             }
 
             infoWindow.open(this.map);
-
             })
 
     }
+
+    public getPicturePath(folder, name) {
+
+    }
+
 
     public initColorCity() {
         // gets the values passed from the home screen on first load of the page

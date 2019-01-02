@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {Component, ViewChild} from '@angular/core';
+import {IonicPage, NavController, NavParams, Slides} from 'ionic-angular';
 import { TranslateService } from "@ngx-translate/core";
 
 /**
@@ -15,13 +15,16 @@ import { TranslateService } from "@ngx-translate/core";
   templateUrl: 'detail.html',
 
 })
+
+
 export class DetailPage {
+    @ViewChild('slider') slider: Slides;
 
     locationDetails;
     city: string;
-    picturePath: string;
     language: string;
     color: string;
+    pictures: string[];
     private APIKey: string = "AIzaSyCXopP8dS5mRg9il5qfZO_qI3L6TxObF4c"; // TODO: get apiKey from file
 
 
@@ -34,11 +37,9 @@ export class DetailPage {
       this.city = this.navParams.get("city");
       this.language = this.navParams.get("language");
       this.color = this.navParams.get("color");
+      this.pictures = this.locationDetails.properties.picture_name;
 
-      // TODO: add support for multiple pictures
-      // set the path for the
-      // TODO: fix bug on TZMO Zelow
-      this.picturePath = "assets/Pictures/" + this.city + "/" + this.locationDetails.properties.picture_folder + "/" + this.locationDetails.properties.picture_name[0]
+
 
   }
 
@@ -46,6 +47,8 @@ export class DetailPage {
 
   ionViewDidLoad() {
       this.setupBackButtonBehavior();
+
+      this.slider.autoHeight = true;
   }
 
 
@@ -92,6 +95,10 @@ export class DetailPage {
       return "https://maps.googleapis.com/maps/api/staticmap?size=600x300&maptype=roadmap&markers=" + coordinates +
           "&key=" + this.APIKey;
 
+    }
+
+    getPicturePath(picture) {
+        return "assets/Pictures/" + this.city + "/" + this.locationDetails.properties.picture_folder + "/" + picture;
     }
 
 }

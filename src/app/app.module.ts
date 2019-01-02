@@ -17,6 +17,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { LanguageSelectorComponent} from "../components/language-selector/language-selector";
 import { TranslateModule, TranslateLoader} from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
+import {IntroPage} from "../pages/intro/intro";
 
 @NgModule({
     declarations: [
@@ -24,6 +25,7 @@ import { TranslateHttpLoader } from "@ngx-translate/http-loader";
         MapPage,
         ContactPage,
         HomePage,
+        IntroPage,
         TabsPage,
         DetailPage,
         LanguageSelectorComponent
@@ -46,6 +48,7 @@ import { TranslateHttpLoader } from "@ngx-translate/http-loader";
         MapPage,
         ContactPage,
         HomePage,
+        IntroPage,
         TabsPage,
         DetailPage,
         LanguageSelectorComponent

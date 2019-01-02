@@ -1,3 +1,19 @@
 page-detail {
 
 }
+
+ion-slides {
+    height: auto;
+}
+
+
+#slides {
+    position: relative;
+}
+
+#slides #button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 50px;
+}

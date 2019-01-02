@@ -12,11 +12,20 @@
 
 </ion-header>
 
-<!--  TODO: add support for multiple pictures
+
         -->
 <ion-content padding>
 
-    <img src="{{picturePath}}" alt="">
+
+        <!--TODO: improve the pager-->
+    <ion-slides pager zoom="true" #slider >
+        <ion-slide *ngFor="let pic of pictures" id="ion-slide">
+            <img src="{{getPicturePath(pic)}}" alt="">
+
+        </ion-slide>
+    </ion-slides>
+
+
     <ion-title>
         {{getPropertyName()}}
     </ion-title>
@@ -24,5 +33,8 @@
         {{getPropertyDescription()}}
     </p>
     <img src="{{getStaticMap()}}">
+
+
+
 
 </ion-content>

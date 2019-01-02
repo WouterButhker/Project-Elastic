@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { MapPage } from '../map/map';
 import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
+import { IntroPage } from "../intro/intro";
 import { Events } from "ionic-angular";
 
 @Component({
@@ -13,6 +14,7 @@ export class TabsPage {
   tab1Root = HomePage;
   tab2Root = MapPage;
   tab3Root = ContactPage;
+  tab4Root= IntroPage;
   color: string = "almelo_green";
   languageCityObj: object;
 
