@@ -69,6 +69,7 @@ export class MapPage {
 
 
     private initMap() {
+        // create the Map
         const Almelo = new google.maps.LatLng(52.3570267, 6.668491899999935);
         const options = {
             center: Almelo,
@@ -80,6 +81,62 @@ export class MapPage {
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
 
+
+
+        // create the infowindows
+        let infoWindow = new google.maps.InfoWindow();
+        const self = this; // access this from nested functions
+
+        // listens to a click on a item (e.g. marker)
+        this.map.data.addListener('click', function (event) {
+            // TODO: make compatible for different languages
+
+            let name = event.feature.getProperty('name');
+            let description = event.feature.getProperty('short_description');
+            let picture = self.getPicPath(event.feature.getProperty('picture_folder'), event.feature.getProperty('picture_name')[0]);
+
+
+            let content = `
+                <div id="infoWindowDiv">
+                    <button ion-item id="infoWindowButton" (click)="self.viewDetailPage()">
+                        <img src=" ` + picture + `" float-left id="infoWindowPicture">
+                        <h2> ` + name + `</h2>
+                        <p> ` + description + ` </p>
+                    </button>
+                </div>
+            `;
+
+            infoWindow.setContent(content);
+            infoWindow.setPosition(event.latLng);
+
+            // show the infowindow in the correct position (above markers and on lines)
+            infoWindow.setOptions({pixelOffset: new google.maps.Size(0,0)});
+            if (event.feature.getGeometry().getType() === "Point") {
+                infoWindow.setOptions({pixelOffset: new google.maps.Size(0,-40)});
+            }
+
+            infoWindow.open(self.map);
+
+            // the onclick event for the infowindow
+            google.maps.event.addListenerOnce(infoWindow, 'domready', function () {
+                document.getElementById('infoWindowDiv').addEventListener('click', () => {
+
+                    //console.log(event.feature.getGeometry());
+                    self.viewDetailPage(event.feature);
+
+
+                })
+            });
+
+        })
+
+    }
+
+    private getPicPath(folder, name) {
+        return "assets/Pictures/" +
+            this.city + "/" +
+            folder + "/" +
+            name
     }
 
 
@@ -130,78 +187,33 @@ export class MapPage {
 
     }
 
-    private viewDetailPage(locationFeature) { //TODO: fix de infowindows
+    private viewDetailPage(locFeat) { //TODO: fix de infowindows
         //alert(loc.properties.name);
-        console.log("HUH?");
+
+
+        // the detailpage needs the data in an array
+
+        let locationFeature = {
+            "properties": locFeat.l,
+            "type" : "Feature",
+            "geometry" : {
+               // TODO: add the correct coordinates
+            }
+        };
+
+
         this.navCtrl.push(DetailPage, {
-            locationFeature: locationFeature
+            locationFeature: locationFeature,
+            city: this.city,
+            language: this.language,
+            color: this.color
         });
-        console.log("2")
+
 
     }
 
     private setupInfoWindows(firstTime) {
-        let infoWindow = new google.maps.InfoWindow();
 
-        // if the city is changed remove the old infowindow and create a new one
-        if (!firstTime) {
-            this.listener.remove()
-        }
-
-        let city = this.city;
-        function getPicPath(folder, name) {
-            return "assets/Pictures/" +
-                city + "/" +
-                folder + "/" +
-                name
-        }
-
-
-
-        this.listener = this.map.data.addListener('click', function (event) {
-            // TODO: make compatible for different languages
-            let name = event.feature.getProperty('name');
-            let description = event.feature.getProperty('short_description');
-            let picture = getPicPath(event.feature.getProperty('picture_folder'), event.feature.getProperty('picture_name')[0]);
-            let data = 0;
-
-
-            let content = `
-                <div id="infoWindowDiv">
-                    <ion-item id="infoWindowButton">
-                        <img src=" ` + picture + `" float-left id="infoWindowPicture" id="infoWindowPicture">
-                        <h2> ` + name + `</h2>
-                        <p> ` + description + ` </p>
-                    </ion-item>
-                </div>
-            `;
-
-            infoWindow.setContent(content);
-
-            let self = this;
-            infoWindow.setPosition(event.latLng);
-
-            // bij markers de infowindow boven de marker weergeven ipv er in
-            infoWindow.setOptions({pixelOffset: new google.maps.Size(0,0)});
-            if (event.feature.getGeometry().getType() === "Point") {
-                infoWindow.setOptions({pixelOffset: new google.maps.Size(0,-40)});
-            }
-
-            infoWindow.open(this.map);
-
-            // the onclick event for the infowindow
-            google.maps.event.addListenerOnce(infoWindow, 'domready', function () {
-                document.getElementById('infoWindowDiv').addEventListener('click', () => {
-
-                    // TODO: open DetailPage with arguments
-                    self.viewDetailPage()
-
-                    // loop through the locations to find the correct location feature
-
-                })
-            });
-
-        })
     }
 
     private openLanguageSelector(myEvent) {
