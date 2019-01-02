@@ -4,329 +4,736 @@
         {
             "type": "Feature",
             "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
+                "marker-color": "#0000ff",
                 "marker-size": "medium",
-                "name": "Kościół Ewangelicko-Augsburski w Zelowie",
-                "ordinal number": 1,
-                "name_en": "The Augsburg Church in Zelów",
-                "short_description": "Kościół Ewangelicko-Augsburski w Zelowie, świątynia luteran.",
-                "short_description_en": " The Augsburg Church in Zelów, the Lutheran temple.",
-                "description": "Kościół został wybudowany z inicjatywy wiernych z Zelowa, ponieważ dostęp do najbliższego kościoła stanowił dla nich problem. Budowa rozpoczęła się w 1931 r., a po pięciu latach kościół (poświęcony Gustavowi Adolfowi) został ukończony. W 1940 r. Powstała samodzielna parafia w Zelowie. Jej pierwszym proboszczem był Karol Robert Liersch. Jednak po zakończeniu II wojny światowej kościół ten praktycznie przestał funkcjonować. W sierpniu 1951 r. świątynia została odnowiona i ponownie oddana do użytku. Obecnie proboszczem parafii jest ksiądz Piotr Żydeł. Wspólnota parafialna ma około 20 wiernych. ",
-                "description_en": "The church was found on the initiative of the faithful from Zelów, because access to the nearest church was a problem for them. Construction began in 1931 and after five years the church (dedicated to Gustav Adolf) was completed. In 1940, an independent parish was established in Zelów. Her first pastor was Karol Robert Liersch. However, after the end of World War II, this church stopped to function practically. In August 1951, the temple was renovated and given back to serve again. Currently, the pastor of the parish is priest Piotr Żydeł. The parish community has about 20 faithful.",
-                "category": "church",
-                "picture_folder": "Augsburg_Church",
-                "picture_name": [
-                    "zelow-kosciol-002.jpg"
-                ]
+                "marker-symbol": "religious-christian",
+                "name": "Farní kostel Povýšení sv. Kříže",
+                "name_en": "Parish Church of the Elevation of the Holy Cross",
+                "short_description": "Katolický kostel postavený v barokním stylu.",
+                "short_description_en": "The catholic church was built in the Baroque style.",
+                "description": "Jádro klobouckého kostela pochází ze 40. Let 14. Století. V závěru 16. Století byla ke stávající stavbě přisazena mohutná věž, záhy dokonce opatřená bicími hodinami, v letech 1771 – 1772 byl kostel prodloužen, byly zabudovány dvě boční kaple a také krypta. Původně byl kostel zasvěcen Nalezení svatého Kříže, tento motiv nalezneme i na oltářním obrazu dílny Karla Hemerleina (1857), v 60. letech 20. století byl svátek sloučen se svátkem Povýšení svatého Kříže (slaví se 14. září).",
+                "description_en": "The church with its Gothic centre and a massive renaissance tower from the 2nd half of the 16th century was, together with the rectory, burnt to the ground during the Turkish-Tatar invasion in 1663. In 1771, the church got its current look from a Baroque remodelling. Later on, two side chapels and a crypt were built.  Originally, the church was connected to the Finding of the Holy Rood. Its motive can be found in the altar painting made by Karl Hamerlein in 1857. The feast of the Raising of the Holy Rood has been celebrated in September since the middle of the 20th century. ",
+                "category": "Sight",
+                "picture_folder": "Church"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    19.212822765111923,
-                    51.46855578949475
+                    18.006039261817932,
+                    49.141416397297945
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
+                "marker-color": "#0000ff",
                 "marker-size": "medium",
-                "name": "Kościół chrześcijan Baptystów",
-                "ordinal number": 2,
-                "name_en": "Baptist in Zelów ",
-                "short_description": "Kościół braci baptystów był pierwszym słowiańskim zborem w Polsce, założonym w 1872 roku.",
-                "short_description_en": "The Baptist brothers' church was the first Slavonic congregation in Poland, it was founded in 1872.",
-                "description": "Słowo \"chrzest\" zawiera greckie imię chrztu w chrzcie, a zatem odnosi się do biblijnego chrztu, który sam Chrystus otrzymał i ustanowił.  22 kwietnia 879 r. Baptyści zakupili 7,5 rubla ziemi za tysiąc rubli, wraz z budynkiem i lasem na działce. Na zakupionej ziemi został wybudowany w 1886 r. Zbór z kaplicą i apartamentem dla kaznodziei, Jana Pospiszyła.",
-                "description_en": "The word Baptism contains the Greek name baptism in baptism, and thus refers to the biblical baptism that Christ himself has received and established  On April 22.1879, the Baptists purchased 7.5 rubles of land for a thousand rubles, along with the building and forest on the plot. On the purchased land it was built in 1886. A congregation with a chapel and an apartment for a preacher, Jan Pospiszył.",
-                "category": "church",
-                "picture_folder": "Baptist",
-                "picture_name": [
-                    "zbor.jpg"
-                ]
+                "marker-symbol": "town-hall",
+                "name": "Hornův dům (čp.189)",
+                "name_en": "Horn´s house (no.189)",
+                "short_description": "V této budově sídlí městský úřad.",
+                "short_description_en": "This building houses the local Town Hall.",
+                "description": "Jan Horný (1868 – 1906) byl zámožný obchodník. Jeho otec vybudoval na půdorysu dvou stavebních parcel patrový dům čp. 189, který byl ale poškozen při požáru města v červenci 1896. Horný nechal svůj dům rozšířit (půdorys zahrnul ještě třetí stavební parcel) a přebudovat v moderní elegantní skvost.  Projekt obytného a obchodního domu zpracovali – zřejmě v prvních měsících roku 1897 – Hubert Gessner a Otokar Bém, roku 1897 byla stavba take dokončena. Dnes zde sídlí městský úřad.",
+                "description_en": "Jan Horný was a well-off merchant. After the Great Fire he decided to rebuild his house and asked two famous architects to design it (Hubert Gessner and OtokarBém). The building was finished in 1897 and became one of the town dominants. These days it houses the town hall and local authorities. ",
+                "category": "Attractions",
+                "picture_folder": "Town-hall (NEW)"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    19.220162630081177,
-                    51.46327888915288
+                    18.008292317390442,
+                    49.139965250917456
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
+                "marker-color": "#0000ff",
                 "marker-size": "medium",
-                "name": "Kościół Ewangelicko-Reformowany w Zelowie",
-                "ordinal number": 4,
-                "name_en": "Evangelical Reformed Church in Zelów",
-                "short_description": "[will be added]",
-                "short_description_en": "The church comes from from the Swiss Reformation movement, whose teaching and organization was largely influenced by Jan Kalwin.",
-                "description": "[will be added]",
-                "description_en": "The church comes from from the Swiss Reformation movement, whose teaching and organization was largely influenced by Jan Kalwin (1509 - 1564). The roots of the parish are connected with the arrival of a group of settlers of the confession of Czech Brethren to Zelów, known for their deep life of faith and being hard-working. In December 1802, they bought the land in Zelów, as a result the congregation was established, and also the Czech traditions continued in the town. The grand opening of the newly built church took place on July 3, 1825. At that time, the congregation had about 700 people. The number of the people at the turn of the 19th and 20th centuries increased to about 3,000. In the parish, apart from the normal activities connected with faith there were: Sunday schools (with Czech language),  Charity actions,  Orphanage, nursing home,  male choirs and mixed choirs, And many more…  After the first world war, Zelów was „reborn”. After the second world war, about 90% of the members of the parish went to the Czech Republic, but the others still obeyed the rules of faith and the tradition of the Unity of the Czech Brethren.  In Parish nowadays there are still a lot of organizations working: For children - not only from the parish - the Educational Kindergarten  the handbell choir \"Zelowskie Dzwonki„ Association of Czech Minorities in Poland, which opened a Czech club with a library and movie rental.  Royal Rangers  There are also a lot of meetings for people to pray and sing. The Evangelical-Reformed Church is the first monumental building in Zelów. This was built according to the design of architect, John Zille, guided by classicistic style.  The exterior of the church was based on the rules of the provincial classicism, which was popular for XIX century in the Lodz region. The interior in accordance with the Evangelical foundations is without decoration. Inside there are stone tablets in memory of John Hus, John Kalwin, John Łaski and John Komensky. There is also a cemetery where tombstones and monuments with inscriptions in Czech and German are still to be found today. Among them are the graves of some founders of Zelów.  There have been 36 clergy so far. On September 14, 2003, Wiera Jelinek was the first woman in the history of the Evangelical Reformed Church in Poland to be ordained a priest. From 1982 to 2010, she served in the Zelów church.",
-                "category": "church",
-                "picture_folder": "Evangelical_Reformed_Church",
-                "picture_name": [
-                    "Ewangelicko-Augsburski.jpg"
-                ]
+                "marker-symbol": "industrial",
+                "name": "Továrna Františka Šerého",
+                "name_en": "Textile factory of Drantisek Sery",
+                "short_description": "Zde sídlila továrna Františka Šerého.",
+                "short_description_en": "Here was a Textile factory of Frantisek Sery.",
+                "description": "František Šery měl vysoké postavení ve Valašské Kloboukách. Měl velký vliv na lidi. V roce 1882 založil textilní továrnu Františka Šerého. Tato továrna se zaměřila na výrobu pantoflí. Továrna byla znárodněna v roce 1950 v důsledku socialismu. Poté zde  byla založena nová společnost s názvem PAL-Dynamo.",
+                "description_en": "Frantisek Sery was a high-ranking person in Valašské Klobouky. He had a big influence on people. In 1882 he established the Textile factory of Frantisek Sery. This factory focused on producing slippers.The factory was nationalized in the 1950s due to socialism. Then a new company called PAL - Dynamo was founded.",
+                "category": "textile industry",
+                "picture_folder": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    19.220393300056458,
-                    51.460793956230624
+                    18.010754585266113,
+                    49.13906681735183
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
+                "marker-color": "#0000ff",
                 "marker-size": "medium",
-                "name": "Toruńskie Zakłady Materiałów Opatrunkowych",
-                "ordinal number": 5,
-                "name_en": "TZMO (The Dressing Materials Factory of Toruń)",
-                "short_description": "Jedyna funkcjonująca obecnie fabryka w Zelowie",
-                "short_description_en": "The only currently operating factory in Zelów",
-                "description": "Fabryka produkuje produkty dla marek takich jak: Bella, Happy, Matopat, Seni, Dr Max, Eva Natura, Eva Sun and Kanion. Są one sprzedawane na ponad 60 rynkach: w Unii Europejskiej, w Centralnej i Wschodniej Europie, Afryce i na Dalekim Wschodzie. Są one obecne na rynkach z całego świata.  Wszystko zaczęło się w 1933 roku, kiedy zostały podjęte działania w sektorze tekstylnym. Fabryka na Herbertowie produkowała wtedy bandaże na potrzeby armii. W 1951 r. W Toruniu rozpoczęto produkcję tkaniny opatrunkowej dla Ministerstwa Obrony Narodowej i Centralnego Zakładu Urządzeń Górniczych. Produkcja miała zostać zakończona po zrealizowaniu zamówienia, w ciągu około 6 miesięcy, ale ze względu na wysoką jakość pracy pojawiły się kolejne zlecenia. Po tym wydarzeniu Firma Toruńskie Zakłady Materiałów Opatrunkowych została założona i zaczęła podbój rynków zagranicznych. Wtedy produkty TZMO trafiły do ​​krajów europejskich, afrykańskich i azjatyckich. W 1997 r. Fabryka, jako pierwsza firma w sektorze ochrony zdrowia w Polsce, była uprawniona do oznaczania swoich produktów europejskim znakiem bezpieczeństwa CE. W 1998 roku TZMO zakupiło pierwsze krosna pneumatyczne, które przyczyniły się do sukcesu fabryki.  Obecnie Grupa TZMO  ma fabryki w innych polskich miastach, takich jak: Bydgoszcz, Szczecin, Kraków, Łódź, Frydrychowo Pomorskie, Zabagno czy Warszawa.",
-                "description_en": "The factory produces products for brands: Bella, Happy, Matopat, Seni, Dr Max, Eva Natura, Eva Sun and Kanion. They are sold in over 60 markets: European Union, Central and Eastern Europe, Africa and Far East. We are present in the markets inhabited by population of the world.  Everything started in 1933, when the first activity in the textile sector appeared. The textile factory in Herbertów used to produce bandages for the needs of the army. In 1951 the production of the dressing fabric for the Ministry of National Defense and the Central Mining Office Supply started in Toruń. Production was set to expire after completing the order, within about 6 months, but due to the high quality of work, further tasks appeared. The company Toruńskie Zakłady Materiałów Opatrunkowych is established and began conquering foreign markets. At that time, the products of TZMO went to the European, African and Asian countries. In 1997 the factory, as the first company in the health care sector in Poland – was entitled to mark its products with European CE safety mark. In 1998 TZMO bought first pneumatic looms, which contributed to the factory’s success. In 2007 the factory started knitting and in 2009 it was the first time with spinning.  Nowadays TZMO Group has its centers in another Polish cities: Bydgoszcz, Szczecin, Cracow, Łódź, Frydrychowo Pomorskie, Zabagno and Warsaw.",
-                "category": "factory",
-                "picture_folder": "TZMO",
-                "picture_name": [
-                    "TZMO.JPG"
-                ]
+                "marker-symbol": "industrial",
+                "name": "Valaška",
+                "name_en": "Valaška",
+                "short_description": "Valaška se zaměřovala výrobou obuvi.",
+                "short-description_en": "Valaška was manufactory focusing of making shoes. ",
+                "description": "Valaška byla založena v roce 1898. Vyráběly se zde papuče, tkaniny a vlněné deky. Později se začala zaměřovat pouze na výrobu vlněných pokrývek.  Od roku 2011 je výrobna uzavřena. Nyní jsou zde další dva objekty, zaměřeny na výrobu plastů a obuvi.",
+                "description_en": "Valaška was established as a the association of drapers and shoemakers in 1898. They´d been producing woollen slippers, cloth and woollen blankets. Later thay started focusing only on the woollen blankets and since 2011 itś been permanetly closed.  Now there are another  two manufactories. The first one focuses on plastic things. This firm bears the name NOVÁ VALAŠKA.  The second one deals with footwear and it is called Company FARE, spol. s r.o. FARE was established in 1991. The founder of this company was the world-known personage of Tomáš Baťa.",
+                "category": "Textile industry",
+                "picture_folder": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    19.195706248283386,
-                    51.47824244284504
+                    18.01255702972412,
+                    49.12984289351909
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
+                "marker-color": "#0000ff",
                 "marker-size": "medium",
-                "name": "Fanar",
-                "ordinal number": 7,
-                "name_en": "FANAR State Department of the Cotton Industry.",
-                "short_description": "Przemysł tekstylny na zawsze zmienił Zelów.",
-                "short_description_en": "The textile industry changed Zelow City forever.",
-                "description": "Po zakończeniu II wojny światowej Zelowskie zakłady włókiennicze były w znacznym stopniu zdewastowane. Najpierw działając na podstawie instrukcji Komitetu Ekonomicznego Rady Ministrów, przystąpiono do inwentaryzacji w fabrykach Rajcherta, Jersaka, Słamy i Recława . Dokładano wszelkich starań aby we wszystkich największych zelowskich fabrykach jak najszybciej rozpocząć produkcję. Tak oto za zarządzeniem ministra przemysłu lekkiego ze wszystkich znacjonalizowanych fabryk utworzono w dniu 1 lipca 1946 r. Państwowe Zakłady Przemysłu Bawełnianego aka FANAR.   We wrześniu 1945 r. Gminna Rada Narodowa w Zelowie wystosowała pismo do Związku Elektryfikacyjnego „Zempoł” w Łodzi, w którym proszono o kontynuowanie prac przy budowie linii wysokiego napięcia w kierunku Zelowa. Skarżono się, że ze względu na brak opału zelowska elektrownia ma poważne zastoje w produkcji energii elektrycznej co dotyka w głównej mierze przemysł włókienniczy.   Zakłady włókiennicze były aż do początku lat dziewięćdziesiątych głównym pracodawcą na rynku zelowskim. O ile w 1946 r. zatrudniały jedynie około 360 robotników, w kolejnych latach ta liczba dynamicznie rosła by w 1978 r. osiągnąć poziom 2700 osób. Zelowskie Zakłady Przemysłu Bawełnianego odgrywały w życiu Zelowa niezwykle ważną rolę, wspierając finansowo rozwój sportu (ZKS Włókniarz) czy kultury (Klub Fabryczny). W latach osiemdziesiątych zakłady bawełniane były zarządzane przez Alojzego Lachowskiego i Edwarda Kopertowskiego.  Początków tkactwa w Zelowie można w zasadzie dopatrywać się już w pierwszych latach XIX wieku, czyli od chwili przybycia tam osadników czeskich. Przyjmuje się, że warsztaty tkackie przywiozły ze sobą z terenu Śląska rodziny kolonistów, nabywców majątku Zelowa. Zjawiskiem bardzo częstym było pobieranie przez robotników wynagrodzenia w naturze np. w zakładzie przy Piotrkowskiej, tkacz jako zapłatę za dwa tygodnie pracy dostawali kilogram mięsa i 10 metrów tkaniny . Spośród kilku dyrektorów, którzy kierowali ZZPB „FANAR”, podczas kilkudziesięciu lat istnienia tej fabryki, należałoby wymienić na pewno Stefana Chrapkiewicza, który pełnić swoją funkcję zaczął w połowie lat pięćdziesiątych. Zakłady Zelowskie zaczęły wówczas przeżywać okres wielkiego ożywienia, zauważalna była również poprawa wydajności pracy, co natychmiast znalazło odbicie na wielkości i jakości produkcji. ",
-                "description_en": "After ending of the second World War Zelóws’ Textile factories were pretty much devastated. First, by acting on the instructions of the Economic Committee of the Council of Ministers, an inventory was made in the Rajchart’s, Jersak’s, Słama’s and Recław’s factories. Every effort was made to start production as soon as possible in all the largest Zelów’s factories. This is how, on 1 July 1946, the State Department of the Cotton Industry aka FANAR was created under the regulation of the light industry minister from all nationalized factories. In September 1945, the Commune National Council in Zelów sent a letter to the Union of Electrification \"Zempoł\" in Łódź, in which they were asked to continue work on the construction of a high voltage line in the direction of Zelów. It was complained that due to lack of fuel, the power plant in Zelów has serious stagnation in electricity production, which mainly affects the textile industry.   Until the beginning of the nineties, textile factories were the main employer on the Zelów market. While in 1946 only about 360 workers were employed, in the following years this number would dynamically increase in 1978 to reach 2,700 people. The ZZPB played an extremely important role in Zelow's life, financially supporting the development of sport (ZKS Włókniarz) or culture (Factories Club). In the eighties, cotton plants were managed by Alojzy Lachowski and Edward Kopertowski. The origins of weaving in Zelów can in principle be sown in the first years of the 19th century, that is, when Czech settlers were purging there. It is assumed that weaving workshops brought with them from Silesia the families of the colonists who bought the Zelów estate. A very frequent phenomenon was the scaring of workers' wages in kind at Piotrowska street, the weaver received two kilograms of meat and 10 meters of fabric as payment for two weeks of work.   From among several directors who managed the ZZPB \"FANAR\", during the several decades of the factory's existence, it would have been necessary to exchange for Stefan Chrapkiewicz, who started his function in the mid-fifties. Zelów’s factories started to experience a period of great revival, and also an improvement in work efficiency, which was immediately reflected in the size and quality of production.",
-                "category": "factory",
-                "picture_folder": "fanar",
-                "picture_name": [
-                    ""
-                ]
+                "marker-symbol": "industrial",
+                "name": "Groz-Beckert Czech s.r.o.",
+                "name_en": "-Beckert Czech s.r.o.",
+                "short_description": "Jedna z mnoha poboček světové firmy Groz-Beckert.",
+                "short_description_en": "One of the many branch of Groz-Beckert.",
+                "description": "Groz-Beckert je přední světový poskytovatel průmyslových jehel, přesných komponentů a jemných nástrojů, jakož i systémů a služeb pro výrobu a spojování textilií. Společnost byla založena v roce 1852, firma je stále v rodinném vlastnictví.  Výroba ve Valašských Kloboukách je zaměřena na šicí jehly.",
+                "description_en": "Groz-Beckert is the world's leading provider of industrial needles, precision components and fine tools as well as systems and services for the production and joining of textiles. Founded in 1852, the company is still family-owned.  The production in Valašské Klobouky is targeted on sewing needles.",
+                "category": "Textile industry",
+                "picture_folder": "Groz-Beckert"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    19.220441579818726,
-                    51.46731598998556
+                    18.01811993122101,
+                    49.14089876229126
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
+                "marker-color": "#0000ff",
                 "marker-size": "medium",
-                "name": "Urząd miejski",
-                "ordinal number": 8,
-                "name_en": "City Hall",
-                "short_description": " Oto budynek Urzędu Miejskiego w Zelowie.",
-                "short_description_en": "This is a Zelów’s Town Hall.",
-                "description": "Kilka lat temu Zelów słynął z przemysłu tekstylnego. Były tam cztery fabryki: \"Herbertów\", \"Centrala\", \"Dwójka\" i \"STB Fanar\". Składały się na tzw. \"Zelowskie zakłady przemysłu bawełnianego\". Znajdujemy się teraz przed budynkiem, który był kiedyś biurowcem tych fabryk. W tym miejscu niegdyś znajdował się zarząd owych instytucji oraz przedstawiciele BHP. Był tam dział zasobów ludzkich, a także grupa osób zajmujących się szkoleniem wszystkich pracowników. Niektórzy ludzie prowadzili księgowość. Udzielano tam nawet  pożyczek. Teraz jest to budynek Urzędu Miejskiego, w którym funkcję burmistrza pełni Tomasz Jachymek.",
-                "description_en": "Some years ago Zelów was famous from its textile industry. There used to be four factories: „Herbertów”, „Centrala”, „Dwójka” and „STB Fanar”. They consisted on so called „Zelowskie zakłady przemysłu bawełnianego” (Textile factories of cotton in Zelów). We are now in front of the building which used to be an office of factories. In this place used to be management of those institutions, health and safety representatives. Also there were human resources departament and a group of people dealing with the training of the employees. Some people led accounting. Even there used to be given loans. Now there is a Zelów’s Town Hall in which the function of the mayor fulfils Mr. Tomasz Jachymek.",
-                "category": "important building",
-                "picture_folder": "town_hall",
-                "picture_name": [
-                    "townhall.JPG"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    19.216528236865997,
-                    51.46766855095573
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
-                "marker-size": "medium",
-                "name": "Stone 1",
-                "ordinal number": 9,
-                "name_en": "Stone 1",
-                "short_description": "",
-                "short_description_en": "",
-                "description": "W czasie okupacji hitlerowskiej w latach 1942 – 1944 w tym zakładzie znajdował się obóz karny w którym cierpieli i ginęli obywatele polscy. W hołdzie bojownikom którzy walczyli z hitlerowskim najeźdźcą  w  40 rocznice napaści Niemiec Hitlerowskich na Polskę .   Społeczeństwo miasta i gminy załoga ZZPB „Fanar” w Zelowie. Zelów – wrzesień 1979",
-                "description_en": "During the Nazi occupation in the years 1942 - 1944 in this factory there was a penal camp in which Polish citizens suffered and died. In homage to the militants who fought against the Nazi invaders on the 40th anniversary of the Nazi Germany attack on Poland. The society of the city and the commune - ZZPB crew \"Fanar\" in Zelów. Zelów - September 1979",
-                "category": "monument",
-                "picture_folder": "",
-                "picture_name": [
-                    ""
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    19.21774461865425,
-                    51.467311812706534
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
-                "marker-size": "medium",
-                "name": "Poczta",
-                "ordinal number": 11,
-                "name_en": "Post office",
-                "short_description": "Synagoga żydowska",
-                "short_description_en": "Jewish synagogue",
-                "description": "Zniszczeniu przez hitlerowców uległy wszystkie żydowskie pamiątki, jak drewniana synagoga przy ul. Kościuszki 9 (w głębi za murowaną, która była przez Niemców używana na magazyn i przetrwała do dziś, Obecnie mieści gmach poczty), cheder przy ul. Św. Anny; zdewastowano też cmentarz. Niestety, przepadły też wszystkie dokumenty gminy żydowskiej w Zelowie.  Na budynku Poczty Polskiej przy ul. Kościuszki w Zelowie w obecności władz samorządowych, odsłonięto tablicę upamiętniającą mieszkańców Zelowa i okolicznych wsi – ofiar dwóch totalitarnych systemów, którzy polegli na polach bitew, wywiezionych i pomordowanych w niemieckich obozach koncentracyjnych i sowieckich łagrach.  Poczta przetrwała do dziś choć już prawie nie mówi się o wcześniejszym jej przeznaczeniu, mało kto wspomina tamtejsze historie o synagodze żydowskiej. Jednak w budynku można zauważyć naścienne freski i napisy żydowskie, które pomimo swoich lat nadal są widoczne. Szkoły podstawowe mają organizowane wycieczki na pocztę wraz z oprowadzeniem a także wspominane są w tym czasie historie żydowskiej społeczności zamieszkującej Zelów.",
-                "description_en": "All Jewish memorabilia, such as a wooden synagogue at ul. Kościuszki 9 (in the brick wall, which was used by the Germans for the warehouse and survived to this day, currently houses the post office), cheder at ul. St. Anna; the cemetery was also devastated. Unfortunately, all the documents of the Jewish commune in Zelów were also lost. On the Poczta Polska building at ul. Kościuszki in Zelów in the presence of local authorities, a plaque commemorating the inhabitants of Zelów and surrounding villages - victims of two totalitarian systems who died on the battlefields, deported and murdered in German concentration camps and Soviet gulags. The post office has survived to this day, although there is hardly any mention of its previous destiny, hardly anyone recalls their stories about the Jewish synagogue. However, in the building you can see wall frescos and Jewish inscriptions, which despite their years are still visible. Primary schools have organized trips to the post office along with a tour and the stories of the Jewish community living in Zelów are also mentioned at that time.",
-                "category": "Important building",
-                "picture_folder": "post",
-                "picture_name": [
-                    "image1.jpg",
-                    "image2.jpg"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    19.21706736087799,
-                    51.46524902561153
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
-                "marker-size": "medium",
-                "name": "Pomnik na placu Dąbrowskiego w Zelowie",
-                "ordinal number": 12,
-                "name_en": "Monument on Dąbrowski Square in Zelów",
-                "short_description": "Pomnik znajdujący się w centrum Zelowa, wybudowany na cześć Tadeusza Kościuszki. Został zniszczony podczas wojny i odbudowany na nowo po jej zakończeniu.",
-                "short_description_en": "Monument located in the center of Zelów, built in honor of Tadeusz Kosciuszko. It was destroyed during the war and rebuilt after its end.",
-                "description": "Pomnik znajdujący się na placu Dąbrowskiego w Zelowie, został wybudowany przed II wojną światową na cześć Tadeusza Kościuszki. Przedstawia on wizerunek orła. W czasie okupacji został zniszczony przez Niemców. Po wojnie z inicjatywą jego odbudowy wystąpili harcerze, na których czele stał Eugeniusz Biskupski. Przed zniszczeniem pomnika widniała na nim tablica z opisem \"W 25 rocznicę PRL Tadeuszowi Kościuszce Społeczeństwo Miasta Zelowa. Zelów 22 lipca 1969 roku.\" Po odbudowie napis został zmieniony na \"Tadeuszowi Kościuszce w hołdzie mieszkańcy Gminy Zelów.\"",
-                "description_en": "The monument located on Dąbrowski Square in Zelów was built before the Second World War in honor of Tadeusz Kosciuszko. It depicts the image of an eagle. During the occupation, it was destroyed by the Germans. After the war, the initiative of its reconstruction was performed by scouts led by Eugeniusz Biskupski. Before the monument was destroyed, there was a plaque with the description: \"On the 25th anniversary of the People's Republic of Poland to Tadeusz Kościuszko, Society of Zelow. Zelów, 22 July 1969. \" After the reconstruction, the inscription was changed to \"In tribute to Tadeusz Kościuszko, the inhabitants of the Zelów commune.",
-                "category": "monument",
-                "picture_folder": "monument",
-                "picture_name": [
-                    "900x600_zelow_rynek3.jpg"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    19.219434410333633,
-                    51.46489686369637
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
-                "marker-size": "medium",
-                "name": "Dom tkaczy",
-                "ordinal number": 13,
-                "name_en": "Weavers' houses",
-                "short_description": "[Will be added later]",
-                "short_description_en": "[Will be added later]",
-                "description": "[Will be added later]",
-                "description_en": "The oldest historic house which had belonged  to a family of weavers, has more than 150 years. This place is part of the most valuable antiques in the town.  In Zelów there were much more houses like that for many years ago, but now most of them were demolished. Behind main buildings made of wooden beams, there were outbuildings where people had their looms to work. During war, families started to use them in houses, which haven't been used customarily.  For now other family lives in the house.",
-                "category": "important building",
-                "picture_folder": "weavers",
-                "picture_name": [
-                    "20181207_144722.jpg"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    19.203409552574154,
-                    51.4688364941404
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
-                "marker-size": "medium",
-                "name": "Stone 2",
-                "ordinal number": 14,
-                "name_en": "Stone 2",
+                "marker-symbol": "industrial",
+                "name": "ORTO plus, s.r.o.",
+                "name_en": "ORTO plus, s.r.o.",
                 "short_description": "",
                 "short_description_en": "",
                 "description": "",
-                "description_en": "",
-                "category": "monument",
-                "picture_folder": "",
-                "picture_name": [
-                    ""
-                ]
+                "description_en": "ORTO plus, Co Ltd, a Czech shoemaking firm, was established in 1995 and is professionally and managerially run by two co-owners, Zdeněk Kocourek and Radim Kocourek, MSc. With their professional education and practice, they have both been continuously connected with shoe development, manufacture and sales.  The chief produced range of the ORTO plus Company are ladies´ and men´s leisure time shoes for summer from quality natural leathers.",
+                "category": "",
+                "picture_folder": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    19.219175577163696,
-                    51.4653476137509
+                    18.020764589309692,
+                    49.14727494677839
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "marker-symbol": "",
-                "marker-color": "#7e7e7e",
+                "marker-color": "#0000ff",
                 "marker-size": "medium",
-                "name": "Stowarzyszenie imienia Frai Wigdorowicz",
-                "ordinal number": 15,
-                "name_en": "Association named after  Fraja Wigdorowicz",
-                "short_description": "Współzałożone przez Pana Marka Błocha i znajduje się w centrum Zelowa w budynku, który kiedyś obejmowało getto.",
-                "short_description_en": "(„Stowarzyszenie Frai Wigdorowicz”) was co-founded by Mr. Marek Błoch. ",
-                "description ": " Fraja była Żydówką, która w 1940 r. miała ok. 12 lat. W tym właśnie czasie Niemcy wkroczyli do Zelowa. Niestety dziewczynka zmarła (z  niewiadomych powodów), ale zostawiła po sobie jedną kartkę ze swojego pamiętnika, na której podpisała się imieniem i nazwiskiem oraz, na której zapisała datę. Po drugiej stronie kartki jej ojciec, fabrykant, zostawił swoje zapiski. Te notatki pozwoliły Panu Błochowi dowiedzieć się więcej o tamtych czasach i zainspirowały go do stworzenia tego zgrupowania.  Głównym celem tej grupy jest podtrzymywanie pamięci o Żydach, którzy mieszkali w Zelowie. Właściciel tego stowarzyszenia jest bardzo zafascynowany tym tematem, mówi: ” To zawsze było moja pasją. Chcę aby w Zelowie było miejsce, które można by pokazać potomkom zelowskich Żydów i udowodnić im, że nie zapomnieliśmy o ich przodkach. Pan Marek stara się by ta organizacja była cały czas aktywna poprzez organizację wielu imprez  takich jak  zapalanie 3 tysięcy świec ku pamięci osobom, które zginęły podczas likwidacji getta.     Na zewnątrz siedziby tego stowarzyszenia widnieje tablica z jego nazwą i zdjęcia  Żydów. W środku Marek Błoch umieścił małą wystawę rzeczy należących i związanych z tymi ludźmi. Niestety rzadko istnieje możliwość obejrzenia tej wystawy, ponieważ  można to zrobić dopiero po wcześniejszym umówieniu na wizytę z Panem Błochem.",
-                "description_en": " It  is located in the centre of Zelów in old ghetto area. Fraja  was a Jewish girl who in 1940 was about  12 years old. Around that time the Germans came into town. She unfortunately died (it is unclear how and when.) She left behind one page of her diary in which she  wrote her name and date. On the other side of the sheet  her father , a factory owner , wrote some notes. Those notes helped  Mr. Błoch to learn a little bit more about that times and inspired him to establish this community.  It’s main goal is to keep the memory of Jewish community in Zelów alive.  The owner of the society is very passionate about it and says „It has always been  my passion. I want to have a place to show the offspring  of Zelów’s  Jews  that we didn’t forget about their ancestors”. The co-founder tries to keep this organization active by setting up some events like lighting up 3 thousand  candles in memory of people who died in annihilating of the ghetto.  Outside there is plaque with the name of the association. There are also many photos of the Jews. Inside Marek Błoch displayed some souvenirs that belonged  to those people. Unfortunately not often is there opportunity to admire the exhibition, because it is only open after previous arrangement with Mr. Błoch.",
-                "category": "monument",
-                "picture_folder": "Association",
-                "picture_name": [
-                    "A.jpg",
-                    "AA.jpg",
-                    "F.jpg",
-                    "J.jpg",
-                    "R.jpg"
-                ]
+                "marker-symbol": "museum",
+                "name": "Kosenka",
+                "name_en": "Wooden House Kosenka ",
+                "short_description": "Jedna z nejstarších budov ve Valašských Kloboukách.",
+                "short_description_en": "One of the oldest houses presenting local craftwork.",
+                "description": "Tento srub č. 11 pocházející ze začátku 19. století představuje bývalou valašskou architekturu. Jako jedna z mála budov naštěstí přežil velký požár v roce 1896. Ukrývá původní místnost s funkční troubou a textilními stavy. Tento dům má v současné době na starosti  základní organizace Českého svazu ochránců přírody KOSENKA (ZO ČSOP KOSENKA), po níž je tento srub pojmenován. Kosenka pořádá mnoho vzdělávacích a řemeslných kurzů. Je zde také možnost zrecyklovat vlastní textilní materiály a vyrobit z nich koberce.",
+                "description_en": "This log house No. 11 from the beginning of the 19thcentury represents the former Wallachian architecture. Fortunately, it was not destroyed in the Great Fire in 1896. It conceals an original room with a functional oven and textile loom. This house is currently in charge of Kosenka organisation, which deals with protection of the local nature and crafts. Many educational programmes and craft courses are held in the house. It is possible to recycle one´s own textile materials and remake them into rugs. To be able to produce a rug, volunteers attend courses and learn to handle the textile loom themselves.",
+                "category": "Sight",
+                "picture_folder": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    19.219132661819458,
-                    51.4652506965987
+                    18.008815348148346,
+                    49.13829997738304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "museum",
+                "name": "Červený dům",
+                "name_en": "Red house",
+                "short_description": "Jedna z budov městského muzea.",
+                "short_description_en": "One of the town museum buildings.",
+                "description": "Nevšední dům, který si po dobu dvou staletí udržel svou tradiční barvu fasády. Vystavěli jej soukeničtí mistři bratři Tomaštíkovi roku 1781. Dům je součástí muzea a je zde prezentováno nejslavnější kloboucké řemeslo - soukenictví - spolu s plátenictvím a barvířstvím. Soukenická jizba v sobě ukrývá i jeden technický skvost: funkční tkalcovský stav. Podle barvy domu a podivného korýtka vznikla pověst, že v tomto domě sídlil kat. To však není pravda, neboť hrdelní právo ztratily Klobouky 27 let před postavením domu. Korýtko tedy sloužilo k vylévání splašků z kuchyně.",
+                "description_en": "This stone house was built in 1781 by drapery masters the Tomaštík brothers. It was an unusual building that time. Nowadays, it is a part of the museum complex and it illustrates one of the most famous crafts, which are drapery along with canvas making and dyeing.The visitors learn how the above-mentioned crafts are manufactured. Inside the museum, there is an original textile loom.  Red House was given its name because of its red facade. The legend says that an executioner used to live there, however, it is not based on true facts.",
+                "category": "Sight",
+                "picture_folder": "Červený dům"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.00798386335373,
+                    49.139707303884684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "museum",
+                "name": "Pivečkova dřevěnice",
+                "name_en": "Wooden House Pivečkova",
+                "short_description": "Srub spojen s Pivečkovou výrobnou obuvi",
+                "short_description_en": "The log house connected to a shoe-making family Pivečka.",
+                "description": "Dům č. 7 je jednou z posledních dřevěných staveb ve městě. Představuje typickou valašskou architekturu před velkým požárem v roce 1896. Dům je napojen na Pivečkovu výrobnu obuvi. Pivečkova rodina se později odstěhovala do nedalekého města Slavičín. Jan Pivečka (1919 – 2004) je mezinárodně známý švec. Jeho nadace později dům koupila a opravila ho.",
+                "description_en": "The House No. 7 is one of the last log buildings in the town. It represents typical Wallachian architecture before the Great Fire in 1896. The house has been connected to a family of shoemakers called Pivečkasince 1876. The Pivečka family later moved to a nearby town of Slavičín. Jan Pivečka (1919 – 2004)isan internationally known shoemaker(1919-2004). His foundation laterbought and repaired this house.",
+                "category": "Sight",
+                "picture_folder": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.009145259857178,
+                    49.13752435143267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "museum",
+                "name": "Stará radnice",
+                "name_en": "Old Town´s Hall",
+                "short_description": "Původní radnice, dnes sloužící jako muzeum.",
+                "short_description_en": "The original town hall nowadays housing the museum exhibits.",
+                "description": "Radnice byla uprostřed rozlehlého náměstí postavena někdy v polovině 16. století, první zmínka o ní je z roku 1567. Dnešní podobu dostala jednak pozdněbarokní přestavbou (1797–1798), jednak rekonstrukcí v roce 1943. Od počátku 60. let 20. století sídlí v budově městské muzeum. Ve Staré radnici se nachází expozice Pravěk jižního Valašska, ve velkolepé síni radnice se konají různé výstavy, koncerty a přednášky.",
+                "description_en": "The Old Town´s Hall was built in the middle of the large square in the 16th century. The first mention dates back to 1567. The building acquired its present look during a late Baroque remodelling in the 18th century. Nowadays it houses a town museum with numerous historical exhibitions, such as Prehistoric South Wallachia. The first floor contains a beautiful exhibition hall where concerts are held.",
+                "category": "Sight",
+                "picture_folder": "Stará radnice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.007514476776123,
+                    49.14037234826505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "music",
+                "name": "Bratmannova vila",
+                "name_en": "Bratmann´s Villa",
+                "short_description": "Historická budova, ve které sídlí základní umělecká škola.",
+                "short_description_en": "Historical building housing the School of Arts and Music.",
+                "description": "Kloboucký rodák Josef Bratmann (1848–1924) byl úspěšným vídeňským podnikatelem. Projekt vily (čp. 116) pro něj zpracoval jiný zdejší rodák, Hubert Gessner (1871–1943), jeden z nejvýznamnějších středoevropských architektů první poloviny 20. století. Gessner studoval na vídeňské akademii u profesora Otto Wagnera, vilu projektoval již v závěru prvního ročníku studia, v červnu 1895. Stavba je jedním z nejranějších středoevropských příkladů počátků secese.  ",
+                "description_en": "Josef Bratmann was born in ValašskéKlobouky, however, he became successful as a businessman in Vienna. He supported education and culture, and he also ran a charity in his town. His house was designed by a famous architect Hubert Gessner and it was built in the Art Nouveau style.   These days it is the seat of the local School of Art and Music. ",
+                "category": "Education",
+                "picture_folder": "Bratmannova vila"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.00649791955948,
+                    49.14170942895593
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "industrial",
+                "name": "FARE, spol. s.r.o. ",
+                "name_en": "FARE, spol. s.r.o. ",
+                "short_description": "Firma zaměřující se na výrobu zdravotní a každodenní obuvi.",
+                "short_description_en": "Company focusing on producing therapeutic shoes and casual footwear",
+                "description": "Firma FARE, spol. s.r.o. byla založena v roce 1991, kdy začala s prací ve mzdě. Nejprve to byla práce pro italské obuvnické firmy, později se hlavním odběratelem stala rakouská firma. Od roku 1992 má svou provozovnu ve Valašských Kloboukách, kde je v současnosti areál firmy i situován. Přestože FARE vyrábí obuv pánskou či dámskou, největší důraz klade hlavně na dětskou obuv vycházkového typu v provedení celoročním, letním i zimním.",
+                "description_en": "Company FARE, spol. s.r.o. was established in 1991 when it began with labour hired. At the very beginning there wasproduction for Italian shoe companies and after achieving professional level, Austrian companies became the main customers. The companyhas been situated in quiet surroundings of the town Valašské Klobouky since 1992. Even though FARE has been producing men’s and women’s shoes, the greatest emphasis is placed on children’s casual yearlong, summer and winter shoes.",
+                "category": "",
+                "picture_folder": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.012259304523468,
+                    49.129739342775714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Baťův mrakodarp",
+                "name_en": "Baťa´s Skyscraper",
+                "short_description": "Sídlo obuvnické firmy Baťa ve Zlíně.",
+                "short_descripúion_en": "The seat of Baťa shoemaking company in Zlín. ",
+                "description": " Baťův mrakodrap, známý také jako „jednadvacítka“, je sídlo obuvnické firmy Baťa ve Zlíně, jejímž zakladatelem byl Tomáš Baťa. Jedná se o 16ti patrovou budovu s výškou 77,5 metrů. Název „jednadvacítka“ získal mrakodrap kvůli označení číslem 21 v americkém stylu, kdy číslo budovy přesně udává její polohu v areálu. Dnes v něm sídlí Krajský úřad města Zlín a také finanční úřad. Mrakodrap nechal postavit Jan Antonín Baťa, kdy firmu převzal po smrti svého bratra Tomáše. Architektem projektu byl Vladimír Karfík, který měl využít co nejvíce dostupného technického vybavení. Výstavba započala 14. září 1936 a byla hotová roku 1939. Zajímavostí je, že železobetonovou kostru budovy dokázali dělníci postavit za pouhých 160 dní.  V této době šlo o druhou nejvyšší budovu Evropy. Nejvyšší budova světa tehdy byla Empire StateBuilding v New Yorku s výškou 381 m.  V jednotlivých patrech byly velké kanceláře, v každé z nich mohlo pracovat až 200 úředníků. Osmé patro obsahovalo luxusní kanceláře pro vedení firmy. Do svých pracoven mohly úředníky dopravovat čtyři rychlovýtahy bez zavíracích dveří.  Nejzajímavější na celém mrakodrapu je ale výtah, ve kterém je umístěna pracovna Jana Antonína Bati. Měl zde k dispozici kromě telefonu a ostatních elektronických potřeb také umyvadlo s teplou i studenou vodu. Jelikož ale po jeho dokončení po I. světové válce odešel J. A. Baťa do zahraničí, nikdy ho nevyužil.  Technickým unikátem byl také vozík na mytí oken. Důvodem k jeho vytvoření bylo to, že budova byla klimatizovaná, a proto se okna nedala otvírat.  Dnešní budova Baťova mrakodrapu není oproti té z minulých let příliš odlišná. Prošla menšími změnami v období komunismu.Rekonstruována byla také v letech 2013-2014. Mrakodrap je dnes přístupný veřejnosti a denně je navštěvován lidmi i díky svému výhledu z terasy v 16. patře na město Zlín. Mají možnost nahlédnout i do samotné pracovny ve výtahu. Ve spodním patře se nachází také restaurace a v nejvyšším kavárna. ",
+                "description_en": "Baťa’s Skyscraper, known also as Building No. 21, is a residency of a shoemaking company Baťa in Zlin, founded by TomášBaťa. It’s a 16-storey building and it’s 77.5 metres high. The name Building No. 21 is inspired by the American system, when the number of the building accurately indicates it’s location in the area. Today it houses the headquarters of Zlín Region.  The Skyscraper was built by Jan Antonín Baťa, who took the business over his brother Tomáš after his death. The architect of this project was VladimítKarfík, who had to use any technical equipment available at that time. The construction began on September 14th in the year 1936 and was completed in year 1939. An interesting fact isthat labourerswere able to build a reinforced concrete skeleton of the building just in 160 days. For that time being, the skyscraper became the second highest building in Europe. The world highest building was Empire State Building in New York, which was 381 metres high.  On the particular floors, there were huge offices, and in each of them up to 200 officials could work. The 8th floor contained luxury offices for the management. The workers could get to their offices by four quick-lifts without closing their doors.  The most interesting thing in whole skyscraper is the lift, in which a workroom of Jan Antonín Baťa is located. Besides the telephone and other electronic equipment, he had here also a sink with hot and cold water. The workroom was completed after theWorld War I, while J. A. Baťa went abroad, so he did not have a chance to used it.  A technically unique appliance was also the special carriage used for washing the building´s windows from the outside. The main reason for its construction was the air-conditioned inside space. Today, there are not many differences between theBaťa’s Skyscraper nowadays and the original building. It went through some changes during the communist regime. It was also reconstructed in years 2013-2014. The skyscraper is now accessible to the public and is visited daily by numerous people, thanks to its view from theterrace on the 16th floor. The visitorshave the opportunity to look into the elevator themselves. On the lower floor there is also a restaurant and a café.",
+                "category": "",
+                "picture_folder": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.658435702323914,
+                    49.22309103089499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Baťova vila",
+                "name_en": "Baťa vila",
+                "short_description": "Baťova vila (1909) byla domovem světoznámého obuvníka Tomáše Bati. ",
+                "short_description-en": "The villa (1909) used to be home of the world known shoemaker Tomáš Baťa. ",
+                "description": "Dům byl postaven v letech 1909-1911 a byl na svou dobu velmi prostý. Nechal si jej postavit geniální podnikatel Tomáš Baťa, zakladatel Baťových obuvnických závodů. Vzhled domu a jeho okolí formovali architekti a stavitelé: J. Kotěra, F. Thomayaer, F.L. Gahura a V. Karfík. Na jaře roku 1909 se Tomáš Baťa rozhodl postavit si rodinný dům. Obrátil se na stavitele Františka Nováka z Vizovic. V zadní části parcely na Čepkově, s výhledy do přírody začala vyrůstat jednopatrová budova. Ještě před dostavěním stavebník přerušuje práce a žádá Jana Kotěru o přepracování a doplnění plánů. Podle Kotěrových dispozic byla stavba dokončena včetně parkových úprav, na nichž se podílel pražský zahradní architekt František Thomayer. Kotěra změnil zejména ústřední dvoupodlažní halu a s patro propojil schodištěm. Změnil i vnější vzhled.Architektura Baťovy vily odkazovala i k dobově významnému fenoménu - anglického rodinného domu. Po Baťově smrti v roce 1932 ve vile dále žila jeho manželka Marie. V roce 1946 odešla do zahraničí a vila byla znárodněna. V 50. letech byla přebudována na Dům pionýrů, což se neobešlo bez vážných zásahů do interiéru i exteriéru stavby. Zahradu přeťala čtyřproudá silnice vedená po nové trase, dnešní Gahurova ulice. V roce 1992 vilu získal v restituci Baťův syn Tomáš Baťa ml. V roce 1997 zahájil její rekonstrukci, která si vyžádala milion dolarů. Od května 1998 se stala sídlem Nadace Tomáše Bati.",
+                "description_en": "The house was built in 1909-1911 and it was very simple for this time. It was built by the brilliant entrepreneur Tomáš Baťa, the founder of Baťa shoe factories. The appearance of the house and its surroundings was formed by architects and builders: J. Kotěra, F. Thomayaer , F. L.Gahura and V. Karfík. In the spring of 1909,TomášBaťa decided to build a family house. He turned to the builder František Novák from Vizovice. At the back of the plot of land, with a view of nature, a one-storey building began to grow . Before the completion of the construction, the constructor interrupted the works and asked Jan Kotera to revise and supplement the articles. According to Kotera's dispositions, the construction was completed, including the park modifications, which was attended by Prague garden architect František Thomayer. Kotera changed mainly the central two-storey hall as  a floor connected stairway. He also changed the appearance. The architecture of Baťa's Villa referred to the period of great importance - the English family house. After Bata's death in 1932, his wife Marie still lived in the villa. In 1946 she went abroad and the villa was nationalized. In the 1950s it was rebuilt to the House of Pioneers, which did not go without serious interference in the interior and exterior of the building. The garden crossed the four-lane road along the new route, today's Gahurova Street. In 1992 the villa was restituted by Baťa's son TomášBaťajr. In 1997, it began its reconstruction, which cost millions of dollars. Since May 1998, it has been housing the Tomáš Baťa Foundation.",
+                "category": "sight",
+                "picture_folder": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.657904624938965,
+                    49.22929023461793
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "shop",
+                "name": "Prodejna valašských papučí",
+                "name_en": "The store with Wallachian shoes",
+                "short_description": "Možnost zakoupení tradičně vyráběných valašských papučí.",
+                "short_description_en": "A possibility to buy traditionally produced Wallachian slippers.",
+                "description": "Prodejna nabízí ručně vyráběné tradiční valašské papuče z dílny paní Marie Ročákové (viz Matyášova vila). K prodeji je až 20 druhů papučí. Je zde také možnost domluvy ušití papučí přímo na míru. ",
+                "description_en": "The store offers a diversity of handmade traditional Wallachian slippers from the workshop of Mrs. Marie Ročákové (see Matyášova Villa). There are up to 20 kinds of slippers available for sale. The customers can have their shoes made to measure.",
+                "category": "",
+                "picture_folder": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.009051382541656,
+                    49.13435503874032
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Matyášova vila ",
+                "name_en": "Matyášova villa",
+                "short_description": "Matyášova vila slouží jako dílna pro výrobu tradiční valašské obuvi.",
+                "short_description_en": "In Matyášova Villa the traditional Wallachian shoes are produced.",
+                "description": "Matyášova vila slouží v dnešní době slouží jako dílna pro výrobu tradiční valašské obuvi. Je součástí rodinného domu. Paní Marie Ročáková zde má stroje, které k výrobě potřebuje. Uskladněné jsou zde i látky a materiály k výrobě. Obuv je možnézakoupit přímo z místa výroby, nebo navštívit zdejší prodejnu v jiné části města.",
+                "description_en": "Matyášova Villa currently serves as a workshop for the production of traditional Wallachian slippers and outdoor shoes. It is part of a family house. Mrs. Marie Ročáková, the producer of the slippers, has all the machines she needs for production here inside the house. The wool, cloth and other materials for production are stored here as well. We can buy shoes directly from the production, or we can go a visit the local shop at the other place of the town.",
+                "category": "",
+                "picture_folder": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.01509976387024,
+                    49.14229373241923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "religious-christian",
+                "name": "Farní kostel Povýšení sv. Kříže",
+                "name_en": "Parish Church of the Elevation of the Holy Cross",
+                "short_description": "Katolický kostel postavený v barokním stylu.",
+                "short_description_en": "The catholic church was built in the Baroque style.",
+                "description": "Jádro klobouckého kostela pochází ze 40. Let 14. Století. V závěru 16. Století byla ke stávající stavbě přisazena mohutná věž, záhy dokonce opatřená bicími hodinami, v letech 1771 – 1772 byl kostel prodloužen, byly zabudovány dvě boční kaple a také krypta. Původně byl kostel zasvěcen Nalezení svatého Kříže, tento motiv nalezneme i na oltářním obrazu dílny Karla Hemerleina (1857), v 60. letech 20. století byl svátek sloučen se svátkem Povýšení svatého Kříže (slaví se 14. září).",
+                "description_en": "The church with its Gothic centre and a massive renaissance tower from the 2nd half of the 16th century was, together with the rectory, burnt to the ground during the Turkish-Tatar invasion in 1663. In 1771, the church got its current look from a Baroque remodelling. Later on, two side chapels and a crypt were built.  Originally, the church was connected to the Finding of the Holy Rood. Its motive can be found in the altar painting made by Karl Hamerlein in 1857. The feast of the Raising of the Holy Rood has been celebrated in September since the middle of the 20th century. ",
+                "category": "Sight",
+                "picture_folder": "Church"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.006039261817932,
+                    49.141416397297945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "town-hall",
+                "name": "Hornův dům (čp.189)",
+                "name_en": "Horn´s house (no.189)",
+                "short_description": "V této budově sídlí městský úřad.",
+                "short_description_en": "This building houses the local Town Hall.",
+                "description": "Jan Horný (1868 – 1906) byl zámožný obchodník. Jeho otec vybudoval na půdorysu dvou stavebních parcel patrový dům čp. 189, který byl ale poškozen při požáru města v červenci 1896. Horný nechal svůj dům rozšířit (půdorys zahrnul ještě třetí stavební parcel) a přebudovat v moderní elegantní skvost.  Projekt obytného a obchodního domu zpracovali – zřejmě v prvních měsících roku 1897 – Hubert Gessner a Otokar Bém, roku 1897 byla stavba take dokončena. Dnes zde sídlí městský úřad.",
+                "description_en": "Jan Horný was a well-off merchant. After the Great Fire he decided to rebuild his house and asked two famous architects to design it (Hubert Gessner and OtokarBém). The building was finished in 1897 and became one of the town dominants. These days it houses the town hall and local authorities. ",
+                "category": "Attractions",
+                "picture_folder": "Town-hall "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.008292317390442,
+                    49.139965250917456
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "industrial",
+                "name": "Továrna Františka Šerého",
+                "name_en": "Textile factory of Drantisek Sery",
+                "short_description": "Zde sídlila továrna Františka Šerého.",
+                "short_description_en": "Here was a Textile factory of Frantisek Sery.",
+                "description": "František Šery měl vysoké postavení ve Valašské Kloboukách. Měl velký vliv na lidi. V roce 1882 založil textilní továrnu Františka Šerého. Tato továrna se zaměřila na výrobu pantoflí. Továrna byla znárodněna v roce 1950 v důsledku socialismu. Poté zde  byla založena nová společnost s názvem PAL-Dynamo.",
+                "description_en": "Frantisek Sery was a high-ranking person in Valašské Klobouky. He had a big influence on people. In 1882 he established the Textile factory of Frantisek Sery. This factory focused on producing slippers.The factory was nationalized in the 1950s due to socialism. Then a new company called PAL - Dynamo was founded.",
+                "category": "textile industry",
+                "picture_folder": "Textile factory of Frantisek Sery"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.010754585266113,
+                    49.13906681735183
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "industrial",
+                "name": "Valaška",
+                "name_en": "Valaška",
+                "short_description": "Valaška se zaměřovala výrobou obuvi.",
+                "short-description_en": "Valaška was manufactory focusing of making shoes. ",
+                "description": "Valaška byla založena v roce 1898. Vyráběly se zde papuče, tkaniny a vlněné deky. Později se začala zaměřovat pouze na výrobu vlněných pokrývek.  Od roku 2011 je výrobna uzavřena. Nyní jsou zde další dva objekty, zaměřeny na výrobu plastů a obuvi.",
+                "description_en": "Valaška was established as a the association of drapers and shoemakers in 1898. They´d been producing woollen slippers, cloth and woollen blankets. Later thay started focusing only on the woollen blankets and since 2011 itś been permanetly closed.  Now there are another  two manufactories. The first one focuses on plastic things. This firm bears the name NOVÁ VALAŠKA.  The second one deals with footwear and it is called Company FARE, spol. s r.o. FARE was established in 1991. The founder of this company was the world-known personage of Tomáš Baťa.",
+                "category": "Textile industry",
+                "picture_folder": "Valaška"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.01255702972412,
+                    49.12984289351909
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "industrial",
+                "name": "Groz-Beckert Czech s.r.o.",
+                "name_en": "-Beckert Czech s.r.o.",
+                "short_description": "Jedna z mnoha poboček světové firmy Groz-Beckert.",
+                "short_description_en": "One of the many branch of Groz-Beckert.",
+                "description": "Groz-Beckert je přední světový poskytovatel průmyslových jehel, přesných komponentů a jemných nástrojů, jakož i systémů a služeb pro výrobu a spojování textilií. Společnost byla založena v roce 1852, firma je stále v rodinném vlastnictví.  Výroba ve Valašských Kloboukách je zaměřena na šicí jehly.",
+                "description_en": "Groz-Beckert is the world's leading provider of industrial needles, precision components and fine tools as well as systems and services for the production and joining of textiles. Founded in 1852, the company is still family-owned.  The production in Valašské Klobouky is targeted on sewing needles.",
+                "category": "Textile industry",
+                "picture_folder": "Groz-Beckert"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.01811993122101,
+                    49.14089876229126
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "industrial",
+                "name": "ORTO plus, s.r.o.",
+                "name_en": "ORTO plus, s.r.o.",
+                "short_description": "Česká společnost vyrábějící zdravotní obuv.",
+                "short_description_en": "Czech company that produces health shoes.",
+                "description": "Společnost ORTO plus, česká obuvnická firma, byla založena v roce 1995 a je profesionálně vedena dvěma spolumajiteli, Zdeňkem Kocourkem a Radimem Kocourkem, Svým odborným vzděláním a praxí jsou oba souvisle propojeni s vývojem obuvi, výrobou a prodejem. Hlavním produkovaným sortimentem firmy ORTO plus jsou dámské a pánské boty pro volný čas pro léto, z kvalitní přírodní kůže.",
+                "description_en": "ORTO plus, Co Ltd, a Czech shoemaking firm, was established in 1995 and is professionally and managerially run by two co-owners, Zdeněk Kocourek and Radim Kocourek, MSc. With their professional education and practice, they have both been continuously connected with shoe development, manufacture and sales.  The chief produced range of the ORTO plus Company are ladies´ and men´s leisure time shoes for summer from quality natural leathers.",
+                "category": "Shoe production place",
+                "picture_folder": "Orto plus"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.020764589309692,
+                    49.14727494677839
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "museum",
+                "name": "Kosenka",
+                "name_en": "Wooden House Kosenka ",
+                "short_description": "Jedna z nejstarších budov ve Valašských Kloboukách.",
+                "short_description_en": "One of the oldest houses presenting local craftwork.",
+                "description": "Tento srub č. 11 pocházející ze začátku 19. století představuje bývalou valašskou architekturu. Jako jedna z mála budov naštěstí přežil velký požár v roce 1896. Ukrývá původní místnost s funkční troubou a textilními stavy. Tento dům má v současné době na starosti  základní organizace Českého svazu ochránců přírody KOSENKA (ZO ČSOP KOSENKA), po níž je tento srub pojmenován. Kosenka pořádá mnoho vzdělávacích a řemeslných kurzů. Je zde také možnost zrecyklovat vlastní textilní materiály a vyrobit z nich koberce.",
+                "description_en": "This log house No. 11 from the beginning of the 19thcentury represents the former Wallachian architecture. Fortunately, it was not destroyed in the Great Fire in 1896. It conceals an original room with a functional oven and textile loom. This house is currently in charge of Kosenka organisation, which deals with protection of the local nature and crafts. Many educational programmes and craft courses are held in the house. It is possible to recycle one´s own textile materials and remake them into rugs. To be able to produce a rug, volunteers attend courses and learn to handle the textile loom themselves.",
+                "category": "Sight",
+                "picture_folder": "Kosenka"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.008815348148346,
+                    49.13829997738304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "museum",
+                "name": "Červený dům",
+                "name_en": "Red house",
+                "short_description": "Jedna z budov městského muzea.",
+                "short_description_en": "One of the town museum buildings.",
+                "description": "Nevšední dům, který si po dobu dvou staletí udržel svou tradiční barvu fasády. Vystavěli jej soukeničtí mistři bratři Tomaštíkovi roku 1781. Dům je součástí muzea a je zde prezentováno nejslavnější kloboucké řemeslo - soukenictví - spolu s plátenictvím a barvířstvím. Soukenická jizba v sobě ukrývá i jeden technický skvost: funkční tkalcovský stav. Podle barvy domu a podivného korýtka vznikla pověst, že v tomto domě sídlil kat. To však není pravda, neboť hrdelní právo ztratily Klobouky 27 let před postavením domu. Korýtko tedy sloužilo k vylévání splašků z kuchyně.",
+                "description_en": "This stone house was built in 1781 by drapery masters the Tomaštík brothers. It was an unusual building that time. Nowadays, it is a part of the museum complex and it illustrates one of the most famous crafts, which are drapery along with canvas making and dyeing.The visitors learn how the above-mentioned crafts are manufactured. Inside the museum, there is an original textile loom.  Red House was given its name because of its red facade. The legend says that an executioner used to live there, however, it is not based on true facts.",
+                "category": "Sight",
+                "picture_folder": "Červený dům"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.00798386335373,
+                    49.139707303884684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "museum",
+                "name": "Pivečkova dřevěnice",
+                "name_en": "Wooden House Pivečkova",
+                "short_description": "Srub spojen s Pivečkovou výrobnou obuvi",
+                "short_description_en": "The log house connected to a shoe-making family Pivečka.",
+                "description": "Dům č. 7 je jednou z posledních dřevěných staveb ve městě. Představuje typickou valašskou architekturu před velkým požárem v roce 1896. Dům je napojen na Pivečkovu výrobnu obuvi. Pivečkova rodina se později odstěhovala do nedalekého města Slavičín. Jan Pivečka (1919 – 2004) je mezinárodně známý švec. Jeho nadace později dům koupila a opravila ho.",
+                "description_en": "The House No. 7 is one of the last log buildings in the town. It represents typical Wallachian architecture before the Great Fire in 1896. The house has been connected to a family of shoemakers called Pivečkasince 1876. The Pivečka family later moved to a nearby town of Slavičín. Jan Pivečka (1919 – 2004)isan internationally known shoemaker(1919-2004). His foundation laterbought and repaired this house.",
+                "category": "Sight",
+                "picture_folder": "Pivečkova dřevěnice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.009145259857178,
+                    49.13752435143267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "museum",
+                "name": "Stará radnice",
+                "name_en": "Old Town´s Hall",
+                "short_description": "Původní radnice, dnes sloužící jako muzeum.",
+                "short_description_en": "The original town hall nowadays housing the museum exhibits.",
+                "description": "Radnice byla uprostřed rozlehlého náměstí postavena někdy v polovině 16. století, první zmínka o ní je z roku 1567. Dnešní podobu dostala jednak pozdněbarokní přestavbou (1797–1798), jednak rekonstrukcí v roce 1943. Od počátku 60. let 20. století sídlí v budově městské muzeum. Ve Staré radnici se nachází expozice Pravěk jižního Valašska, ve velkolepé síni radnice se konají různé výstavy, koncerty a přednášky.",
+                "description_en": "The Old Town´s Hall was built in the middle of the large square in the 16th century. The first mention dates back to 1567. The building acquired its present look during a late Baroque remodelling in the 18th century. Nowadays it houses a town museum with numerous historical exhibitions, such as Prehistoric South Wallachia. The first floor contains a beautiful exhibition hall where concerts are held.",
+                "category": "Sight",
+                "picture_folder": "Stará radnice"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.007514476776123,
+                    49.14037234826505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "music",
+                "name": "Bratmannova vila",
+                "name_en": "Bratmann´s Villa",
+                "short_description": "Historická budova, ve které sídlí základní umělecká škola.",
+                "short_description_en": "Historical building housing the School of Arts and Music.",
+                "description": "Kloboucký rodák Josef Bratmann (1848–1924) byl úspěšným vídeňským podnikatelem. Projekt vily (čp. 116) pro něj zpracoval jiný zdejší rodák, Hubert Gessner (1871–1943), jeden z nejvýznamnějších středoevropských architektů první poloviny 20. století. Gessner studoval na vídeňské akademii u profesora Otto Wagnera, vilu projektoval již v závěru prvního ročníku studia, v červnu 1895. Stavba je jedním z nejranějších středoevropských příkladů počátků secese.  ",
+                "description_en": "Josef Bratmann was born in ValašskéKlobouky, however, he became successful as a businessman in Vienna. He supported education and culture, and he also ran a charity in his town. His house was designed by a famous architect Hubert Gessner and it was built in the Art Nouveau style.   These days it is the seat of the local School of Art and Music. ",
+                "category": "Education",
+                "picture_folder": "Bratmannova vila"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.00649791955948,
+                    49.14170942895593
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "industrial",
+                "name": "FARE, spol. s.r.o. ",
+                "name_en": "FARE, spol. s.r.o. ",
+                "short_description": "Firma zaměřující se na výrobu zdravotní a každodenní obuvi.",
+                "short_description_en": "Company focusing on producing therapeutic shoes and casual footwear",
+                "description": "Firma FARE, spol. s.r.o. byla založena v roce 1991, kdy začala s prací ve mzdě. Nejprve to byla práce pro italské obuvnické firmy, později se hlavním odběratelem stala rakouská firma. Od roku 1992 má svou provozovnu ve Valašských Kloboukách, kde je v současnosti areál firmy i situován. Přestože FARE vyrábí obuv pánskou či dámskou, největší důraz klade hlavně na dětskou obuv vycházkového typu v provedení celoročním, letním i zimním.",
+                "description_en": "Company FARE, spol. s.r.o. was established in 1991 when it began with labour hired. At the very beginning there wasproduction for Italian shoe companies and after achieving professional level, Austrian companies became the main customers. The companyhas been situated in quiet surroundings of the town Valašské Klobouky since 1992. Even though FARE has been producing men’s and women’s shoes, the greatest emphasis is placed on children’s casual yearlong, summer and winter shoes.",
+                "category": "Production place and headquarters",
+                "picture_folder": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.012259304523468,
+                    49.129739342775714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "building",
+                "name": "Baťův mrakodarp",
+                "name_en": "Baťa´s Skyscraper",
+                "short_description": "Sídlo obuvnické firmy Baťa ve Zlíně.",
+                "short_descripúion_en": "The seat of Baťa shoemaking company in Zlín. ",
+                "description": " Baťův mrakodrap, známý také jako „jednadvacítka“, je sídlo obuvnické firmy Baťa ve Zlíně, jejímž zakladatelem byl Tomáš Baťa. Jedná se o 16ti patrovou budovu s výškou 77,5 metrů. Název „jednadvacítka“ získal mrakodrap kvůli označení číslem 21 v americkém stylu, kdy číslo budovy přesně udává její polohu v areálu. Dnes v něm sídlí Krajský úřad města Zlín a také finanční úřad. Mrakodrap nechal postavit Jan Antonín Baťa, kdy firmu převzal po smrti svého bratra Tomáše. Architektem projektu byl Vladimír Karfík, který měl využít co nejvíce dostupného technického vybavení. Výstavba započala 14. září 1936 a byla hotová roku 1939. Zajímavostí je, že železobetonovou kostru budovy dokázali dělníci postavit za pouhých 160 dní.  V této době šlo o druhou nejvyšší budovu Evropy. Nejvyšší budova světa tehdy byla Empire StateBuilding v New Yorku s výškou 381 m.  V jednotlivých patrech byly velké kanceláře, v každé z nich mohlo pracovat až 200 úředníků. Osmé patro obsahovalo luxusní kanceláře pro vedení firmy. Do svých pracoven mohly úředníky dopravovat čtyři rychlovýtahy bez zavíracích dveří.  Nejzajímavější na celém mrakodrapu je ale výtah, ve kterém je umístěna pracovna Jana Antonína Bati. Měl zde k dispozici kromě telefonu a ostatních elektronických potřeb také umyvadlo s teplou i studenou vodu. Jelikož ale po jeho dokončení po I. světové válce odešel J. A. Baťa do zahraničí, nikdy ho nevyužil.  Technickým unikátem byl také vozík na mytí oken. Důvodem k jeho vytvoření bylo to, že budova byla klimatizovaná, a proto se okna nedala otvírat.  Dnešní budova Baťova mrakodrapu není oproti té z minulých let příliš odlišná. Prošla menšími změnami v období komunismu.Rekonstruována byla také v letech 2013-2014. Mrakodrap je dnes přístupný veřejnosti a denně je navštěvován lidmi i díky svému výhledu z terasy v 16. patře na město Zlín. Mají možnost nahlédnout i do samotné pracovny ve výtahu. Ve spodním patře se nachází také restaurace a v nejvyšším kavárna. ",
+                "description_en": "Baťa’s Skyscraper, known also as Building No. 21, is a residency of a shoemaking company Baťa in Zlin, founded by TomášBaťa. It’s a 16-storey building and it’s 77.5 metres high. The name Building No. 21 is inspired by the American system, when the number of the building accurately indicates it’s location in the area. Today it houses the headquarters of Zlín Region.  The Skyscraper was built by Jan Antonín Baťa, who took the business over his brother Tomáš after his death. The architect of this project was VladimítKarfík, who had to use any technical equipment available at that time. The construction began on September 14th in the year 1936 and was completed in year 1939. An interesting fact isthat labourerswere able to build a reinforced concrete skeleton of the building just in 160 days. For that time being, the skyscraper became the second highest building in Europe. The world highest building was Empire State Building in New York, which was 381 metres high.  On the particular floors, there were huge offices, and in each of them up to 200 officials could work. The 8th floor contained luxury offices for the management. The workers could get to their offices by four quick-lifts without closing their doors.  The most interesting thing in whole skyscraper is the lift, in which a workroom of Jan Antonín Baťa is located. Besides the telephone and other electronic equipment, he had here also a sink with hot and cold water. The workroom was completed after theWorld War I, while J. A. Baťa went abroad, so he did not have a chance to used it.  A technically unique appliance was also the special carriage used for washing the building´s windows from the outside. The main reason for its construction was the air-conditioned inside space. Today, there are not many differences between theBaťa’s Skyscraper nowadays and the original building. It went through some changes during the communist regime. It was also reconstructed in years 2013-2014. The skyscraper is now accessible to the public and is visited daily by numerous people, thanks to its view from theterrace on the 16th floor. The visitorshave the opportunity to look into the elevator themselves. On the lower floor there is also a restaurant and a café.",
+                "category": "Skyscraper office buildings",
+                "picture_folder": "Baťův mrakodrap"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.658435702323914,
+                    49.22309103089499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "building",
+                "name": "Baťova vila",
+                "name_en": "Baťa vila",
+                "short_description": "Baťova vila (1909) byla domovem světoznámého obuvníka Tomáše Bati. ",
+                "short_description-en": "The villa (1909) used to be home of the world known shoemaker Tomáš Baťa. ",
+                "description": "Dům byl postaven v letech 1909-1911 a byl na svou dobu velmi prostý. Nechal si jej postavit geniální podnikatel Tomáš Baťa, zakladatel Baťových obuvnických závodů. Vzhled domu a jeho okolí formovali architekti a stavitelé: J. Kotěra, F. Thomayaer, F.L. Gahura a V. Karfík. Na jaře roku 1909 se Tomáš Baťa rozhodl postavit si rodinný dům. Obrátil se na stavitele Františka Nováka z Vizovic. V zadní části parcely na Čepkově, s výhledy do přírody začala vyrůstat jednopatrová budova. Ještě před dostavěním stavebník přerušuje práce a žádá Jana Kotěru o přepracování a doplnění plánů. Podle Kotěrových dispozic byla stavba dokončena včetně parkových úprav, na nichž se podílel pražský zahradní architekt František Thomayer. Kotěra změnil zejména ústřední dvoupodlažní halu a s patro propojil schodištěm. Změnil i vnější vzhled.Architektura Baťovy vily odkazovala i k dobově významnému fenoménu - anglického rodinného domu. Po Baťově smrti v roce 1932 ve vile dále žila jeho manželka Marie. V roce 1946 odešla do zahraničí a vila byla znárodněna. V 50. letech byla přebudována na Dům pionýrů, což se neobešlo bez vážných zásahů do interiéru i exteriéru stavby. Zahradu přeťala čtyřproudá silnice vedená po nové trase, dnešní Gahurova ulice. V roce 1992 vilu získal v restituci Baťův syn Tomáš Baťa ml. V roce 1997 zahájil její rekonstrukci, která si vyžádala milion dolarů. Od května 1998 se stala sídlem Nadace Tomáše Bati.",
+                "description_en": "The house was built in 1909-1911 and it was very simple for this time. It was built by the brilliant entrepreneur Tomáš Baťa, the founder of Baťa shoe factories. The appearance of the house and its surroundings was formed by architects and builders: J. Kotěra, F. Thomayaer , F. L.Gahura and V. Karfík. In the spring of 1909,TomášBaťa decided to build a family house. He turned to the builder František Novák from Vizovice. At the back of the plot of land, with a view of nature, a one-storey building began to grow . Before the completion of the construction, the constructor interrupted the works and asked Jan Kotera to revise and supplement the articles. According to Kotera's dispositions, the construction was completed, including the park modifications, which was attended by Prague garden architect František Thomayer. Kotera changed mainly the central two-storey hall as  a floor connected stairway. He also changed the appearance. The architecture of Baťa's Villa referred to the period of great importance - the English family house. After Bata's death in 1932, his wife Marie still lived in the villa. In 1946 she went abroad and the villa was nationalized. In the 1950s it was rebuilt to the House of Pioneers, which did not go without serious interference in the interior and exterior of the building. The garden crossed the four-lane road along the new route, today's Gahurova Street. In 1992 the villa was restituted by Baťa's son TomášBaťajr. In 1997, it began its reconstruction, which cost millions of dollars. Since May 1998, it has been housing the Tomáš Baťa Foundation.",
+                "category": "sight",
+                "picture_folder": "Baťova vila"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.657904624938965,
+                    49.22929023461793
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "shop",
+                "name": "Prodejna valašských papučí",
+                "name_en": "The store with Wallachian shoes",
+                "short_description": "Možnost zakoupení tradičně vyráběných valašských papučí.",
+                "short_description_en": "A possibility to buy traditionally produced Wallachian slippers.",
+                "description": "Prodejna nabízí ručně vyráběné tradiční valašské papuče z dílny paní Marie Ročákové (viz Matyášova vila). K prodeji je až 20 druhů papučí. Je zde také možnost domluvy ušití papučí přímo na míru. ",
+                "description_en": "The store offers a diversity of handmade traditional Wallachian slippers from the workshop of Mrs. Marie Ročákové (see Matyášova Villa). There are up to 20 kinds of slippers available for sale. The customers can have their shoes made to measure.",
+                "category": "Shoe store",
+                "picture_folder": "Papuče Kolínek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.009051382541656,
+                    49.13435503874032
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#0000ff",
+                "marker-size": "medium",
+                "marker-symbol": "building",
+                "name": "Matyášova vila ",
+                "name_en": "Matyášova villa",
+                "short_description": "Matyášova vila slouží jako dílna pro výrobu tradiční valašské obuvi.",
+                "short_description_en": "In Matyášova Villa the traditional Wallachian shoes are produced.",
+                "description": "Matyášova vila slouží v dnešní době slouží jako dílna pro výrobu tradiční valašské obuvi. Je součástí rodinného domu. Paní Marie Ročáková zde má stroje, které k výrobě potřebuje. Uskladněné jsou zde i látky a materiály k výrobě. Obuv je možnézakoupit přímo z místa výroby, nebo navštívit zdejší prodejnu v jiné části města.",
+                "description_en": "Matyášova Villa currently serves as a workshop for the production of traditional Wallachian slippers and outdoor shoes. It is part of a family house. Mrs. Marie Ročáková, the producer of the slippers, has all the machines she needs for production here inside the house. The wool, cloth and other materials for production are stored here as well. We can buy shoes directly from the production, or we can go a visit the local shop at the other place of the town.",
+                "category": "Shoe workshop",
+                "picture_folder": "Matyášova vila"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.01509976387024,
+                    49.14229373241923
                 ]
             }
         }
