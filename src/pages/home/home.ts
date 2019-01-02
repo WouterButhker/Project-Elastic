@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {Events, NavController, PopoverController, ToastController} from "ionic-angular";
+import {Events, NavController, NavParams, PopoverController, ToastController} from "ionic-angular";
 import {DetailPage} from "../detail/detail";
 import {LanguageSelectorComponent} from "../../components/language-selector/language-selector";
 import {TranslateService} from "@ngx-translate/core";
@@ -28,14 +28,16 @@ export class HomePage {
         private navCtrl: NavController,
         private toastCtrl: ToastController,
         private event: Events,
-        private translate: TranslateService
+        private navParams: NavParams
+
         ) {
 
-            this.currentLanguage = "Dutch"; // sets Dutch as default language
-            this.currentCity = "Almelo"; // sets Almelo as default city
-            this.color = "almelo_green";
+        console.log("NAVPARAMS: " + this.navParams.get("language"));
+            this.currentLanguage = this.navParams.get("language"); // sets Dutch as default language
+            this.currentCity = this.navParams.get("city"); // sets Almelo as default city
+            this.color = this.navParams.get("color");
             // TODO: fix Almelo.json
-            this.currentCountryImage = "assets/Pictures/Flags/netherlands.png";
+            this.currentCountryImage = this.navParams.get("image");
 
             this.locations = this.loadDataFromJson(this.currentCity);
             this.categories = ["factory", "factory owner's home", "other"];

@@ -26,10 +26,6 @@
 
 
 <ion-content padding>
-    <h2>{{'welcome' | translate }}</h2>
-    <p>{{"development" | translate }}</p>
-
-
 
     <button ion-item *ngFor="let loc of locations | async" (click)="viewDetailPage(loc)" >
         <ion-card id="card">

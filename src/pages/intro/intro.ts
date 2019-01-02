@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {TabsPage} from "../tabs/tabs";
+import {TranslateService} from "@ngx-translate/core";
 
 /**
  * Generated class for the IntroPage page.
@@ -16,14 +17,18 @@ import {TabsPage} from "../tabs/tabs";
 })
 export class IntroPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController,
+              public navParams: NavParams,
+              ) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad IntroPage');
-  }
 
-  openAlmelo() {
-      this.navCtrl.push(TabsPage);
+  start(city, language, color, country) {
+      this.navCtrl.push(TabsPage, {
+          city: city,
+          language: language,
+          color: color,
+          image: 'assets/Pictures/Flags/' + country +  ".png"
+      });
   }
 }

@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 
 import { MapPage } from '../map/map';
-import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
-import { IntroPage } from "../intro/intro";
-import { Events } from "ionic-angular";
+import {Events, NavParams} from "ionic-angular";
 
 @Component({
   templateUrl: 'tabs.html'
@@ -13,13 +11,11 @@ export class TabsPage {
 
   tab1Root = HomePage;
   tab2Root = MapPage;
-  tab3Root = ContactPage;
-  tab4Root= IntroPage;
-  color: string = "almelo_green";
+  color: string = this.navParams.get('color');
   languageCityObj: object;
 
 
-  constructor(private event: Events) {
+  constructor(private event: Events, private navParams: NavParams) {
 
 
       // check if the city changed and change the color of the navbar
