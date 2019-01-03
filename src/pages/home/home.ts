@@ -11,7 +11,6 @@ import {TranslateService} from "@ngx-translate/core";
     templateUrl: 'home.html'
 })
 
-// TODO: Add introduction page
 
 export class HomePage {
 
@@ -32,11 +31,10 @@ export class HomePage {
 
         ) {
 
-        console.log("NAVPARAMS: " + this.navParams.get("language"));
+
             this.currentLanguage = this.navParams.get("language"); // sets Dutch as default language
             this.currentCity = this.navParams.get("city"); // sets Almelo as default city
             this.color = this.navParams.get("color");
-            // TODO: fix Almelo.json
             this.currentCountryImage = this.navParams.get("image");
 
             this.locations = this.loadDataFromJson(this.currentCity);
@@ -110,6 +108,7 @@ export class HomePage {
 
     }
 
+
     openLanguageSelector(myEvent) {
         let popover = this.popoverCtrl.create(
             LanguageSelectorComponent,
@@ -133,6 +132,7 @@ export class HomePage {
             this.currentCity = city;
 
             // change the icon in the navbar to the correct country
+            // TODO: Switch to language flag instead of country flag
             this.currentCountryImage = img;
         }
 

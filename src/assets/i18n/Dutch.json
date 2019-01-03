@@ -5,5 +5,8 @@
     "tab_map" : "Kaart",
     "tab_contact" : "Contact",
     "save" : "Opslaan",
-    "cancel" : "Annuleren"
+    "cancel" : "Annuleren",
+    "intro" : "Introductie",
+    "about" : "Over deze App",
+    "thanks to" : "Met dank aan"
 }

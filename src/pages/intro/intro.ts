@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {TabsPage} from "../tabs/tabs";
-import {TranslateService} from "@ngx-translate/core";
 
 /**
  * Generated class for the IntroPage page.
@@ -23,7 +22,7 @@ export class IntroPage {
   }
 
 
-  start(city, language, color, country) {
+  public start(city, language, color, country) {
       this.navCtrl.push(TabsPage, {
           city: city,
           language: language,

@@ -13,6 +13,7 @@ declare var google: any;
 export class MapPage {
     map: any;
     public city: string = "Almelo";
+
     language: string = "Dutch";
     public color: string = "almelo_green";
     public cityFlag: string = "assets/Pictures/Flags/netherlands.png";
@@ -113,12 +114,12 @@ export class MapPage {
 
             let content = `
                 <div id="infoWindowDiv">
-                    <ion-item id="infoWindowButton" (click)="self.viewDetailPage()">
+                    <button ion-item id="infoWindowButton" (click)="self.viewDetailPage()">
                         <img src=" ` + picture + `" id="infoWindowPicture">
                         <br clear="left">
                         <h2> ` + name + `</h2>
                         <p> ` + description + ` </p>
-                    </ion-item>
+                    </button>
                 </div>
             `;
 
@@ -137,7 +138,7 @@ export class MapPage {
             google.maps.event.addListenerOnce(infoWindow, 'domready', function () {
                 document.getElementById('infoWindowDiv').addEventListener('click', () => {
 
-                    self.viewDetailPage(event.feature);
+                    self.viewDetailPage(event);
 
 
                 })
@@ -164,13 +165,14 @@ export class MapPage {
         let initialFlag = this.navParams.get("image");
         let initialColor = this.navParams.get("color");
 
-
         // load the correct json and language
         // if the user hasn't changed the city or language yet load the default values
         if (initialCity == undefined && initialLanguage == undefined) {
             this.changeCityAndLanguage(this.city, this.language)
         } else if (this.city != initialCity && initialCity != undefined) {
             this.changeCityAndLanguage(initialCity, initialLanguage)
+        } else if (this.city == initialCity && this.language == initialLanguage) {
+            this.changeCityAndLanguage(this.city, this.language)
         }
 
         // change color
@@ -186,7 +188,7 @@ export class MapPage {
 
     }
 
-    private changeCityAndLanguage(city, language) { //TODO: changing city should also change language
+    private changeCityAndLanguage(city, language) {
 
         // load the new json file
         this.map.data.loadGeoJson('assets/Json/' + city + '.json');
@@ -204,21 +206,23 @@ export class MapPage {
 
     }
 
-    private viewDetailPage(locFeat) { //TODO: fix de infowindows
+    private viewDetailPage(event) {
         //alert(loc.properties.name);
 
 
         // the detailpage needs the data in an array
 
         let locationFeature = {
-            "properties": locFeat.l,
+            "properties": event.feature.l,
             "type" : "Feature",
             "geometry" : {
-                "type" : locFeat.getGeometry().getType()
-               // TODO: add the correct coordinates
-                // event.latlng
+                "type" : event.feature.getGeometry().getType(),
+                "coordinates" : event.latLng.toString()
+                // these are the coordinates of the click-event, not the location of the item
+                // this means items such as a linestring will only output a single point
             }
         };
+        console.log(locationFeature);
 
 
         // open detailpage with the correct data

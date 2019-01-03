@@ -6,8 +6,8 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>IntroPage</ion-title>
+  <ion-navbar color="dark">
+    <ion-title>{{'intro' | translate}}</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -34,5 +34,7 @@
         <button id="Valasske" class="cityButton" (click)="start('Valasske', 'Czech', 'almelo_orange', 'czech-republic')">
             Valašské Klobouky
         </button>
+
+    <!--TODO: Refactor these buttons + app.html-->
 
 </ion-content>

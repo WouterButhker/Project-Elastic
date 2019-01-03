@@ -1,39 +1,56 @@
 <ion-header>
     <ion-navbar color="dark">
         <ion-title>
-            Contact
+            {{'about' | translate}}
         </ion-title>
     </ion-navbar>
 </ion-header>
 
 <ion-content>
-    <ion-list>
+    <ion-list no-lines>
 
         <ion-list-header>
             <ion-icon name="contact" item-start></ion-icon>
-            Wouter Büthker
+            <p>App ontwikkelaar:</p>
+            <h3>Wouter Büthker</h3>
         </ion-list-header>
 
         <ion-item>
             <ion-icon name="at" item-start></ion-icon>
-            <a href="mailto:wouterbuthker@live.nl">wouterbuthker@live.nl</a>
-        </ion-item>
-
-        <ion-item>
+            <a href="mailto:wouterbuthker@live.nl">wouterbuthker@live.nl</a><br>
             <ion-icon name="call" item-start> </ion-icon>
             <a href="tel:+31645638741">(+31)6 456 387 41</a>
         </ion-item>
 
-        <ion-list-header id="group">
-            <h2>Thanks to:</h2>
-        </ion-list-header>
+    </ion-list>
+    <ion-item-group no-lines>
+
+
+        <ion-item-divider id="group">
+            <h2>{{'thanks to' | translate}}</h2>
+        </ion-item-divider>
 
         <ion-item>
-            Many people...
+            <b>Marja Ritterfeld</b>
+        </ion-item>
+        <ion-item>
+            Ivan Ouderkerk
+        </ion-item>
+        <ion-item>
+            Dirk Weersink
+        </ion-item>
+        <ion-item>
+            Marousha Starrenburg
+        </ion-item>
+        <ion-item>
+            Jasper Robijn
+        </ion-item>
+        <ion-item>
+            Alèn Egiyan
         </ion-item>
 
 
 
 
-    </ion-list>
+    </ion-item-group>
 </ion-content>
