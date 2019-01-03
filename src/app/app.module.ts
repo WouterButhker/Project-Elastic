@@ -18,6 +18,7 @@ import { LanguageSelectorComponent} from "../components/language-selector/langua
 import { TranslateModule, TranslateLoader} from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import {IntroPage} from "../pages/intro/intro";
+import { DataManagerProvider } from '../providers/data-manager/data-manager';
 
 @NgModule({
     declarations: [
@@ -57,7 +58,8 @@ import {IntroPage} from "../pages/intro/intro";
         StatusBar,
         SplashScreen,
         {provide: ErrorHandler, useClass: IonicErrorHandler},
-        HttpClientModule
+        HttpClientModule,
+        DataManagerProvider
     ]
 })
 export class AppModule {

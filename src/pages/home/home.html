@@ -30,15 +30,16 @@
     <button ion-item *ngFor="let loc of locations | async" (click)="viewDetailPage(loc)" >
         <ion-card id="card">
 
-            <img src="{{getPicturePath(loc)}}" alt="" padding="10px">
+            <img src="{{dataManager.getPicturePathByCity(loc, currentCity)}}" alt="" padding="10px">
+
 
             <ion-card-header text-wrap="white-space: normal">
-                {{getPropertyName(loc.properties)}}
+                {{dataManager.getPropertyName(loc, currentLanguage)}}
             </ion-card-header>
 
             <ion-card-content text-wrap="white-space: normal">
                 <p>
-                    {{getPropertyShortDescription(loc.properties)}}
+                    {{dataManager.getPropertyShortDescription(loc, currentLanguage)}}
                 </p>
             </ion-card-content>
         </ion-card>

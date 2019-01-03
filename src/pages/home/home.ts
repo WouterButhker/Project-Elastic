@@ -3,7 +3,7 @@ import {HttpClient} from "@angular/common/http";
 import {Events, NavController, NavParams, PopoverController, ToastController} from "ionic-angular";
 import {DetailPage} from "../detail/detail";
 import {LanguageSelectorComponent} from "../../components/language-selector/language-selector";
-import {TranslateService} from "@ngx-translate/core";
+import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 
 
 @Component({
@@ -27,7 +27,8 @@ export class HomePage {
         private navCtrl: NavController,
         private toastCtrl: ToastController,
         private event: Events,
-        private navParams: NavParams
+        private navParams: NavParams,
+        public dataManager: DataManagerProvider
 
         ) {
 
@@ -37,8 +38,9 @@ export class HomePage {
             this.color = this.navParams.get("color");
             this.currentCountryImage = this.navParams.get("image");
 
-            this.locations = this.loadDataFromJson(this.currentCity);
-            this.categories = ["factory", "factory owner's home", "other"];
+            this.locations = this.dataManager.loadDataFromJson(this.currentCity);
+
+            // this.categories = ["factory", "factory owner's home", "other"];
 
 
             // check if the language or city changed
@@ -58,34 +60,6 @@ export class HomePage {
     }
 
 
-    getPicturePath(locationFeature) {
-        return "assets/Pictures/" + this.currentCity + "/" +
-            locationFeature.properties.picture_folder + "/" +
-            locationFeature.properties.picture_name[0];
-    }
-
-    getPropertyName(object) {
-        if (this.currentLanguage == "English") {
-            return object.name_en
-        }
-        return object.name
-    }
-
-    getPropertyShortDescription(object) {
-        if (this.currentLanguage == "English") {
-            return object.short_description_en
-        }
-        return object.short_description
-    }
-
-    async loadDataFromJson(city) { //gets the json from a local file and returns it when ready
-        //https://medium.com/@balramchavan/using-async-await-feature-in-angular-587dd56fdc77
-
-        let JSON = await this.http.get('assets/Json/' + city + '.json').toPromise();
-
-        return JSON['features'];
-
-    }
 
     viewDetailPage(locationFeature) {
         //alert(loc.properties.name);
@@ -98,15 +72,6 @@ export class HomePage {
 
     }
 
-    presentToast() {
-        let toast = this.toastCtrl.create({
-            message: 'Dat werkt nog niet helemaal!',
-            duration: 3000
-        });
-
-        toast.present();
-
-    }
 
 
     openLanguageSelector(myEvent) {
@@ -127,7 +92,7 @@ export class HomePage {
         // change city
         // only update the list if the city actually changed
         if (this.currentCity != city) {
-            this.locations = this.loadDataFromJson(city);
+            this.locations = this.dataManager.loadDataFromJson(city);
             console.log("data changed to " + city);
             this.currentCity = city;
 

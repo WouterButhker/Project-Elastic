@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController, ToastController, Events, NavParams, PopoverController } from 'ionic-angular';
 import { DetailPage } from "../detail/detail";
 import { LanguageSelectorComponent } from "../../components/language-selector/language-selector";
+import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 
 declare var google: any;
 
@@ -41,7 +42,8 @@ export class MapPage {
         public navParams: NavParams,
         public toastCtrl: ToastController,
         private event: Events,
-        public popoverCtrl: PopoverController) {
+        public popoverCtrl: PopoverController,
+        public dataManager: DataManagerProvider) {
 
 
         // check if the language or city changed
@@ -98,8 +100,10 @@ export class MapPage {
 
             let name;
             let description;
-            let picture = self.getPicPath(event.feature.getProperty('picture_folder'), event.feature.getProperty('picture_name')[0]);
-
+            let picture = self.dataManager.getPicturePathByNameAndFolder(
+                self.city,
+                event.feature.getProperty('picture_name'),
+                event.feature.getProperty('picture_folder'));
 
             // if English is selected as language use English names in the infowindow
             if (self.language == "English") {
@@ -147,14 +151,6 @@ export class MapPage {
         })
 
     }
-
-    private getPicPath(folder, name) {
-        return "assets/Pictures/" +
-            this.city + "/" +
-            folder + "/" +
-            name
-    }
-
 
 
     private initColorCity() {

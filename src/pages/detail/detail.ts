@@ -1,13 +1,7 @@
 import {Component, ViewChild} from '@angular/core';
 import {IonicPage, NavController, NavParams, Slides} from 'ionic-angular';
 import { TranslateService } from "@ngx-translate/core";
-
-/**
- * Generated class for the DetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 
 @IonicPage()
 @Component({
@@ -31,7 +25,8 @@ export class DetailPage {
   constructor(
           public navCtrl: NavController,
           public navParams: NavParams,
-          public translate: TranslateService) {
+          public translate: TranslateService,
+          public dataManager: DataManagerProvider) {
 
       this.locationDetails = this.navParams.get('locationFeature');
       this.city = this.navParams.get("city");
@@ -71,21 +66,8 @@ export class DetailPage {
 
 
 
-    public getPropertyName() { // makes sure the name is returned in the correct language
-      let object = this.locationDetails.properties;
-        if (this.language == "English") {
-            return object.name_en
-        }
-        return object.name
-    }
 
-    public getPropertyDescription() { // makes sure the description is returned in the correct language
-      let object = this.locationDetails.properties;
-        if (this.language == "English") {
-            return object.description_en
-        }
-        return object.description
-    }
+
 
     public getStaticMap() {
       // TODO: fix static maps
@@ -97,8 +79,6 @@ export class DetailPage {
 
     }
 
-    getPicturePath(picture) {
-        return "assets/Pictures/" + this.city + "/" + this.locationDetails.properties.picture_folder + "/" + picture;
-    }
+
 
 }
