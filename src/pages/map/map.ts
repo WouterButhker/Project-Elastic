@@ -80,6 +80,7 @@ export class MapPage {
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
 
 
+        //
 
         // create the infowindows
         let infoWindow = new google.maps.InfoWindow();
@@ -87,7 +88,6 @@ export class MapPage {
 
         // listens to a click on a item (e.g. marker) and display the infowindow
         this.map.data.addListener('click', function (event) {
-            // TODO: make compatible for different languages
 
             let name;
             let description;

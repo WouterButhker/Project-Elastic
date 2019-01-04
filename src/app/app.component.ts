@@ -19,11 +19,9 @@ export class MyApp {
                 platform: Platform,
                 statusBar: StatusBar,
                 splashScreen: SplashScreen,
-                translate: TranslateService,
+                private translate: TranslateService,
                 private dataManager: DataManagerProvider) {
 
-        translate.setDefaultLang("Dutch"); // sets default language to Dutch
-        // TODO: set default language based on locale
 
         platform.ready().then(() => {
 
@@ -44,7 +42,9 @@ export class MyApp {
             this.dataManager.language = language;
             this.dataManager.color = color;
             this.dataManager.flag = "assets/Pictures/Flags/" + country + ".png";
+            this.translate.use(language);
             this.nav.setRoot(TabsPage, {});
+
         }
 
 

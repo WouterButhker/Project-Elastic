@@ -17,8 +17,7 @@
 <ion-content padding>
 
 
-        <!--TODO: improve the pager-->
-    <ion-slides pager zoom="true" #slider >
+    <ion-slides pager zoom=true #slider >
         <ion-slide *ngFor="let pic of pictures" id="ion-slide">
             <img src="{{dataManager.getPicturePathByName(locationDetails, pic)}}" alt="">
 

@@ -16,7 +16,7 @@ import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 export class LanguageSelectorComponent {
 
     selectedCity: string;
-    selectedLanguage: string; // TODO: fix selected language not displaying correctly
+    selectedLanguage: string;
     cities: object[];
     imgBasePath: string = 'assets/Pictures/Flags/';
 
@@ -78,11 +78,25 @@ export class LanguageSelectorComponent {
         console.log("Changed city to: " + this.selectedCity);
         console.log("Changed navBarColor to: " + this.getNavBarColor());
         console.log("Changed Flag to: " + this.getCityByLanguage(this.selectedLanguage)['image']);
+
+
+        if (this.getCityByName(this.selectedCity)['language'] != this.selectedLanguage && this.selectedLanguage != "English") {
+
+            this.dataManager.language = this.getCityByName(this.selectedCity)['language'];
+            this.dataManager.flag = this.getCityByLanguage(this.dataManager.language)['image'];
+            console.log("LANGUAGE ERROR");
+            console.log("Switching to " + this.dataManager.language + " and " + this.dataManager.flag);
+        } else {
+            this.dataManager.language = this.selectedLanguage;
+            this.dataManager.flag = this.getCityByLanguage(this.selectedLanguage)['image'];
+        }
+
         console.log("---------------");
-        this.dataManager.language = this.selectedLanguage;
+
+
         this.dataManager.city = this.selectedCity;
         this.dataManager.color = this.getNavBarColor();
-        this.dataManager.flag = this.getCityByLanguage(this.selectedLanguage)['image'];
+
 
 
         this.event.publish("Language + city");

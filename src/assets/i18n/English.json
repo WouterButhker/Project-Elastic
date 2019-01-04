@@ -5,5 +5,11 @@
     "tab_map" : "Map",
     "tab_contact" : "Contact",
     "save" : "Save",
-    "cancel" : "Cancel"
+    "cancel" : "Cancel",
+    "intro":  "Introduction",
+    "about" : "About this App",
+    "thanks to" : "Thanks to",
+    "city" : "City",
+    "language" : "Language",
+    "map" : "Map"
 }

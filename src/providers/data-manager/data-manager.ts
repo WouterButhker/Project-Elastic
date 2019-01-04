@@ -4,7 +4,6 @@ import {Injectable} from '@angular/core';
 
 @Injectable()
 export class DataManagerProvider {
-    // TODO: load default values based on locale
     public language: string = "Dutch";
     public city: string = "Almelo";
     public color: string = "almelo_green";
