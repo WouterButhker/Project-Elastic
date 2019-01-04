@@ -1,0 +1,15 @@
+{
+    "welcome" : "Welkom bij Elastic!",
+    "development" : "Deze app is in ontwikkeling",
+    "tab_home" : "Home",
+    "tab_map" : "Kaart",
+    "tab_contact" : "Contact",
+    "save" : "Opslaan",
+    "cancel" : "Annuleren",
+    "intro" : "Introductie",
+    "about" : "Over deze App",
+    "thanks to" : "Met dank aan",
+    "city": "Stad",
+    "language": "Taal",
+    "map" : "Kaart"
+}

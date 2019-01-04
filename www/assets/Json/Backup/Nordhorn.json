@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.07369949999998,
+          52.4358112,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#fadd00",
+        "marker-size": "large",
+        "marker-symbol": 1,
+        "name": "1. Start am VVV: Allgemeine Einleitung",
+        "description": "VVV-Stadtmarketing Nordhorn e.V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0637557,
+          52.4396945,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#04fa00",
+        "marker-size": "medium",
+        "marker-symbol": 2,
+        "name": "2. Ehemalige Textilfabrik Rawe am Stadtring"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0630798,
+          52.4398057,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#15fa00",
+        "marker-size": "medium",
+        "marker-symbol": 3,
+        "name": "3. Ehemaliges Kesselhaus (Samocca)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0628384,
+          52.4396487,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#11fa00",
+        "marker-size": "medium",
+        "marker-symbol": 4,
+        "name": "4. Ehemaliges Werksgelände"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0619023,
+          52.440149,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#54e218",
+        "marker-size": "medium",
+        "marker-symbol": 5,
+        "name": "5. Ehemalige Arbeitersiedlung Rawe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.07261749999998,
+          52.4325999,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#fa7000",
+        "marker-size": "medium",
+        "marker-symbol": 6,
+        "name": "6. Povelturm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0744765,
+          52.4341676,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#fa8500",
+        "marker-size": "medium",
+        "marker-symbol": 7,
+        "name": "7. Saniertes Povelgelände (Klein Venedig)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0751095,
+          52.4329084,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#fa8500",
+        "marker-size": "medium",
+        "marker-symbol": 8,
+        "name": "8. Alte Weberei: Maschienenmuseum Nordhorn"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.07503329999997,
+          52.4324584,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#fa7000",
+        "marker-size": "medium",
+        "marker-symbol": 9,
+        "name": "9. Alte Weberei: Kulturzentrum",
+        "description": "Kulturzentrum Alte Weberei Nordhorn GmbH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.07470990000002,
+          52.4322364,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#fa8e00",
+        "marker-size": "medium",
+        "marker-symbol": 9,
+        "name": "9.1 Städtische Galerie Nordhorn"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0761126,
+          52.4321562,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#fa7d00",
+        "marker-size": "medium",
+        "marker-symbol": 10,
+        "name": "10. Aussichtsplattform: Die Pyramide"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0675376,
+          52.4285844,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#2100fa",
+        "marker-size": "medium",
+        "marker-symbol": 11,
+        "name": "11. Nino: Ehemaliges Verwaltungsgebäude"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.06768999999997,
+          52.42798,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#3600fa",
+        "marker-size": "medium",
+        "marker-symbol": 12,
+        "name": "12. Nino: ehemalige Weberei (VHS)",
+        "description": "Volkshochschule Grafschaft Bentheim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.0680037,
+              52.4252769,
+              0
+            ],
+            [
+              7.0704392,
+              52.4261274,
+              0
+            ],
+            [
+              7.0698383,
+              52.4270172,
+              0
+            ],
+            [
+              7.0675746,
+              52.4282078,
+              0
+            ],
+            [
+              7.06736,
+              52.4278873,
+              0
+            ],
+            [
+              7.0678321,
+              52.4255452,
+              0
+            ],
+            [
+              7.0680037,
+              52.4252769,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "stroke": "#1400a8",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#0089a8",
+        "fill-opacity": 0.5,
+        "name": "13. Nino: ehemaliges Werksgelände ( evang. Gym, Stadtarchiv, Diakonie, Caritas, Kino, Mahlzeit)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.07152180000003,
+          52.4261604,
+          0
+        ]
+      },
+      "properties": {
+        "marker-color": "#0000fa",
+        "marker-size": "medium",
+        "marker-symbol": 14,
+        "name": "14. Nino Hochbau",
+        "description": "Nino Hochbau: Stadtmuseum Nordhorn"
+      }
+    }
+  ]
+}
