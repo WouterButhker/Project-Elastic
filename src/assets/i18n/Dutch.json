@@ -8,5 +8,8 @@
     "cancel" : "Annuleren",
     "intro" : "Introductie",
     "about" : "Over deze App",
-    "thanks to" : "Met dank aan"
+    "thanks to" : "Met dank aan",
+    "city": "Stad",
+    "language": "Taal",
+    "map" : "Kaart"
 }

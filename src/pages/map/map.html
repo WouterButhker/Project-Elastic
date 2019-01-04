@@ -1,17 +1,17 @@
 <ion-header>
-  <ion-navbar color="{{color}}">
+  <ion-navbar color="{{dataManager.color}}">
       <ion-buttons>
           <button ion-button menuToggle>
               <ion-icon name="menu"></ion-icon>
           </button>
       </ion-buttons>
     <ion-title>
-      Map
+      {{'map' | translate}}
     </ion-title>
 
       <ion-buttons end>
           <button class="flag" (click)="openLanguageSelector($event)">
-              <img src="{{cityFlag}}" alt="" float="right">
+              <img src="{{dataManager.flag}}" alt="" float="right">
           </button>
 
       </ion-buttons>

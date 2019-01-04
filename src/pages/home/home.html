@@ -2,7 +2,7 @@
 
 <ion-header>
 
-    <ion-navbar color="{{color}}">
+    <ion-navbar color="{{dataManager.color}}">
         <ion-buttons>
             <button ion-button menuToggle>
                 <ion-icon name="menu"></ion-icon>
@@ -13,7 +13,7 @@
 
         <ion-buttons end>
             <button class="flag" (click)="openLanguageSelector($event)">
-                <img src="{{currentCountryImage}}" float="right">
+                <img src="{{dataManager.flag}}" alt="" float="right">
             </button>
 
         </ion-buttons>
@@ -30,16 +30,16 @@
     <button ion-item *ngFor="let loc of locations | async" (click)="viewDetailPage(loc)" >
         <ion-card id="card">
 
-            <img src="{{dataManager.getPicturePathByCity(loc, currentCity)}}" alt="" padding="10px">
+            <img src="{{dataManager.getPicturePath(loc)}}" alt="" padding="10px">
 
 
             <ion-card-header text-wrap="white-space: normal">
-                {{dataManager.getPropertyName(loc, currentLanguage)}}
+                {{dataManager.getPropertyName(loc)}}
             </ion-card-header>
 
             <ion-card-content text-wrap="white-space: normal">
                 <p>
-                    {{dataManager.getPropertyShortDescription(loc, currentLanguage)}}
+                    {{dataManager.getPropertyShortDescription(loc)}}
                 </p>
             </ion-card-content>
         </ion-card>

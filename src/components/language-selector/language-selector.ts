@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ViewController, Events } from "ionic-angular";
 import { TranslateService } from "@ngx-translate/core";
+import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 
 /**
  * Generated class for the LanguageSelectorComponent component.
@@ -15,18 +16,19 @@ import { TranslateService } from "@ngx-translate/core";
 export class LanguageSelectorComponent {
 
     selectedCity: string;
-    selectedLanguage: string;
+    selectedLanguage: string; // TODO: fix selected language not displaying correctly
     cities: object[];
     imgBasePath: string = 'assets/Pictures/Flags/';
 
     constructor(private event: Events,
                 public viewCtrl: ViewController,
-                public translate: TranslateService) {
+                public translate: TranslateService,
+                public dataManager: DataManagerProvider) {
 
 
 
-        this.selectedCity = this.viewCtrl.getNavParams().get('city');
-        this.selectedLanguage = this.viewCtrl.getNavParams().get('language');
+        this.selectedCity = this.dataManager.city;
+        this.selectedLanguage = this.dataManager.language;
 
 
 
@@ -63,43 +65,29 @@ export class LanguageSelectorComponent {
     }
 
     cancelLanguage() {
+        this.translate.use(this.dataManager.language); // revert to original language
         this.viewCtrl.dismiss();
     }
 
     // gets executed when user clicks save
     saveLanguage() {
-        // do not allow cities to be viewed in languages they do not support
-        // eg view Zelow in Dutch
-        // this checks if the language is the native language of the city or english
-        let almeloInGerman = (this.selectedCity == "Almelo" && this.selectedLanguage == "German");
-        // for Almelo there is an exception because it can be viewed in both native language, English and German
 
-        // @ts-ignore
-        if (this.selectedLanguage != this.getCityByName(this.selectedCity).language && this.selectedLanguage != "English" && !almeloInGerman) {
-            console.log("Language error");
+        console.log("---------------");
+        console.log("Language Selector component");
+        console.log("Changed Language to: " + this.selectedLanguage);
+        console.log("Changed city to: " + this.selectedCity);
+        console.log("Changed navBarColor to: " + this.getNavBarColor());
+        console.log("Changed Flag to: " + this.getCityByLanguage(this.selectedLanguage)['image']);
+        console.log("---------------");
+        this.dataManager.language = this.selectedLanguage;
+        this.dataManager.city = this.selectedCity;
+        this.dataManager.color = this.getNavBarColor();
+        this.dataManager.flag = this.getCityByLanguage(this.selectedLanguage)['image'];
 
-            // FIXME there should be a better way to do this
-            // change the language to the native language of the city
-            // this is also where the checkmark appeared for the user
-            // @ts-ignore
-            this.selectedLanguage = this.getCityByName(this.selectedCity).language;
-        }
 
-        // pass the language and city on to the homePage
-        // @ts-ignore
-        let img = this.getCityByName(this.selectedCity).image;
-        this.event.publish(
-            "Language + city",
-            {
-                "language" : this.selectedLanguage,
-                "city" : this.selectedCity,
-                "image" : img,
-                "color" : this.getNavBarColor()
-            });
+        this.event.publish("Language + city");
 
-        // close the view after everything is done
-        this.viewCtrl.dismiss();
-
+        this.viewCtrl.dismiss()
     }
 
     getCityByName(cityName) { // get the city of this.cities by name
@@ -111,6 +99,20 @@ export class LanguageSelectorComponent {
             return this.cities[2];
         } else if (cityName == "Valasske") {
             return this.cities[3];
+        }
+    }
+
+    getCityByLanguage(language) { // get the city of this.cities by name
+        if (language == "Dutch") {
+            return this.cities[0];
+        } else if (language == "German") {
+            return this.cities[1];
+        } else if (language == "Polish") {
+            return this.cities[2];
+        } else if (language == "Czech") {
+            return this.cities[3];
+        } else {
+            return {image: this.imgBasePath + "united-kingdom.png"}
         }
     }
 

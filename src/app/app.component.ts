@@ -6,6 +6,7 @@ import { TranslateService } from "@ngx-translate/core";
 import {IntroPage} from "../pages/intro/intro";
 import {TabsPage} from "../pages/tabs/tabs";
 import {ContactPage} from "../pages/contact/contact";
+import {DataManagerProvider} from "../providers/data-manager/data-manager";
 
 @Component({
     templateUrl: 'app.html'
@@ -18,7 +19,8 @@ export class MyApp {
                 platform: Platform,
                 statusBar: StatusBar,
                 splashScreen: SplashScreen,
-                translate: TranslateService) {
+                translate: TranslateService,
+                private dataManager: DataManagerProvider) {
 
         translate.setDefaultLang("Dutch"); // sets default language to Dutch
         // TODO: set default language based on locale
@@ -38,12 +40,11 @@ export class MyApp {
         } else if (city == "Contact") {
             this.nav.push(ContactPage)
         } else {
-            this.nav.setRoot(TabsPage, {
-                city: city,
-                language: language,
-                color: color,
-                image: 'assets/Pictures/Flags/' + country +  ".png"
-            });
+            this.dataManager.city = city;
+            this.dataManager.language = language;
+            this.dataManager.color = color;
+            this.dataManager.flag = "assets/Pictures/Flags/" + country + ".png";
+            this.nav.setRoot(TabsPage, {});
         }
 
 

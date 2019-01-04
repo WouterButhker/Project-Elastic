@@ -29,9 +29,6 @@ export class DetailPage {
           public dataManager: DataManagerProvider) {
 
       this.locationDetails = this.navParams.get('locationFeature');
-      this.city = this.navParams.get("city");
-      this.language = this.navParams.get("language");
-      this.color = this.navParams.get("color");
       this.pictures = this.locationDetails.properties.picture_name;
 
 

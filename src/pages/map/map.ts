@@ -1,8 +1,8 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, ToastController, Events, NavParams, PopoverController } from 'ionic-angular';
 import { DetailPage } from "../detail/detail";
-import { LanguageSelectorComponent } from "../../components/language-selector/language-selector";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
+import {LanguageSelectorComponent} from "../../components/language-selector/language-selector";
 
 declare var google: any;
 
@@ -13,11 +13,6 @@ declare var google: any;
 
 export class MapPage {
     map: any;
-    public city: string = "Almelo";
-
-    language: string = "Dutch";
-    public color: string = "almelo_green";
-    public cityFlag: string = "assets/Pictures/Flags/netherlands.png";
     public listener;
     mapCenter: object = {
         "Almelo" : {
@@ -47,14 +42,10 @@ export class MapPage {
 
 
         // check if the language or city changed
-        this.event.subscribe("Language + city", (languageCity) => {
+        this.event.subscribe("Language + city", () => {
 
-            let language = languageCity.language;
-            let city = languageCity.city;
-            this.changeCityAndLanguage(city, language);
+            this.changeCityAndLanguage();
 
-            // changes navbar color
-            this.color = languageCity.color;
 
         })
 
@@ -64,11 +55,11 @@ export class MapPage {
 
     ionViewDidLoad() {
         this.initMap();
+        this.changeCityAndLanguage();
 
         // change the city and color to the correct value on first load of the page
         // after the first load the they will be changed by the event
         // also sets the correct json and language on first load
-        this.initColorCity();
 
 
     }
@@ -101,12 +92,11 @@ export class MapPage {
             let name;
             let description;
             let picture = self.dataManager.getPicturePathByNameAndFolder(
-                self.city,
                 event.feature.getProperty('picture_name'),
                 event.feature.getProperty('picture_folder'));
 
             // if English is selected as language use English names in the infowindow
-            if (self.language == "English") {
+            if (self.dataManager.language == "English") {
                 name = event.feature.getProperty('name_en');
                 description = event.feature.getProperty('short_description_en');
 
@@ -119,7 +109,7 @@ export class MapPage {
             let content = `
                 <div id="infoWindowDiv">
                     <button ion-item id="infoWindowButton" (click)="self.viewDetailPage()">
-                        <img src=" ` + picture + `" id="infoWindowPicture">
+                        <img src=" ` + picture + `" id="infoWindowPicture" alt="">
                         <br clear="left">
                         <h2> ` + name + `</h2>
                         <p> ` + description + ` </p>
@@ -152,61 +142,22 @@ export class MapPage {
 
     }
 
-
-    private initColorCity() {
-        // gets the values passed from the home screen on first load of the page
-        // these values will return undefined if the user never changed the language
-        let initialCity = this.navParams.get("city");
-        let initialLanguage = this.navParams.get("language");
-        let initialFlag = this.navParams.get("image");
-        let initialColor = this.navParams.get("color");
-
-        // load the correct json and language
-        // if the user hasn't changed the city or language yet load the default values
-        if (initialCity == undefined && initialLanguage == undefined) {
-            this.changeCityAndLanguage(this.city, this.language)
-        } else if (this.city != initialCity && initialCity != undefined) {
-            this.changeCityAndLanguage(initialCity, initialLanguage)
-        } else if (this.city == initialCity && this.language == initialLanguage) {
-            this.changeCityAndLanguage(this.city, this.language)
-        }
-
-        // change color
-        if (this.color != initialColor && initialColor != undefined) {
-            this.color = initialColor;
-        }
-
-        // change city flag
-        if (this.cityFlag != initialFlag && initialFlag != undefined) {
-            this.cityFlag = initialFlag;
-        }
-
-
-    }
-
-    private changeCityAndLanguage(city, language) {
+    private changeCityAndLanguage() {
 
         // load the new json file
-        this.map.data.loadGeoJson('assets/Json/' + city + '.json');
-        this.city = city;
-        console.log("City changed to: " + city);
+        this.map.data.loadGeoJson('assets/Json/' + this.dataManager.city + '.json');
 
+        console.log("-----------");
+        console.log("MapPage");
+        console.log("City changed to: " + this.dataManager.city);
+        console.log("-----------");
         // center the map on the new city
-        this.map.panTo(this.mapCenter[city]);
-
-        // change language
-        console.log("language changed to " + language);
-        this.language = language;
-
-
+        this.map.panTo(this.mapCenter[this.dataManager.city]);
 
     }
 
     private viewDetailPage(event) {
-        //alert(loc.properties.name);
-
-
-        // the detailpage needs the data in an array
+        // the detailpage needs the data in an object
 
         let locationFeature = {
             "properties": event.feature.l,
@@ -214,6 +165,7 @@ export class MapPage {
             "geometry" : {
                 "type" : event.feature.getGeometry().getType(),
                 "coordinates" : event.latLng.toString()
+                // TODO: fix coordinates
                 // these are the coordinates of the click-event, not the location of the item
                 // this means items such as a linestring will only output a single point
             }
@@ -224,20 +176,15 @@ export class MapPage {
         // open detailpage with the correct data
         this.navCtrl.push(DetailPage, {
             locationFeature: locationFeature,
-            city: this.city,
-            language: this.language,
-            color: this.color
         });
 
 
     }
 
-
     private openLanguageSelector(myEvent) {
         let popover = this.popoverCtrl.create(
             LanguageSelectorComponent,
-            // pass the current city and language so the user will see the correct radio buttons selected
-            {'city': this.city, 'language': this.language},
+            {},
             {cssClass: 'custom-popover'});
 
         popover.present( {
@@ -245,7 +192,6 @@ export class MapPage {
         });
 
     }
-
 
 }
 

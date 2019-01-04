@@ -3,7 +3,7 @@
 
 
     <ion-title class="title">
-        Stad
+        {{'city' | translate}}
     </ion-title>
     <!--Start of the city selector radio-->
     <ion-list radio-group="selectedCity" [(ngModel)]="selectedCity">
@@ -11,7 +11,7 @@
         <!--loop through the cities and show them in the radio with flag-->
         <ion-item *ngFor="let city of cities" >
             <ion-label>
-                <img src="{{city.image}}">
+                <img src="{{city.image}}" alt="">
                 {{city.viewName}}
             </ion-label>
 
@@ -22,7 +22,7 @@
     <!--End city radio-->
 
     <ion-title class="title">
-        Language
+        {{'language' | translate}}
     </ion-title>
 
     <!--Start language radio-->
@@ -31,7 +31,7 @@
         <!--Native language-->
         <ion-item>
             <ion-label>
-                <img src="{{getCityByName(selectedCity).image}}" class="flag">
+                <img src="{{getCityByName(selectedCity).image}}" alt="" class="flag">
                 {{getCityByName(selectedCity).viewLanguage}}
             </ion-label>
 
@@ -42,7 +42,7 @@
         <!--Display extra German language when Almelo is selected-->
         <ion-item *ngIf="getCityByName(selectedCity).name == 'Almelo'">
             <ion-label>
-                <img src="{{cities[1].image}}">
+                <img src="{{cities[1].image}}" alt="">
                 {{cities[1].viewLanguage}}
             </ion-label>
 
@@ -52,7 +52,7 @@
         <!--English-->
         <ion-item>
             <ion-label>
-                <img src="assets/Pictures/Flags/united-kingdom.png" class="flag">
+                <img src="assets/Pictures/Flags/united-kingdom.png" alt="" class="flag">
                 English
             </ion-label>
 
