@@ -62,7 +62,10 @@ export class DetailPage {
     }
 
 
+    //TODO: link to mappage
+    openMapPage() {
 
+    }
 
 
 

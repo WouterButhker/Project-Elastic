@@ -72,8 +72,7 @@ export class MapPage {
         const options = {
             center: Almelo,
             zoom: 14,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            mapTypeControl: false,
+            mapTypeControl: true,
             fullscreenControl: false
         };
 
