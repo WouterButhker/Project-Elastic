@@ -8,7 +8,6 @@ export class DataManagerProvider {
     public city: string = "Almelo";
     public color: string = "almelo_green";
     public flag: string = "assets/Pictures/Flags/netherlands.png";
-    public allCityLocations: object;
 
 
     constructor(

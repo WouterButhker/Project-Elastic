@@ -69,17 +69,202 @@ export class MapPage {
     private initMap() {
         // create the Map
         const Almelo = new google.maps.LatLng(52.3570267, 6.668491899999935);
+
+        // default styles
+        const styles = [{
+            "featureType": "administrative.locality",
+                "stylers": [{"color": "#004080"}, {"visibility": "on"}, {"weight": 0.5}]
+        }, {"featureType": "poi.school",
+                "stylers": [{"visibility": "on"}]}];
+
+        let nightMode = new google.maps.StyledMapType(
+            [
+                {
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#242f3e"
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#746855"
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "color": "#242f3e"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative.locality",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#d59563"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#d59563"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#263c3f"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#6b9a76"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#38414e"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "color": "#212a37"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#9ca5b3"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#746855"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "color": "#1f2835"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#f3d19c"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#2f3948"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit.station",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#d59563"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#17263c"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#515c6d"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [
+                        {
+                            "color": "#17263c"
+                        }
+                    ]
+                }
+            ],
+            {name: 'Night Mode'}
+        );
+
         const options = {
             center: Almelo,
             zoom: 14,
             mapTypeControl: true,
-            fullscreenControl: false
+            fullscreenControl: false,
+            clickableIcons: false,
+            streetViewControl: true,
+            styles: styles,
+            tilt: 0,
+            mapTypeControlOptions: {
+                mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain', 'night_mode']
+            }
         };
+
+        // TODO: add ground overlay (old maps)
+
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
 
 
-        //
+        // make nightmode available for the user
+        this.map.mapTypes.set('night_mode', nightMode);
+
 
         // create the infowindows
         let infoWindow = new google.maps.InfoWindow();
@@ -107,12 +292,12 @@ export class MapPage {
 
             let content = `
                 <div id="infoWindowDiv">
-                    <button ion-item id="infoWindowButton" (click)="self.viewDetailPage()">
+                    <ion-item ion-item id="infoWindowButton" (click)="self.viewDetailPage()">
                         <img src=" ` + picture + `" id="infoWindowPicture" alt="">
                         <br clear="left">
                         <h2> ` + name + `</h2>
                         <p> ` + description + ` </p>
-                    </button>
+                    </ion-item>
                 </div>
             `;
 
