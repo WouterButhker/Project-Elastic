@@ -4,13 +4,13 @@
 
 
     <ion-navbar color="{{dataManager.color}}">
-        <ion-buttons>
-            <button ion-button menuToggle>
+        <ion-buttons id="ion_buttons">
+            <button class="flag" ion-button menuToggle>
                 <ion-icon name="menu"></ion-icon>
             </button>
         </ion-buttons>
 
-        <ion-title>Home</ion-title>
+        <ion-title class="ion-nav-title">Home</ion-title>
 
         <ion-buttons end>
             <button class="flag" (click)="openLanguageSelector($event)">

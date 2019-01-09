@@ -2,6 +2,7 @@ import {Component, ViewChild} from '@angular/core';
 import {IonicPage, NavController, NavParams, Slides} from 'ionic-angular';
 import { TranslateService } from "@ngx-translate/core";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
+import {MapPage} from "../map/map";
 
 @IonicPage()
 @Component({
@@ -64,6 +65,8 @@ export class DetailPage {
 
     //TODO: link to mappage
     openMapPage() {
+        this.navCtrl.push(MapPage, {viewSingleLocation: true, locationFeature: this.locationDetails})
+
 
     }
 

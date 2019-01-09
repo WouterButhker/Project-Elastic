@@ -54,13 +54,14 @@ export class MapPage {
 
 
     ionViewDidLoad() {
+        // open single location if the map gets a request from detailpage
+
         this.initMap();
         this.changeCityAndLanguage();
 
-        // change the city and color to the correct value on first load of the page
-        // after the first load the they will be changed by the event
-        // also sets the correct json and language on first load
-
+        if (this.navParams.get('viewSingleLocation')) {
+            this.openLocation(this.navParams.get('locationFeature'))
+        }
 
     }
 
@@ -326,6 +327,7 @@ export class MapPage {
 
     }
 
+
     private changeCityAndLanguage() {
 
         // load the new json file
@@ -375,6 +377,59 @@ export class MapPage {
             ev: myEvent
         });
 
+    }
+
+    private openLocation(locationFeature) {
+        // TODO: Refactor
+        console.log("Focussing map on: " + locationFeature.geometry.coordinates);
+        let location = new google.maps.LatLng(locationFeature.geometry.coordinates[1], locationFeature.geometry.coordinates[0]);
+        this.map.panTo(location);
+
+        // open the infowindow
+
+        let infoWindow = new google.maps.InfoWindow();
+
+        // listens to a click on a item (e.g. marker) and display the infowindow
+
+        let name;
+        let description;
+        let picture = this.dataManager.getPicturePathByNameAndFolder(
+            locationFeature.properties.picture_name,
+            locationFeature.properties.picture_folder);
+        console.log(picture);
+
+        // if English is selected as language use English names in the infowindow
+        if (this.dataManager.language == "English") {
+            name = locationFeature.properties.name_en;
+            description = locationFeature.properties.short_description_en;
+
+            // otherwise use the native language
+        } else {
+            name = locationFeature.properties.name;
+            description = locationFeature.properties.short_description;
+        }
+
+        let content = `
+            <div id="infoWindowDiv">
+                <ion-item ion-item id="infoWindowButton" (click)="self.viewDetailPage()">
+                    <img src=" ` + picture + `" id="infoWindowPicture" alt="">
+                    <br clear="left">
+                    <h2> ` + name + `</h2>
+                    <p> ` + description + ` </p>
+                </ion-item>
+            </div>
+        `;
+
+        infoWindow.setContent(content);
+        infoWindow.setPosition(location);
+
+        // show the infowindow in the correct position (above markers and on lines)
+        infoWindow.setOptions({pixelOffset: new google.maps.Size(0,0)});
+        if (locationFeature.geometry.type === "Point") {
+            infoWindow.setOptions({pixelOffset: new google.maps.Size(0,-40)});
+        }
+
+        infoWindow.open(this.map);
     }
 
 }
