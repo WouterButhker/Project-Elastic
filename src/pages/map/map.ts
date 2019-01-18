@@ -381,7 +381,6 @@ export class MapPage {
 
     private openLocation(locationFeature) {
         // TODO: Refactor
-        console.log("Focussing map on: " + locationFeature.geometry.coordinates);
         let location = new google.maps.LatLng(locationFeature.geometry.coordinates[1], locationFeature.geometry.coordinates[0]);
         this.map.panTo(location);
 
@@ -396,7 +395,6 @@ export class MapPage {
         let picture = this.dataManager.getPicturePathByNameAndFolder(
             locationFeature.properties.picture_name,
             locationFeature.properties.picture_folder);
-        console.log(picture);
 
         // if English is selected as language use English names in the infowindow
         if (this.dataManager.language == "English") {

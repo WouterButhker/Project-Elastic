@@ -63,16 +63,13 @@ export class DetailPage {
     }
 
 
-    //TODO: link to mappage
-    openMapPage() {
+    private openMapPage() {
         this.navCtrl.push(MapPage, {viewSingleLocation: true, locationFeature: this.locationDetails})
-
-
     }
 
 
 
-    public getStaticMap() {
+    private getStaticMap() {
       // TODO: fix static maps
       let coordinates = this.locationDetails.geometry.coordinates;
       let signature = "q62hxW91A_AyMKSbAjl1NPIOj4w=";
