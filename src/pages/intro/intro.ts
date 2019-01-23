@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {IonicPage, NavController, NavParams, PopoverController} from 'ionic-angular';
 import {TabsPage} from "../tabs/tabs";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {TranslateService} from "@ngx-translate/core";
 import {el} from "@angular/platform-browser/testing/src/browser_util";
+import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
+import {LanguageSelectorComponent} from "../../components/language-selector/language-selector";
 
 /**
  * Generated class for the IntroPage page.
@@ -20,9 +22,9 @@ import {el} from "@angular/platform-browser/testing/src/browser_util";
 export class IntroPage {
 
   constructor(public navCtrl: NavController,
-              public navParams: NavParams,
               private dataManager: DataManagerProvider,
-              private translate: TranslateService) {
+              private translate: TranslateService,
+              private popoverCtrl: PopoverController) {
 
       this.checkUserLanguage();
   }
@@ -40,15 +42,33 @@ export class IntroPage {
   private checkUserLanguage() {
       this.translate.setDefaultLang("Dutch"); // sets default language to Dutch
       if (navigator.language.startsWith("en")) {
-          this.translate.use("English")
+          this.translate.use("English");
+          this.dataManager.language = "English";
       } else if (navigator.language.startsWith("nl")) {
-          this.translate.use("Dutch")
+          this.translate.use("Dutch");
+          this.dataManager.language = "Dutch";
       } else if (navigator.language.startsWith("pl")) {
-          this.translate.use("Polish")
+          this.translate.use("Polish");
+          this.dataManager.language = "Polish";
       } else if (navigator.language.startsWith("cs")) {
-         this.translate.use("Czech")
+         this.translate.use("Czech");
+         this.dataManager.language = "Czech";
       } else {
           this.translate.use("English");
+          this.dataManager.language = "English";
       }
+      this.dataManager.setFlag();
   }
+
+    private openLanguageSelector(myEvent) {
+        let popover = this.popoverCtrl.create(
+            LanguageSelectorComponent,
+            {},
+            {cssClass: 'custom-popover'});
+
+        popover.present( {
+            ev: myEvent
+        });
+
+    }
 }

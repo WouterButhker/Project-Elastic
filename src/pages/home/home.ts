@@ -3,7 +3,7 @@ import {HttpClient} from "@angular/common/http";
 import {Events, NavController, PopoverController} from "ionic-angular";
 import {DetailPage} from "../detail/detail";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
-import {LanguageSelectorComponent} from "../../components/language-selector/language-selector";
+import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
 
 
 @Component({
@@ -11,6 +11,7 @@ import {LanguageSelectorComponent} from "../../components/language-selector/lang
     templateUrl: 'home.html'
 })
 
+// TODO: when opening homepage from intropage the language changes back to native
 
 export class HomePage {
 
@@ -52,7 +53,7 @@ export class HomePage {
 
     private openLanguageSelector(myEvent) {
         let popover = this.popoverCtrl.create(
-            LanguageSelectorComponent,
+            LanguageCitySelectorComponent,
             {},
             {cssClass: 'custom-popover'});
 

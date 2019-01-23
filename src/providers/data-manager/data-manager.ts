@@ -1,18 +1,17 @@
 import {HttpClient} from '@angular/common/http';
 import {Injectable} from '@angular/core';
 
-
 @Injectable()
 export class DataManagerProvider {
     public language: string = "Dutch";
     public city: string = "Almelo";
     public color: string = "almelo_green";
     public flag: string = "assets/Pictures/Flags/netherlands.png";
+    public imgBasePath: string = 'assets/Pictures/Flags/';
 
 
     constructor(
         public http: HttpClient) {
-        console.log('Hello DataManagerProvider Provider');
     }
 
     public async loadDataFromJson() {
@@ -63,6 +62,53 @@ export class DataManagerProvider {
             return locationFeature.properties.description_en
         }
         return locationFeature.properties.description
+    }
+
+    public getCityData() {
+        return [
+            {
+                name: "Almelo",
+                viewName: "Almelo",
+                image: this.imgBasePath + "netherlands.png",
+                language: "Dutch",
+                viewLanguage: "Nederlands"
+            },
+            {
+                name: "Nordhorn",
+                viewName: "Nordhorn",
+                image: this.imgBasePath + "germany.png",
+                language: "German",
+                viewLanguage: "Deutsch"
+            },
+            {
+                name: "Zelow",
+                viewName: "Zelów",
+                image: this.imgBasePath + "poland.png",
+                language: "Polish",
+                viewLanguage: "Język polski"
+            },
+            {
+                name: "Valasske",
+                viewName: "Valašské Klobouky",
+                image: this.imgBasePath + "czech-republic.png",
+                language: "Czech",
+                viewLanguage: "Český jazyk"
+            }];
+    }
+
+    public setFlag() {
+        // gets the correct flag from the selected language
+        for (let i = 0; i<4; i++) {
+            if (this.language == this.getCityData()[i].language && this.flag != this.getCityData()[i].image) {
+                this.flag = this.getCityData()[i].image;
+            } else if (this.language == "English" && this.flag != "assets/Pictures/Flags/united-kingdom.png") {
+                this.flag = "assets/Pictures/Flags/united-kingdom.png";
+                break;
+            }
+
+        }
+
+
     }
 
 

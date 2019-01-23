@@ -1,0 +1,84 @@
+<!-- Generated template for the LanguageCitySelectorComponent component -->
+<div>
+
+
+    <ion-title class="title">
+        {{'city' | translate}}
+    </ion-title>
+    <!--Start of the city selector radio-->
+    <ion-list radio-group="selectedCity" [(ngModel)]="selectedCity">
+
+        <!--loop through the cities and show them in the radio with flag-->
+        <ion-item *ngFor="let city of cities" >
+            <ion-label>
+                <img src="{{city.image}}" alt="">
+                {{city.viewName}}
+            </ion-label>
+
+            <ion-radio value="{{city.name}}"></ion-radio>
+        </ion-item>
+
+    </ion-list>
+    <!--End city radio-->
+
+    <ion-title class="title">
+        {{'language' | translate}}
+    </ion-title>
+
+    <!--Start language radio-->
+    <ion-list radio-group [(ngModel)]="selectedLanguage">
+
+        <!--Native language-->
+        <ion-item>
+            <ion-label>
+                <img src="{{getCityByName(selectedCity).image}}" alt="" class="flag">
+                {{getCityByName(selectedCity).viewLanguage}}
+            </ion-label>
+
+            <ion-radio value="{{getCityByName(selectedCity).language}}" (ionSelect)="changeButtonLang()"> </ion-radio>
+        </ion-item>
+
+
+        <!--Display extra German language when Almelo is selected-->
+        <ion-item *ngIf="getCityByName(selectedCity).name == 'Almelo'">
+            <ion-label>
+                <img src="{{cities[1].image}}" alt="">
+                {{cities[1].viewLanguage}}
+            </ion-label>
+
+            <ion-radio value="{{cities[1].language}}" (ionSelect)="changeButtonLang()"></ion-radio>
+        </ion-item>
+
+        <!--English-->
+        <ion-item>
+            <ion-label>
+                <img src="assets/Pictures/Flags/united-kingdom.png" alt="" class="flag">
+                English
+            </ion-label>
+
+            <ion-radio value="English" (ionSelect)="changeButtonLang()">
+                English
+            </ion-radio>
+        </ion-item>
+
+    </ion-list>
+    <!--end language radio-->
+
+    <!--save and cancel button-->
+    <ion-row>
+        <ion-col>
+            <button class="button" (click)="cancelLanguage()" id="cancelButton">
+                {{'cancel' | translate }}
+            </button>
+        </ion-col>
+
+        <ion-col>
+            <button  class="button" id="saveButton" (click)="saveLanguage()">
+                {{'save' | translate }}
+            </button>
+        </ion-col>
+    </ion-row>
+    <!--end save and cancel button-->
+
+
+</div>

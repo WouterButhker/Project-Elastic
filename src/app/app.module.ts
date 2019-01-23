@@ -14,7 +14,8 @@ import { DetailPage} from "../pages/detail/detail";
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { LanguageSelectorComponent} from "../components/language-selector/language-selector";
+import { LanguageCitySelectorComponent} from "../components/language-city-selector/language-city-selector";
+import { LanguageSelectorComponent } from "../components/language-selector/language-selector";
 import { TranslateModule, TranslateLoader} from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import {IntroPage} from "../pages/intro/intro";
@@ -29,6 +30,7 @@ import { DataManagerProvider } from '../providers/data-manager/data-manager';
         IntroPage,
         TabsPage,
         DetailPage,
+        LanguageCitySelectorComponent,
         LanguageSelectorComponent
     ],
     imports: [
@@ -52,6 +54,7 @@ import { DataManagerProvider } from '../providers/data-manager/data-manager';
         IntroPage,
         TabsPage,
         DetailPage,
+        LanguageCitySelectorComponent,
         LanguageSelectorComponent
     ],
     providers: [

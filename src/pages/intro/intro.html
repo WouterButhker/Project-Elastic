@@ -8,6 +8,13 @@
 
   <ion-navbar color="dark">
     <ion-title>{{'intro' | translate}}</ion-title>
+
+      <ion-buttons end>
+          <button class="flag" (click)="openLanguageSelector($event)">
+              <img src="{{dataManager.flag}}" alt="" float="right">
+          </button>
+
+      </ion-buttons>
   </ion-navbar>
 
 </ion-header>
@@ -18,9 +25,6 @@
     <h2>{{'welcome' | translate }}</h2>
     <p>{{"development" | translate }}</p>
 
-
-
-    Klik hier om een van de steden te bezoeken
 
         <button id="Almelo" class="cityButton" (click)="start('Almelo', 'Dutch', 'almelo_green', 'netherlands')">
             Almelo
