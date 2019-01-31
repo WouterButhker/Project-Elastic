@@ -1,300 +1,437 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.07369949999998,
-          52.4358112,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#fadd00",
-        "marker-size": "large",
-        "marker-symbol": 1,
-        "name": "1. Start am VVV: Allgemeine Einleitung",
-        "description": "VVV-Stadtmarketing Nordhorn e.V."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0637557,
-          52.4396945,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#04fa00",
-        "marker-size": "medium",
-        "marker-symbol": 2,
-        "name": "2. Ehemalige Textilfabrik Rawe am Stadtring"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0630798,
-          52.4398057,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#15fa00",
-        "marker-size": "medium",
-        "marker-symbol": 3,
-        "name": "3. Ehemaliges Kesselhaus (Samocca)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0628384,
-          52.4396487,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#11fa00",
-        "marker-size": "medium",
-        "marker-symbol": 4,
-        "name": "4. Ehemaliges Werksgelände"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0619023,
-          52.440149,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#54e218",
-        "marker-size": "medium",
-        "marker-symbol": 5,
-        "name": "5. Ehemalige Arbeitersiedlung Rawe"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.07261749999998,
-          52.4325999,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#fa7000",
-        "marker-size": "medium",
-        "marker-symbol": 6,
-        "name": "6. Povelturm"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0744765,
-          52.4341676,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#fa8500",
-        "marker-size": "medium",
-        "marker-symbol": 7,
-        "name": "7. Saniertes Povelgelände (Klein Venedig)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0751095,
-          52.4329084,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#fa8500",
-        "marker-size": "medium",
-        "marker-symbol": 8,
-        "name": "8. Alte Weberei: Maschienenmuseum Nordhorn"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.07503329999997,
-          52.4324584,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#fa7000",
-        "marker-size": "medium",
-        "marker-symbol": 9,
-        "name": "9. Alte Weberei: Kulturzentrum",
-        "description": "Kulturzentrum Alte Weberei Nordhorn GmbH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.07470990000002,
-          52.4322364,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#fa8e00",
-        "marker-size": "medium",
-        "marker-symbol": 9,
-        "name": "9.1 Städtische Galerie Nordhorn"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0761126,
-          52.4321562,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#fa7d00",
-        "marker-size": "medium",
-        "marker-symbol": 10,
-        "name": "10. Aussichtsplattform: Die Pyramide"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0675376,
-          52.4285844,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#2100fa",
-        "marker-size": "medium",
-        "marker-symbol": 11,
-        "name": "11. Nino: Ehemaliges Verwaltungsgebäude"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.06768999999997,
-          52.42798,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#3600fa",
-        "marker-size": "medium",
-        "marker-symbol": 12,
-        "name": "12. Nino: ehemalige Weberei (VHS)",
-        "description": "Volkshochschule Grafschaft Bentheim"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              7.0680037,
-              52.4252769,
-              0
-            ],
-            [
-              7.0704392,
-              52.4261274,
-              0
-            ],
-            [
-              7.0698383,
-              52.4270172,
-              0
-            ],
-            [
-              7.0675746,
-              52.4282078,
-              0
-            ],
-            [
-              7.06736,
-              52.4278873,
-              0
-            ],
-            [
-              7.0678321,
-              52.4255452,
-              0
-            ],
-            [
-              7.0680037,
-              52.4252769,
-              0
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "stroke": "#1400a8",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#0089a8",
-        "fill-opacity": 0.5,
-        "name": "13. Nino: ehemaliges Werksgelände ( evang. Gym, Stadtarchiv, Diakonie, Caritas, Kino, Mahlzeit)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.07152180000003,
-          52.4261604,
-          0
-        ]
-      },
-      "properties": {
-        "marker-color": "#0000fa",
-        "marker-size": "medium",
-        "marker-symbol": 14,
-        "name": "14. Nino Hochbau",
-        "description": "Nino Hochbau: Stadtmuseum Nordhorn"
-      }
-    }
-  ]
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.07369949999998,
+                    52.4358112
+                ]
+            },
+            "properties": {
+                "name": "VVV Nordhorn",
+                "marker-color": "#fadd00",
+                "marker-size": "large",
+                "marker-symbol": 1,
+                "name_en": "Tourist Information Nordhorn",
+                "name_nl": "VVV Nodhorn",
+                "short_description": "Ihr Startpunkt zur Textilroute.",
+                "short_description_en": "Your starting point for the textile tour.",
+                "short_description_nl": "Uw startpunt voor de textilroute.",
+                "description": "<h1>Nordhorner Stadtrundgang: Auf den Spuren der Nordhorner Textilindustrie</h1><p>Liebe Besucherin, lieber Besucher,</p><p>wir laden Sie ein, mit uns einen Rundgang durch Nordhorn zu machen, auf dem Sie auf den Spuren der ehemaligen Textilindustrie wandeln werden. Der Grundstein für die Entwicklung der Textilindustrie wurde bereits im 19. Jh. gelegt. Zu Beginn des 20. Jh. gab es drei große Textilfabriken: Rawe, Povel und NINO, die die Stadtentwicklung grundlegend prägten. Am Ende des Jahrhunderts existierte jedoch keiner der großen Betriebe mehr, die Stadt hat sich grundlegend gewandelt: Nordhorn ist zur ‚Wasserstadt‘ geworden, einer Stadt mit hoher Lebensqualität und einem großen Angebot an Arbeitsplätzen. Gehen Sie mit uns der Frage nach, was aus dem industriellen Erbe geworden ist.</p>",
+                "description_en": "<h1>Guided City Tour of Nordhorn: Tracing the Nordhorn textile industry</h1><p>Dear visitor,</p><p>we would like to invite you to a guided tour of Nordhorn tracing the sites of the former textile industry. The foundation of the development of the textile industry was already laid in the 19th century. By the beginning of the 20th century there were three large textil companies: Rawe, Povel and NINO, which fundamentally formed the city’s development. By the end of the century non of them existed any more and the city had been radically transformed: Nordhorn had become a ‚city by the water‘ (‚Wasserstadt‘), a city with a high quality of life and a large supply of jobs. Join us on a tour of Nordhorn trying to find out what has become of its rich industrial heritage.</p>",
+                "description_nl": "<h1>De Nordhorn City Tour: een speurtocht naar de Nordhorner Textielindustrie</h1><p>Beste bezoekers,</p><p>Wij nodigen u uit om met ons een speurtocht door Nordhorn te maken, waar u de voetsporen van de voormalige textielindustrie zult volgen. De eerste bouwsteen voor de ontwikkeling van de textielindustrie werd al in de 19de eeuw gemaakt. Aan het begin van de 20e eeuw waren er drie grote textielfabrieken: Rawe, Povel en NINO, die een fundamentele impact hadden op de stedelijke ontwikkeling. Aan het einde van de 20e eeuw, bestond er geen enkel bedrij van deze Globalplayers uit Nordhorn meer. De stad veranderde helemaal: Nordhorn is uitgegroeid tot een ' Waterstad ', een stad met een hoge levenskwaliteit en veel werkgelegenheid.</p><p>Gaat u met ons mee op een spanende tocht door Nordhorn en onderzoekt u de vraag wat uit het industrieel erfgood van deze drie wereldbekende bedrijven uit Nordhorn geworden is.</p>",
+                "category": "starting point",
+                "picture_folder": "Frau Mack",
+                "picture_name": []
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0637557,
+                    52.4396945
+                ]
+            },
+            "properties": {
+                "name": "Ehemalige Textilfabrik Rawe am Stadtring",
+                "marker-color": "#04fa00",
+                "marker-size": "medium",
+                "marker-symbol": 2,
+                "name_en": "Former textle factory Rawe at the Stadtring Nordhorn",
+                "name_nl": "Voormalig fabrieksgebouw van Rawe in Nordhorn",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Rawe",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0630798,
+                    52.4398057
+                ]
+            },
+            "properties": {
+                "name": "Ehemaliges Kesselhaus (Samocca)",
+                "marker-color": "#04fa00",
+                "marker-size": "medium",
+                "marker-symbol": 3,
+                "name_en": "Former power station of Rawe",
+                "name_nl": "De oude Krachtcentrale van Rawe",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Rawe",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0628384,
+                    52.4396487
+                ]
+            },
+            "properties": {
+                "name": "Ehemaliges Werksgelände",
+                "marker-color": "#04fa00",
+                "marker-size": "medium",
+                "marker-symbol": 4,
+                "name_en": "",
+                "name_nl": "",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Rawe",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0619023,
+                    52.440149
+                ]
+            },
+            "properties": {
+                "name": "5. Ehemalige Arbeitersiedlung Rawe",
+                "marker-color": "#04fa00",
+                "marker-size": "medium",
+                "marker-symbol": 5,
+                "name_en": "",
+                "name_nl": "",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Rawe",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.07261749999998,
+                    52.4325999
+                ]
+            },
+            "properties": {
+                "name": "Povelturm",
+                "marker-color": "#fa7000",
+                "marker-size": "medium",
+                "marker-symbol": 6,
+                "name_en": "",
+                "name_nl": "",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Povel",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0744765,
+                    52.4341676
+                ]
+            },
+            "properties": {
+                "name": "7. Saniertes Povelgelände (Klein Venedig)",
+                "marker-color": "#fa7000",
+                "marker-size": "medium",
+                "marker-symbol": 7,
+                "name_en": "",
+                "name_nl": "",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Povel",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0751095,
+                    52.4329084
+                ]
+            },
+            "properties": {
+                "name": "8. Alte Weberei: Maschienenmuseum Nordhorn",
+                "marker-color": "#fa7000",
+                "marker-size": "medium",
+                "marker-symbol": 8,
+                "name_en": "",
+                "name_nl": "",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Povel",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.07503329999997,
+                    52.4324584
+                ]
+            },
+            "properties": {
+                "name": "9. Alte Weberei: Kulturzentrum",
+                "description": "",
+                "marker-color": "#fa7000",
+                "marker-size": "medium",
+                "marker-symbol": 9,
+                "name_en": "",
+                "name_nl": "",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Povel",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0761126,
+                    52.4321562
+                ]
+            },
+            "properties": {
+                "name": "10. Aussichtsplattform: Die Pyramide",
+                "marker-color": "#fa7000",
+                "marker-size": "medium",
+                "marker-symbol": 10,
+                "name_en": "",
+                "name_nl": "",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Povel",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0675376,
+                    52.4285844
+                ]
+            },
+            "properties": {
+                "name": "11. Nino: Ehemaliges Verwaltungsgebäude",
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 11,
+                "name_en": "",
+                "name_nl": "",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Nino",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.06768999999997,
+                    52.42798
+                ]
+            },
+            "properties": {
+                "name": "12. Nino: ehemalige Weberei (VHS)",
+                "description": "",
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 12,
+                "name_en": "",
+                "name_nl": "",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Nino",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            7.0680037,
+                            52.4252769,
+                            0
+                        ],
+                        [
+                            7.0704392,
+                            52.4261274,
+                            0
+                        ],
+                        [
+                            7.0698383,
+                            52.4270172,
+                            0
+                        ],
+                        [
+                            7.0675746,
+                            52.4282078,
+                            0
+                        ],
+                        [
+                            7.06736,
+                            52.4278873,
+                            0
+                        ],
+                        [
+                            7.0678321,
+                            52.4255452,
+                            0
+                        ],
+                        [
+                            7.0680037,
+                            52.4252769,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "13. Nino: ehemaliges Werksgelände ( evang. Gym, Stadtarchiv, Diakonie, Caritas, Kino, Mahlzeit)",
+                "stroke": "#2100fa",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#0089a8",
+                "fill-opacity": 0.5,
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.07152180000003,
+                    52.4261604
+                ]
+            },
+            "properties": {
+                "name": "14. Nino Hochbau",
+                "description": "",
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 14,
+                "name_en": "",
+                "name_nl": "",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_nl": "",
+                "description_en": "",
+                "description_nl": "",
+                "category": "Nino",
+                "picture_folder": "",
+                "picture_name": [
+                    ""
+                ]
+            }
+        }
+    ]
 }

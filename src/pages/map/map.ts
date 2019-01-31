@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController, ToastController, Events, NavParams, PopoverController } from 'ionic-angular';
 import { DetailPage } from "../detail/detail";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
-import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
+import {LanguageSelectorComponent} from "../../components/language-selector/language-selector";
 
 declare var google: any;
 
@@ -13,6 +13,7 @@ declare var google: any;
 
 export class MapPage {
     map: any;
+    public listener;
     mapCenter: object = {
         "Almelo" : {
             lat : 52.3570267,
@@ -61,8 +62,6 @@ export class MapPage {
         if (this.navParams.get('viewSingleLocation')) {
             this.openLocation(this.navParams.get('locationFeature'))
         }
-
-        this.setupBackButtonBehavior();
 
     }
 
@@ -275,8 +274,8 @@ export class MapPage {
         // listens to a click on a item (e.g. marker) and display the infowindow
         this.map.data.addListener('click', function (event) {
 
-            let name;
-            let description;
+            let name: string;
+            let description: string;
             let picture = self.dataManager.getPicturePathByNameAndFolder(
                 event.feature.getProperty('picture_name'),
                 event.feature.getProperty('picture_folder'));
@@ -370,7 +369,7 @@ export class MapPage {
 
     private openLanguageSelector(myEvent) {
         let popover = this.popoverCtrl.create(
-            LanguageCitySelectorComponent,
+            LanguageSelectorComponent,
             {},
             {cssClass: 'custom-popover'});
 
@@ -429,22 +428,6 @@ export class MapPage {
         }
 
         infoWindow.open(this.map);
-    }
-
-    private setupBackButtonBehavior () {
-
-        // If on web version (browser)
-        if (window.location.protocol !== "file:") {
-
-            // Register browser back button action(s)
-            window.onpopstate = (evt) => {
-
-                // Go back to rootPage is there is one
-                if (this.navCtrl.canGoBack()) {
-                    this.navCtrl.pop();
-                }
-            };
-        }
     }
 
 }

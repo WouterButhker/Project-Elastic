@@ -29,9 +29,9 @@
 
 
 
-    <p>
-        {{dataManager.getPropertyDescription(locationDetails)}}
-    </p>
+    <!-- TODO: implement support for html tags inside the property description -->
+    {{dataManager.getPropertyDescription(locationDetails)}}
+    
     <!--<img src="{{getStaticMap()}}">-->
     <!--TODO: fix static maps-->
     <button class="cityButton" id="map-page" (click)="openMapPage()">
