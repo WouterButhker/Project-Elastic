@@ -30,34 +30,26 @@ export class IntroPage {
   }
 
 
-  public start(city, language, color, country) {
-      this.dataManager.city = city;
-      this.dataManager.language = language;
-      this.translate.use(language);
-      this.dataManager.color = color;
-      this.dataManager.flag = "assets/Pictures/Flags/" + country + ".png";
+  public start(city) {
+      this.dataManager.setCity(city);
       this.navCtrl.setRoot(TabsPage, {});
   }
 
   private checkUserLanguage() {
-      this.translate.setDefaultLang("Dutch"); // sets default language to Dutch
+      this.translate.setDefaultLang("English"); // sets default language to English
       if (navigator.language.startsWith("en")) {
-          this.translate.use("English");
-          this.dataManager.language = "English";
+          this.dataManager.setLanuage("English");
       } else if (navigator.language.startsWith("nl")) {
-          this.translate.use("Dutch");
-          this.dataManager.language = "Dutch";
+          this.dataManager.setLanuage("Dutch");
       } else if (navigator.language.startsWith("pl")) {
-          this.translate.use("Polish");
-          this.dataManager.language = "Polish";
+          this.dataManager.setLanuage("Polish");
       } else if (navigator.language.startsWith("cs")) {
-         this.translate.use("Czech");
-         this.dataManager.language = "Czech";
+        this.dataManager.setLanuage("Czech");
+      } else if (navigator.language.startsWith('de'))  {
+          this.dataManager.setLanuage("German")
       } else {
-          this.translate.use("English");
-          this.dataManager.language = "English";
+          this.dataManager.setLanuage("English")
       }
-      this.dataManager.setFlag();
   }
 
     private openLanguageSelector(myEvent) {

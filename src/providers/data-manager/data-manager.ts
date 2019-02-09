@@ -1,5 +1,6 @@
 import {HttpClient} from '@angular/common/http';
 import {Injectable} from '@angular/core';
+import {TranslateService} from "@ngx-translate/core";
 
 @Injectable()
 export class DataManagerProvider {
@@ -11,7 +12,7 @@ export class DataManagerProvider {
 
 
     constructor(
-        public http: HttpClient) {
+        public http: HttpClient, public translate: TranslateService) {
     }
 
     public async loadDataFromJson() {
@@ -96,7 +97,7 @@ export class DataManagerProvider {
             }];
     }
 
-    public setFlag() {
+    private setFlag() {
         // gets the correct flag from the selected language
         for (let i = 0; i<4; i++) {
             if (this.language == this.getCityData()[i].language && this.flag != this.getCityData()[i].image) {
@@ -109,6 +110,32 @@ export class DataManagerProvider {
         }
 
 
+    }
+
+    public setLanuage(language) {
+        this.translate.use(language);
+        this.language = language;
+        this.setFlag();
+
+    }
+
+    public setCity(city) {
+        this.city = city;
+
+        switch (city) {
+            case 'Almelo' :
+                this.color = 'almelo_green';
+                break;
+            case 'Nordhorn':
+                this.color = 'primary';
+                break;
+            case 'Zelow' :
+                this.color = 'almelo_pink';
+                break;
+            case 'Valasske' :
+                this.color = 'almelo_orange';
+                break;
+        }
     }
 
 

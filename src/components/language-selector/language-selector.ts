@@ -28,9 +28,7 @@ export class LanguageSelectorComponent {
   }
 
   private changeLanguage() {
-      this.translate.use(this.selectedLanguage);
-      this.dataManager.language = this.selectedLanguage;
-      this.dataManager.setFlag();
+      this.dataManager.setLanuage(this.selectedLanguage);
   }
 
   private changeLanguageAndQuit() {
@@ -38,9 +36,8 @@ export class LanguageSelectorComponent {
       this.viewCtrl.dismiss();
   }
 
-  private cancel() {
-      this.translate.use(this.dataManager.language);
-      this.dataManager.setFlag();
+  private cancel() { // TODO: make it switch back to original language
+      this.viewCtrl.dismiss();
   }
 
 }

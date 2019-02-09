@@ -47,27 +47,22 @@ export class LanguageCitySelectorComponent {
         console.log("Language Selector component");
         console.log("Changed Language to: " + this.selectedLanguage);
         console.log("Changed city to: " + this.selectedCity);
-        console.log("Changed navBarColor to: " + this.getNavBarColor());
         console.log("Changed Flag to: " + this.getCityByLanguage(this.selectedLanguage)['image']);
 
 
         if (this.getCityByName(this.selectedCity)['language'] != this.selectedLanguage && this.selectedLanguage != "English") {
 
-            this.dataManager.language = this.getCityByName(this.selectedCity)['language'];
-            this.dataManager.flag = this.getCityByLanguage(this.dataManager.language)['image'];
+            this.dataManager.setLanuage(this.getCityByName(this.selectedCity)['language']);
             console.log("LANGUAGE ERROR");
-            console.log("Switching to " + this.dataManager.language + " and " + this.dataManager.flag);
+            console.log("Switching to " + this.dataManager.language);
         } else {
-            this.dataManager.language = this.selectedLanguage;
-            this.dataManager.flag = this.getCityByLanguage(this.selectedLanguage)['image'];
+            this.dataManager.setLanuage(this.selectedLanguage);
         }
 
         console.log("---------------");
 
 
-        this.dataManager.city = this.selectedCity;
-        this.dataManager.color = this.getNavBarColor();
-
+        this.dataManager.setCity(this.selectedCity);
 
 
         this.event.publish("Language + city");
@@ -101,18 +96,6 @@ export class LanguageCitySelectorComponent {
         }
     }
 
-    getNavBarColor() {
-        // change navbar color
-        if (this.selectedCity == "Almelo") {
-            return "almelo_green";
-        } else if (this.selectedCity == "Nordhorn") {
-            return "primary";
-        } else if (this.selectedCity == "Zelow") {
-            return "almelo_pink";
-        } else if (this.selectedCity == "Valasske") {
-            return "almelo_orange"
-        }
-    }
 
     changeButtonLang() {
         this.translate.use(this.selectedLanguage);
