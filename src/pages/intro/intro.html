@@ -22,9 +22,8 @@
 
 <ion-content>
 
-    <h2>{{'welcome' | translate }}</h2>
-    <p>{{"development" | translate }}</p>
 
+    <h2 class="welcome">{{'welcome title' | translate}}</h2>
 
         <button id="Almelo" class="cityButton" (click)="start('Almelo', 'Dutch', 'almelo_green', 'netherlands')">
             Almelo
@@ -40,5 +39,8 @@
         </button>
 
     <!--TODO: Refactor these buttons + app.html-->
+
+
+    <div class="welcome" [innerHTML]="'welcome text' | translate"></div>
 
 </ion-content>
