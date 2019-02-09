@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController, ToastController, Events, NavParams, PopoverController } from 'ionic-angular';
 import { DetailPage } from "../detail/detail";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
-import {LanguageSelectorComponent} from "../../components/language-selector/language-selector";
+import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
 
 declare var google: any;
 
@@ -369,7 +369,7 @@ export class MapPage {
 
     private openLanguageSelector(myEvent) {
         let popover = this.popoverCtrl.create(
-            LanguageSelectorComponent,
+            LanguageCitySelectorComponent,
             {},
             {cssClass: 'custom-popover'});
 
