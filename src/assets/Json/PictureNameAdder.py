@@ -3,9 +3,9 @@ import os
 print("type a city name: ")
 city = input()
 
-pictureFolderPath = "C:/Users/woute/Documents/Ionic-Elastic/Ionic-Elastic/src/assets/Pictures/"
+pictureFolderPath = "C:/Ionic-Elastic/src/assets/Pictures/"
 
-with open("C:/Users/woute/Documents/Ionic-Elastic/Ionic-Elastic/src/assets/Json/" + city + ".json", "r", encoding='utf8') as json_data:
+with open("C:/Ionic-Elastic/src/assets/Json/" + city + ".json", "r", encoding='utf8') as json_data:
     data = json.load(json_data)
     json_data.close()
 
@@ -46,7 +46,7 @@ for location in locations:
             (((data['features'])[i])['properties'])['picture_name'] = [""]
 
 #save the data to the json file
-with open("C:/Users/woute/Documents/Ionic-Elastic/Ionic-Elastic/src/assets/Json/" + city + '.json', 'w', encoding='utf8') as f:
+with open("C:/Ionic-Elastic/src/assets/Json/" + city + '.json', 'w', encoding='utf8') as f:
     json.dump(data, f, ensure_ascii=False)
 
 print("SUCCES")
