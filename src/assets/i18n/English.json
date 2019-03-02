@@ -13,6 +13,16 @@
     "language": "Language",
     "map": "Map",
     "open map": "View on map",
+    "night mode" : "Night mode",
+    "more info" : "Click here for more info",
+    "developer" : "App developer: ",
     "welcome title": "Elastic: an Erasmus+ project",
-    "welcome text": "introduction text"
+    "welcome text": "",
+    "historical maps" : "Historical maps",
+    "sort": "Sort",
+    "sort alphabet" : "Alphabetical",
+    "sort distance" : "By distance",
+    "sort route" : "Route",
+    "sort category" : "By category",
+    "search" : "search"
 }
