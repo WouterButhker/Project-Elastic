@@ -32,17 +32,13 @@ export class MyApp {
 
     }
 
-    start(city, language, color, country) {
+    start(city) {
         if (city == "Intro") {
             this.nav.setRoot(IntroPage)
         } else if (city == "Contact") {
             this.nav.push(ContactPage)
         } else {
-            this.dataManager.city = city;
-            this.dataManager.language = language;
-            this.dataManager.color = color;
-            this.dataManager.flag = "assets/Pictures/Flags/" + country + ".png";
-            this.translate.use(language);
+            this.dataManager.setCity(city);
             this.nav.setRoot(TabsPage, {});
 
         }
