@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {Events, NavController, PopoverController} from "ionic-angular";
+import {Events, MenuController, NavController, PopoverController} from "ionic-angular";
 import {DetailPage} from "../detail/detail";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
@@ -24,7 +24,6 @@ export class HomePage {
         private navCtrl: NavController,
         private event: Events,
         public dataManager: DataManagerProvider
-
         ) {
 
             this.locations = this.dataManager.loadDataFromJson();
