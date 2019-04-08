@@ -262,7 +262,7 @@ export class MapPage {
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
 
-
+        // TODO: Translate night mode
         // make nightmode available for the user
         this.map.mapTypes.set('night_mode', nightMode);
 

@@ -120,8 +120,10 @@ export class DataManagerProvider {
     }
 
     public setCity(city) {
+        // change the city
         this.city = city;
 
+        // change the navbar color
         switch (city) {
             case 'Almelo' :
                 this.color = 'almelo_green';
@@ -136,6 +138,9 @@ export class DataManagerProvider {
                 this.color = 'almelo_orange';
                 break;
         }
+
+        // check if selected language is possible for selected city
+        // TODO
     }
 
 
