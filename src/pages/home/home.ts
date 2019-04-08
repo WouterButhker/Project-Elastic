@@ -11,7 +11,6 @@ import {LanguageCitySelectorComponent} from "../../components/language-city-sele
     templateUrl: 'home.html'
 })
 
-// TODO: when opening homepage from intropage the language changes back to native
 
 export class HomePage {
 
@@ -44,6 +43,8 @@ export class HomePage {
 
 
 
+
+
     viewDetailPage(locationFeature) {
         //alert(loc.properties.name);
         this.navCtrl.push(DetailPage,
@@ -62,7 +63,6 @@ export class HomePage {
         });
 
     }
-
 
 
 

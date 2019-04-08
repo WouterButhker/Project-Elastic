@@ -3,6 +3,7 @@ import { NavController, ToastController, Events, NavParams, PopoverController } 
 import { DetailPage } from "../detail/detail";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
+import {TranslateService} from "@ngx-translate/core";
 
 declare var google: any;
 
@@ -38,7 +39,8 @@ export class MapPage {
         public toastCtrl: ToastController,
         private event: Events,
         public popoverCtrl: PopoverController,
-        public dataManager: DataManagerProvider) {
+        public dataManager: DataManagerProvider,
+        public translate: TranslateService) {
 
 
         // check if the language or city changed
@@ -240,8 +242,10 @@ export class MapPage {
                     ]
                 }
             ],
-            {name: 'Night Mode'}
+            {name: this.translate.instant("night mode")}
+
         );
+        // TODO: check if nightmode gets translated correctly
 
         const options = {
             center: Almelo,
@@ -262,7 +266,7 @@ export class MapPage {
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
 
-        // TODO: Translate night mode
+
         // make nightmode available for the user
         this.map.mapTypes.set('night_mode', nightMode);
 

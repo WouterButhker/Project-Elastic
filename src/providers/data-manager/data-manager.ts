@@ -112,6 +112,28 @@ export class DataManagerProvider {
 
     }
 
+    private checkLanguage(city) {
+        // checks if the current language is possible for the new city
+        // if it is not possible change to English
+
+        // TODO: refactor?
+        if (this.language != "English") {
+            if (city == "Almelo" && this.language != "Dutch" && this.language != "German") {
+                this.setLanuage("English");
+            } else if (city == "Nordhorn" && this.language != "German") {
+                this.setLanuage("English");
+            } else if (city == "Valasske" && this.language != "Czech"){
+                this.setLanuage("English");
+            } else if (city == "Zelow" && this.language != "Polish") {
+                this.setLanuage("English")
+            }
+        }
+
+
+    }
+
+
+
     public setLanuage(language) {
         this.translate.use(language);
         this.language = language;
@@ -140,7 +162,7 @@ export class DataManagerProvider {
         }
 
         // check if selected language is possible for selected city
-        // TODO
+        this.checkLanguage(city);
     }
 
 

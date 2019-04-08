@@ -18,13 +18,14 @@ export class LanguageSelectorComponent {
 
   private selectedLanguage: string = this.dataManager.language;
   private cities;
+  private originalLanguage;
 
   constructor(public dataManager: DataManagerProvider,
               public viewCtrl: ViewController,
               public translate: TranslateService) {
       this.selectedLanguage = dataManager.language;
       this.cities = this.dataManager.getCityData();
-
+      this.originalLanguage = this.dataManager.language;
   }
 
   private changeLanguage() {
@@ -36,7 +37,8 @@ export class LanguageSelectorComponent {
       this.viewCtrl.dismiss();
   }
 
-  private cancel() { // TODO: make it switch back to original language
+  private cancel() {
+      this.dataManager.setLanuage(this.originalLanguage);
       this.viewCtrl.dismiss();
   }
 
