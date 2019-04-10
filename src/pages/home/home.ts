@@ -15,7 +15,12 @@ import {LanguageCitySelectorComponent} from "../../components/language-city-sele
 export class HomePage {
 
     locations: object;
-    categories; // TODO: categories
+    categories; // TODO: categories (kleuren op de kaart?)
+    // TODO: Geolocation
+    // TODO: route
+    // TODO: backbutton not working in map
+    // TODO: compress photos
+    // TODO: support audio files
 
 
     constructor(
@@ -40,7 +45,7 @@ export class HomePage {
 
     }
 
-
+    // TODO: support third language
 
 
 

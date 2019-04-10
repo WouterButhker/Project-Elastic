@@ -4,15 +4,32 @@ import {TranslateService} from "@ngx-translate/core";
 
 @Injectable()
 export class DataManagerProvider {
-    public language: string = "Dutch";
-    public city: string = "Almelo";
-    public color: string = "almelo_green";
-    public flag: string = "assets/Pictures/Flags/netherlands.png";
-    public imgBasePath: string = 'assets/Pictures/Flags/';
+    public language: string;
+    public city: string;
+    public color: string;
+    public flag: string;
+    private getPicturesOnline: boolean;
+    private readonly  PictureSource: string = "http://hackersbende.nl/elastic/";
+    public imgBasePath: string = 'assets/Pictures/';
+
 
 
     constructor(
         public http: HttpClient, public translate: TranslateService) {
+
+        // TODO: remove picture folder
+        this.getPicturesOnline = true;
+
+        // decide if the pictures should be gotten from local source
+        if (this.getPicturesOnline) {
+            this.imgBasePath = this.PictureSource + this.imgBasePath;
+        }
+
+        // some default values
+        this.language = "Dutch";
+        this.city = "Almelo";
+        this.color = "almelo_green";
+        this.flag = this.imgBasePath + "Flags/netherlands.png";
     }
 
     public async loadDataFromJson() {
@@ -26,19 +43,19 @@ export class DataManagerProvider {
 
 
     public getPicturePathByName(locationFeature, picture) {
-        return "assets/Pictures/" + this.city + "/" +
+        return this.imgBasePath + this.city + "/" +
             locationFeature.properties.picture_folder + "/" + picture;
     }
 
     public getPicturePathByNameAndFolder( names, folder) {
-        return "assets/Pictures/" +
+        return this.imgBasePath +
             this.city + "/" +
             folder + "/" +
             names[0]
     }
 
     public getPicturePath(locationFeature) {
-        return "assets/Pictures/" +
+        return this.imgBasePath +
             this.city + "/" +
             locationFeature.properties.picture_folder + "/" +
             locationFeature.properties.picture_name[0]
@@ -70,28 +87,28 @@ export class DataManagerProvider {
             {
                 name: "Almelo",
                 viewName: "Almelo",
-                image: this.imgBasePath + "netherlands.png",
+                image: this.imgBasePath + "Flags/netherlands.png",
                 language: "Dutch",
                 viewLanguage: "Nederlands"
             },
             {
                 name: "Nordhorn",
                 viewName: "Nordhorn",
-                image: this.imgBasePath + "germany.png",
+                image: this.imgBasePath + "Flags/germany.png",
                 language: "German",
                 viewLanguage: "Deutsch"
             },
             {
                 name: "Zelow",
                 viewName: "Zelów",
-                image: this.imgBasePath + "poland.png",
+                image: this.imgBasePath + "Flags/poland.png",
                 language: "Polish",
                 viewLanguage: "Język polski"
             },
             {
                 name: "Valasske",
                 viewName: "Valašské Klobouky",
-                image: this.imgBasePath + "czech-republic.png",
+                image: this.imgBasePath + "Flags/czech-republic.png",
                 language: "Czech",
                 viewLanguage: "Český jazyk"
             }];
@@ -102,8 +119,8 @@ export class DataManagerProvider {
         for (let i = 0; i<4; i++) {
             if (this.language == this.getCityData()[i].language && this.flag != this.getCityData()[i].image) {
                 this.flag = this.getCityData()[i].image;
-            } else if (this.language == "English" && this.flag != "assets/Pictures/Flags/united-kingdom.png") {
-                this.flag = "assets/Pictures/Flags/united-kingdom.png";
+            } else if (this.language == "English" && this.flag != (this.imgBasePath + "Flags/united-kingdom.png")) {
+                this.flag = this.imgBasePath + "Flags/united-kingdom.png";
                 break;
             }
 
