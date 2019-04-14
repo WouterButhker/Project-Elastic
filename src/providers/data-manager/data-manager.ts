@@ -3,33 +3,44 @@ import {Injectable} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
 
 @Injectable()
+
 export class DataManagerProvider {
+
     public language: string;
     public city: string;
     public color: string;
     public flag: string;
-    private getPicturesOnline: boolean;
-    private readonly  PictureSource: string = "http://hackersbende.nl/elastic/";
-    public imgBasePath: string = 'assets/Pictures/';
+    private readonly getPicturesOnline: boolean;
+    private readonly getAudioOnline: boolean;
+    private readonly  onlineSource: string;
+    private audioBasePath: string;
+    public imgBasePath: string;
 
 
 
     constructor(
         public http: HttpClient, public translate: TranslateService) {
-
-        // TODO: remove picture folder
+        // settings
         this.getPicturesOnline = true;
-
-        // decide if the pictures should be gotten from local source
-        if (this.getPicturesOnline) {
-            this.imgBasePath = this.PictureSource + this.imgBasePath;
-        }
+        this.getAudioOnline = false;
 
         // some default values
+        this.onlineSource = "http://hackersbende.nl/elastic/";
+        this.audioBasePath = 'assets/Audio/';
+        this.imgBasePath = 'assets/Pictures/';
         this.language = "Dutch";
         this.city = "Almelo";
         this.color = "almelo_green";
         this.flag = this.imgBasePath + "Flags/netherlands.png";
+
+        // decide if the pictures and audio should be gotten from local source
+        if (this.getPicturesOnline) {
+            this.imgBasePath = this.onlineSource + this.imgBasePath;
+        }
+
+        if (this.getAudioOnline) {
+            this.audioBasePath = this.onlineSource + this.audioBasePath;
+        }
     }
 
     public async loadDataFromJson() {
@@ -59,6 +70,13 @@ export class DataManagerProvider {
             this.city + "/" +
             locationFeature.properties.picture_folder + "/" +
             locationFeature.properties.picture_name[0]
+    }
+
+    public getAudio(locationFeature) { // audio files should have the same name as the picture folder
+        return this.audioBasePath +
+            this.city + "/" +
+            locationFeature.properties.picture_folder +
+            ".mp3"
     }
 
     public getPropertyName(locationFeature) {

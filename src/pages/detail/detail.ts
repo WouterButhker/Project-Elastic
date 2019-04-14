@@ -1,5 +1,5 @@
 import {Component, ViewChild} from '@angular/core';
-import {IonicPage, NavController, NavParams, Slides} from 'ionic-angular';
+import {IonicPage, NavController, NavParams, Slides, Tabs} from 'ionic-angular';
 import { TranslateService } from "@ngx-translate/core";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {MapPage} from "../map/map";
@@ -14,6 +14,8 @@ import {MapPage} from "../map/map";
 
 export class DetailPage {
     @ViewChild('slider') slider: Slides;
+    @ViewChild('baseTabs') tabRef: Tabs;
+    @ViewChild('audio') audio;
 
     locationDetails;
     city: string;
@@ -21,7 +23,6 @@ export class DetailPage {
     color: string;
     pictures: string[];
     private APIKey: string = "AIzaSyCXopP8dS5mRg9il5qfZO_qI3L6TxObF4c"; // TODO: get apiKey from file
-
 
   constructor(
           public navCtrl: NavController,
@@ -42,6 +43,10 @@ export class DetailPage {
       this.setupBackButtonBehavior();
 
       this.slider.autoHeight = true;
+  }
+
+  private hideAudio() {
+      this.audio.nativeElement.style.display='none';
   }
 
 
@@ -65,6 +70,9 @@ export class DetailPage {
 
     private openMapPage() {
         this.navCtrl.push(MapPage, {viewSingleLocation: true, locationFeature: this.locationDetails})
+
+        // TODO: fix backbutton on view on map
+        // this.tabRef.select(0)
     }
 
 
