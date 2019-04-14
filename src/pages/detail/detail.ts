@@ -46,6 +46,7 @@ export class DetailPage {
   }
 
   private hideAudio() {
+      console.log("error loading audio file, hiding audio player");
       this.audio.nativeElement.style.display='none';
   }
 

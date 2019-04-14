@@ -19,6 +19,8 @@
         {{dataManager.getPropertyName(locationDetails)}}
     </ion-title>
 
+
+<!--    TODO: fix CSS-->
     <!--pictures-->
     <ion-slides pager zoom=true #slider >
         <ion-slide *ngFor="let pic of pictures" id="ion-slide">
@@ -41,6 +43,8 @@
     
     <!--<img src="{{getStaticMap()}}">-->
     <!--TODO: fix static maps-->
+
+
     <button class="cityButton" id="map-page" (click)="openMapPage()">
         {{'open map' | translate}}
     </button>
