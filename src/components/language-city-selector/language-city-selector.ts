@@ -50,6 +50,7 @@ export class LanguageCitySelectorComponent {
         console.log("Changed Flag to: " + this.getCityByLanguage(this.selectedLanguage)['image']);
 
 
+        // TODO: add support for Dutch in Nordhorn and German in Almelo
         if (this.getCityByName(this.selectedCity)['language'] != this.selectedLanguage && this.selectedLanguage != "English") {
 
             this.dataManager.setLanuage(this.getCityByName(this.selectedCity)['language']);

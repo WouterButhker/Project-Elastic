@@ -1,6 +1,7 @@
 import {HttpClient} from '@angular/common/http';
 import {Injectable} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
+import {el} from "@angular/platform-browser/testing/src/browser_util";
 
 @Injectable()
 
@@ -75,28 +76,50 @@ export class DataManagerProvider {
     public getAudio(locationFeature) { // audio files should have the same name as the picture folder
         return this.audioBasePath +
             this.city + "/" +
+            this.language + "/" +
             locationFeature.properties.picture_folder +
             ".mp3"
     }
 
     public getPropertyName(locationFeature) {
+        // handle exceptions (other languages)
         if (this.language == "English") {
             return locationFeature.properties.name_en
+        } else if (this.language == "German" && this.city == "Almelo") {
+            return locationFeature.properties.name_de
+        } else if (this.language == "Dutch" && this.city == "Nordhorn") {
+            return locationFeature.properties.name_nl
         }
+
+        // return native language
         return locationFeature.properties.name
     }
 
     public getPropertyShortDescription(locationFeature) {
+        // handle exceptions (other languages)
         if (this.language == "English") {
             return locationFeature.properties.short_description_en
+        } else if (this.language == "German" && this.city == "Almelo") {
+            return locationFeature.properties.short_description_de
+        } else if (this.language == "Dutch" && this.city == "Nordhorn") {
+            return locationFeature.properties.short_description_nl
         }
+
+        // return native language
         return locationFeature.properties.short_description
     }
 
     public getPropertyDescription(locationFeature) {
+        // handle exceptions (other languages)
         if (this.language == "English") {
             return locationFeature.properties.description_en
+        } else if (this.language == "German" && this.city == "Almelo") {
+            return locationFeature.properties.description_de
+        } else if (this.language == "Dutch" && this.city == "Nordhorn") {
+            return locationFeature.properties.description_nl
         }
+
+        // return native language
         return locationFeature.properties.description
     }
 

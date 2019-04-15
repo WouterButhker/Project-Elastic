@@ -9,10 +9,16 @@ with open("C:/Ionic-Elastic/src/assets/Json/" + city + ".json", "r", encoding='u
     data = json.load(json_data)
     json_data.close()
 
-
+a = 0
 features = data['features']
-for feature in features:
+for a, feature in enumerate(features):
     print((feature['properties'])['picture_folder'])
+
+    # add new properties to the json
+    # (((data['features'])[a])['properties'])['name_de'] = ""
+    # (((data['features'])[a])['properties'])['short_description_de'] = ""
+    # (((data['features'])[a])['properties'])['description_de'] = ""
+    # print((((data['features'])[a])['properties'])['name_de'])
 
 
 os.walk(pictureFolderPath)

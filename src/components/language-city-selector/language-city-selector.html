@@ -49,6 +49,16 @@
             <ion-radio value="{{cities[1].language}}" (ionSelect)="changeButtonLang()"></ion-radio>
         </ion-item>
 
+        <!--Display extra Dutch language when Nordhorn is selected-->
+        <ion-item *ngIf="getCityByName(selectedCity).name == 'Nordhorn'">
+            <ion-label>
+                <img src="{{cities[0].image}}" alt="">
+                {{cities[0].viewLanguage}}
+            </ion-label>
+
+            <ion-radio value="{{cities[0].language}}" (ionSelect)="changeButtonLang()"></ion-radio>
+        </ion-item>
+
         <!--English-->
         <ion-item>
             <ion-label>
