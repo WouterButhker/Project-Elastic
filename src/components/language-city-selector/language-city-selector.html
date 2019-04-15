@@ -11,7 +11,7 @@
         <!--loop through the cities and show them in the radio with flag-->
         <ion-item *ngFor="let city of cities" >
             <ion-label>
-                <img src="{{city.image}}" alt="">
+                <img src="{{city.image}}" alt="" class="flag">
                 {{city.viewName}}
             </ion-label>
 
@@ -42,7 +42,7 @@
         <!--Display extra German language when Almelo is selected-->
         <ion-item *ngIf="getCityByName(selectedCity).name == 'Almelo'">
             <ion-label>
-                <img src="{{cities[1].image}}" alt="">
+                <img src="{{cities[1].image}}" alt="" class="flag">
                 {{cities[1].viewLanguage}}
             </ion-label>
 
@@ -52,7 +52,7 @@
         <!--Display extra Dutch language when Nordhorn is selected-->
         <ion-item *ngIf="getCityByName(selectedCity).name == 'Nordhorn'">
             <ion-label>
-                <img src="{{cities[0].image}}" alt="">
+                <img src="{{cities[0].image}}" alt="" class="flag">
                 {{cities[0].viewLanguage}}
             </ion-label>
 
