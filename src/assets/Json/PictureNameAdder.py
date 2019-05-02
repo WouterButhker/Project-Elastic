@@ -39,7 +39,6 @@ for location in locations:
             if 'Thumbs.db' in os.listdir(pictureFolderPath + city + "/" + location):
                 os.remove(pictureFolderPath + city + "/" + location + "/Thumbs.db")
 
-
             # set the property picture_name to all items in the correct folder
             # (((data['features'])[i])['properties'])['picture_name'] the name of the picture in the data
             # os.listdir(pictureFolderPath + city + "/" + location) the name of the pictures in the folder

@@ -8,7 +8,6 @@ import {MapPage} from "../map/map";
 @Component({
   selector: 'page-detail',
   templateUrl: 'detail.html',
-
 })
 
 
@@ -71,9 +70,9 @@ export class DetailPage {
 
     private openMapPage() {
         this.navCtrl.push(MapPage, {viewSingleLocation: true, locationFeature: this.locationDetails})
-
+        //this.navCtrl.pop();
         // TODO: fix backbutton on view on map
-        // this.tabRef.select(0)
+        //this.tabRef.select(1)
     }
 
 

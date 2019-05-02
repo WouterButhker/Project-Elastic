@@ -18,10 +18,8 @@ export class HomePage {
     categories; // TODO: categories (kleuren op de kaart?)
     // TODO: Geolocation
     // TODO: route
-    // TODO: backbutton not working in map
     // TODO: compress photos
-    // TODO: support audio files
-
+    // TODO: pc view beautiful
 
     constructor(
         private http: HttpClient,
@@ -45,7 +43,6 @@ export class HomePage {
 
     }
 
-    // TODO: support third language
 
 
 
