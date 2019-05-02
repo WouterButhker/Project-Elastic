@@ -50,14 +50,20 @@ export class LanguageCitySelectorComponent {
         console.log("Changed Flag to: " + this.getCityByLanguage(this.selectedLanguage)['image']);
 
 
-        // TODO: add support for Dutch in Nordhorn and German in Almelo
-        if (this.getCityByName(this.selectedCity)['language'] != this.selectedLanguage && this.selectedLanguage != "English") {
+        //
+        // only switch to the language if it is supported
+        // TODO: this also gets checked in datamanager.checklanguage
+        if (!(this.getCityByName(this.selectedCity)['language'] != this.selectedLanguage && this.selectedLanguage != "English")) {
+            this.dataManager.setLanuage(this.selectedLanguage);
+
+            // exception for german and dutch
+        } else if (this.selectedCity == "Nordhorn" && this.selectedLanguage == "Dutch" || this.selectedCity == "Almelo" && this.selectedLanguage  == "German") {
+            this.dataManager.setLanuage(this.selectedLanguage);
+        } else {
 
             this.dataManager.setLanuage(this.getCityByName(this.selectedCity)['language']);
             console.log("LANGUAGE ERROR");
             console.log("Switching to " + this.dataManager.language);
-        } else {
-            this.dataManager.setLanuage(this.selectedLanguage);
         }
 
         console.log("---------------");
@@ -67,7 +73,7 @@ export class LanguageCitySelectorComponent {
 
 
         this.event.publish("Language + city");
-
+        console.log(this.dataManager.language);
         this.viewCtrl.dismiss()
     }
 

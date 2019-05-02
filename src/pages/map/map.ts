@@ -14,7 +14,6 @@ declare var google: any;
 
 export class MapPage {
     map: any;
-    public listener;
     mapCenter: object = {
         "Almelo" : {
             lat : 52.3570267,
@@ -245,7 +244,6 @@ export class MapPage {
             {name: this.translate.instant("night mode")}
 
         );
-        // TODO: check if nightmode gets translated correctly
 
         const options = {
             center: Almelo,

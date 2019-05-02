@@ -1,7 +1,6 @@
 import {HttpClient} from '@angular/common/http';
 import {Injectable} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
-import {el} from "@angular/platform-browser/testing/src/browser_util";
 
 @Injectable()
 
@@ -178,7 +177,7 @@ export class DataManagerProvider {
         if (this.language != "English") {
             if (city == "Almelo" && this.language != "Dutch" && this.language != "German") {
                 this.setLanuage("English");
-            } else if (city == "Nordhorn" && this.language != "German") {
+            } else if (city == "Nordhorn" && this.language != "German" && this.language != "Dutch") {
                 this.setLanuage("English");
             } else if (city == "Valasske" && this.language != "Czech"){
                 this.setLanuage("English");
