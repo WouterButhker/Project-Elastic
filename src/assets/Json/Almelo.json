@@ -261,6 +261,30 @@
             }
         },
         {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Hedeman stoomkatoenweverij, ververij en wasserij",
+                "name_en": "Hedeman textile processing",
+                "short_description": "",
+                "short_description_en": "",
+                "description": "Deze textielblekerij, -ververij en -weverij heeft zich in 1880 gevestigd in een bestaand fabriekspand op het Sluitersveld, dat werd opgekocht door Hertog Hedeman. Hedeman liet er een complex van arbeiderswoningen bij bouwen, groot genoeg voor zo’n 175 mensen.  In 1930 werd er een kantoor bijgebouwd, met de bekende klokkentoren aan de Fabrieksstraat. In de tweede wereldoorlog werd de oorspronkelijke klok door de Duitsers in beslag genomen. Voor zijn vijftigste verjaardag kreeg Hedeman van zijn arbeiders een grote bronzen klok cadeau ter vervanging van de originele klok. In 1959 werd Hedeman overgekocht door Nijverdal ten Cate, maar de fabriek bleef nog een aantal jaar uitbreiden. Door de import van goedkoop kant-en-klaar verwerkt textiel uit lagelonenlanden verslechterde de concurrentiepositie van de fabriek rond 1962, waardoor Nijverdal ten Cate veel afzetmogelijkheden voor bovenkledingstoffen verloor. Na 112 jaar kwam de bloeiende textielindustrie op het Sluitersveld tot een einde. ",
+                "description_en": "This textile factory first settled in an existing factory building located in the Sluitersveld area, which was bought by Hertog Hedeman in 1880. Hedeman had a complex of small homes built for the factory workers. This complex offered accommodation to about 175 labourers.  In 1930, a big office was added, including the distinctive bell tower at the Fabrieksstraat. During the second world war, the original bell was confiscated by the Germans. For his 50th birthday, Hedeman received a big bronze bell from his workers, as a replacement for the original bell. In 1959, the Hedeman factory was bought by Nijverdal ten Cate, but the developments of the factory didn’t cease until around 1962. In 1962, the company could no longer compete with the low prices of cheaply imported processed textiles, resulting in a great loss of sales. After 112 years, the blooming textile industry of the Sluitersveld finally came to an end.",
+                "category": "old factories",
+                "picture_folder": "",
+                "picture_name" : [""]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.682289242744446,
+                    52.36669550858396
+                ]
+            }
+        },
+        {
             "properties": {
                 "short_description": "",
                 "short_description_en": "",
