@@ -1,9 +1,10 @@
 import { Component, ViewChild } from '@angular/core';
-import { NavController, ToastController, Events, NavParams, PopoverController } from 'ionic-angular';
+import { NavController, Events, NavParams, PopoverController } from 'ionic-angular';
 import { DetailPage } from "../detail/detail";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
 import {TranslateService} from "@ngx-translate/core";
+import {Geolocation } from "@ionic-native/geolocation";
 
 declare var google: any;
 
@@ -31,15 +32,17 @@ export class MapPage {
 
 
     @ViewChild('map') mapElement;
+    @ViewChild('button') button;
 
     constructor(
         public navCtrl: NavController,
         public navParams: NavParams,
-        public toastCtrl: ToastController,
         private event: Events,
         public popoverCtrl: PopoverController,
         public dataManager: DataManagerProvider,
-        public translate: TranslateService) {
+        public translate: TranslateService,
+        private geolocation: Geolocation
+        ) {
 
 
         // check if the language or city changed
@@ -245,6 +248,7 @@ export class MapPage {
 
         );
 
+        // map options
         const options = {
             center: Almelo,
             zoom: 14,
@@ -259,19 +263,45 @@ export class MapPage {
             }
         };
 
-        // TODO: add ground overlay (old maps)
+        // TODO: add ground overlay (historical maps)
 
 
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
-
+        const self = this; // access this from nested functions
 
         // make nightmode available for the user
         this.map.mapTypes.set('night_mode', nightMode);
 
 
+        // setup button to center the map
+        let ding = document.createElement('div');
+        // Set CSS for the custom button to center location
+        let controlUI = document.createElement('div');
+        controlUI.style.backgroundColor = '#fff';
+        controlUI.style.border = '2px solid #fff';
+        controlUI.style.borderRadius = '3px';
+        controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+        controlUI.style.cursor = 'pointer';
+        controlUI.style.marginBottom = '22px';
+        controlUI.style.textAlign = 'center';
+        controlUI.style.height = '40px';
+        controlUI.style.width= '40px';
+        controlUI.title = 'Click to recenter the map';
+        controlUI.innerHTML = "<img src='http://hackersbende.nl/elastic/assets/Pictures/locate.svg'>";
+
+        ding.appendChild(controlUI);
+
+        // push the div to google maps
+        this.map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(ding);
+
+        // add the listener for pressing on the button
+        ding.addEventListener('click', function () {
+            self.centerOnUser();
+        });
+
         // create the infowindows
         let infoWindow = new google.maps.InfoWindow();
-        const self = this; // access this from nested functions
+
 
         // listens to a click on a item (e.g. marker) and display the infowindow
         this.map.data.addListener('click', function (event) {
@@ -325,7 +355,7 @@ export class MapPage {
                 })
             });
 
-        })
+        });
 
     }
 
@@ -430,6 +460,24 @@ export class MapPage {
         }
 
         infoWindow.open(this.map);
+    }
+
+    private centerOnUser() {
+        console.log("TEST");
+
+        this.geolocation.getCurrentPosition().then((resp) => {
+            console.log("latitude: " + resp.coords.latitude);
+            console.log("longitude: " + resp.coords.longitude);
+
+            let latitude = resp.coords.latitude;
+            let longitude = resp.coords.longitude;
+            let userLocation = new google.maps.LatLng(latitude, longitude);
+
+            this.map.panTo(userLocation);
+
+        }).catch((error) => {
+            console.log('error getting location ', error)
+            });
     }
 
 }

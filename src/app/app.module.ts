@@ -20,6 +20,7 @@ import { TranslateModule, TranslateLoader} from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import {IntroPage} from "../pages/intro/intro";
 import { DataManagerProvider } from '../providers/data-manager/data-manager';
+import {Geolocation } from "@ionic-native/geolocation";
 
 @NgModule({
     declarations: [
@@ -62,7 +63,8 @@ import { DataManagerProvider } from '../providers/data-manager/data-manager';
         SplashScreen,
         {provide: ErrorHandler, useClass: IonicErrorHandler},
         HttpClientModule,
-        DataManagerProvider
+        DataManagerProvider,
+        Geolocation
     ]
 })
 export class AppModule {
