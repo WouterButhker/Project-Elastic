@@ -32,10 +32,10 @@ export class DetailPage {
       this.locationDetails = this.navParams.get('locationFeature');
       this.pictures = this.locationDetails.properties.picture_name;
 
-
-
   }
 
+  // TODO: on Iphone the audio bar gets displayed even though there is no audio
+    // TODO: add auto audio
 
 
   ionViewDidLoad() {
@@ -71,7 +71,6 @@ export class DetailPage {
     private openMapPage() {
         this.navCtrl.push(MapPage, {viewSingleLocation: true, locationFeature: this.locationDetails})
         //this.navCtrl.pop();
-        // TODO: fix backbutton on view on map
         //this.tabRef.select(1)
     }
 

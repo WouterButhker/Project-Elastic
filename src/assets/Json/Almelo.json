@@ -13,7 +13,8 @@
                 "name": "Almelo-Nordhorn Kanaal",
                 "name_de": "",
                 "picture_folder": "Kanaal",
-                "description_de": ""
+                "description_de": "",
+                "stroke": "#0000ff"
             },
             "type": "Feature",
             "geometry": {
@@ -152,7 +153,7 @@
                 ],
                 "marker-symbol": "",
                 "marker-size": "medium",
-                "marker-color": "#7e7e7e",
+                "marker-color": "#0000ff",
                 "description": "Palthe was een chemische wasserette en ververij, in 1873 opgericht door de gebroeders Palthe. Ze zijn erg minimalistisch begonnen, maar werkten erg hard om de wereldwijde innovaties en nieuwe technieken binnen de bedrijfstak bij te benen. Met de ontwikkeling van een techniek voor het reinigen van textiel met behulp van wasbenzine werd het bedrijf in 1881 gedwongen uit te breiden naar een grotere locatie. Vanaf dat moment groeide het bedrijf heel snel. Ze konden de hoeveelheid klanten niet meer aan, dus werden ze gedwongen uit te breiden en meer mensen in te huren. Met deze nieuwe werknemers ontstond na verloop van tijd ook een soort vroege vorm van een vakbond. Rond 1915 had Palthe filialen in heel Nederland. Rond de jaren 40 werd er veel geïnvesteerd in modernere materialen en technieken. In het begin kostte het zo’n 6 weken om een kledingstuk te verwerken, in de jaren ’60 (na al deze investeringen) nog maar een uurtje. Het keerpunt voor Palthe kwam rond de jaren ’90, en vrij snel daarna ook hun faillissement. Dit in verband met modernisering waar het bedrijf niet tegenop kon.",
                 "name_en": "Palthe textile processing",
                 "name": "Palthe textielveredeling",
@@ -161,7 +162,8 @@
                 "description_en": "Palthe was a chemical cloth dying and cleaning company founded in 1873 by the Palthe brothers. They started off very minimalistic, but worked very hard to keep up with newly invented techniques within the industry.  A process was developed for cleaning textile using petrol, for which the company had to move to a bigger location in 1881. From that moment, the company set in a growth spurt. The company got too many customers to handle, so they were forced to expand and hire more employees, and with employees eventually came an early kind of labour union. Fast forward to around 1915, Palthe now has locations all over the country, and the company has expanded their services to sewing. Around the 1940s, the company made a lot of investments into modern equipment and new methods. By the 1960s, the processing time for one piece of clothing decreased from about six weeks to an hour. Palthe’s downfall occurred around the 1990s due to modernisation.",
                 "name_de": "",
                 "short_description_de": "",
-                "description_de": ""
+                "description_de": "",
+                "icon" : "http://maps.google.com/mapfiles/ms/micons/yellow.png"
             },
             "type": "Feature",
             "geometry": {

@@ -18,8 +18,8 @@ export class HomePage {
     categories; // TODO: categories (kleuren op de kaart?)
     // TODO: Geolocation
     // TODO: route
-    // TODO: compress photos
     // TODO: pc view beautiful
+    // TODO: fix sliders
 
     constructor(
         private http: HttpClient,

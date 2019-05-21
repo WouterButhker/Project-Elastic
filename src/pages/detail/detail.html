@@ -20,7 +20,6 @@
     </ion-title>
 
 
-<!--    TODO: fix CSS-->
     <!--pictures-->
     <ion-slides pager zoom=true #slider >
         <ion-slide *ngFor="let pic of pictures" id="ion-slide">
@@ -30,8 +29,7 @@
     </ion-slides>
 
 
-<!--    TODO: implement native audio
-            route audio to the correct file-->
+<!--    TODO: implement native audio-->
     <audio controls #audio>
         <source (error)="hideAudio()" src="{{dataManager.getAudio(locationDetails)}}" type="audio/mpeg">
         Your browser does not support the audio element.
