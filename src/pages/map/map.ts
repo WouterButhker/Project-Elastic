@@ -55,6 +55,9 @@ export class MapPage {
 
     }
 
+    // TODO: infowindows need margin on the right on Iphone
+    // TODO: switching from menu to map doesn't center map correctly on Iphone
+
 
 
     ionViewDidLoad() {
@@ -271,6 +274,11 @@ export class MapPage {
 
         // make nightmode available for the user
         this.map.mapTypes.set('night_mode', nightMode);
+
+        // support different icons for the markers
+        this.map.data.setStyle(function(feature) {
+            return {icon:feature.getProperty('icon')};
+        });
 
 
         // setup button to center the map

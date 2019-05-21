@@ -1,9 +1,17 @@
 <ion-menu [content]="content">
     <ion-list>
 
+        <ion-list-header class="listheader">{{'about' | translate}}</ion-list-header>
         <button ion-item menuToggle (click)="start('Intro')">
+            <ion-icon name="information-circle" item-start></ion-icon>
             {{'intro' | translate}}
         </button>
+        <button ion-item menuToggle (click)="start('Contact')">
+            <ion-icon name="people" item-start></ion-icon>
+            {{'thanks to' | translate}}
+        </button>
+
+        <ion-list-header class="listheader">{{'city' | translate}}</ion-list-header>
         <button ion-item menuToggle (click)="start('Almelo')">
             Almelo
         </button>
@@ -16,9 +24,7 @@
         <button ion-item menuToggle (click)="start('Valasske')">
             Valašské Klobouky
         </button>
-        <button ion-item menuToggle (click)="start('Contact')">
-            {{'thanks to' | translate}}
-        </button>
+
 
     </ion-list>
 </ion-menu>
