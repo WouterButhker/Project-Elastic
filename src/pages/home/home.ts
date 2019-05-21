@@ -22,7 +22,6 @@ export class HomePage {
     // TODO: fix sliders
 
     constructor(
-        private http: HttpClient,
         private popoverCtrl: PopoverController,
         private navCtrl: NavController,
         private event: Events,

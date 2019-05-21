@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
-import { LanguageSelectorComponent } from './language-selector/language-selector';
+// import { LanguageSelectorComponent } from './language-selector/language-selector';
 @NgModule({
-	declarations: [LanguageSelectorComponent],
+	declarations: [],
 	imports: [],
-	exports: [LanguageSelectorComponent]
+	exports: []
 })
 export class ComponentsModule {}
