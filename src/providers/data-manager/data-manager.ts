@@ -21,8 +21,8 @@ export class DataManagerProvider {
     constructor(
         public http: HttpClient, public translate: TranslateService) {
         // settings
-        this.getPicturesOnline = true;
-        this.getAudioOnline = true;
+        this.getPicturesOnline = false;
+        this.getAudioOnline = false;
 
         // some default values
         this.onlineSource = "http://hackersbende.nl/elastic/";

@@ -179,7 +179,8 @@
                 "category": "factory",
                 "picture_folder": "FANAR",
                 "picture_name": [
-                    "20190124_090942.jpg"
+                    "20190124_090942.jpg",
+                    "fanar.jpg"
                 ]
             },
             "geometry": {
@@ -206,7 +207,8 @@
                 "category": "Important place",
                 "picture_folder": "weavers",
                 "picture_name": [
-                    "20181207_144722.jpg"
+                    "20181207_144722.jpg",
+                    "weavers.jpg"
                 ]
             },
             "geometry": {
@@ -234,7 +236,8 @@
                 "picture_folder": "post",
                 "picture_name": [
                     "image1.jpg",
-                    "image2.jpg"
+                    "image2.jpg",
+                    "post.jpg"
                 ]
             },
             "geometry": {
@@ -320,7 +323,8 @@
                 "picture_folder": "monument2",
                 "picture_name": [
                     "20181208_153848.jpg",
-                    "20181208_153939.jpg"
+                    "20181208_153939.jpg",
+                    "stone.jpg"
                 ]
             },
             "geometry": {
@@ -400,7 +404,8 @@
                 "picture_folder": "workshop",
                 "picture_name": [
                     "50903717_294589731200710_3897116989243523072_n.jpg",
-                    "51158888_385593215539822_7105693486204059648_n.jpg"
+                    "51158888_385593215539822_7105693486204059648_n.jpg",
+                    "workshop.JPG"
                 ]
             },
             "geometry": {
