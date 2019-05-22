@@ -22,7 +22,7 @@ export class DataManagerProvider {
         public http: HttpClient, public translate: TranslateService) {
         // settings
         this.getPicturesOnline = false;
-        this.getAudioOnline = false;
+        this.getAudioOnline = true;
 
         // some default values
         this.onlineSource = "http://hackersbende.nl/elastic/";

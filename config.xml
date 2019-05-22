@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="0.4.2" id="com.elastic.ionic" ios-CFBundleVersion="0.4.2" version="0.4.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="042" id="com.elastic.ionic" ios-CFBundleVersion="0.4.2" version="0.4.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Elastic</name>
     <description>Information about Textile history</description>
     <author email="wouterbuthker@live.nl" href="">Wouter Buthker</author>
@@ -104,13 +104,13 @@
     </edit-config>
     <plugin name="cordova-plugin-ionic" spec="^5.2.9">
         <variable name="APP_ID" value="3fb4bac8" />
-        <variable name="CHANNEL_NAME" value="Production" />
-        <variable name="UPDATE_METHOD" value="background" />
+        <variable name="CHANNEL_NAME" value="master" />
+        <variable name="UPDATE_METHOD" value="auto" />
         <variable name="UPDATE_API" value="https://api.ionicjs.com" />
         <variable name="MAX_STORE" value="2" />
         <variable name="MIN_BACKGROUND_DURATION" value="30" />
     </plugin>
-    <engine name="android" spec="7.1.1" />
     <engine name="ios" spec="4.5.5" />
     <engine name="browser" spec="5.0.4" />
+    <engine name="android" spec="7.1.4" />
 </widget>
