@@ -281,9 +281,9 @@
                 "short_description": "Historická budova, ve které sídlí základní umělecká škola.",
                 "short_description_en": "Historical building housing the School of Arts and Music.",
                 "description": "Kloboucký rodák Josef Bratmann (1848–1924) byl úspěšným vídeňským podnikatelem. Projekt vily (čp. 116) pro něj zpracoval jiný zdejší rodák, Hubert Gessner (1871–1943), jeden z nejvýznamnějších středoevropských architektů první poloviny 20. století. Gessner studoval na vídeňské akademii u profesora Otto Wagnera, vilu projektoval již v závěru prvního ročníku studia, v červnu 1895. Stavba je jedním z nejranějších středoevropských příkladů počátků secese.  ",
-                "description_en": "Josef Bratmann was born in Valašské Klobouky, however, he became successful as a businessman in Vienna. He supported education and culture, and he also ran a charity in his town. His house was designed by a famous architect Hubert Gessner and it was built in the Art Nouveau style.   These days it is the seat of the local School of Art and Music. ",
+                "description_en": "Josef Bratmann was born in ValašskéKlobouky, however, he became successful as a businessman in Vienna. He supported education and culture, and he also ran a charity in his town. His house was designed by a famous architect Hubert Gessner and it was built in the Art Nouveau style.   These days it is the seat of the local School of Art and Music. ",
                 "category": "Education",
-                "picture_folder": "Bratmannova vila",
+                "picture_folder": "Bratmmanova vila",
                 "picture_name": [
                     "Bratmmanova vila (1).jpg"
                 ]
@@ -309,7 +309,7 @@
                 "description": "Firma FARE, spol. s.r.o. byla založena v roce 1991, kdy začala s prací ve mzdě. Nejprve to byla práce pro italské obuvnické firmy, později se hlavním odběratelem stala rakouská firma. Od roku 1992 má svou provozovnu ve Valašských Kloboukách, kde je v současnosti areál firmy i situován. Přestože FARE vyrábí obuv pánskou či dámskou, největší důraz klade hlavně na dětskou obuv vycházkového typu v provedení celoročním, letním i zimním.",
                 "description_en": "Company FARE, spol. s.r.o. was established in 1991 when it began with labour hired. At the very beginning there wasproduction for Italian shoe companies and after achieving professional level, Austrian companies became the main customers. The companyhas been situated in quiet surroundings of the town Valašské Klobouky since 1992. Even though FARE has been producing men’s and women’s shoes, the greatest emphasis is placed on children’s casual yearlong, summer and winter shoes.",
                 "category": "Production place and headquarters",
-                "picture_folder": "Fare",
+                "picture_folder": "",
                 "picture_name": [
                     ""
                 ]
@@ -407,7 +407,7 @@
             "properties": {
                 "marker-color": "#0000ff",
                 "marker-size": "medium",
-                "marker-symbol": "",
+                "marker-symbol": "building",
                 "name": "Matyášova vila ",
                 "name_en": "Matyášova villa",
                 "short_description": "Matyášova vila slouží jako dílna pro výrobu tradiční valašské obuvi.",

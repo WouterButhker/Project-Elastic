@@ -287,6 +287,33 @@
             }
         },
         {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Stoomspinnerij Twenthe",
+                "name_en": "Spinning mill Twenthe",
+                "name_de": "Dampfspinnerei Twenthe",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>De eerste poging door een samenwerking van protestantse Almelose ondernemers om na de sluiting van Hofkes een nieuwe spinnerij op te richten mislukt. Van de 400 aandelen worden slechts 70 ondergebracht bij Twentse investeerders. De oplossing werd gevonden in het Russisch kapitaal van Jan Jacob Engbers, een van de voormalige \"Ruslui\" uit Vriezenveen. Hij begint in 1863 een nieuwe stoomspinnerij. In 1872 wordt besloten samen te werken met twee kapitaalkrachtige doopsgezinde families: de familie Cardinaal en de familie Lamberts. Er wordt een contract aangegaan onder de naam N.V. Almelosche Stoomspinnerij, -weverij en -ververij.</p> <p>In 1892 werd de spinnerij met meer dan 20.000 spoelen ontbonden. Het bedrijf werd overgenomen door Twenthe NV. Het fabrieksgebouw bleef niet lang staan, omdat het platbrandde op 31 maart 1914. Het enorme inferno werd veroorzaakt door oververhitting van een machine en 5 arbeiders stierven. Het hele gebouw lag in as. De beslissing om de fabriek te herbouwen werd genomen en de Nederlandse architect Arend G. Beltman bewees dat fabrieksgebouwen niet op een saaie verzameling bakstenen hoefden te lijken. Voor de veiligheid heeft hij een watertoren ingebouwd in het ontwerp. Het bedrijf floreerde en in 1945 waren er meer dan 72.000 spoelen. Toch moest ook dit bedrijf in de jaren 90 sluiten. Later in de 20e eeuw herbouwde het bedrijf het gebouw voor andere doeleinden, zoals kantoren en andere bedrijven. Dit is nog steeds het geval en het gebouw heet Twenthe.</p>",
+                "description_en": "<p>The first attempt by a group of Protestant entrepreneurs in Almelo to set up a new spinning mill after Hofkes went bankrupt failed. Of the 400 shares, only 70 were placed with investors out of the region. The solution was found in the Russian capital of Jan Jacob Engbers, who lived in Vriezenveen and came to money as one of the migrants in Sankt Petersburg. He started a new steam mill in 1863. In 1872 it was decided to collaborate with two wealthy Mennonite families: the Cardinaal family and the Lamberts family. A contract was signed under the name “N. V. Almelosche Stoomspinnerij, -weverij en -ververij”.</p> <p>In 1892 the spinning mill was dissolved with more than 20,000 spindles. The company was taken over by Twenthe NV. The factory building did not stand for long because it burned down on March 31, 1914. The huge inferno was caused by overheating of a machine and 5 workers died. The entire building was in ashes. The decision to rebuild the factory was made and the Dutch architect Arend Beltman proved that factory buildings did not have to look like a boring collection of bricks. For safety, he built a water tower into the design. The company flourished and in 1945 there were more than 72,000 spindles. Nevertheless this company was also forced to close in the 90s. Later in the 20th century, the company rebuilt the building for other purposes, such as offices and other businesses. This is still the case and the building is called Twenthe.</p>",
+                "description_de": "<p>Der erste Versuch einer Gruppe aus protestantischen Unternehmern aus Almelo, um nach der Schließung der Firma Hofkes eine neue Spinnerei zu gründen, misslang. Von den 400 Aktien wurden nur 70 bei Investoren aus Twente platziert. Die Lösung wurde im russischen Kapital von Jan Jacob Engbers aus Vriezenveen gefunden, einem der ehemaligen Auswanderer nach Sankt Petersburg. Er führte 1863 eine neue Dampfspinnerei ein. 1872 wurde beschlossen, mit zwei wohlhabenden mennonitischen Familien zusammenzuarbeiten: die Familie Cardinaal und die Familie Lamberts. Unter dem Namen “N. V. Almelosche Stoomspinnerij, -weverij en -ververij” wird ein Vertrag unterzeichnet.</p> <p>1892 wurde die Spinnerei mit mehr als 20.000 Spindeln aufgelöst. Das Unternehmen wird dann von der Twenthe NV übernommen. Das Fabrikgebäude stand nicht lange, da es am 31. März 1914 bei einem Großbrand völlig niederbrannte. Das riesige Inferno wurde durch Überhitzung einer Maschine verursacht und 5 Arbeiter starben. Die Entscheidung für den Wiederaufbau der Fabrik fiel und der niederländische Architekt Arend Beltman bewies, dass Fabrikgebäude nicht wie eine langweilige Ziegelsammlung aussehen müssen. Zur Sicherheit hat er einen Wasserturm in das Design eingebaut. Das Unternehmen florierte und 1945 gab es mehr als 72.000 Spindeln. Dennoch musste auch dieses Unternehmen seine Tore in den neunziger Jahren schließen. Später im 20. Jahrhundert baute das Unternehmen das Gebäude für andere Zwecke wie Büros und andere Geschäfte um. Dies ist immer noch der Fall und das Gebäude heißt Twenthe.</p>",
+                "category": "Factory",
+                "picture_folder": "",
+                "picture_name" : [""]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.658535599708557,
+                    52.35631900559098
+                ]
+            }
+        },
+        {
             "properties": {
                 "short_description": "",
                 "short_description_en": "",
