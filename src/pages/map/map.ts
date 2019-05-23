@@ -5,6 +5,7 @@ import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
 import {TranslateService} from "@ngx-translate/core";
 import {Geolocation } from "@ionic-native/geolocation";
+import { ToastController } from "ionic-angular";
 
 declare var google: any;
 
@@ -41,7 +42,8 @@ export class MapPage {
         public popoverCtrl: PopoverController,
         public dataManager: DataManagerProvider,
         public translate: TranslateService,
-        private geolocation: Geolocation
+        private geolocation: Geolocation,
+        private toastController: ToastController
         ) {
 
 
@@ -478,6 +480,8 @@ export class MapPage {
     private centerOnUser() {
         console.log("TEST");
 
+        this.presentToast("Getting your location, please be patient");
+
         this.geolocation.getCurrentPosition().then((resp) => {
             console.log("latitude: " + resp.coords.latitude);
             console.log("longitude: " + resp.coords.longitude);
@@ -487,11 +491,33 @@ export class MapPage {
             let userLocation = new google.maps.LatLng(latitude, longitude);
 
             this.map.panTo(userLocation);
-            this.map.setZoom(7);
+            this.map.setZoom(15);
+
+            // draw circle on user
+            let userCircle = new google.maps.Circle({
+                strokeColor: '#0000FF',
+                strokeOpacity: 0.8,
+                strokeWeight: 2,
+                fillColor: '0000FF',
+                fillOpacity: 0.35,
+                map: this.map,
+                center: userLocation,
+                radius:  resp.coords.accuracy / 2
+            });
+
 
         }).catch((error) => {
+            this.presentToast("Error getting your location " + error);
             console.log('error getting location ', error)
             });
+    }
+
+    private async presentToast(text) {
+        const toast = await this.toastController.create({
+            message: text,
+            duration: 3000
+        });
+        toast.present();
     }
 
 }
