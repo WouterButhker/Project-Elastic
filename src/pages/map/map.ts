@@ -64,12 +64,17 @@ export class MapPage {
         // open single location if the map gets a request from detailpage
 
         this.initMap();
+
+
+
+    }
+
+    ionViewDidEnter() {
         this.changeCityAndLanguage();
 
         if (this.navParams.get('viewSingleLocation')) {
             this.openLocation(this.navParams.get('locationFeature'))
         }
-
     }
 
 
@@ -482,6 +487,7 @@ export class MapPage {
             let userLocation = new google.maps.LatLng(latitude, longitude);
 
             this.map.panTo(userLocation);
+            this.map.setZoom(7);
 
         }).catch((error) => {
             console.log('error getting location ', error)

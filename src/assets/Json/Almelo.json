@@ -163,7 +163,7 @@
                 "name_de": "",
                 "short_description_de": "",
                 "description_de": "",
-                "icon" : "http://maps.google.com/mapfiles/ms/micons/yellow.png"
+                "icon" : ""
             },
             "type": "Feature",
             "geometry": {
