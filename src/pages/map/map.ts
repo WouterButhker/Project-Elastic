@@ -269,7 +269,7 @@ export class MapPage {
             styles: styles,
             tilt: 0,
             mapTypeControlOptions: {
-                mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain', 'night_mode']
+                mapTypeIds: ['roadmap', 'satellite', 'night_mode']
             }
         };
 
@@ -360,15 +360,19 @@ export class MapPage {
 
             infoWindow.open(self.map);
 
+            // if opened from detailpage then disable the open detailpage
+            if (!self.navParams.get('viewSingleLocation')) {
+
+                // the onclick event to open the detailpage from the infowindow
+                google.maps.event.addListenerOnce(infoWindow, 'domready', function () {
+                    document.getElementById('infoWindowDiv').addEventListener('click', () => {
+
+                        self.viewDetailPage(event);
+                    })
+                });
+            }
             // the onclick event for the infowindow
-            google.maps.event.addListenerOnce(infoWindow, 'domready', function () {
-                document.getElementById('infoWindowDiv').addEventListener('click', () => {
 
-                    self.viewDetailPage(event);
-
-
-                })
-            });
 
         });
 
