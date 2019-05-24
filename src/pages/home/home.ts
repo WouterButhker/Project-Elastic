@@ -15,11 +15,10 @@ import {LanguageCitySelectorComponent} from "../../components/language-city-sele
 export class HomePage {
 
     locations: object;
-    categories; // TODO: categories (kleuren op de kaart?)
-    // TODO: Geolocation
+    categories; // TODO: categories (kleuren op de kaart)
     // TODO: route
     // TODO: pc view beautiful
-    // TODO: fix sliders
+    // TODO: fix compression photos
 
     constructor(
         private popoverCtrl: PopoverController,
@@ -49,7 +48,6 @@ export class HomePage {
         //alert(loc.properties.name);
         this.navCtrl.push(DetailPage,
             {locationFeature: locationFeature})
-
     }
 
     private openLanguageSelector(myEvent) {
