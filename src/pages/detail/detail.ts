@@ -21,7 +21,6 @@ export class DetailPage {
     language: string;
     color: string;
     pictures: string[];
-    private APIKey: string = "AIzaSyCXopP8dS5mRg9il5qfZO_qI3L6TxObF4c"; // TODO: get apiKey from file
 
   constructor(
           public navCtrl: NavController,
@@ -36,6 +35,7 @@ export class DetailPage {
 
   // TODO: on Iphone the audio bar gets displayed even though there is no audio
     // TODO: add auto audio
+    // TODO: add static maps
 
 
   ionViewDidLoad() {
@@ -76,15 +76,6 @@ export class DetailPage {
 
 
 
-    private getStaticMap() {
-      // TODO: fix static maps
-      let coordinates = this.locationDetails.geometry.coordinates;
-      let signature = "q62hxW91A_AyMKSbAjl1NPIOj4w=";
-
-      return "https://maps.googleapis.com/maps/api/staticmap?size=600x300&maptype=roadmap&markers=" + coordinates +
-          "&key=" + this.APIKey;
-
-    }
 
 
 

@@ -3,9 +3,8 @@ import {IonicPage, NavController, NavParams, PopoverController} from 'ionic-angu
 import {TabsPage} from "../tabs/tabs";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {TranslateService} from "@ngx-translate/core";
-import {el} from "@angular/platform-browser/testing/src/browser_util";
-import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
 import {LanguageSelectorComponent} from "../../components/language-selector/language-selector";
+import {GoogleAnalytics} from "@ionic-native/google-analytics";
 
 /**
  * Generated class for the IntroPage page.
@@ -24,9 +23,12 @@ export class IntroPage {
   constructor(public navCtrl: NavController,
               private dataManager: DataManagerProvider,
               private translate: TranslateService,
-              private popoverCtrl: PopoverController) {
+              private popoverCtrl: PopoverController,
+              private ga: GoogleAnalytics) {
 
       this.checkUserLanguage();
+
+      this.setupTracking();
   }
 
 
@@ -62,5 +64,13 @@ export class IntroPage {
             ev: myEvent
         });
 
+    }
+
+    private setupTracking() {
+      this.ga.startTrackerWithId('UA-126931548-1').then(() => {
+          console.log("GA started");
+          this.ga.trackView("Intro");
+      })
+          .catch(e => console.log("Error starting GA", e));
     }
 }

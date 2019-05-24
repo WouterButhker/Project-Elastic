@@ -1,10 +1,8 @@
 import {Component} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
-import {Events, MenuController, NavController, PopoverController} from "ionic-angular";
+import {Events, NavController, PopoverController} from "ionic-angular";
 import {DetailPage} from "../detail/detail";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
-
 
 @Component({
     selector: 'page-home',
@@ -31,6 +29,7 @@ export class HomePage {
 
             // this.categories = ["factory", "factory owner's home", "other"];
 
+            this.dataManager.gaTrackView("Home");
 
             // check if the language or city changed
             this.event.subscribe("Language + city", () => {

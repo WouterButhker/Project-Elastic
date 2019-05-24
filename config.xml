@@ -85,9 +85,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^2.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
-    <plugin name="cordova-plugin-google-analytics" spec="1.8.6">
-        <variable name="GMS_VERSION" value="11.0.1" />
-    </plugin>
     <plugin name="cordova-plugin-googlemaps" spec="2.4.6">
         <variable name="API_KEY_FOR_ANDROID" value="AIzaSyD1itdhKvuMFGolJV6_x4pA9MzgeT6ZdOc" />
         <variable name="API_KEY_FOR_IOS" value="AIzaSyA7_F3Lz_6-EahVQz0aCY4rMUFtjSWvz7E" />
@@ -113,4 +110,7 @@
     <engine name="ios" spec="4.5.5" />
     <engine name="browser" spec="5.0.4" />
     <engine name="android" spec="7.1.4" />
+    <plugin name="cordova-plugin-google-analytics" spec="^1.8.6">
+        <variable name="GMS_VERSION" value="11.0.1" />
+    </plugin>
 </widget>

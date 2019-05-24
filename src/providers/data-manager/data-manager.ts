@@ -1,6 +1,7 @@
 import {HttpClient} from '@angular/common/http';
 import {Injectable} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
+import {GoogleAnalytics } from "@ionic-native/google-analytics";
 
 @Injectable()
 
@@ -19,7 +20,9 @@ export class DataManagerProvider {
 
 
     constructor(
-        public http: HttpClient, public translate: TranslateService) {
+        public http: HttpClient,
+        public translate: TranslateService,
+        private ga: GoogleAnalytics) {
         // settings
         this.getPicturesOnline = false;
         this.getAudioOnline = true;
@@ -220,6 +223,10 @@ export class DataManagerProvider {
 
         // check if selected language is possible for selected city
         this.checkLanguage(city);
+    }
+
+    public gaTrackView(viewName) {
+        this.ga.trackView(viewName)
     }
 
 

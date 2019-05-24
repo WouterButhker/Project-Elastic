@@ -46,7 +46,7 @@ export class MapPage {
         private toastController: ToastController
         ) {
 
-
+        this.dataManager.gaTrackView("Map");
         // check if the language or city changed
         this.event.subscribe("Language + city", () => {
 

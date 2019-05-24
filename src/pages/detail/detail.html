@@ -16,14 +16,16 @@
 
 
     <ion-title>
+        <h4>
         {{dataManager.getPropertyName(locationDetails)}}
+        </h4>
     </ion-title>
 
 
     <!--pictures-->
-    <ion-slides pager zoom=true #slider >
+    <ion-slides pager zoom=true #slider id="slides-element">
         <ion-slide *ngFor="let pic of pictures" id="ion-slide">
-            <img src="{{dataManager.getPicturePathByName(locationDetails, pic)}}" alt="" (error)="this.style.display='none'">
+            <img src="{{dataManager.getPicturePathByName(locationDetails, pic)}}" alt="" (error)=hideImage()>
 
         </ion-slide>
     </ion-slides>

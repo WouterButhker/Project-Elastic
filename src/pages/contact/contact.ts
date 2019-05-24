@@ -9,12 +9,11 @@ import { DataManagerProvider } from "../../providers/data-manager/data-manager";
 })
 export class ContactPage {
     @ViewChild(List) list: List;
-    contributors;
 
     constructor(public navCtrl: NavController, private datamanager: DataManagerProvider) {
 
         // this.contributors = this.loadDataFromJson();
-        console.log(this.contributors);
+        this.datamanager.gaTrackView("Contact");
     }
 
 

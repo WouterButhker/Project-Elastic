@@ -21,6 +21,7 @@ import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import {IntroPage} from "../pages/intro/intro";
 import { DataManagerProvider } from '../providers/data-manager/data-manager';
 import {Geolocation } from "@ionic-native/geolocation";
+import {GoogleAnalytics} from "@ionic-native/google-analytics";
 
 @NgModule({
     declarations: [
@@ -64,7 +65,8 @@ import {Geolocation } from "@ionic-native/geolocation";
         {provide: ErrorHandler, useClass: IonicErrorHandler},
         HttpClientModule,
         DataManagerProvider,
-        Geolocation
+        Geolocation,
+        GoogleAnalytics
     ]
 })
 export class AppModule {
