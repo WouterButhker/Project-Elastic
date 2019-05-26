@@ -28,7 +28,7 @@ export class DataManagerProvider {
         this.getAudioOnline = true;
 
         // some default values
-        this.onlineSource = "http://hackersbende.nl/elastic/";
+        this.onlineSource = "http://elastic-app.eu/";
         this.audioBasePath = 'assets/Audio/';
         this.imgBasePath = 'assets/Pictures/';
         this.language = "Dutch";

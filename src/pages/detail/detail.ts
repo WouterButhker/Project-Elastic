@@ -31,6 +31,8 @@ export class DetailPage {
       this.locationDetails = this.navParams.get('locationFeature');
       this.pictures = this.locationDetails.properties.picture_name;
 
+      this.dataManager.gaTrackView("Detail")
+
   }
 
   // TODO: on Iphone the audio bar gets displayed even though there is no audio
@@ -47,6 +49,11 @@ export class DetailPage {
   private hideAudio() {
       console.log("error loading audio file, hiding audio player");
       this.audio.nativeElement.style.display='none';
+  }
+
+  public hideImage() {
+      document.getElementById('slides-element').style.display='none';
+      this.slider.paginationHide = true;
   }
 
 
