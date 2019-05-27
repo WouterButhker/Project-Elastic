@@ -22,6 +22,7 @@ import {IntroPage} from "../pages/intro/intro";
 import { DataManagerProvider } from '../providers/data-manager/data-manager';
 import {Geolocation } from "@ionic-native/geolocation";
 import {GoogleAnalytics} from "@ionic-native/google-analytics";
+import {TextToSpeech } from "@ionic-native/text-to-speech";
 
 @NgModule({
     declarations: [
@@ -66,7 +67,8 @@ import {GoogleAnalytics} from "@ionic-native/google-analytics";
         HttpClientModule,
         DataManagerProvider,
         Geolocation,
-        GoogleAnalytics
+        GoogleAnalytics,
+        TextToSpeech
     ]
 })
 export class AppModule {

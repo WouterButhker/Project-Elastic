@@ -22,7 +22,7 @@
     </ion-title>
 
 
-    <!--pictures-->
+    <!--pictures in slider-->
     <ion-slides pager zoom=true #slider id="slides-element">
         <ion-slide *ngFor="let pic of pictures" id="ion-slide">
             <img src="{{dataManager.getPicturePathByName(locationDetails, pic)}}" alt="" (error)=hideImage()>
@@ -31,11 +31,20 @@
     </ion-slides>
 
 
-<!--    TODO: implement native audio-->
-    <audio controls #audio>
-        <source (error)="hideAudio()" src="{{dataManager.getAudio(locationDetails)}}" type="audio/mpeg">
+<!--    TODO: implement native audioFiles-->
+<!--    audioFiles player for recorded files-->
+    <audio controls #audioFiles>
+        <source (error)="noAudioFiles()" src="{{dataManager.getAudio(locationDetails)}}" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+
+<!--    audioFiles player for TTS-->
+    <button #audioTTS id="audioButton" (click)="playAudioTTS()" class="cityButton">
+        <ion-icon name="play"></ion-icon>
+        /
+        <ion-icon name="pause"></ion-icon>
+    </button>
+
 
 
     <!--innerHTML makes sure html tags inside the properties get displayed correctly-->

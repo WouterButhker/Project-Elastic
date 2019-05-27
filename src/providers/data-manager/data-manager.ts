@@ -36,7 +36,7 @@ export class DataManagerProvider {
         this.color = "almelo_green";
         this.flag = this.imgBasePath + "Flags/netherlands.png";
 
-        // decide if the pictures and audio should be gotten from local source
+        // decide if the pictures and audioFiles should be gotten from local source
         if (this.getPicturesOnline) {
             this.imgBasePath = this.onlineSource + this.imgBasePath;
         }
@@ -75,7 +75,7 @@ export class DataManagerProvider {
             locationFeature.properties.picture_name[0]
     }
 
-    public getAudio(locationFeature) { // audio files should have the same name as the picture folder
+    public getAudio(locationFeature) { // audioFiles files should have the same name as the picture folder
         return this.audioBasePath +
             this.city + "/" +
             this.language + "/" +
