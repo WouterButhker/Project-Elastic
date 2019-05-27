@@ -8,7 +8,7 @@ import {LanguageCitySelectorComponent} from "../../components/language-city-sele
     selector: 'page-home',
     templateUrl: 'home.html'
 })
-
+// TODO: hedeman afbeelding klopt niet
 
 export class HomePage {
 

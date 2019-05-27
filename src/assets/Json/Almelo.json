@@ -1,288 +1,1205 @@
 {
+    "type": "FeatureCollection",
     "features": [
         {
-            "properties": {
-                "short_description": "Dit is het kanaal tussen Almelo en Nordhorn",
-                "description": "Het kanaal Almelo-Nordhorn werd gegraven aan het eind van de 19e eeuw. Het kanaalvak van Almelo tot de grens bij Denekamp werd in 1886 in gebruik genomen. Het laatste gedeelte, de verbinding met het Eems-Vechtkanaal in Nordhorn, kwam gereed in 1902. Aanleiding van de aanleg was een verdrag tussen de Nederlandse en Pruisische regering uit 1876, dat gesloten werd omdat men hoge verwachtingen had van verbindingen tussen waterwegen in Duitsland en Nederland. Tot drukke scheepvaart kwam het niet, omdat bij de voltooiing van het kanaal de schepen al te groot waren voor het ondiepe water. In het topjaar 1912 telden de sluiswachters nog geen vijfhonderd schepen, minder dan twee per dag. Dit aantal nam nog verder af na de opening van het Twentekanaal. In 1960 voer het laatste (turf-)schip door het kanaal. ",
-                "short_description_en": "TEST",
-                "short_description_de": "",
-                "picture_name": [
-                    "Almelo-Nordhorn Kanaal.JPG"
-                ],
-                "name_en": "Almelo_Nordhorn Canal",
-                "name": "Almelo-Nordhorn Kanaal",
-                "name_de": "",
-                "picture_folder": "Kanaal",
-                "description_de": "",
-                "stroke": "#0000ff"
-            },
             "type": "Feature",
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        6.653852462768555,
-                        52.35995556339012
-                    ],
-                    [
-                        6.657586097717285,
-                        52.361239753739746
-                    ],
-                    [
-                        6.662049293518066,
-                        52.36205218142054
-                    ],
-                    [
-                        6.665182113647461,
-                        52.36215700971062
-                    ],
-                    [
-                        6.673378944396972,
-                        52.36215700971062
-                    ],
-                    [
-                        6.6803741455078125,
-                        52.36378181640311
-                    ],
-                    [
-                        6.702260971069336,
-                        52.369258547155596
-                    ],
-                    [
-                        6.704835891723633,
-                        52.3693633583475
-                    ],
-                    [
-                        6.707496643066405,
-                        52.36910132990146
-                    ],
-                    [
-                        6.744275093078613,
-                        52.36100388484089
-                    ],
-                    [
-                        6.746528148651122,
-                        52.36082043038239
-                    ],
-                    [
-                        6.749274730682373,
-                        52.361108715618066
-                    ],
-                    [
-                        6.765260696411133,
-                        52.36323148534417
-                    ],
-                    [
-                        6.773929595947266,
-                        52.364856252523566
-                    ],
-                    [
-                        6.783714294433594,
-                        52.365694818657445
-                    ],
-                    [
-                        6.789464950561523,
-                        52.36543276845041
-                    ],
-                    [
-                        6.819398403167725,
-                        52.36785667355634
-                    ],
-                    [
-                        6.826822757720947,
-                        52.3678697753847
-                    ],
-                    [
-                        6.851863861083984,
-                        52.37282198816532
-                    ],
-                    [
-                        6.955804824829102,
-                        52.387334799335875
-                    ],
-                    [
-                        6.958208084106445,
-                        52.38749195168672
-                    ],
-                    [
-                        6.970481872558594,
-                        52.38696810834162
-                    ],
-                    [
-                        7.005500793457031,
-                        52.38743956763194
-                    ],
-                    [
-                        7.019920349121094,
-                        52.39021583687557
-                    ],
-                    [
-                        7.053480148315429,
-                        52.40074312027673
-                    ],
-                    [
-                        7.065496444702148,
-                        52.417602489992824
-                    ],
-                    [
-                        7.076654434204102,
-                        52.42629144910477
-                    ],
-                    [
-                        7.0775556564331055,
-                        52.42807090414696
-                    ],
-                    [
-                        7.077083587646484,
-                        52.432623888510506
-                    ],
-                    [
-                        7.075839042663574,
-                        52.43411528111789
-                    ]
-                ]
-            }
-        },
-        {
             "properties": {
-                "short_description": "chemische ververij en stomerij opgericht door de gebroeders Palthe.",
-                "short_description_en": "Chemical dry cleaning and dying company.",
-                "picture_name": [
-                    "palthe.jpg",
-                    "Palthe2.jpg"
-                ],
-                "marker-symbol": "",
+                "marker-color": "#7e7e7e",
                 "marker-size": "medium",
-                "marker-color": "#0000ff",
-                "description": "Palthe was een chemische wasserette en ververij, in 1873 opgericht door de gebroeders Palthe. Ze zijn erg minimalistisch begonnen, maar werkten erg hard om de wereldwijde innovaties en nieuwe technieken binnen de bedrijfstak bij te benen. Met de ontwikkeling van een techniek voor het reinigen van textiel met behulp van wasbenzine werd het bedrijf in 1881 gedwongen uit te breiden naar een grotere locatie. Vanaf dat moment groeide het bedrijf heel snel. Ze konden de hoeveelheid klanten niet meer aan, dus werden ze gedwongen uit te breiden en meer mensen in te huren. Met deze nieuwe werknemers ontstond na verloop van tijd ook een soort vroege vorm van een vakbond. Rond 1915 had Palthe filialen in heel Nederland. Rond de jaren 40 werd er veel geïnvesteerd in modernere materialen en technieken. In het begin kostte het zo’n 6 weken om een kledingstuk te verwerken, in de jaren ’60 (na al deze investeringen) nog maar een uurtje. Het keerpunt voor Palthe kwam rond de jaren ’90, en vrij snel daarna ook hun faillissement. Dit in verband met modernisering waar het bedrijf niet tegenop kon.",
-                "name_en": "Palthe textile processing",
-                "name": "Palthe textielveredeling",
-                "picture_folder": "Palthe",
+                "marker-symbol": "",
+                "name": "Introductie",
+                "name_en": "Introduction",
+                "name_de": "Einführung",
+                "short_description": "Een korte introductie over Almelo",
+                "short_description_en": "A short introduction to Almelo ",
+                "short_description_de": "Eine kurze Einführung über Almelo",
+                "description": "Almelo ontwikkelde als langgerekte nederzetting bij de plaats waar een landweg, nu de Grotestraat, het stroomdal van de Aa kruiste. In de 17de en 18de eeuw nam de huisweverij sterk in belang toe. Een groot aantal kleine wevershuisjes stond op de achterterreinen van de vaak monumentale huizen aan de Grotestraat van doopsgezinde fabrikeurs als Coster, Hofkes en Bavink. De stoommachine, die in 1830 in Almelo zijn intrede maakte bij de weverij van Hofkes, leidde tot de overschakeling van de huisweverij naar een fabrieksmatige productiewijze. De aanleg van het Overijssels Kanaal in 1855 en de spoorlijn Almelo-Salzbergen in 1865 bevorderden de bouw van weverijen en spinnerijen. De meeste fabrieken werden in de buurt van het kanaal en spoorlijn gevestigd. Niet succesvol was het graven van het kanaal Almelo-Nordhorn in 1888-'89.  Omstreeks 1900 woonde de rijke bovenlaag van Almelo in villa's langs de uitvalswegen, zoals de Ootmarsumse-, de Bornse- en de Wierdensestraat. De samenvoeging van de gemeenten Staden Ambt-Almelo in 1914 had ten gevolge dat de stad naar het zuiden, noorden en westen uitbreidde. Er ontstonden arbeiderswijken, zoals het tuindorp De Riet. Maar ook ziekenhuizen, een bibliotheek en zelfs een voetbalclub. Deze route leidt langs locaties, waar het ooit allemaal plaatsvond.",
+                "description_en": "<p>Almelo, developed as a stretched settlement at the place where a road (now the Grotestraat) crossed the river valley of the Aa. In the 17th and 18th centuries, home weaving increased considerably in importance. A large number of small weaver's houses stood on the backgrounds of the often monumental houses on Grotestraat of Mennonite manufacturers such as Coster, Hofkes and Bavink. The steam engine, which was brought to the weaving mill at H.E. Hofkes & Co. in 1830, led to the switch from home weaving to a factory production method. The construction of the Overijssels Canal in 1855 and the Almelo-Salzbergen railway line in 1865 promoted the construction of weaving and spinning mills. Most factories were located near the canal and railroad. The digging of the Almelo-Nordhorn canal in 1888-'89 was not successful for transportation.</p>  <p>Around 1900, the rich upper layer of Almelo lived in villas out of the city centre.The merger of the municipalities of the City of Almelo and  Ambt-Almelo in 1914 resulted in the city expanding to the south, north and west. Workers' neighborhoods emerged, such as the De Riet garden village. But also hospitals, a library and even a football club. This route leads to locations of the past where textile history once once took place.</p>",
+                "description_de": "<p>Almelo entwickelte sich zu einer langgestreckten Siedlung an der Stelle, an der eine Landstraße, heute die Grotestraat, das Flusstal der Aa überquerte. Im 17. und 18. Jahrhundert gewann das Weben in Heimarbeit erheblich an Bedeutung. Auf dem Hinterhof der oft monumentalen Häuser in der Grotestraat mennonitischer Fabrikeure wie Coster, Hofkes und Bavink stand eine große Anzahl kleiner Weberhäuser. Die Dampfmaschine, die 1830 von H.E. Hofkes & Co. eingeführt wurde, führte zur Umstellung von der Heimweberei auf eine Fabrikproduktionsmethode. Der Bau des Overijsselskanals im Jahr 1855 und der Eisenbahnlinie Almelo-Salzbergen im Jahr 1865 förderten den Bau von großen Webereien und Spinnereien. Die meisten Fabriken befanden sich in der Nähe des Kanals und der Eisenbahn. Der Bau des Almelo-Nordhorn-Kanals in den Jahren 1888 bis 1889 führte leider nicht zum großen Transporterfolg.</p> <p>Um 1900 lebte die reiche obere Schicht von Almelo in Villen in den Außenbezirken der Stadt, wie beispielsweise in der Ootmarsumse, Bornse und der Wierdensestraat. Durch den Zusammenschluss der Gemeinden Stadt Almelo und Ambt-Almelo im Jahr 1914 expandierte die Stadt nach Süden, Norden und Westen. Es entstanden Arbeiterviertel wie das Gartendorf De Riet. Aber auch Krankenhäuser, eine Bibliothek und sogar ein Fußballverein. Diese Route führt an Orten vorbei, an denen diese Entwicklung einmal stattgefunden hat.</p>",
                 "category": "",
-                "description_en": "Palthe was a chemical cloth dying and cleaning company founded in 1873 by the Palthe brothers. They started off very minimalistic, but worked very hard to keep up with newly invented techniques within the industry.  A process was developed for cleaning textile using petrol, for which the company had to move to a bigger location in 1881. From that moment, the company set in a growth spurt. The company got too many customers to handle, so they were forced to expand and hire more employees, and with employees eventually came an early kind of labour union. Fast forward to around 1915, Palthe now has locations all over the country, and the company has expanded their services to sewing. Around the 1940s, the company made a lot of investments into modern equipment and new methods. By the 1960s, the processing time for one piece of clothing decreased from about six weeks to an hour. Palthe’s downfall occurred around the 1990s due to modernisation.",
-                "name_de": "",
-                "short_description_de": "",
-                "description_de": "",
-                "icon" : ""
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.6616469621658325,
-                    52.35836665377714
-                ]
-            }
-        },
-        {
-            "properties": {
-                "short_description": "",
-                "short_description_en": "",
-                "picture_name": [
-                    "bavink.jpg"
-                ],
-                "marker-symbol": "",
-                "description_en": "Bavink was a chemical bleaching company founded in 1833. Their main customer was ten Cate, which was a huge textile processing company at the time. In 1850, Bavink started working with a steam engine instead of animals for powering the machines.  In 1855, the Overijssels canal (a canal between Zwolle and Almelo) was constructed. Combined with the competing bleaching company Wilson facing backlash, Bavink had the opportunity to grow to be one of the top 3 most significant bleaching companies in the Netherlands.  Bavink was eventually closed in 1873.",
-                "marker-color": "#7e7e7e",
-                "description": "Bavink was een chemische blekerij, opgericht in 1833. Hun grootste klant was ten Cate, indertijd een gigantisch textielverwerkingsbedrijf, en momenteel nog altijd een bekend merk. In 1850 ging Bavink voor het eerst werken met een stoommachine als aandrijvende kracht in plaats van dieren. In 1855 werd het Overijssels kanaal aangelegd. Doordat het op dat moment erg slecht ging met concurrerende blekerij Wilson, kreeg blekerij Bavink de kans om uit te groeien tot één van de drie belangrijkste blekerijen van Nederland. Bavink werd uiteindelijk gesloten in 1873.",
-                "name_en": "Steam bleaching company Bavink",
-                "name": "Stoomblekerij Bavink",
-                "picture_folder": "Bavink",
-                "category": "",
-                "marker-size": "medium",
-                "name_de": "",
-                "short_description_de": "",
-                "description_de": ""
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.699358820915221,
-                    52.338767589072454
-                ]
-            }
-        },
-        {
-            "properties": {
-                "short_description": "",
-                "short_description_en": "",
-                "picture_name": [
-                    "ten bos.jpg",
-                    "ten bos2.jpg"
-                ],
-                "marker-symbol": "",
-                "description_en": "Johannes ten Bos started out with a small dying and spinning company in the nearby village of Tubbergen in 1860. When he decided to scale up and move business to Almelo, he managed to get his hands on some modern equipment: mechanical spinning machines and weaving mills, and the quality of his textiles improved by a lot. In the 20th century, the company started producing cheviots (a pattern of wool woven in with twill) and serges (smooth fabric lining), which caused the company to bloom further. In 1940, with over 800 workers employed, ten Bos was the biggest wool processing company in the Nethlerlands.  After the second world war, the company was still doing decent business. However, the company eventually went bankrupt in 1957, unable to keep up with the mechanisation of the modern industry.",
-                "marker-color": "#7e7e7e",
-                "description": "Johannes ten Bos begon in 1860 met een kleine ververij en spinnerij in Tubbergen. Toen hij besloot om uit te breiden en zijn bedrijf naar Almelo te verplaatsen, is het hem gelukt om een stel mooie, moderne machines in handen te krijgen: mechanische spinners- en weefgetouwen. Hierdoor gingen zijn productiecapaciteit en de kwaliteit van zijn materialen flink omhoog. In de 20e eeuw begon het bedrijf cheviots en serges te produceren, wat relatief uniek was (zeker in deze omgeving), waardoor het nog verder kon groeien. In 1940 was ten Bos met haar 800 medewerkers het grootste wolverwerkingsbedrijf in Nederland. Zelfs na de tweede wereldoorlog bleef het bedrijf actief en overeind. In 1957 ging het echter alsnog failliet als gevolg van de toenemende mechanisatie.",
-                "name_en": "Spinning & weaving mill and dyer ten Bos",
-                "name": "Wolspinnerij, ververij en weverij ten Bos",
-                "picture_folder": "TenBos",
-                "category": "",
-                "marker-size": "medium",
-                "name_de": "",
-                "short_description_de": "",
-                "description_de": ""
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.666928231716155,
-                    52.35460546067206
-                ]
-            }
-        },
-        {
-            "properties": {
-                "short_description": "Het huis waar de familie Hofkes heeft gewoond.",
-                "short_description_en": "The house where the family Hofkes has lived.",
-                "picture_name": [
-                    "hofkeshuis.jpg"
-                ],
-                "marker-symbol": "",
-                "marker-size": "medium",
-                "marker-color": "#7e7e7e",
-                "description": "",
-                "name_en": "The Hofkeshuis",
-                "name": "Het Hofkeshuis",
-                "picture_folder": "HofkesHuis",
-                "category": "House of textile family",
-                "description_en": "In the 18th century, there was a Dutch entrepreneur from Winterswijk. His name was Egbert Hofkes, born in 1738, and he was a textile merchant. He would buy linen, made of flax, and traded the good around the eastern region of the Netherlands. After great success in the mercantile business, he bought a wonderful house in the thoroughfare in the city of Almelo in 1775. For him being an admirer for French culture, he renovated the building in a monumental classicist style, inspired by the absolute monarch of France, Louis XVI. No other house in Almelo had this allure and magnificence, except for the chateau of the earl. The house of Egbert Hofkes presented his success in business.  During the renovation, Hofkes created a reception room on the first floor and he painted the walls of that room. The paintings were painted on very delicate high-quality linen, that was supplied by himself. He was Mennonite and a Patriot. In his reception room he received some prominent and famous people of that time, such as the leader of the Patriots Joan Derk van der Capellen tot den Pol, the French warlord under Napoleon general Moreau, and the banker Willem de Clercq, founder of the textile industry in Twente. Egbert Hofkes was revolutionary for his time, because he founded the first steam powered textile factory of Twente. This machine was placed in the Hofkesweverij in the Marktstraat of Almelo. The house has been inhabited until 1928 by his descendants. It was then sold to a shoe store called Niers and the ground floor has since then been used as shoe store. The first floor, in which the reception room can be found, is used for residential purposes.",
-                "name_de": "",
-                "short_description_de": "",
-                "description_de": ""
-            },
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    6.664983630180359,
-                    52.35701030222736
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#7e7e7e",
-                "marker-size": "medium",
-                "marker-symbol": "",
-                "name": "Hedeman stoomkatoenweverij, ververij en wasserij",
-                "name_en": "Hedeman textile processing",
-                "short_description": "",
-                "short_description_en": "",
-                "description": "Deze textielblekerij, -ververij en -weverij heeft zich in 1880 gevestigd in een bestaand fabriekspand op het Sluitersveld, dat werd opgekocht door Hertog Hedeman. Hedeman liet er een complex van arbeiderswoningen bij bouwen, groot genoeg voor zo’n 175 mensen.  In 1930 werd er een kantoor bijgebouwd, met de bekende klokkentoren aan de Fabrieksstraat. In de tweede wereldoorlog werd de oorspronkelijke klok door de Duitsers in beslag genomen. Voor zijn vijftigste verjaardag kreeg Hedeman van zijn arbeiders een grote bronzen klok cadeau ter vervanging van de originele klok. In 1959 werd Hedeman overgekocht door Nijverdal ten Cate, maar de fabriek bleef nog een aantal jaar uitbreiden. Door de import van goedkoop kant-en-klaar verwerkt textiel uit lagelonenlanden verslechterde de concurrentiepositie van de fabriek rond 1962, waardoor Nijverdal ten Cate veel afzetmogelijkheden voor bovenkledingstoffen verloor. Na 112 jaar kwam de bloeiende textielindustrie op het Sluitersveld tot een einde. ",
-                "description_en": "This textile factory first settled in an existing factory building located in the Sluitersveld area, which was bought by Hertog Hedeman in 1880. Hedeman had a complex of small homes built for the factory workers. This complex offered accommodation to about 175 labourers.  In 1930, a big office was added, including the distinctive bell tower at the Fabrieksstraat. During the second world war, the original bell was confiscated by the Germans. For his 50th birthday, Hedeman received a big bronze bell from his workers, as a replacement for the original bell. In 1959, the Hedeman factory was bought by Nijverdal ten Cate, but the developments of the factory didn’t cease until around 1962. In 1962, the company could no longer compete with the low prices of cheaply imported processed textiles, resulting in a great loss of sales. After 112 years, the blooming textile industry of the Sluitersveld finally came to an end.",
-                "category": "old factories",
                 "picture_folder": "",
-                "picture_name" : [""]
+                "icon": "",
+                "picture_name": [
+                    ""
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.65945291519165,
+                    52.35702668353308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "SCHOLCO",
+                "name_en": "SCHOLCO",
+                "name_de": "SCHOLCO",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>De N.V. Katoenmaatschappij Gebroeders Scholten & Compagnie ontstond in de eerste helft van de 19e eeuw toen door de Gebroeders Scholten een handweverij met katoen werd opgericht. Er werd overgegaan tot de oprichting van een stoomweverij in 1859. Deze firma maakte katoenen en linnen stoffen voor onder andere beddengoed, shirts en zakdoeken.In 1962 werd gefuseerd tot Van Heek Scholco. De fusiefirma kon gerekend worden tot de voornaamste fabrikanten van zakdoeken, pyjamastoffen, japonstoffen, vitrages en boekbinderslinnen.</p> <p>Ondanks dat Scholco lange tijd een uitstekende reputatie had, kwam er in 1988 een eind aan de productie en is het fabriekscomplex in 1989 gesloopt. Alleen de fabriekspijp en de portiersloge mochten blijven staan als herinnering aan een belangrijk stuk Almelose textielhistorie. Er werd een stadsvijver om het pand gecreëerd die tegenwoordig weer onderdeel uitmaakt van het kanaal dat tot in de binnenstad van Almelo reikt. In het pand is nu een Grieks restaurant gevestigd.</p>",
+                "description_en": "<p>The N.V. Katoenmaatschappij Gebroeders Scholten & Compagnie was founded in the first half of the 19th century, when the Scholten brothers established a hand-weaving mill with cotton. A steam weaving mill was set up in 1859. This company made cotton and linen fabrics for bedding, shirts, and handkerchiefs, among others. In 1962, Van Heek Scholco merged. The merged firm could be counted among the major manufacturers of handkerchiefs, pajama fabrics, frock fabrics, net curtains, and bookbinder linen.</p> <p>Although Scholco had an excellent reputation for a long time, production stopped in 1988 and the factory complex was demolished in 1989. Only the factory chimney and the porter's lodge were allowed to stand as a reminder of an important piece of Almelo textile history. A city pond was created around the building, which nowadays forms part of the canal that reaches into the center of Almelo. A Greek restaurant is now located in the building.</p>",
+                "description_de": "<p>Der Ursprung der N.V. Katoenmaatschappij Gebroeders Scholten & Compagnie liegt in der ersten Hälfte des 19. Jahrhunderts, als die Brüder Scholten eine Handweberei betrieben, in der Baumwollwaren gehandelt werden. 1859 wurde eine Dampfweberei gegründet. Das Unternehmen produzierte Baumwoll- und Leinenstoffe, unter anderem für Bettwäsche, Hemden und Taschentücher. 1962 fusionierte das Textilunternehmen bis Van Heek Scholco. Die Fusionsfirma konnte zu den großen Herstellern von Taschentüchern, Hemd- und Pyjamastoffen, Gardinen und Buchbinderleinen gezählt werden.</p> <p>Obwohl Scholco lange Zeit einen hervorragenden Ruf hatte, wurde die Produktion 1988 eingestellt und der Fabrikkomplex 1989 abgerissen. Nur der Fabrikschlot und die Pförtnerloge erinnern an ein wichtiges Stück der Almeloer Textilgeschichte. Um das Gebäude wurde ein Stadtteich angelegt, der heute einen Teil des Kanals bildet, der bis ins Zentrum von Almelo reicht. Ein griechisches Restaurant befindet sich heute im Gebäude.</p>",
+                "category": "Fabriek",
+                "picture_folder": "1",
+                "icon": "walk",
+                "picture_name": [
+                    "Scholten (nu Kreta).jpeg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.66094422340393,
+                    52.35671871396954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Stakingen",
+                "name_en": "Strikes",
+                "name_de": "Streiks",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>In de jaren 1880 begonnen de arbeiders zich te roeren. De lonen waren bijzonder laag, de werktijden veel te lang en de garens, waarmee geweven moest worden waren van slechte kwaliteit. Het werk in de fabriek was in die tijd geen pretje. Mannen, vrouwen én zelfs kinderen werkten hier tot wel twaalf uur op een dag en dat zes dagen per week. De machines in de fabrieken waren bovendien vaak levensgevaarlijk, het geluid dat ze maakten oorverdovend.</p>  <p>Scholten had enorm veel verdiend, maar wilde desondanks minder loon uitbetalen. Op 9 januari 1888 brak de eerste grote staking in Nederland dan ook bij de firma Scholten uit. De woedende arbeiders leggen het werk spontaan neer. Ze gooien ruiten in bij Almelose notabelen en politieagenten slaan een demonstratie uiteen. Pas na drie maanden zijn de fabrikanten bereid concessies te doen en wordt de tot dan toe langste staking in de Nederlandse geschiedenis beëindigd. De loonsverlaging bleef uit.</p>",
+                "description_en": "<p>In the 1880s the workers began to stir up. The wages were exceptionally low, the working hours too long, and the yarn which had to be woven with were of poor quality. Work in the factory was not fun. Men, women and even children worked here for up to twelve hours a day, six days a week. Moreover, the machines in the factories were often life-threatening, and the sound they made was deafening.</p>  <p>Scholten had earned a large amount of money, but nevertheless wanted to pay their workers less. On January 9, 1888, the first massive strike breaks out in the Netherlands at Scholten. The angry workers put down the work spontaneously. They smashed windows of notable houses and the police officers broke up the demonstration. Only after three months were the manufacturers prepared to make concessions and would the longest strike in Dutch history end. The wage reduction was not forthcoming.</p>",
+                "description_de": "<p>In den 1880er Jahren begannen sich die Arbeiter zu rühren. Die Löhne waren außergewöhnlich niedrig, die Arbeitsstunden viel zu lang und die Garne, mit denen gewebt werden musste, waren von schlechter Qualität. Die Arbeit in der Fabrik machte damals keinen Spaß. Männer, Frauen und sogar Kinder arbeiteten hier bis zu zwölf Stunden am Tag, sechs Tage in der Woche. Außerdem waren die Maschinen in den Fabriken oft lebensbedrohlich, das Geräusch machte sie betäubend.</p>  <p>Scholten hatte viel verdient, wollte aber trotzdem weniger zahlen. Am 9. Januar 1888 brach der erste größere Streik in den Niederlanden in Scholten aus. Die wütenden Arbeiter brachen die Arbeit spontan ab. Sie schlugen Fenster gegen die angesehenen Herren und Polizisten brachen eine Demonstration auf. Erst nach drei Monaten sind die Hersteller zu Zugeständnissen bereit, und der längste Streik in der niederländischen Geschichte wird beendet. Die Lohnsenkung kam nicht zustande.</p>",
+                "category": "Sociaal",
+                "picture_folder": "15",
+                "icon": "walk",
+                "picture_name": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.661287546157837,
+                    52.35708565618339
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "LTM",
+                "name_en": "LTM",
+                "name_de": "LTM",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>De N.V. Leeuwarder Textiel Maatschappij, een in Leeuwarden gevestigde stoffenhandel, werd in 1919 overgeplaatst naar Almelo. Aanvankelijk begon de fabriek in een pand aan de Grotestraat, hoek Hofstraat, met het vervaardigen van werkmanskleding en jongenspakjes. Een aantal jaren later had de LTM meer ruimte nodig. Het bedrijf verhuisde daarom in 1929 naar de Veldkampsweg.</p> <p>In de periode na de Tweede Wereldoorlog specialiseerde de LTM zich in de vervaardiging van kostuums en winterjassen voor heren en jongens. Ook voor dames werd een geheel eigen modieuze lijn ontworpen. Ondanks het feit dat de LTM hoogwaardige eindproducten vervaardigde, sloeg de crisis in de textielindustrie ook hier toe. In 1978 viel hier het doek.</p>",
+                "description_en": "<p>The N.V. Leeuwarder Textiel Maatschappij, a fabric trade company established in Leeuwarden, was transferred to Almelo in 1919. Initially, the factory started in a building on the Grotestraat, corner of Hofstraat, with the manufacture of worker's clothing and boy's suits. Just a few years later, the company needed more space and moved to the Veldkampsweg in 1929.</p>   <p>In the period after the Second World War, the LTM specialized in the production of costumes and winter coats for men and boys, but also for ladies a completely own fashion line was designed. Despite the fact that the LTM manufactured high-quality end products, the crisis in the textile industry struck here too. In 1978 the production stopped.</p>",
+                "description_de": "<p>Der Leeuwarder Textiel Maatschappij, ein in Leeuwarden ansässiger Textilhandel, wurde 1919 nach Almelo verlegt. Ursprünglich begann die Fabrik in einem Gebäude in der Grotestraat, Ecke Hofstraat, mit der Herstellung von Arbeitskleidung und Jungenanzügen. Einige Jahre später benötigte der Betrieb bereits mehr Platz. Das Unternehmen zog 1929 hier an den Veldkampsweg.</p>   <p>In der Zeit nach dem Zweiten Weltkrieg spezialisierte sich LTM auf die Herstellung von Kostümen und Wintermänteln für Männer und Jungen. Aber auch für Damen wurde eine komplett eigene modische Linie entworfen. Trotz der Tatsache, dass der LTM hochwertige Endprodukte herstellte, schlug auch hier die Textilkrise zu. 1978 mussten auch hier die Werkstore geschlossen bleiben.</p>",
+                "category": "Fabriek",
+                "picture_folder": "3",
+                "icon": "cycle",
+                "picture_name": [
+                    "LTM.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.656674146652222,
+                    52.35199078418477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "NS-Station",
+                "name_en": "NS-railway station",
+                "name_de": "NS-Bahnhof",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "In Almelo kreeg de florerende textielindustrie meer en meer behoefte aan grote hoeveelheden steenkool voor de stoommachines. De Almelose fabrikanten zagen dan ook veel in de aanleg van een spoorlijn voor het vervoer van steenkolen. Zij lieten hun oog hierbij vallen op de regio rond het Duitse Salzbergen. Op 25 juni 1861 mocht er een spoorlijn worden aangelegd. Vier jaar later volgde de officiële opening van de spoorlijn door minister Thorbecke. Al in 1883 werd het oorspronkelijke gebouw vervangen door een nieuw stationsgebouw dat tot in de jaren 1960 dienst heeft gedaan. In 1964 werd het derde stationsgebouw van Almelo in gebruik genomen. De perrongebouwen en de overkapping uit 1907 bleven gehandhaafd. Opvallend aan het ontwerp van K. van der Gaast en J.H. Baas is het grote dak van het stationsgebouw en een oversteek naar het stationsplein en busstation. De toren heeft een uurwerk met neon wijzers en uur tekens. Het dak wordt gedragen door een brede hoge balk die aan stationspleinzijde rust op een V-vormige kolom, zoals te zien is. Het gebouw is een gemeentelijk monument.",
+                "description_en": "In Almelo, the flourishing textile industry demanded more and more coal for in the steam engines. The Almelo manufacturers saw a lot of potential in the construction of a railway line for the transport of coal. They drew their attention to the region around Salzbergen in Germany. On 25th of June 1861, the city was allowed to build a railway connection Minister Thorbecke officially opened the railway line in October 1865. In 1883, the original building was replaced by a new station building that served until the 1960s. The third station building of Almelo was put into use in 1964. The platform buildings and the roof from 1907 were kept. Striking in the design of K. van der Gaast and J.H. Baas is the large roof of the station building with and the  crossing to the station square and the bus station. The tower has a clock with neon hands and hour signs. The roof is supported by a wide, high beam resting on the station square side on a V-shaped column, as can be seen. The building is a municipal monument.",
+                "description_de": "In Almelo benötigte die florierende Textilindustrie zunehmend große Mengen Kohle für die Dampfmaschinen. Beim Bau einer Eisenbahnstrecke für den Kohletransport haben die Almeloer Fabrikanten viel gesehen. Sie machten auf die Region um Salzbergen in Deutschland aufmerksam. Eine Eisenbahnlinie wurde am 25. Juni 1861 gebaut. Minister Thorbecke eröffnete im Oktober 1865 offiziell die Eisenbahnlinie. Bereits 1883 wurde das ursprüngliche Gebäude durch ein neues Bahnhofsgebäude ersetzt, das bis in die 1960er Jahre diente. Der dritte Bahnhof wurde 1964 fertiggestellt. Die Plattformgebäude und das Dach von 1907 wurden beibehalten. Auffällig im Design von K. van der Gaast und J.H. Baas ist das große Dach des Bahnhofsgebäudes und einer Überfahrt zum Bahnhofsplatz und Busbahnhof. Der Turm hat eine Uhr mit Neon Zeigern und Stundenzeichen. Das Dach wird von einem breiten, hohen Balken getragen, der auf einem Stationsquadrat auf einer V-förmigen Säule ruht, wie zu sehen ist. Das Gebäude ist ein städtisches Denkmal.",
+                "category": "Infrastructuur",
+                "picture_folder": "4",
+                "icon": "walk",
+                "picture_name": [
+                    "station almelo perron.jpeg",
+                    "station.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.656341552734374,
+                    52.35699064465249
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "SESA",
+                "name_en": "SESA",
+                "name_de": "SESA",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Scholl Engberts & Scholten Almelo NV was een kapok- en verenfabriek, opgericht in 1887. Kapok wordt gewonnen uit de vruchten van de exotische kapokboom; het werd gebruikt als vulmiddel voor bv. kussens en matrassen. Kapok werd uit Nederlands-Indië gehaald en hier verwerkt. In 1898 werd een tricotfabriek toegevoegd aan de bestaande fabriek, een klein eindje verderop in dezelfde straat. Tot ongeveer de Tweede Wereldoorlog gingen de zaken goed bij SESA. Daarna namen de exportmogelijkheden af. Om met de veranderingen in de markt mee te gaan veranderde het bedrijf haar aanbod. In 1968 woedde er een grote brand die enorme schade toebracht aan de fabriek (zie de foto). In datzelfde jaar overleed een grote aandeelhouder van de firma, Ludwig van Heek, waardoor het bedrijf uiteindelijk een faillissement aanvroeg. Het gebouw werd afgebroken en een straat werd naar de fabriek vernoemd.",
+                "description_en": "Scholl Engberts & Scholten Almelo NV was a kapok and feather factory, founded in 1887. Kapok is extracted from the fruits of the exotic kapok tree; it was used as a filler for, for example, pillows and mattresses. Kapok was imported from the Dutch East Indies and processed here. In 1898, a Tricot factory was added to the existing factory, a short distance away in the same street. Things went well at SESA until about the Second World War. Then the export options decreased. To keep pace with the changes in the market, the company changed its offer. In 1968 a large fire raged that caused enormous damage to the factory (see image). In the same year, a major shareholder of the company, Ludwig van Heek, died, so that the company finally filed for bankruptcy. The building was demolished and a street was named after the factory.",
+                "description_de": "Scholl Engberts & Scholten Almelo NV war eine 1887 gegründete Kapok- und Federfabrik. Kapok wird aus den Früchten des exotischen Kapokbaums gewonnen; es wurde als Füllstoff zum Beispiel für Kissen und Matratzen verwendet. Kapok wurde aus Niederländisch-Indien importiert und hier verarbeitet. Im Jahr 1898 wurde eine Trikotagefabrik zu dem bestehenden Fabrik gebaut, die nicht weit entfernt in derselben Straße liegt. Bei SESA lief es bis zum Zweiten Weltkrieg gut. Dann sanken die Exportmöglichkeiten. Um mit den Veränderungen des Marktes Schritt zu halten, änderte das Unternehmen sein Angebot. 1968 tobte ein großes Feuer, das die Fabrik enorm beschädigte (siehe Bild). Im selben Jahr starb ein Großaktionär des Unternehmens, Ludwig van Heek, und das Unternehmen meldete schließlich Insolvenz an. Das Gebäude wurde abgerissen und eine Straße wurde nach der Fabrik benannt.",
+                "category": "Fabriek",
+                "picture_folder": "5",
+                "icon": "walk",
+                "picture_name": [
+                    "B2 SESA fabriek met markante vierkante schoorsteenpijp.jpg",
+                    "B3 Luchtfoto SESA fabriek gelegen aan de toenmalige Poulinkstraat (rood).jpg",
+                    "D4 Na blussen van brand bij SESA gezien vanuit de Poulinkstraat.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.661555767059326,
+                    52.35318673936658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "De Doopsgezinde Kerk",
+                "name_en": "The Baptist Church",
+                "name_de": "Die Baptisten-Kirche",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>De doopsgezinde geloofsgemeenschap vindt haar oorsprong in de 16e eeuw. Onder leiding van de Nederlandse reformator Menno Simons worden Doopsgezinden ook wel Mennisten of Mennonieten genoemd. Vrede, zelfstandigheid, gelijkwaardigheid en daadkracht zijn de belangrijkste streven. De kerk werd in 1684 in gebruik genomen. Het achterste deel van een woonhuis diende als plaats van samenkomst en pas in 1732 werd het voorste gedeelte bij de kerkruimte aangetrokken. De Doopsgezinde Gemeente te Almelo bestond tot dusver in de 19e eeuw hoofdzakelijk uit enkele families, zoals Bavink, Ten Cate, Coster en Hofkes. Zij hielden zich bezig met handel in en de vervaardiging van textiel.</p>  <p>In 1927 kreeg de kerk gebrandschilderde glas-in-loodramen en nieuwe stoelen. Aan de ramen aan de achterkant is invloed van de late Jugendstil af te lezen en de stoelen stammen herkenbaar uit de Art Deco-periode. Bijzonder is verder het orgel, dat in 1792 gebouwd werd. In de Doopsgezinde kerk worden zeer regelmatig orgelconcerten gehouden.</p>",
+                "description_en": "<p>The Baptist faith community finds its origin in the 16th century under the leadership of the Dutch reformer Menno Simons. Baptists might also be referred to as Mennists or Mennonites. Peace, independence, equality and decisiveness are the most important endeavors.This church was inaugurated in 1684. The rear part of a house served as a meeting place. The front part of the church was constructed in 1732. Until well into the 19th century, the Baptist Congregation in Almelo consisted mainly of a few families, such as Bavink, Ten Cate, Coster and Hofkes. They were engaged in trade and the manufacturing of textiles.</p>  <p>In 1927, the church received stained glass windows and new chairs. The influence of the late Jugendstil can be seen on the windows at the back and the chairs are recognizable from the Art Deco period. Another special feature is the organ, which was built in 1792. Organ concerts are regularly held in the Baptist church.</p>",
+                "description_de": "<p>Die baptistische Glaubensgemeinschaft hat ihren Ursprung im 16. Jahrhundert. Unter der Führung des niederländischen Reformators Menno Simons werden Baptisten auch Mennisten oder Mennoniten genannt. Frieden, Unabhängigkeit, Gleichheit und Entschlossenheit sind die wichtigsten Merkmale. Diese Kirche wurde 1684 eingeweiht. Der hintere Teil eines Hauses diente als Treffpunkt, und erst 1732 wurde der vordere Teil von der Kirche integriert. Bis in das 19. Jahrhundert hinein bestand die Baptistengemeinde in Almelo hauptsächlich aus wenigen Familien wie Bavink, Ten Cate, Coster und Hofkes. Sie waren im Handel mit und der Herstellung von Textilien tätig.</p>  <p>1927 erhielt die Kirche neue Glasfenster und neue Stühle. Der Einfluss des späten Jugendstils ist an den hinteren Fenstern zu erkennen und auch die Stühle sind aus dieser Art Deco-Zeit. Eine weitere Besonderheit ist die 1792 erbaute Orgel. Orgelkonzerte finden sehr regelmäßig in der Baptistenkirche statt.</p>",
+                "category": "Sociaal",
+                "picture_folder": "6",
+                "icon": "walk",
+                "picture_name": [
+                    "Doopsgezinde kerk Grotestraat - 1853 -  tek P.J. Lutgers 1808-1874.JPG"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.664583981037139,
+                    52.357290421719284
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Wolspinnerij, weverij en ververij Ten Bos",
+                "name_en": "Spinning & weaving and dyeing Ten Bos",
+                "name_de": "Wollspinnerei, Weberei und Färberei Ten Bos",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Johannes ten Bos begon in 1860 met een kleine ververij en spinnerij in Tubbergen. Toen hij besloot om uit te breiden en zijn bedrijf in 1879 naar Almelo te verplaatsen, is het hem gelukt om een stel moderne machines in handen te krijgen: mechanische spinmachines en weefgetouwen. Hierdoor konden zowel zijn productiecapaciteit als de kwaliteit van zijn materialen flink omhoog gaan. In de 20e eeuw begon het bedrijf unieke producten te produceren. Daardoor kon het bedrijf nog verder groeien.</p>   <p>In 1940 was Ten Bos met haar 800 medewerkers het grootste wolverwerkingsbedrijf in Nederland. Er werden onder andere damesjaponstoffen, fijnere kostuumstoffen en vlaggendoek geproduceerd. Zelfs na de Tweede Wereldoorlog bleef het bedrijf actief en overeind. Het bedrijf bloeide toen als nooit tevoren, maar langzamerhand werd duidelijk dat men nagelaten had om in het machinepark modernisering door te voeren en over te gaan op de productie van nieuwe stoffen. Ten gevolge hiervan verminderden de bedrijfsresultaten en een faillissement volgde in 1957. Na de liquidatie in 1958 werd de hoge fabriekspijp met explosieven opgeblazen.</p>",
+                "description_en": "<p>Johannes ten Bos started out with a small dying and spinning company in the nearby village of Tubbergen in 1860. When he decided to scale up and move business to Almelo, he managed to get his hands on some modern equipment: mechanical spinning machines and weaving mills. This greatly increased his production capacity and improved the quality of his materials. In the 20th century, the company started producing unique products, allowing the company to grow even further.</p>   <p>In 1940, with over 800 workers employed, Ten Bos was the biggest wool processing company in the Netherlands. The company produced women's gown fabrics, finer costume fabrics, and flag cloth. Even after the Second World War, the company remained active and standing. The company then flourished like never before, but it gradually became clear that people had failed to implement modernization in the machine park and failed to switch to producing new products. As a result, the operating results declined and bankruptcy followed in 1957. After the liquidation in 1958, the high factory pipe was blown up with explosives.</p>",
+                "description_de": "<p>Johannes ten Bos begann 1860 mit einer kleinen Färberei und Spinnerei in Tubbergen. Als er 1879 beschloss, sein Unternehmen zu erweitern und es nach Almelo zu verlegen, gelang es ihm, eine Reihe schöner, moderner Maschinen zu erwerben: mechanische Spinnmaschinen und Webstühle. Dies erhöhte die Produktionskapazität und die Qualität der Materialien erheblich. Im 20. Jahrhundert begann das Unternehmen mit der Produktion von einzigartige Produkte und das Unternehmen konnte dadurch noch weiterwachsen.</p>   <p>Ten Bos war mit seinen 800 Mitarbeitern 1940 der größte Wollverarbeitungsbetrieb in den Niederlanden. Unter anderem wurden Damenbekleidungsstoffe, feinere Kostümstoffe und Flaggentücher hergestellt. Auch nach dem Zweiten Weltkrieg blieb das Unternehmen aktiv und stand. Das Unternehmen florierte dann wie nie zuvor, aber es wurde allmählich klar, dass es den Leuten nicht gelungen war, eine Modernisierung im Maschinenpark durchzuführen und auf die Herstellung neuer Substanzen umzusteigen. Infolgedessen sanken die Betriebsergebnisse und 1957 folgte die Insolvenz. Nach der Liquidation im Jahr 1958 wurde der hohe Schornstein mit Sprengstoff gesprengt.</p>",
+                "category": "fabriek",
+                "picture_folder": "7",
+                "icon": "cycle",
+                "picture_name": [
+                    "ten Bos.jpeg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.669358313083649,
+                    52.3547430709393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Stoomspinnerij Hofkes",
+                "name_en": "Steam spinning mill Hofkes",
+                "name_de": "Dampfspinnerei Hofkes",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Egbert Hofkes uit Winterswijk vestigde zich 1775 in Almelo. De linnenhandelaar begon als eerste de textielnijverheid om te zetten in een serieuze onderneming. In Almelo begon hij een bedrijf dat zich zou focussen op katoen in plaats van linnen. De drie zoons van Egbert Hofkes bouwden voort op het succes van hun vader. Een zoon, Herman Hofkes, bracht een bezoek aan Gent, waar de mechanische textielproductie in volle opkomst was. Hij was zo onder de indruk van het machinaal spinnen, dat hij besloot om te gaan investeren in een stoomspinnerij. Dit was de eerste stoomspinnerij van heel Noord-Nederland. De stoomspinnerij van Hofkes werd in 1829 gebouwd. Ervaren Belgische arbeiders werden naar Almelo gehaald en brachten met zich veel kennis over het mechanisch spinnen mee naar Twente. In 1855 verkocht Hofkes zijn onderneming aan de Enschedese Katoenspinnerij. Deze textielfabriek werd 1890 wegens concurrentiedruk failliet verklaard. We staan nu voor het bakstenen opslaggebouw van de firma Hofkes. Kenmerkend zijn de kleine ronde ramen.",
+                "description_en": "1775 Egbert Hofkes from Winterswijk settled in Almelo. The linen trader was the first to turn the textile industry into a serious enterprise. In Almelo, he started a company that focused on cotton, instead of linen. The three sons of Egbert Hofkes built on the success of their father. One of them, Herman Hofkes, visited Ghent, where mechanical textile production was in full swing. He was so impressed with machine spinning that he decided to invest in a steam spinning mill. This was the first steam spinning mill in the entire northern Netherlands. Hofkes steam mill was built in 1829. Experienced Belgian workers were brought to Almelo and a lot of knowledge about mechanical spinning came to Twente. In 1855, Hofkes sold his business to the Enschede Cotton Mill. This textile factory was declared bankrupt in 1890 due to competitive pressure. We are now in front of the brick storage building from the Hofkes company. Characteristic are the small round windows.",
+                "description_de": "Egbert Hofkes aus Winterswijk ließ sich 1775 in Almelo nieder. Der Leinenhändler war der erste, der die Textilindustrie zu einem ernsthaften Geschäft gemacht hat, und in Almelo eine Firma gründete, die sich auf Baumwolle anstatt auf Leinen konzentrierte. Die drei Söhne von Egbert Hofkes bauten auf dem Erfolg ihres Vaters auf. Ein Sohn, Herman Hofkes, besuchte Gent, wo die mechanische Textilproduktion in vollem Gange war. Er war so beeindruckt vom Maschinenspinnen, dass er beschloss, in eine Dampfspinnerei zu investieren. Dies war die erste Dampfspinnerei in den gesamten nördlichen Niederlanden. Hofkes Dampfmühle wurde 1829 gebaut. Erfahrene Belgier wurden nach Almelo geholt, um Erfahrung und Kenntnisse in die Twente zu bringen. Im Jahr 1855 verkaufte Hofkes sein Geschäft an die Baumwollspinnerei Enschede. Diese Textilfabrik wurde 1890 wegen Wettbewerbsdruck für bankrott erklärt. Wir sind jetzt vor dem Ziegelspeicher der Firma Hofkes. Charakteristisch sind die kleinen runden Fenster.",
+                "category": "Fabriek",
+                "picture_folder": "8",
+                "icon": "walk",
+                "picture_name": [
+                    "Achterzijde  magazijn Hofkes.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.6641440987586975,
+                    52.35459235491
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Algemeen Ziekenhuis en Casa Cortina",
+                "name_en": "Algemeines Krankenhaus und Casa Cortina",
+                "name_de": "General Hospital and Casa Cortina",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Waar nu de Brandweerkazerne staat, stond tot 1974 de “Villa Nuova” van de textielfabrikant Cardinaal. Na diens dood schonk zijn vrouw het gebouw aan de “Vereniging Ziekenhuis”. Op 20 juni 1892 werd het ziekenhuis feestelijk geopend. Dankzij schenkingen van de textielfabrikanten Ten Cate en Salomonson kon het ziekenhuis steeds verder uitgebreid en gemoderniseerd worden. Vanaf 1951 fuseerde het Algemeen Ziekenhuis met het Nederlands Hervormd Diaconessenhuis en in 1960 vestigden deze beiden zich in het nieuwe Prinses Irene Ziekenhuis (het huidige Preston Palace). Dat was echter niet het einde van het pand aan de Brugstraat. Het gebouw diende onder de naam Casa Cortina als eerste onderkomen van Italiaanse en Spaanse gastarbeiders. Een tweede Casa Cortina werd in de jaren 70 in opdracht van Ten Cate aan de Kolthofsingel gebouwd. De naam Casa Cortina bleef bij als naam voor gastarbeider onderkomens. ",
+                "description_en": "At the place where the fire station stands now, stood until 1974  the \"Villa Nuova\" of the textile manufacturer Cardinaal. After his death, his wife donated the building to the \"Vereniging Ziekenhuis\". The hospital was festively opened on June 20, 1892. Thanks to donations from the textile manufacturers Ten Cate and Salomonson, the hospital could be expanded and modernized. From 1951 the General Hospital merged with the Dutch Reformed House of Diaconesses and in 1960 they both settled in the new Princess Irene Hospital (the current Preston Palace). However, that was not the end. Under the name Casa Cortina, the building served as the first home for Italian and Spanish guest workers. In the 1970s, a second Casa Cortina was built on the Kolthofsingel for Ten Cate. The name Casa Cortina remained as a name for guest worker accommodations.",
+                "description_de": "Wo jetzt die Feuerwache steht, stand bis 1974 die \"Villa Nuova\" des Textilherstellers Cardinaal. Nach seinem Tod spendete seine Frau das Gebäude dem Verein \"Vereniging Ziekenhuis\". Das Krankenhaus wurde am 20. Juni 1892 feierlich eröffnet. Dank Spenden der Textilhersteller Ten Cate und Salomonson konnte das Krankenhaus immer wieder erweitert und modernisiert werden. Ab 1951 fusionierte das Allgemeine Krankenhaus mit dem niederländischen reformierten Haus der Diakoninnen, und 1960 ließen sie sich im neuen Prinzess Irene Krankenhaus (dem heutigen Preston Palace) nieder. Das war jedoch nicht das Ende des Gebäudes in der Brugstraat. Unter dem Namen Casa Cortina diente das Gebäude als erstes Zuhause für italienische und spanische Gastarbeiter. Ein zweites Casa Cortina wurde in den 70er Jahren für Ten Cate am Kolthofsingel gebaut. Der Name Casa Cortina blieb als Name für Gastarbeiter Unterkünfte erhalten.",
+                "category": "Sociaal",
+                "picture_folder": "44",
+                "icon": "walk",
+                "picture_name": [
+                    "bella nuova.png"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.659884750843048,
+                    52.359074298929144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Kunsttorentje en Rechtbank",
+                "name_en": "Art-Tower and Court",
+                "name_de": "Kunstturm und Gericht",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Van de weverij Ten Cate bleef na de sloop in 1993 slechts het in 1911 gebouwde hoektorentje in jugendstilvormen behouden. Het op een straathoek gelegen torentje met tentdak en opbouw voorzien van wijzerplaten was een geschenk van het personeel ter gelegenheid van een halve eeuw mechanisch weven. Het staat hier als een aandenken aan het industriële verleden van Almelo. Stichting Het Torentje promoot sinds 1995 de beeldende kunst in Almelo door de ruimte in het kleinste museum van Nederland aan te bieden als expositieplek voor gerenommeerde en veelbelovende beeldende kunstenaars.</p>  <p>Het blauwe gerechtsgebouw op de plaats waar ooit de Ten Cate fabriek stond, ademt een sfeer van geslotenheid dat past bij een gerechtsgebouw. Het voormalige torentje van weverij Nijverdal-Ten Cate is visueel met het gerechtsgebouw verbonden door een lange half overdekte passage naar de entree. Verleden en toekomst lijken hier samen te komen.</p>",
+                "description_en": "<p>After the demolition in 1993, only the corner tower built in 1911 in Art Nouveau style remained of the Ten Cate weaving mill. The tower with a tent roof and a large clock was a gift from the staff on the occasion of half a century of mechanical weaving. It stands here as a reminder of the industrial past of Almelo. The foundation “The little Tower” has been promoting visual art in Almelo since 1995 by offering space as an exhibition space for renowned and promising visual artists.</p>  <p>The blue courthouse on the site where the Ten Cate factory once stood, exudes an atmosphere of closedness that fits in with a courthouse. The former tower of the Nijverdal-Ten Cate weaving mill is visually connected to the courthouse by a long, half-covered passage to the entrance. Past and future seem to come together here.</p>",
+                "description_de": "Bei dem Abriss im Jahr 1993 wurde von der Weberei Ten Cate nur noch der 1911 im Jugendstil errichtete Eckturm erhalten. Der Turm mit Zeltdach und mit einer Zifferuhr war ein Geschenk des Personals anlässlich des 50-jährigen Jubiläums des mechanischen Webens. Der kleine Turm erinnert hier an die industrielle Vergangenheit von Almelo. Eine eigene Stiftung fördert seit 1995 die bildende Kunst in Almelo, indem sie dieses kleinste Museum der Niederlande als Ausstellungsraum für renommierte und vielversprechende bildende Künstler anbietet. Das blaue Gerichtsgebäude an dem Ort, an dem sich die Ten Cate-Fabrik befand, strahlt eine Atmosphäre der Geschlossenheit aus, die zu einem Gerichtsgebäude passt. Der ehemalige Turm der Nijverdal ten Cate-Weberei ist durch einen langen, halbüberdachten Durchgang zum Eingang visuell mit dem Gerichtsgebäude verbunden. Vergangenheit und Zukunft scheinen sich hier zu vereinen.",
+                "category": "Sociaal",
+                "picture_folder": "10",
+                "icon": "walk",
+                "picture_name": [
+                    "A3 Torentje en fabrieken Holland en Java van Ten Cate aan Haven ZZ.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.658699214458466,
+                    52.357658997292944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Havenkom",
+                "name_en": "Harbor basin",
+                "name_de": "Hafenbecken",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Tegenwoordig is het bijna niet meer voor te stellen hoe de situatie was in het begin van de 19e eeuw in het centrum van Stad Almelo. Almelo was een echte waterstad. Vóór de aanleg van het Overijssels kanaal en de grotere haven op de Markt van Almelo gegraven rond 1850 - 1860, had Almelo twee havens: een haven en werf in eigendom van het Huis Almelo (de graaf) en een haven en werf in eigendom van Stad Almelo. Via deze oorspronkelijke oude havens en beken werd levendige handel gedreven met het rest van het land. Alle handel werd uitgevoerd met zompen (houten platbodems van 12 meter lengte met zeer weinig diepgang) en daardoor uitermate geschikt voor de ondiepe riviertjes en beken in onze omgeving.</p>      <p>In de loop van de jaren kregen de waterwegen meer en meer concurrentie van vervoer over het spoor en via snelwegen. Zo gebeurde het dat er steeds minder schepen van de waterwegen gebruik gingen maken. In juni 1953 werd de bijna 100 jaar oude havenkom dicht gegooid. In de jaren zestig werd besloten om het Overijssels Kanaal tot aan het Kunsttorentje te dempen. Er ontstaat nu een nieuwe havenkom, waaraan het gezellig toeven is.</p>",
+                "description_en": "<p>Nowadays it is almost impossible to imagine what the situation at the beginning of the 19th century in the center of Stad Almelo was. Almelo was a real water city. Before the construction of the Overijssels Kanaal and the larger port on the Market of Almelo dug around 1850 - 1860, Almelo had two ports: a port and yard owned by Huis Almelo (the count) and a port and yard owned by the city of Almelo. Vibrant trade was conducted with the rest of the country through these original old ports and streams. All this trade was carried out with so called Zompen (wooden flat-bottomed boats of 12 meters in length with very little draft) and therefore extremely suitable for the shallow rivers and streams in the area.</p>   <p>Over the years, the transport by rail and via highways became more popular. It happened that fewer and fewer ships started using the waterways. In June 1953, the nearly 100-year-old harbor basin was closed. In the 1960s, it was decided to close the Overijssels Kanaal upto the Kunsttorentje. A new harbor basin is now being created, which will be a pleasant place to be.</p>",
+                "description_de": "<p>Wie die Situation zu Beginn des 19. Jahrhunderts im Zentrum der Stadt war, ist heutzutage kaum vorstellbar. Almelo war eine echte Wasserstadt. Vor dem Bau des Overijssels-Kanals und des größeren Hafens auf dem Markt zwischen 1850 und 1860 besaß Almelo zwei Häfen: einen Hafen im Besitz der Grafenfamilie und einen Hafen der Stadt Almelo . Durch die ursprünglichen alten Häfen und Bäche wurde ein lebhafter Handel mit dem Rest des Landes geführt. Der gesamte Handel wurde mit einer sogenannten Zompe (einem 12 Meter langen Holzflachboot mit sehr geringem Tiefgang) durchgeführt und ist daher für die flachen Flüsse und Bäche in der Region sehr geeignet.</p> <p>Im Laufe der Jahre wurde der Transport über die Wasserstraßen verdrängt durch Straße und Schiene. Immer weniger Schiffe benutzen die Wasserwege. Anfang Juni 1953 wurde das fast 100 Jahre alte Hafenbecken gesperrt. In den 1960er Jahren wurde beschlossen, das Overijssels Kanaal bis zum Kunsttorentje zu zu schütten. Jetzt wird ein neues Hafenbecken geschaffen, ein angenehmer Ort zum Verweilen.</p>",
+                "category": "infrastructuur",
+                "picture_folder": "21",
+                "icon": "walk",
+                "picture_name": [
+                    "havenkom.jpeg",
+                    "thumbnail_IMG_8242.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.663562059402466,
+                    52.356528689125604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Hedeman",
+                "name_en": "Hedeman",
+                "name_de": "Hedeman",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "De textielindustrie van de heer Hedeman ontwikkelde zich rond 1865 op het Sluitersveld. Dit terrein en de kleine blekerij en ververij erop werden gebouwd door A. G. Kamerling. Hertog Hedeman kocht het terrein met gebouwen in 1880 en vestigde er een kleine weverij en breidde de bestaande blekerij en ververij uit. Het ondernemen werd een officieel bedrijf en ontwikkelde zijn weverij. De weverij telde in 1941 ongeveer 1100 mechanische weefgetouwen. De eigenaren van de fabriek bouwden huizen voor hun arbeiders dichtbij de fabriek. Het bedrijf werd later overgenomen door Ten Cate en breidde nog steeds uit. In de jaren zeventig nam de textielindustrie in Twente door de productie in lage-lonen-landen snel af en werd de fabriek van Hedeman stilgelegd en gesloopt. Komisch feitje is dat de scheiding tussen landbouw en industrie minimaal was. Naast de fabriek van Hedeman liepen koeien. De fabriek lag dicht aan het Almelo-Nordhorn kanaal. De straatnamen in deze buurt zijn naar de textielgeschiedenis van Hedeman vernoemd.",
+                "description_en": "The textile business of sir Hedeman developed around 1865 on the Sluitersveld. This terrain and the small bleaching and dyeing factories on it were built by A. G. Kamerling. Hertog Hedeman bought the terrain with buildings in 1880 and he established a small weaving mill and expanded the existing bleaching and dyeing factories. The weaving mill counted approximately 1100 power looms in 1941. The family owners of the factory built homes for their labourers close to the factory. In 1959 the company was taken over by Ten Cate and was still expanding. Due to the increasing production in low-wage-countries the textile industry in Twente was declining rapidly during the seventies and the factory of Hedeman was shut down and demolished. An amusing fact is that the separation between agriculture and industry was minimal. The factory bordered right next to a field with cows. The factory was located next to the Almelo-Nordhorn canal. The street names in this neighbourhood are named after Hedeman's textile history.",
+                "description_de": "Das Textilgeschäft von Herr Hedeman entwickelte sich um 1865 auf dem Sluitersveld. Dieses Gelände und die kleinen Bleicherei und Färberei wurden von A. G. Kamerling gebaut. Herr Hertog Hedeman kaufte 1880 das Gelände mit Gebäuden, errichtete eine kleine Weberei und erweiterte die bestehenden Bleicherei und Färberei. Die Weberei zählte im Jahr 1941 ungefähr 1100 Power Looms. Die Familien Besitzer der Fabrik bauten Häuser für ihre Arbeiter in der Nähe der Fabrik. Das Unternehmen wurde 1959 von Ten Cate übernommen und expandierte weiter. In den siebziger Jahren ging die Textilindustrie in Twente aufgrund der Produktion in Niedriglohnländern rapide zurück und die Fabrik von Hedeman wurde stillgelegt und abgerissen. Komisch zu sehen ist das die Trennung zwischen Landwirtschaft und Industrie minimal war. Die Fabrik grenzte direkt an ein Feld mit Kühen. Die Fabrik befand sich sehr in der Nähe vom Almelo-Nordhorn Kanal. Die Straßennamen in diesem Viertel sind nach Hedemans Textilgeschichte benannt.",
+                "category": "Fabriek",
+                "picture_folder": "24",
+                "icon": "cycle",
+                "picture_name": [
+                    "villa hedeman.jpeg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.683329939842224,
+                    52.365868426063564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Stadsmuseum",
+                "name_en": "City Museum",
+                "name_de": "Stadtmuseum",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "We staan nu voor het voormalige rectorshuis met de daarachter gelegen vroegere Latijnse school. In 1634 werd het pand gebouwd als woonhuis voor de richter van Almelo. Nadien werd er de Franse school in ondergebracht, die vanaf 1783 verder ging als Latijnse school. Het pand blijft tot 1826 eigendom van Huize Almelo. In dat jaar wordt het door de gemeente Almelo aangekocht. Tegenwoordig is het Stadsmuseum er gehuisvest, dat wordt beheerd door de Stichting Museum voor Heemkunde Almelo. Hier kun je niet alleen veel over de plaatselijke (textiel-) historie zien en horen, er vinden ook steeds wisselende tentoonstellingen plaats.",
+                "description_en": "We are now standing in front of the former Rector's House and Latin school located behind it. In 1634 it was built as a residence for the judge of Almelo. Afterwards it housed the French school, which from 1783 continued as a Latin school. The building remains the property of the Duke of Almelo until 1826. In that year it was purchased by the municipality of the city of Almelo. The building now houses the City museum that is managed by the Museum for Local History Almelo. Here you can see and hear a lot about the local (textile) history. There are also constantly changing exhibitions.",
+                "description_de": "Wir stehen jetzt vor dem früheren Rektorenhaus und der dahinter liegenden ehemaligen Lateinschule. Im Jahre 1634 wurde es als Wohnsitz für den Richter von Almelo errichtet. Danach beherbergte es die französische Schule, die ab 1783 als Lateinschule weitergeführt wurde. Das Gebäude bleibt bis 1826 im Besitz von der Grafenfamilie von Almelo. In dem Jahr wird es von der Gemeinde Almelo gekauft. Heute befindet sich das Stadtmuseum in den Räumlichkeiten, das vom Heimatmuseum Almelo verwaltet wird. Hier kann man nicht nur viel über die lokale (Textil-) Geschichte sehen und hören, es gibt auch ständig wechselnde Ausstellungen.",
+                "category": "Sociaal",
+                "picture_folder": "25",
+                "icon": "walk",
+                "picture_name": [
+                    "stadsmuseum.png"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.665211617946625,
+                    52.35414675668677
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "De Ruinck",
+                "name_en": "De Ruinck",
+                "name_de": "De Ruinck",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "De locatie De Ruinck waar we nu staan is een historisch pand (zie gemarkeerde foto). Het is het voormalig hoofdkantoor van de textielfabriek Hedeman. In de volksmond wordt het nog altijd het torentje van Hedeman genoemd. Als herinnering aan de textielindustrie werd het kantoor in 2004 in oorspronkelijk stijl gerestaureerd. In de ingang hangen de bronzen portretten van de heren Hedeman. Fabriekseigenaar Hertog Hedeman jr. en zijn twee zonen. De oorspronkelijke plek van de portretten was naast de toegangspoort naar het fabrieksterrein. Naar verluidt werd van de textielarbeiders verwacht dat zij een beleefde knik maakten bij het passeren van de portretten.",
+                "description_en": "The De Ruinck location where we are now is a historic building (see marked image). It is the former headquarters of the Hedeman textile factory. It is still popularly referred to as Hedeman's tower. As a remembrance of the textile industry, the office was restored in its original style in 2004. The bronze portraits of the factory owner Hertog Hedeman Jr. and his two sons hang in the entrance. The original location of the portraits was next to the entrance gate to the factory site. Allegedly textile workers were expected to make a polite nod when passing the portraits.",
+                "description_de": "Der Standort von De Ruinck, an dem wir uns jetzt befinden, ist ein historisches Gebäude (siehe markierte Bild). Es ist der ehemalige Hauptsitz der Hedeman-Textilfabrik. Es wird immer noch im Volksmund als Hedemans Turm bezeichnet. Zur Erinnerung an die Textilindustrie wurde das Büro 2004 in seinem ursprünglichen Stil restauriert. Die bronzenen Portraits der Fabrikbesitzer Hertog Hedeman Jr. mit seinen zwei Söhnen hängen in der Eingangshalle. Der ursprüngliche Ort der Portraits befand sich neben dem Eingangstor des Fabrikgeländes. Angeblich sollen Textilarbeiter höflich nicken, wenn sie die Portraits passieren.",
+                "category": "fabriek",
+                "picture_folder": "26",
+                "icon": "cycle",
+                "picture_name": []
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     6.682289242744446,
-                    52.36669550858396
+                    52.36669059526815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Ten Cate",
+                "name_en": "Ten Cate",
+                "name_de": "Ten Cate",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Ten Cate, een naam die nog steeds bekend is. Het was ooit de grootste werkgever in Almelo met maar liefst vier fabriekshallen: Indië, Java, Tubantia en Holland. De geschiedenis van deze succesvolle textielfamilie begint al aan het eind van de 17e eeuw. De voorvaderen van Egbert ten Cate hielden zich al met de textielhandel bezig. Egbert koppelt in 1841 aan de handelsfirma een fabriek toe door de overname van de handweverij van J.P. Lorey. Vlakbij het pas aangelegde Overijssels kanaal en het latere NS-station wordt in 1860 de splinternieuwe stoomweverij Holland gebouwd, met 120 door stoomkracht aangedreven weefgetouwen. Egbert ten Cate wordt in de jaren 1880 opgevolgd door zijn drie zoons Hendrik, Lambert en Egbert.</p> <p>In 1891 wordt aan de overkant van de toenmalige Spoorstraat een nieuwe stoomweverij Tubantia met 320 weefgetouwen in gebruik genomen. Ten Cate gaat tot de grotere textielbedrijven behoren als het in 1898 de weverij Java van de eveneens succesvolle textielfabrikant Cardinaal overneemt. Java wordt in 1910 uitgebreid van 1000 naar 2200 weefmachines.In 1938 ontstonden de eerste contacten tussen Ten Cate en de KSW Nijverdal, het bedrijf van de familie Salomonson. Uiteindelijk werd op 28 oktober 1952 de fusieovereenkomst getekend. De naam van het bedrijf was daarna Koninklijke Nijverdal-Ten Cate. In 2001 werd de productie in Almelo stopgezet en werden alle kunstvezelactiviteiten in Nijverdal geconcentreerd.</p>",
+                "description_en": "<p>Ten Cate, a name that is still well known. It was once the largest employer in Almelo with no fewer than four factory halls: Indie, Java, Tubantia and Holland. The history of this successful textile family starts at the end of the 17th century. The predecessors of Egbert ten Cate were already involved in the textile trade. Egbert links a factory to the trade company in 1841 by taking over the manual weavery J.P. Lorey. The brand new steam mill Holland was built with 120 steam-powered looms in 1860 near the then newly built Overijssels canal and the later built train station. In the 1880s Egbert ten Cate is followed up by his three sons Hendrik, Lambert and Egbert. In 1891, the new steam weaving mill Tubantia with 320 looms was opened. </p>  <p>In 1898, Ten Cate becomes one of the larger textile companies when it takes over the Java weaving mill from the equally successful textile manufacturer Cardinaal. Java is expanded from 1000 to 2200 weaving machines in 1910. In 1938, the first contacts were established between Ten Cate and the KSW Nijverdal, the company of the Salomonson family. A merger agreement was finally signed on October 28, 1952. The name of the company became Royal Nijverdal-Ten Cate. In 2001, production in Almelo was stopped and all synthetic fiber activities were concentrated in Nijverdal.</p> ",
+                "description_de": "<p>Ten Cate, ein Name, der immer noch bekannt ist. Es war einst der größte Arbeitgeber in Almelo mit nicht weniger als vier Fabrikhallen: Indie, Java, Tubantia und Holland. Die Geschichte dieser erfolgreichen Textilfamilie beginnt am Ende des 17. Jahrhunderts. Die Vorfahren von Egbert ten Cate waren bereits im Textilhandel aktiv. Egbert verbindet 1841 eine Fabrik mit der Handelsfirma, indem er die Handweberei J.P. Lorey übernimmt. 1860 wurde in der Nähe des neu errichtete Overijssels Kanals und dem späteren NS-Bahnhof eine brandneue holländische Dampfmühle mit 120 Dampfwebmaschinen errichtet. Egbert ten Cate wird in den 1880er Jahren von seinen drei Söhnen Hendrik, Lambert und Egbert abgelöst.</p>  <p>Gegenüber der damaligen Spoorstraat wurde 1891 eine neue Dampfweberei Tubantia mit 320 Webstühlen eröffnet. Ten Cate wird eines der größeren Textilunternehmen, wenn es 1898 die Java-Weberei des ebenfalls erfolgreichen Textilherstellers Cardinaal übernimmt. Java wurde 1910 von 1000 auf 2200 Webmaschinen erweitert. 1938 werden die ersten Kontakte zwischen Ten Cate und dem KSW Nijverdal, dem Unternehmen der Salomonson-Familie, hergestellt. Der Fusionsvertrag wird schließlich am 28. Oktober 1952 unterzeichnet. Der Firmenname wird dann Nijverdal-Ten Cate. Im Jahr 2001 wurde die Produktion in Almelo eingestellt und alle Aktivitäten mit synthetischen Fasern konzentrieren sich ab dann in Nijverdal.</p>",
+                "category": "Fabriek",
+                "picture_folder": "27",
+                "icon": "walk",
+                "picture_name": [
+                    "A1 Ten Cate Tubantia Holland en Java  - voor 1910.jpg",
+                    "A3 Torentje en fabrieken Holland en Java van Ten Cate aan Haven ZZ.jpg",
+                    "A7 Zicht op Ten Cate Indië vanaf het Overijsselskanaal.jpg",
+                    "Kantoor Ten Cate (tegenover het station).jpeg",
+                    "Ten Cate (nu gemeentehuis).jpeg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.656320095062255,
+                    52.36092526159479
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Bendien",
+                "name_en": "Bendien",
+                "name_de": "Bendien",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Isaac Bendien was aanvankelijk handelaar en grossier in huisnijverheid. In 1888 besloot hij te stoppen met de handel en in zijn woonplaats Almelo zelf te beginnen met de fabricage van werkkleding, samen met medevennoot Smits. De firma Bendien & Smits werd geen succes en enige tijd later startte Isaac Bendien opnieuw, dit keer alleen. De zaken liepen deze keer beter. In 1893 kon Bendien al een groter pand betrekken in de Holtjesstraat. Hij en, vooral later, zijn zoons stonden voor innovatie. Hij liet bijvoorbeeld meteen al een gasmotor in zijn bedrijf installeren. Een motor om de naaimachines aan te drijven kwam enige tijd later. Het bedrijf had Jacquard-weefgetouwen en kon daardoor zeer mooie patroon stoffen produceren en breidde haar activiteiten uit met kledingproductie. Al in 1906 was de firma begonnen met de bouw van een complex aan de Prinsenstraat. Door de uitbreidingen was de Holtjesstraat dwars door het complex van fabrieken heen komen te lopen. Om het vervoer van goederen te vergemakkelijken bouwde Bendien in 1932 een luchtbrug over de Holtjesstraat. Het bedrijf onder leiding van Isaac Bendien groeide uit tot de grootste kledingfabriek van Nederland in de jaren 30, met 1500 werknemers.</p> <p>In 1936 hadden de producten een zo hoog kwaliteitsniveau bereikt dat de firma Bendien voor het eerst een merknaam aan haar producten koppelde. De bekendste werd wel OXFORD, de merknaam voor herenkostuums, die ook op de luchtbrug werd geschreven (zie foto). De oorlogsjaren waren voor de toenmalige directeur, Albert Bendien, zeer moeilijk. Hij werd als jood niet gedeporteerd omdat hij met een niet joodse vrouw getrouwd was. Maar hij moest zich wel door niet joodse bestuurders laten vervangen. De fabriek werd in 1985 gesloten wegens concurrentie met lagelonenlanden en de fabrieksgebouwen werden afgebroken.</p>",
+                "description_en": "<p> Isaac Bendien was initially a trader and wholesaler. In 1888, he stopped trading and in his hometown Almelo he started the production of work clothes, together with co-partner Smits. The Bendien & Smits company was not successful and some time later Isaac Bendien started again, this time alone. Business went better this time. In 1893, Bendien was already able to move into a larger building in the Holtjesstraat. He and especially his sons later advocated for innovation. For example, he immediately had a gas engine installed in his company. A motor to drive the sewing machines came some time later. The company had Jacquard looms and was therefore able to produce very beautiful patterned fabrics and it expanded its activities with clothing production. Already in 1906, the company had started building a complex on the Prinsenstraat. Due to the expansions, the Holtjesstraat found itself straight through the complex of the factories. To facilitate the transport of goods, Bendien built an air bridge over Holtjesstraat in 1932. The company led by Isaac Bendien grew into the largest clothing factory in the Netherlands in the 1930s, with 1500 employees.</p>  <p> In 1936 the products had reached such a high level of quality that the Bendien company first linked a brand name to its products. The best known was OXFORD, the brand name for men's suits, which was also written on the airlift (see photo). The war years were very difficult for the then director, Albert Bendien. He was not deported as a Jew because he was married to a non-Jewish woman. But he had to be replaced by non-Jewish administrators. The factory was closed in 1985 due to competition with low-wage countries and the factory buildings were demolished. </p>",
+                "description_de": "<p>Isaac Bendien war anfangs ein Händler und Großhändler für Manufakturen. 1888 beschloss er, den Handel einzustellen. In seiner Heimatstadt Almelo begann er zunächst mit dem Partner Smits die Produktion von Arbeitskleidung. Die Firma Bendien & Smits war nicht erfolgreich und einige Zeit später versuchte Isaac Bendien sein Glück alleine. Das Geschäft lief diesmal besser. Bendien konnte bereits 1893 in ein größeres Gebäude in der Holtjesstraat umziehen. Er und besonders seine Söhne standen später für Innovation. So installierte er beispielsweise sofort einen Gasmotor in seiner Firma, womit die Bügeleisen beheizt wurden. Ein Motor zum Antrieb der Nähmaschinen kam 1907. Das Unternehmen hatte Jacquardwebstühle und konnte daher sehr schöne gemusterte Stoffe herstellen und erweiterte seine Aktivitäten um die Bekleidungsherstellung. Bereits 1906 hatte das Unternehmen mit dem Bau eines Komplexes an der Prinsenstraat begonnen. Aufgrund der Erweiterungen durchquerte die Holtjesstraat den Fabrikkomplex. Um den Warentransport zu erleichtern, baute Bendien 1932 über der Holtjesstraat eine Luftbrücke. Das von Isaac Bendien geleitete Unternehmen wuchs in den 1930er Jahren mit 1500 Mitarbeitern zur größten Bekleidungsfabrik in den Niederlanden heran.</p>  <p>1936 hatten die Produkte ein so hohes Qualitätsniveau erreicht, dass die Firma Bendien erstmals einen Markennamen mit ihren Produkten verband. Am bekanntesten war OXFORD, der Markenname für Herrenanzüge. der auch auf der Luftbrücke stand (siehe Bild). Die Kriegsjahre waren für den damaligen Geschäftsführer Albert Bendien sehr schwierig. Er wurde als Jude nicht deportiert, weil er mit einer nichtjüdischen Frau verheiratet war, musste jedoch durch nichtjüdische Verwalter ersetzt werden. Die Fabrik wurde 1985 aufgrund des Wettbewerbs mit Niedriglohnländern geschlossen und die Fabrikgebäude wurden abgerissen.</p>",
+                "category": "Fabriek",
+                "picture_folder": "28",
+                "icon": "walk",
+                "picture_name": [
+                    "bendien-24.jpeg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.663604974746704,
+                    52.35313431461213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Villa Kloosteresch",
+                "name_en": "Villa Kloosteresch",
+                "name_de": "Villa Kloosteresch",
+                "description": "Dit monumentale pand is in 1925 in “Um 1800” bouwstijl voor een telg uit de textielfamilie Doedes Breuning-Ten Cate ontworpen. De bouwstijl kenmerkt zich door een sobere klassieke vormgeving. Het voormalige woonhuis werd in 1947 door eigenaar Doedes Breuning ten Cate aan de Gemeente Almelo geschonken onder de voorwaarde dat het een sociale bestemming zou krijgen. Het pand is toen tot in de jaren ’70 van de vorige eeuw in gebruik geweest als politiebureau. Het tuinhuis en de tuin werden omgebouwd tot een jeugdboerderij voor moeilijk opvoedbare jongeren: de Kleine Kloosteresch. In de loop der jaren heeft het pand altijd zijn sociale functie behouden. De laatste jaren is Tactus er gevestigd met een instelling voor verslavingszorg.",
+                "description_en": "This monumental building was designed in 1925 in \"Um 1800\" architectural style for a descendant of the Doedes Breuning-Ten Cate textile family. The architectural style is characterized by a simple classical design. The former residence was donated by the owner Doedes Breuning ten Cate to the Municipality of Almelo in 1947 on the condition that it was given a social purpose. The building was then used as a police station until the 1970s. The garden house and garden were converted into a youth farm for young people with social difficulties: the Kleine Kloosteresch. Over the years, the building has always retained its social function. Tactus has been established there in recent years with an institution for addiction care.",
+                "description_de": "Dieses monumentale Gebäude wurde 1925 im architektonischen Stil \"Um 1800\" für einen Nachkommen der Textilfamilie Doedes Breuning-Ten Cate entworfen. Der architektonische Stil zeichnet sich durch ein einfaches klassisches Design aus. Der ehemalige Wohnsitz wurde 1947 von dem Besitzer Doedes Breuning ten Cate an die Gemeinde Almelo gestiftet, vorausgesetzt er würde sozialen Zwecken dienen. Das Gebäude wurde dann bis in die 1970er Jahre als Polizeistation genutzt. Das Gartenhaus und der Garten wurden zu einer Jugendfarm für schwer erziehbare Jugendliche umgebaut: die Kleine Kloosteresch. Das Gebäude hat im Laufe der Jahre immer seine soziale Funktion bewahrt. Tactus wurde dort in den letzten Jahren mit einer Suchtkrankenanstalt gegründet.",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "category": "Villa",
+                "picture_folder": "16",
+                "icon": "walk",
+                "picture_name": [
+                    "kloosteresch.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.65984183549881,
+                    52.354895424663965
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Villa Hedeman",
+                "name_en": "Villa Hedeman",
+                "name_de": "Villa Hedeman",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Dit neorenaissance herenhuis werd 1897 in opdracht van Jacques Hedeman gebouwd. Hij woonde alleen in dit imposante gebouw. Hier hing ook een deel van zijn omvangrijke kunstcollectie. Hedeman had voor de tweede wereldoorlog een grote textielfabriek in Almelo en was een zeer welvarend man. Hij was een groot kunstliefhebber en was samen met zijn schoonzus eigenaar van de Hedeman-collectie. Die kunstcollectie omvatte ongeveer 250 schilderijen van Hollandse en Vlaamse meesters. In de oorlog moest Hedeman - net als alle andere Nederlandse Joden - zijn kunstbezit afstaan aan de naziroofbank Liro. Deze bank, Lippmann, Rosenthal & Co, was voor de oorlog een bank waar veel Nederlandse Joden zaken deden. Die werd door de Duitsers geconfisqueerd en gebruikt om in het bezit te komen van geld, kunst en andere waardevolle voorwerpen. Op 15 februari 1943 werd de kluis van Hedeman in de Amsterdamsche Bank geopend en zijn kunstwerken werden weggehaald door medewerkers van de Lirobank. Ook in zijn huis in Almelo werden werken in beslag genomen. Na de roof zijn de kunstwerken in opdracht van Liro geveild en zijn werken overgebracht naar Duitsland. Hedeman kon in een geblindeerde auto naar Zwisterland vluchten. Hij overleefde de oorlog, maar kon aanvankelijk zijn villa niet in omdat het pand tijdelijk werd bewoond door NSB-vrouwen. Hedeman moest een deel van zijn kunst die veilig elders in opslag lag zelfs verkopen voor de wederopbouw van de Hedeman-textielfabriek. Een deel van de kunst is echter tot op heden nog niet teruggevonden.",
+                "description_en": "This neo-Renaissance mansion was commissioned by Jacques Hedeman in 1897. He lived alone in this impressive building. Part of his extensive art collection is also hung here. Hedeman had a large textile factory in Almelo before the war and was a very prosperous man. He was a great art lover and, together with his sister-in-law, owned the Hedeman collection. That art collection comprised around 250 paintings by Dutch and Flemish masters. During the war, Hedeman - just like all other Dutch Jews - had to hand over his art property to the Nazi bank Liro. This bank, Lippmann, Rosenthal & Co, was a bank where many Dutch Jews did business before the war. It was confiscated by the Germans and used to get hold of money, art and other valuable objects. On 15 February 1943, Hedeman's safe was opened in the Amsterdamsche Bank and his artworks were taken away by employees of the Lirobank. Works were also taken from his house in Almelo. After the robbery, artworks were auctioned by Liro and works were transferred to Germany. Hedeman was able to flee to Switzerland in a blinded car. He survived the war, but was initially unable to enter his villa because the property was temporarily occupied by NSB women. Hedeman even had to sell part of his art that was safely stored elsewhere for the reconstruction of the Hedeman textile factory. However, a part of the art collection has still not been found.",
+                "description_de": "Dieses Herrenhaus im Neorenaissancestil wurde 1897 von Jacques Hedeman in Auftrag gegeben. Er lebte ganz allein in diesem beeindruckenden Gebäude. Hier hing auch ein Teil seiner umfangreichen Kunstsammlung. Hedeman hatte vor dem Krieg eine große Textilfabrik in Almelo und war ein sehr erfolgreicher Mann. Er war ein großer Kunstliebhaber und besaß zusammen mit seiner Schwägerin die Hedeman-Sammlung. Diese Kunstsammlung umfasste rund 250 Gemälde niederländischer und flämischer Meister. Während des Krieges musste Hedeman - genau wie alle anderen niederländischen Juden - sein Kunstgut der Nazi-Bank Liro übergeben. Diese Bank, Lippmann, Rosenthal & Co, war eine Bank, bei der viele niederländische Juden vor dem Krieg Geschäfte machten. Sie wurde von den Deutschen beschlagnahmt und diente dazu, Geld, Kunst und andere wertvolle Gegenstände zu beschaffen. Am 15. Februar 1943 wurde Hedemans Tresor in der Amsterdamschen Bank geöffnet und seine Kunstwerke von Mitarbeitern der Lirobank weggebracht. Auch in seinem Haus in Almelo wurden Werke beschlagnahmt. Nach dem Raub wurden im Auftrag von Liro Kunstwerke versteigert und Werke nach Deutschland verlagert. Hedeman konnte in einem blinden Auto in die Schweiz fliehen. Er überlebte den Krieg, konnte seine Villa jedoch zunächst nicht betreten, da das Anwesen vorübergehend von NSB-Frauen bewohnt war. Für den Wiederaufbau der Hedeman-Textilfabrik musste Hedeman sogar einen Teil seiner zurückerlangten Kunst verkaufen, der an anderer Stelle sicher aufbewahrt wurde. Ein Teil der Kunstwerke ist aber bis heute unauffindbar.",
+                "category": "Villa",
+                "picture_folder": "30",
+                "icon": "cycle",
+                "picture_name": [
+                    "villa hedeman.jpeg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.668341755867004,
+                    52.363693370802366
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Heracles",
+                "name_en": "Heracles",
+                "name_de": "Heracles",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Voor 1914 bestond Almelo nog uit twee gemeenten: Ambt Almelo en Stad Almelo. De toonaangevende voetbalclub in Ambt Almelo was toen Oranje Nassau. Jongens uit boeren- arbeidersmilieus konden er geen lid van worden. Het leidde in 1902 tot de oprichting van Hollandia. In het voorjaar van 1903 kwam er een fusie tot stand met de club Inartie. Op 3 mei 1903 werd een nieuwe vereniging opgericht onder de naam Hercules. Omdat er een Enschedese club bestond met dezelfde naam ook heeft, werd besloten de naam in Heracles te veranderen.</p> <p>Heracles vestigde zich in het seizoen 1913-1914 op het terrein aan de Bornsestraat waar het nog 85 jaar zou verblijven. Heracles mocht dan wel de club van het volk zijn, maar er was op de achtergrond wel een belangrijke weldoener, die de club ondersteunde. Doede Doedes Breuning ten Cate besefte het belang van vertier ter ontspanning voor de textielarbeiders die zich de hele week in het zweet werkte. Hij maakte het mogelijk dat in 1920 de Engelse trainer Horace Colclough naar Almelo kwam. Engeland was immers de bakermat van het voetbal. Nergens op de wereld werd het spel zo goed gespeeld als daar. De 60 gulden weeksalaris voor de Britse coach werd waarschijnlijk uit eigen zak betaald door de textielbaron. De Bornsestraat wordt vanaf 1925 verrijkt met een houten zittribune geschonken door Ten Cate. Diens zoon meneer Berto zou de relatie met het familiebedrijf na de oorlog voortzetten en de financiële steun aanzienlijk uitbreiden tot aan het van de eind jaren 60.</p> <p>Vanaf het seizoen 1999-2000 kan de Almelose club gebruik maken van een nieuw stadion aan de Weezebeeksingel in Almelo. Het monumentale houten tribune aan de Bornsestraat is gerestaureerd en staat nu als Rijksmonument van het vroegere Heracles-stadion.</p>",
+                "description_en": "<p>Before 1914 Almelo consisted of two municipalities: Ambt Almelo and Stad Almelo. The leading football club in Ambt Almelo was then Oranje Nassau. Boys from peasant workers could not become members of it. It lead to the founding of Hollandia in 1902. In the spring of 1903 a merger was established with the club Inartie. A new association was established on 3 May 1903 under the name Hercules. Because a club in Enschede also had that name, it was decided to change the name to Heracles.</p> <p>Heracles settled in the 1913-1914 season on the site on Bornsestraat where they would stay for another 85 years. Heracles may have been the club of the simple people, but there was an important benefactor in the background who supported the club. Doede Doedes Breuning ten Cate realized the importance of entertainment for relaxation for textile workers who worked up a sweat all week. He made it possible for the English trainer Horace Colclough to come to Almelo in 1920. England was the birthplace of football, nowhere else in the world was the game played as well as it was there. The 60 guilder weekly salary for the British coach was probably paid out of pocket by the textile baron. Bornsestraat was enriched in 1925 with a wooden seating stand donated by Ten Cate. His son Berto would continue the relationship with the family business after the war and expanded the financial support considerably until the late 60s.</p> <p>From the 1999-2000 season the Almelose club can use a new stadium on the Weezebeeksingel in Almelo. The monumental wooden grandstand on Bornsestraat has been restored and now stands as a national monument near the former Heracles stadium.</p>",
+                "description_de": "<p>Vor 1914 besteht Almelo aus zwei Gemeinden: Ambt Almelo und Stad Almelo. Der führende Fußballverein in Ambt Almelo ist dann Oranje Nassau. Jungen aus bäuerlichen Arbeitern können nicht Mitglied werden. Das führt 1902 zur Gründung von Hollandia. Im Frühjahr 1903 gibt es eine Fusion mit dem Club Inartie. Am 3. Mai 1903 wird ein neuer Verein unter dem Namen Hercules gegründet. Da ein Club aus Enschede auch diesen Namen trägt, wird beschlossen, den Namen in Heracles zu ändern.</p> <p>In der Saison 1913-1914 spielt Heracles auf dem Gelände an der Bornsestraat, wo der Club weitere 85 Jahre bleiben wird. Heracles mag der Club der einfachen Leute sein, aber es gibt einen wichtigen Wohltäter im Hintergrund, der den Club unterstützt. Doede Doedes Breuning ten Cate ist sich der Bedeutung der Erholung für Textilarbeiter bewusst, die die ganze Woche hart arbeiten müssen. Er ermöglicht es, den englischen Trainer Horace Colclough, 1920 nach Almelo zu holen. England ist der Geburtsort des Fußballs, nirgendwo sonst auf der Welt wird das Spiel so gut gespielt wie dort. Das 60 Gulden-Wochengehalt für den britischen Trainer wird wahrscheinlich vom Textilbaron aus eigener Tasche gezahlt. Die Bornsestraat ist seit 1925 mit einer von Ten Cate gespendeten Holztribüne ausgestattet. Sein Sohn, Berto, wird die Beziehung zum Familienunternehmen nach dem Krieg fortsetzen und die finanzielle Unterstützung bis Ende der 60er Jahre erheblich erhöhen.</p> <p>Ab der Saison 1999-2000 kann der Almeloer Club ein neues Stadion am Weezebeeksingel in Almelo in Gebrauch nehmen. Die monumentale Holztribüne an der Bornsestraat wurde restauriert und steht nun als Nationaldenkmal in der Nähe des ehemaligen Heracles-Stadions.</p>",
+                "category": "Sociaal",
+                "picture_folder": "42",
+                "icon": "cycle",
+                "picture_name": [
+                    "tribune heracles.png"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.649872064590454,
+                    52.33882658608579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "SMITS Confectie",
+                "name_en": "SMITS Confection",
+                "name_de": "SMITS Konfektion",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Dit moderne schoolgebouw herinnert niet aan het confectiebedrijf dat hier ooit stond. Herman Smits kocht in 1889 een bouwterrein gelegen tussen de Haven NZ en de Bakenstraat en bouwde daar een woonhuis aan de Haven en een confectieatelier met magazijn aan de Bakenstraat. Het confectiebedrijf groeide en werd uitgebreid met het pakhuis van tabakskerverij G. ten Bruggencate. In 1910 werd hier aan de Parallelweg een grotere moderne fabriek van 2500 m² in gebruik genomen.</p> <p>Aanvankelijk werden uitsluitend boezeroens - ongebleekte mans- en vrouwenhemden - gemaakt, doch spoedig ook werkmansbroeken en later vakkleding. In 1920 ging men over van vakkleding en lingerie naar productie van heren- en kinderkleding, vooral overhemden. Dit laatste was op den duur zo succesvol, dat de afdeling overhemden geheel werd gescheiden van de overige productie. De overhemdenfabriek ‘Rexalco‘ was dan ook sinds 1936 een feit.</p>",
+                "description_en": "<p>This modern school building does not recall any memory of the confection company, that once stood here. Herman Smits bought a building site in 1889 located between the northern Harbor and the Bakenstraat. He had a house built at the Harbor and a clothing workshop with a warehouse at the Bakenstraat. The clothing company grew and was expanded with the warehouse of tobacco grower G. ten Bruggencate. In 1910 a larger modern factory of 2500 m² was put into operation here.</p> <p>Initially, only boezeroens - unbleached men's and women's shirts - were made here, but soon workman's trousers and later professional clothing. In 1920 they changed from professional clothing and lingerie to the production of men's and children's clothing, especially shirts. The latter was so successful in the long run that the shirts department was completely separated from the other production. The shirt factory \"Rexalco\" was therefore a fact since 1936.</p>",
+                "description_de": "<p>Dieses moderne Schulgebäude erinnert kaum noch an den Konfektionsbetrieb, der hier mal stand. Herman Smits kaufte 1889 ein Baugrundstück zwischen dem NZ-Hafen und der Bakenstraat und errichtete dort ein Haus am Haven und eine Bekleidungswerkstatt mit Lager in der Bakenstraat. Das Bekleidungsunternehmen wuchs und wurde mit dem Lager des Tabakanbieters G. ten Bruggencate erweitert. 1910 wurde hier am Parallelweg eine größere moderne Fabrik (2500 m²) in Betrieb genommen.</p> <p>Zunächst wurden nur Boezeroenen - ungebleichte Herren- und Damenhemden - hergestellt, bald jedoch Arbeiterhosen und später Berufskleidung. 1920 wechselten sie von Berufskleidung und Dessous zur Herstellung von Herren- und Kinderbekleidung, insbesondere von Hemden. Letzteres war auf Dauer so erfolgreich, dass die Hemdenabteilung vollständig von der anderen Produktion getrennt wurde. Die Hemdenfabrik \"Rexalco\" war daher seit 1936 eine Tatsache.</p>",
+                "category": "Fabriek",
+                "picture_folder": "43",
+                "icon": "cycle",
+                "picture_name": [
+                    "A1 H Smits en Co 1949 (1).jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.655923128128052,
+                    52.356273137185156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Beeklustpark",
+                "name_en": "Beeklustpark",
+                "name_de": "Beeklustpark",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Door de textielindustrie veranderde de toestand in de Almelose binnenstad. Het stonk er zo, dat de rijke burgers buitenaf tuincomplexen lieten bouwen, waar ze met familie en vrienden konden ontspannen. De voormalige buitenplaats Beeklust liet de fabrikeur Coster in de 18de eeuw aanleggen bij de samenvloeiing van de Wezenbeek en de Nieuwe Graven. In opdracht van H. Ledeboer – de oprichter van de bank in de binnenstad van Almelo -  werd omstreeks 1930 het park veranderd in zijn landschapsstijl. Het toegangshek heeft 18de-eeuwse zandstenen hekpijlers. Het oorspronkelijke paviljoen maakte in 1894 plaats voor een landhuis dat in 1975 werd gesloopt. Sinds 1960 is de buitenplaats als stadspark ingericht.",
+                "description_en": "Due to the textile industry, the situation in the center of Almelo changed. It stank so much. that the rich citizens had garden complexes built outside of the centre, where they could relax with family and friends. The former country estate Beeklust was built by the textile manufacturer Coster in the 18th century at the confluence of the river Wezenbeek and the Nieuwe Graven. Commissioned by H. Ledeboer - the founder of the bank in the center of Almelo - the park changed to landscape style around 1930. The entrance gate has 18th-century sandstone gate pillars. The original pavilion made way in 1894 for a country house that was demolished in 1975. Since 1960, the country estate has been designed as a city park.",
+                "description_de": "Wegen der Textilindustrie änderte sich die Situation im Zentrum von Almelo. Es stank dermaßen, dass die reichen Bürger Gartenanlagen im Freien errichten ließen, in denen sie sich mit Familie und Freunden entspannen konnten. Das ehemalige Landgut Beeklust ließ der Firmeninhaber Coster im 18. Jahrhundert am Zusammenfluss von den Wasserläufen Wezenbeek und Nieuwe Graven errichten. Im Auftrag von H. Ledeboer - dem Gründer der Bank im Zentrum von Almelo - wurde der Park um 1930 landschaftlich gestaltet. Das Eingangstor hat Sandsteinpfeiler aus dem 18. Jahrhundert. Der ursprüngliche Pavillon machte 1894 Platz für ein 1975 abgerissenes Landhaus. Seit 1960 ist das Landgut als Stadtpark angelegt.",
+                "category": "Sociaal",
+                "picture_folder": "41",
+                "icon": "cycle",
+                "picture_name": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.6400015354156485,
+                    52.347458967243035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Landhuis Bendien",
+                "name_en": "Mansion Bendien",
+                "name_de": "Herrensitz Bendien",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "De textielfabrikant Bendien liet het landhuis in het jaar 1916 bouwen. Uniek aan dit landhuis is dat het Indonesische en Nederlandse expressionistische architectuur combineert. Respectievelijk de stijlen Minang Kabau en Amsterdamse School zijn gebruikt. Dit valt onder andere te zien aan het dak, met een bijzondere vorm en dat bestaat uit riet.",
+                "description_en": "The textile manufacturer Bendien had the house built in 1916. Unique to this country house is that it combines Indonesian and Dutch expressionist architecture. The Minang Kabau and Amsterdam School styles respectively. This can be seen in the roof, among other things, with a special shape that consists of reeds.",
+                "description_de": "Der Textilhersteller Bendien ließ das Landhaus 1916 errichten. Einzigartig an diesem Landhaus ist, dass es indonesische und niederländische expressionistische Architektur vereint. Die Stile von Minang Kabau und Amsterdam School. Dies zeigt sich unter anderem im Dach mit einer speziellen Form, die aus Schilf besteht.",
+                "category": "Villa",
+                "picture_folder": "38",
+                "icon": "cycle",
+                "picture_name": [
+                    "38 - villa Bendien.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.673944890499115,
+                    52.34923341078135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Landhuis Wendelgoor",
+                "name_en": "Mansion Wendelgoor",
+                "name_de": "Landsitz Wendelgoor",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Het landhuis Wendelgoor werd in opdracht van de fabrikant J.J. van Wulfften Palthe als een letterlijke kopie van een Engels landhuis bij Southhampton gebouwd. De echtgenote van de heer Palthe was nauw betrokken bij de bouw van het huis. Haar invloed is overal terug te vinden. In een glas-in-lood-raam in Art Decostijl in de noordgevel zijn de intialen van de opdrachtgevers en hun kinderen, het bouwjaar 1931 en de plattegrond van het huis verwerkt. De tuin is door de huidige bewoners in de laatste jaren enigszins aangepast.",
+                "description_en": "The Wendelgoor mansion commissioned by the textile manufacturer J.J. van Wulfften Palthe was built as a literal copy of an English country house near Southhampton. Mr Palthe's wife was closely involved in the construction of the house, her influence can be found everywhere. The initials of the Palthe family, the year of construction 1931, and the floor plan of the house have been incorporated into a stained glass window in Art Deco style in the north façade. The garden has been modified by the current residents in recent years.",
+                "description_de": "Das Landhaus Wendelgoor wurde vom Textilfabrikanten J.J. van Wulfften Palthe als Kopie eines englischen Landhauses in der Nähe von Southhampton gebaut. Die Frau von Herrn Palthe war am Bau des Hauses beteiligt. Ihr Einfluss ist überall zu finden. Die Initialen der Auftraggeber und ihrer Kinder, das Baujahr 1931 und der Grundriss des Hauses wurden in ein Buntglasfenster im Art Deco-Stil der Nordfassade integriert. Der Garten wurde in den letzten Jahren von den heutigen Bewohnern etwas verändert.",
+                "category": "Villa",
+                "picture_folder": "37",
+                "icon": "cycle",
+                "picture_name": [
+                    "37 - achterkant villa Wendelgoor.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.623318195343018,
+                    52.35722981121951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Landhuis Bellinckhof",
+                "name_en": "Mansion Bellinckhof",
+                "name_de": "Landsitz Bellinckhof",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "In 1913 kocht de fabrikant Johannes ten Cate enkele percelen grond bij de oude buitenplaats om de Bellinckhof. In 1919 liet hij hier een herenhuis in grootse stijl bouwen. Bij het ontwerp van de tuin werden de vele bestaande bomen gehandhaafd. Door de aankoop werd Ten Cate tevens eigenaar van de oude huisplaats, waardoor de nieuwe Bellinckhof als het ware de opvolger werd van de oude havezate. Bij het begin van de beide oprijlanen staan dienstwoningen in dezelfde stijl als het hoofdgebouw; dit geldt ook voor het koetshuis met stallen. Tegenwoordig wordt het huis nog steeds bewoond door de familie Ten Cate.",
+                "description_en": "In 1913 the manufacturer Johannes ten Cate bought a few pieces of land at the old country estate around the Bellinckhof. In 1919 he had a mansion built in grand style. The many existing trees were maintained in the design of the garden. As a result of the purchase, Ten Cate also became the owner of the old house, so that the new Bellinckhof became the successor of the old property. At the start of the two driveways, service houses are in the same style as the main building as well as the coach house with stables. Today the house is still occupied by the Ten Cate family.",
+                "description_de": "1913 kaufte der Textilfabrikant Johannes ten Cate auf dem alten Landsitz um den Bellinckhof einige Grundstücke. 1919 ließ er hier eine Villa im großen Stil errichten. Die vielen vorhandenen Bäume wurden in der Gestaltung des Gartens beibehalten. Durch den Kauf wurde Ten Cate auch Eigentümer des alten Hauses, so dass der neue Bellinckhof der Nachfolger wurde. Zu Beginn der beiden Einfahrten befinden sich die Dienstwohungen im gleichen Stil wie das Hauptgebäude. Dies gilt auch für das Kutscherhaus mit Stallungen. Heute wird das Haus noch von der Familie Ten Cate bewohnt.",
+                "category": "Villa",
+                "picture_folder": "36",
+                "icon": "cycle",
+                "picture_name": [
+                    "bellinckhofe.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.635699272155762,
+                    52.355683396297984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Yunus Emre moskee",
+                "name_en": "Yunus Emre mosque",
+                "name_de": "Yunus Emre Moschee",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "In het jaar 1800 was Almelo een klein Twents dorpje dat niet meer dan een paar honderd inwoners telde. Met de mechanisering van de textielindustrie begon ook de eerste arbeidsmigratie. In het midden van de vorige eeuw was er zo'n tekort aan arbeiders, dat de textielfabrikanten arbeiders in Zuid-Europese landen gingen werven. Het idee achter deze migratie was dat de arbeidsmigranten tijdelijk in Nederland zouden werken om vervolgens naar hun thuisland terug te keren. Vandaar de naam gastarbeiders. Omdat de economie in Turkije stagneerde, kozen veel Turken ervoor om in Almelo te blijven. Toen zij hun gezinnen naar Nederland haalden ontstond de behoefte aan een moskee. Die werd in 1974 gebouwd met financiële steun van de overheid en de textielfabrikant Ten Cate. De Yunus Emre moskee was de eerste moskee met een minaret in Nederland. ",
+                "description_en": "In the year 1800 Almelo was a small village that had no more than a few hundred inhabitants. The first labour migration started with the mechanization of the textile industry. In the middle of the last century, there was such a shortage of labourers that textile manufacturers started recruiting them in southern European countries. The idea behind this migration was that the labour migrants would work temporarily in the Netherlands and then return to their home country. Hence the name guest workers. Because the economy in Turkey stagnated, many Turks chose to stay in Almelo. After they brought their families to the Netherlands, the need for a mosque arose. It was built in 1974 with financial support from the government and the textile manufacturer Ten Cate. The Yunus Emre mosque was the first mosque with a minaret in the Netherlands.",
+                "description_de": "Anfang 1800 war Almelo ein kleines Städtchen, das nicht mehr als ein paar hundert Einwohner hatte. Die erste Arbeitsmigration begann mit der Mechanisierung der Textilindustrie. In der Mitte des letzten Jahrhunderts herrschte ein derartiger Arbeitskräftemangel, dass Textilhersteller in den südeuropäischen Ländern Arbeiter zu rekrutieren begannen. Die Idee hinter dieser Migration war, dass die Arbeitsmigranten vorübergehend in den Niederlanden arbeiten und dann in ihr Heimatland zurückkehren würden. Daher der Name Gastarbeiter. Da die Wirtschaft in der Türkei aber stagnierte, entschieden sich viele Türken für den in Almelo zu bleiben. Als sie ihre Familien in die Niederlande brachten, entstand das Bedürfnis nach einer Moschee. Sie wurde 1974 mit finanzieller Unterstützung der Regierung und des Textilherstellers Ten Cate gebaut. Die Yunus Emre-Moschee war die erste Moschee mit einem Minarett in den Niederlanden.",
+                "category": "Sociaal",
+                "picture_folder": "35",
+                "icon": "cycle",
+                "picture_name": [
+                    "moskee.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.655711233615875,
+                    52.354772558797954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "St. Elisbeth ziekenhuis",
+                "name_en": "St. Elisabeth hospital",
+                "name_de": "St. Elisabeth Krankenhaus",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "De katholieke bewoners van de stad wilden een eigen ziekenhuis. Met financiële steun van de textielfabrikant Ten Bos kon dit ziekenhuis 1928 in gebruik worden genomen. De fabrikant schonk enkele jaren later ook nog de ziekenhuiskapel. Nadat het ruim 50 jaar in gebruik was, werd het in 1985 gesloten. Het huidige Twenteborg ziekenhuis werd geopend, waarmee het algemene ziekenhuis Prinses Irene en het katholieke St. Elisabeth Ziekenhuis onder één dak kwamen. Een deel van het voormalige ziekenhuis werd verbouwd tot appartementen en op het ziekenhuisterrein zijn sinds 1988 Theater Hof88, het Creatief centrum en de muziekschool gevestigd.",
+                "description_en": "The Catholic residents of the city wanted their own hospital. With the financial support of textile manufacturer Ten Bos, the hospital was put into operation in 1928. The manufacturer also donated the hospital chapel a few years later. After being in use for over 50 years, it was closed in 1985. The current Twenteborg hospital was opened, bringing the general hospital Princess Irene and the Catholic St. Elisabeth Hospital under one roof. Part of the former hospital has been converted to apartments and since 1988 the Hof88 Theater, the Creative Center and the Music School have been established on the hospital grounds.",
+                "description_de": "Die katholischen Bewohner der Stadt wollten ein eigenes Krankenhaus. Mit finanzieller Unterstützung des Textilherstellers Ten Bos wurde dieses Krankenhaus 1928 in Betrieb genommen. Der Textilfabrikant spendete einige Jahre später auch die Krankenhauskapelle. Nachdem das Haus über 50 Jahre als Krankenhaus diente, wurde es 1985 geschlossen. Das heutige Twenteborg-Krankenhaus wurde eröffnet und brachte das Prinzessin Irene Krankenhaus und das katholische St. Elisabeth-Krankenhaus unter einem Dach zusammen. Ein Teil des ehemaligen Krankenhauses wurde in Wohnungen umgewandelt und seit 1988 sind das Hof88 Theater, das Kreativzentrum und die Musikschule auf dem Krankenhausgelände entstanden.",
+                "category": "Sociaal",
+                "picture_folder": "33",
+                "icon": "cycle",
+                "picture_name": [
+                    "St. ELisabeth Ziekenhuis.png"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.669720411300658,
+                    52.353285035613574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Villa Ten Bos",
+                "name_en": "Ten Bos Mansion",
+                "name_de": "Villa Ten Bos",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Dit grote vrijstaande herenhuis werd in 1910 voor de fabrikant J.L. ten Bos gebouwd. Het vrijwel in originele staat verkerende interieur is uitgevoerd in de stijl van de Art Nouveau- en Art Deco. Het pand, dat tegenwoordig in gebruik is als kantoor, staat in de bocht van de Ootmarsumsestraat bij het begin van de Vriezenveensestraat, naast twee andere herenhuizen in Art Nouveaustijl in dezelfde bouwstijl (Ootmarsumsestraat 85 en 83). Langs de straat staat een om de hoek lopend laag gemetseld muurtje als erfscheiding",
+                "description_en": "This large detached mansion was built for the manufacturer J.L. ten Bos in 1910. The interior, which is almost completely kept in its original state, is made in the style of Art Nouveau and Art Deco. The building, which is currently used as an office, stands in the bend of Ootmarsumsestraat at the start of Vriezenveensestraat, alongside two other Art Nouveau style mansions in the same architectural style (Ootmarsumsestraat 85 and 83). Along the street a low brick wall with running around the corner as a boundary.",
+                "description_de": "Diese große freistehende Villa wurde 1910 für den Hersteller J.L. ten Bos gebaut. Der Innenraum, der sich fast in seinem ursprünglichen Zustand befindet ist im Stil des Jugendstils und Art Deco ausgeführt. Das Gebäude, das derzeit als Büro genutzt wird, befindet sich in der Kurve der Ootmarsumsestraat am Anfang der Vriezenveensestraat, zusammen mit zwei weiteren Jugendstilvillen im selben Baustil (Ootmarsumsestraat 85 und 83). Entlang der Straße verläuft eine niedrige Backsteinmauer mit einem Eselkamm als Begrenzung um die Ecke.",
+                "category": "Villa",
+                "picture_folder": "31",
+                "icon": "cycle",
+                "picture_name": [
+                    "7 - ten Bos.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.668765544891357,
+                    52.364056979361955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Wevershuisje",
+                "name_en": "Weaver's house",
+                "name_de": "Webershaus",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "We staan nu voor het zogenaamde Wevershuisje. Het is van oorsprong een vakwerkboerderijtje uit de 17e eeuw. De achtergevel van het pand bezit nog de oude houten topgevel en vakwerk. Vroeger stonden er meer van dit soort kleine boerenhuisjes, waarin boeren weefstoffen in huisnijverheid produceerden. Tegenwoordig is hier een klein museum gevestigd waar aandacht wordt besteed aan oude handwerktechnieken zoals weven en kantklossen.",
+                "description_en": "We are now standing in front of the so-called Wevershuisje (the little weaving house). It was originally a half-timbered farmhouse from the 17th century. The rear facade of the building still has the old wooden façade and half-timbering. In the past there were more small farmers' houses of this kind, in which farmers produced fabrics in the home industry. Nowadays a small museum is located here where attention is paid to old handicraft techniques such as weaving and bobbin lace.",
+                "description_de": "Wir stehen jetzt vor dem sogenannten Weberhäuschen. Es war ursprünglich ein Fachwerkhaus aus dem 17. Jahrhundert. Die hintere Fassade des Gebäudes hat noch die alte Holzfassade und Fachwerk. In der Vergangenheit gab es noch mehr kleine Bauernhäuser dieser Art, worin die Bauern Stoffe in Heimarbeit herstellten. Heutzutage befindet sich hier ein kleines Museum, in dem alte Handwerkstechniken wie Weben und Klöppeln gezeigt werden.",
+                "category": "Sociaal",
+                "picture_folder": "20",
+                "icon": "walk",
+                "picture_name": [
+                    "20 - wevershuisje.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.665560305118561,
+                    52.35858615603201
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Bibliotheek en leeszaal",
+                "name_en": "Library and reading room",
+                "name_de": "Bücherei und Leseraum",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "De Stichting Openbare Bibliotheek Almelo werd 22 november 1916 opgericht door de heer Hendrik Salomonson, een Almelose textielfabrikant. De leeszaal was de eerste 47 jaar van haar bestaan gevestigd in een mooi oud pand aan de Grotestraat, dat inmiddels afgebroken is. Het bevond zich ter hoogte van de huidige passage naar het Marktplein. In 1965 verhuisde de bibliotheek naar de Hofstraat, naast het daar toen gevestigde postkantoor. Dat was het eerste gebouw in Nederland dat speciaal als bibliotheek werd ontworpen. Zowel postkantoor als bibliotheek werden in de jaren 80 afgebroken om plaats te maken voor appartementengebouwen. In augustus 1994 verhuisde de Bibliotheek Almelo naar het huidige nieuw gebouwde pand aan Het Baken. Koningin Beatrix opende het door Mecanoo Architecten ontworpen pand. Het geldt nog steeds als één van de mooiste Bibliotheken van Nederland.",
+                "description_en": "The Almelo Public Library Foundation was founded on November 22, 1916 by Mr. Hendrik Salomonson, a local textile manufacturer. The reading room was the first 47 years of its existence in an old but beautiful building in the Grotestraat, which has since been demolished. It was situated at the height of the current passage to Marktplein. In 1965 the library moved to the Hofstraat, next to the post office there. That was the first building in The Netherlands that was specially designed asto just be a library. Both the post office and the library were demolished in the 1980s to make wayspace for apartment buildings. In August 1994 the Almelo Library moved to the current newly built building at Het Baken. Queen Beatrix opened the building designed by Mecanoo Architects. It is still considered one of the most beautiful libraries in the Netherlands.",
+                "description_de": "Die Stiftung zur Gründung einer öffentlichen Bücherei Almelo wurde am 22. November 1916 von Herrn Hendrik Salomonson, einem Textilhersteller von Almelose, gegründet. Der Lesesaal befand sich die ersten 47 Jahre seines Bestehens in einem schönen alten Gebäude an der Grotestraat, das inzwischen abgerissen wurde und wo es heute die Passage zum Marktplatz gibt. 1965 zog die Bibliothek in die Hofstraat, neben dem Postamt. Dies war das erste Gebäude in den Niederlanden, das speziell als Bibliothek entworfen wurde. Sowohl das Postamt als auch die Bibliothek wurden in den 1980er Jahren abgerissen, um Platz für Mehrfamilienhäuser zu schaffen. Im August 1994 zog die Bibliothek in das neu errichtete Gebäude am Het Baken um. Königin Beatrix eröffnete das von Mecanoo Architekten entworfene Gebäude. Es gilt immer noch als eine der schönsten Bibliotheken der Niederlande.",
+                "category": "Sociaal",
+                "picture_folder": "19",
+                "icon": "walk",
+                "picture_name": [
+                    "openbare bibliotheek.png"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.664771735668182,
+                    52.356643359387824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Natuur-Stoomblekerij Ten Bruggencate",
+                "name_en": "Ten Bruggencate Natural Steambleacher",
+                "name_de": "Natur-Dampfbleicherei Ten Bruggencate",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>In Almelo heeft men bewust gebruik gemaakt van de waterrijke omgeving door er natuurbleken, leerlooierijen en wasserijen aan te leggen. Het bleken van geweven goed gebeurde oorspronkelijk door inwerking van zonlicht. Op grasvelden werd het geweekte linnengoed gespoeld en uitgespreid. Ze werden nat gehouden met water uit de omringende sloten. Dit duurde 3 tot 6 maanden. Om het kostbare linnen te bewaken werd een wachter aangesteld, die in een bleekhuis overnachtte. Rondom het Huis Almelo lagen bleekvelden die het bezit waren van de graaf. Harmen ten Bruggencate had hierop een natuurbleek aangelegd. In 1844 ging kleinzoon Benjamin over tot een stoomblekerij.</p> <p>Het kunstbleekbedrijf van B. ten Bruggencate & Zn wordt rond 1850 verplaatst naar een nieuw terrein naast het bedrijf van A.G. Kamerling op ’t Sluitersveld. Beide bedrijven werkten nauw samen.</p>",
+                "description_en": "<p>In Almelo people consciously made use of the water-rich environment by creating natural bleaching, tanneries and laundries. The bleaching of woven material was originally achieved by lying the material in sunlight. Soaked linen was rinsed and spread out on lawns. Kept wet with water from the surrounding ditches. This took 3 to 6 months. A guard, who spent the night in a bleaching house (dome), was appointed to guard the precious linen. Around the Huis Almelo there were bleaching fields that belonged to the count.</p> <p>The art bleaching company of B. ten Bruggencate & Zn moved to a new site in 1850, next to the company of A.G. Kamerling at the Sluitersveld. Both companies worked very close together.</p>",
+                "description_de": "<p>In Almelo nutzten die Menschen die wasserreiche Umgebung bewusst, indem sie natürliche Bleichmittel, Gerbereien und Wäschereien errichteten. Das Bleichen von gewebtem Material wurde ursprünglich durch Sonnenlicht bewirkt. Das getränkte Leinen wurde gespült und auf den Rasenflächen ausgebreitet und mit Wasser aus den umliegenden Gräben feucht gehalten. Dieses Bleichverfahren dauerte 3 bis 6 Monate. Ein Wachmann wurde ernannt, um das kostbare Leinen zu bewachen. Er verbrachte die Nacht in einem sogenannten Bleichhaus. Rund um das Anwesen des Grafen von Almelo gab es Bleichfelder. Harmen ten Bruggencate machte daraus ein natürliches Bleichfeld. Im Jahr 1844 beschließt sein Enkel Benjamin eine Dampfbleicherei zu gründen.</p> <p>Die Kunstbleicherei von B. ten Bruggencate & Zn wird um 1850 an einen neuen Standort neben der Firma von A.G. Kamerling im Sluitersveld verlegt. Beide Unternehmen arbeiteten eng zusammen.</p>",
+                "category": "Fabriek",
+                "picture_folder": "34",
+                "icon": "walk",
+                "picture_name": [
+                    "34 - stoombleekerij ten Bruggencate.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.666592955589294,
+                    52.358579603741696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Almelo-Nordhorn kanaal",
+                "name_en": "Almelo-Norhorn canal",
+                "name_de": "Almelo-Nordhorn Kanal",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "De textielindustrie was één van de voornaamste motoren achter het verbeteren van de waterwegen. Brede waterwegen leenden zich immers goed voor het vervoer van grote hoeveelheden textielproducten én voor de aanvoer van grondstoffen voor de vervaardiging van textiel. In 1855 werd begonnen met de aanleg van het Overijssels Kanaal. Almelo werd hierop aangesloten via het kanaal Almelo - De Haandrik. In 1886 kreeg de stad via het Almelo-Nordhorn-Kanaal een verbinding met Duitsland. Helaas bleek deze waterweg geen groot succes voor de textielindustrie, omdat de verbindingen over het spoor en de verbeterde wegen effectiever bleken. Meer succes had de bouw van het Twentekanaal in de jaren dertig van de vorige eeuw. In 1961 wordt het kanaal dan ook buiten werking gesteld. Het is tegenwoordig nog steeds in gebruik, maar wel alleen ter recreatie.",
+                "description_en": "The textile industry was one of the main engines behind the improvement of the waterways. Broad waterways lend themselves well to the transport of large quantities of textile products and to the supply of raw materials for the production of textiles. Construction of the Overijssels Canal began in 1855. Almelo was connected to this via the canal Almelo - De Haandrik. In 1886 the city was connected to Germany via the canal Almelo-Nordhorn. Unfortunately, this waterway did not prove to be useful to the textile industry, because the newly built rail and improved road connections had become more effective. The construction of the Twentekanaal in the 1930s was more successful. In 1961 the canal was therefore put out of operation. It is still in use today for recreational purposes.",
+                "description_de": "Die Textilindustrie war einer der Hauptmotoren für die Verbesserung der Wasserstraßen. Breite Wasserstraßen eignen sich gut für den Transport großer Mengen Textilwaren und für die Lieferung von Rohstoffen zur Herstellung von Textilien. Der Bau des Overijssels-Kanals begann 1855. Almelo war über den Kanal Almelo-De Haandrik mit ihm verbunden. 1886 wurde die Stadt über den Kanal Almelo-Nordhorn mit Deutschland verbunden. Leider war diese Wasserstraße kein großer Erfolg für die Textilindustrie, da der Schienenverkehr und die verbesserten Straßenverbindungen effektiver waren. Der Bau des Twentekanaal in den dreißiger Jahren des letzten Jahrhunderts war erfolgreicher. 1961 wird der Kanal deshalb außer Betrieb gesetzt. Es ist noch heute in Gebrauch.",
+                "category": "Infrastructuur",
+                "picture_folder": "23",
+                "icon": "walk",
+                "picture_name": [
+                    "kanaal almelo nordhorn.jpeg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.657156944274902,
+                    52.361030092558494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Het Hofkeshuis met de schat van Almelo",
+                "name_en": "The  Hofkes Mansion with the treasure of Almelo",
+                "name_de": "Das Hofkeshaus mit dem Almeloer Schatz",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Egbert Hofkes is geboren in 1738 en kwam oorspronkelijk uit Winterswijk. Hij handelde in linnen. In 1775 werd Hofkes eigenaar van dit huis. Hij liet het verbouwen in de monumentale classicistische stijl. Geen ander pand in Almelo had een dergelijke allure, op het kasteel van de Graaf van Almelo na. Het huis weerspiegelde daarmee zijn succes in zaken. In 1928 werd de gevel ingrijpend verbouwd en etalages veranderden het aanzien van het statige pand.</p> <p>Op de bovenverdieping bevindt zich de zogenaamde schat van Almelo. In 1778 gaf Hofkes de kunstschilder Andries Warmoes opdracht een wandschildering op linnen te maken van een Romeinse triomftocht met een totale lengte van bijna 20 meter. De schildering is uitgevoerd in grisaille, een schildertechniek waarbij door het gebruik van witte, grijze en zwarte verf, marmeren reliëfs werden geïmiteerd. Het Almelose kunstwerk is in ons land de enige overgebleven geschilderde wandbespanning in zijn soort en van uitzonderlijke kwaliteit. Het Hofkeshuis is helaas niet publiek toegankelijk.</p>",
+                "description_en": "<p>Egbert Hofkes was born in 1738 and originally came from Winterswijk. He dealt with linen. In 1775, Hofkes became the owner of this mansion, which he had renovated in a monumental classical style. No other building in Almelo had such an allure apart from the castle of the Count of Almelo. The house thus reflected his success in business. In 1928 the façade was radically renovated and shop windows changed the appearance of the stately building.</p> <p>The so-called Almelo treasure is located on the upper floor. In 1778 Hofkes commissioned the painter Andries Warmoes to make a wall painting on linen of a Roman triumphal procession with a total length of almost 20 meters. The painting is executed in grisaille, a painting technique in which marble reliefs were imitated through the use of white, gray and black paint. The Almelo artwork is in our country the only remaining painted wall covering of its kind and of exceptional quality. The Hofkes mansion is unfortunately not open for the public.<p>",
+                "description_de": "<p>Egbert Hofkes wurde 1738 geboren und stammte ursprünglich aus Winterswijk. Er handelte mit Leinen. 1775 wurde Hofkes Eigentümer dieses Hauses, das er im klassizistischen Stil renovieren ließ. Kein anderes Gebäude in Almelo hatte eine solche Faszination außer der Burg des Grafen von Almelo. Das Haus spiegelte damit seinen geschäftlichen Erfolg wider. Im Jahr 1928 wurde die Fassade radikal renoviert und Schaufenster veränderten das Aussehen des stattlichen Gebäudes.</p> <p>Der sogenannte Almeloer Schatz befindet sich im Obergeschoss. 1778 beauftragte Hofkes den Maler Andries Warmoes mit der Erstellung eines Wandgemäldes eines römischen Siegeszuges. Das Bild entstand auf Leinen mit einer Gesamtlänge von fast 20 Metern. Das Gemälde ist in Grisaille ausgeführt, einer Maltechnik, bei der Marmorreliefs mit weißer, grauer und schwarzer Farbe nachgeahmt wurden. Das Kunstwerk von Almelo ist in unserem Land der einzige erhaltene bemalte Wandbelag seiner Art und von außergewöhnlicher Qualität. Das Hofkeshaus ist leider nicht für die Öffentlichkeit zugänglich.</p>",
+                "category": "Villa",
+                "picture_folder": "22",
+                "icon": "walk",
+                "picture_name": [
+                    "8 - pand hofkes.jpg",
+                    "header1.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.664975583553313,
+                    52.35700538783446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "De Acht Zaligheden",
+                "name_en": "De Acht Zaligheden",
+                "name_de": "De Acht Zaligheden",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "De textielarbeiders woonden vaak met grote families in kleine huizen in wijken die speciaal voor hen werden gebouwd. De wijken kenmerkten zich door veel kleine rijtjeshuizen van maximaal 2 verdiepingen zo dicht mogelijk op elkaar te plaatsen. Soms zat er ook nog een kleine tuin bij die uitkwam op een kleine straat. Ze kenmerken nog steeds het oude centrum van Almelo. Waar we nu staan stonden de eerste arbeiderswoningen in Almelo zonder bedsteden, die de textielfabrikant Cardinaal in de buurt van zijn fabriek liet bouwen. Het rijtje woningen kreeg al snel de bijnaam \"Acht Zaligheden\".",
+                "description_en": "The textile workers often lived with large families in small houses in neighbourhoods that were built specially for them. The neighbourhoods were characterized by placing many small terraced houses of up to 2 floors as close together as possible. Occasionally there was a small garden that led to a small street. They still characterize the old center of Almelo. Where we now stand were the first workers' houses in Almelo without bed towns, which the textile manufacturer Cardinaal had built near his factory. The row of houses soon got the nickname \"Acht Zaligheden\". Loosely translated this would mean ‘’Eight Pleasantries’’.",
+                "description_de": "Die Textilarbeiter lebten oft mit großen Familien in kleinen Häusern in Nachbarn, die eigens für sie gebaut wurden. Die Nachbarschaften zeichneten sich dadurch aus, dass viele kleine Reihenhäuser mit bis zu 2 Etagen so nahe wie möglich nebeneinander platziert wurden. Manchmal gab es auch einen kleinen Garten, der zu einer kleinen Straße führte. Sie prägen immer noch das alte Zentrum von Almelo. Wo wir jetzt stehen, waren die ersten Arbeiterhäuser in Almelo ohne Bettstädte, die der Textilhersteller Cardinaal in der Nähe seiner Fabrik gebaut hatte. Die Liste der Häuser erhielt bald den Spitznamen \"Acht Zaligheden\".",
+                "category": "Sociaal",
+                "picture_folder": "18",
+                "icon": "walk",
+                "picture_name": [
+                    "achtz002.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.658396124839782,
+                    52.36001617015137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "A.G. Kamerling",
+                "name_en": "A.G. Kamerling",
+                "name_de": "A.G. Kamerling",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Tijdens de stormachtige ontwikkeling van de Almelose textielindustrie rond de tweede helft van de 19e eeuw besloot de fabrikant A.G. Kamerling een stuk land op te kopen ten zuiden van de Krommendijkseweg (Ootmarsumsestraat), langs het riviertje de Loolee. Er was in de tijd nog geen sprake van het kanaal Almelo – Nordhorn. Kamerling stichtte een klein fabriekje op dit terrein in 1865. Vervolgens kocht de heer Hertog Hedeman dit bedrijfje in 1880 op en breidde het bedrijfje flink uit met een blekerij, ververij en weverij. Er werden huizen voor de arbeiders gebouwd en zo ontstond dit stadsdeel. Er is nog een pad naar deze man vernoemd.",
+                "description_en": "During the stormy development of the Almelo textile industry around the second half of the 19th century, the manufacturer A.G. Kamerling bought a piece of land south of the Krommendijkseweg (now the Ootmarsumsestraat), along the river Loolee. It was at the time that the Almelo - Nordhorn canal did not yet exist. Kamerling founded a small factory on this site in 1865. Subsequently, Mr. Hertog Hedeman bought this company in 1880 and expanded the company considerably with a bleaching, dyeing and weaving mill. Houses were built for the workers and this is how this district came into existence. A path is named after this man.",
+                "description_de": "Während der stürmischen Entwicklung der Textilindustrie in Almelo in der zweiten Hälfte des 19. Jahrhunderts beschloss der Fabrikant A.G. Kamerling, ein Stück Land südlich des Krommendijkseweg (heute Ootmarsumsestraat) entlang des Flusses Loolee zu kaufen. Zu dieser Zeit gab es den Almelo-Nordhorn-Kanal noch nicht. Kamerling gründete 1865 eine kleine Fabrik an diesem Standort. Anschließend kaufte Herr Hertog Hedeman diese Firma im Jahr 1880 und baute die Firma mit einer Bleicherei, Färberei und Weberei erheblich aus. Es wurden Wohnungen für die Arbeiter gebaut und so entstand dieser Stadteil. Es gibt noch ein Pfad, der nach diesem Mann benannt ist.",
+                "category": "Fabriek",
+                "picture_folder": "39",
+                "icon": "cycle",
+                "picture_name": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.682900786399841,
+                    52.366040394991394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Barend Bavink &  Zn. Stoomweverij- blekerij en ververij",
+                "name_en": "Barend Bavink & Son Steam bleaching company",
+                "name_de": "Barend Bavink & Sohn Dampfweberei, -bleicherei und Färberei",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Na 1800 kan de bleektijd van textiel aanzienlijk worden verkort door het toepassen van chemicaliën zoals chloorkalk. Door het gebruik van met stoom verwarmde kuipen, kalanders en andere machinaal aangedreven apparaten, is het langdurig drogen en bleken op een bleekveld voor de textielindustrie niet meer nodig.</p> <p>Bavink was een chemische blekerij, opgericht in 1833. Hun grootste klant was ten Cate, indertijd een gigantisch textielverwerkingsbedrijf en momenteel nog altijd een bekend merk. In 1850 ging Bavink voor het eerst werken met een stoommachine als aandrijvende kracht in plaats van ossen. Doordat het op dat moment erg slecht ging met concurrerende blekerij Wilson in Haarlem, kreeg blekerij Bavink de kans om uit te groeien tot één van de drie belangrijkste blekerijen van Nederland. Desondanks werd Bavink in 1873 wegens een te grote concurrentie gesloten.</p>",
+                "description_en": "<p>After 1800, the bleaching time of textiles could be considerably shortened by the use of chemicals such as chlorine lime. Calendering and the use of steam-heated tubs and other machine-driven devices means that long-term drying and bleaching on a bleaching field is no longer necessary for the textile industry.</p>   <p>Bavink was a chemical bleaching company founded in 1833. Their main customer was Ten Cate, which was a huge textile processing company at the time and currently still a well-known brand. In 1850, Bavink started working with a steam engine instead of oxen for powering the machines. Because it was going very badly at that time with competing bleacher Wilson in Haarlem, bleacher Bavink had the opportunity to grow into one of the three most important bleachers in the Netherlands. Despite this, Bavink closed in 1873 due to too much competition.</p>",
+                "description_de": "<p>Nach 1800 kann die Bleichzeit von Textilien durch den Einsatz von Chemikalien wie Chlorkalk erheblich verkürzt werden. Mit Verwendung von mit Dampf beheizten Wannen, Kalandern und anderen maschinengetriebenen Geräten ist ein langfristiges Trocknen und Bleichen auf einem Bleichfeld für die Textilindustrie nicht mehr erforderlich.</p>   <p>Bavink war eine chemische Bleicherei, die 1833 gegründet wurde. Ihr größter Kunde war Ten  Cate, damals ein riesiger Textilverarbeiter, und derzeit noch eine bekannte Marke. Im Jahr 1850 arbeitete Bavink erstmals mit einer Dampfmaschine als Antriebskraft anstelle von Ochsen. Da es damals mit dem konkurrierenden Unternehmen Wilson in Haarlem sehr schlecht lief, hatte der Bleicher Bavink dadurch die Möglichkeit, sich zu einem der drei wichtigsten Bleichereien in den Niederlanden zu entwickeln. Dennoch musste Bavink 1873 wegen zu großer Konkurrenz den Betrieb einstellen.</p>",
+                "category": "Fabriek",
+                "picture_folder": "17",
+                "icon": "cycle",
+                "picture_name": [
+                    "Barend Bavink en Zn. 2 (fototoenwasalmelonogmooi) (1).jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.693559885025024,
+                    52.339836078340056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Villa Ten Cate",
+                "name_en": "Villa Ten Cate",
+                "name_de": "Villa Ten Cate",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Textielfabrikant H.E. ten Cate gaf in 1892 opdracht tot de bouw van deze monumentale villa. De oorspronkelijke eenheid van de Wierdensestraat, ooit de belangrijkste invalsweg vanuit het westen, is door de aanleg van de tunnel onder het spoor ernstig verstoord. Dit herenhuis herinnert aan de oorspronkelijke grandeur van de straat. Het interieur van het pand bevat nog enkele oorspronkelijke onderdelen.",
+                "description_en": "Textile manufacturer H.E. ten Cate commissioned to build this monumental villa in 1892. The original lay-out of the Wierdensestraat, once the most important approach road from the west, has been seriously disrupted by the construction of the tunnel under the train tracks. This mansion recalls the original grandeur of the street. The interior of the building still contains some original parts.",
+                "description_de": "Textilhersteller H.E. ten Cate ließ 1892 diese monumentale Villa bauen. Die ursprüngliche Einheit der Wierdensestraat, einst die wichtigste Zufahrtsstraße aus dem Westen, wurde durch den Bau des Tunnels unter dem Gleis erheblich zerstört. Dieses Herrenhaus erinnert an die ursprüngliche Pracht der Straße. Das Innere des Gebäudes enthält noch einige Originalteile.",
+                "category": "Villa",
+                "picture_folder": "29",
+                "icon": "walk",
+                "picture_name": [
+                    "thumbnail_IMG_8241.jpg",
+                    "villa ten cate.jpeg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.658530235290527,
+                    52.35490033929148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Museum Van Katoen en Nu",
+                "name_en": "Museum Van Katoen en Nu",
+                "name_de": "Museum Van Katoen en Nu",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Het Museum Van Katoen en Nu begon met een musical over de textielgeschiedenis van Almelo. De uitvoering was ter ere van het 100-jarig bestaan van de stad Almelo. Die musical zorgde voor trots en verbondenheid bij de inwoners. Het museum zorgt ervoor dat er ook een plek is waar Almeloërs elkaar kunnen ontmoeten, herinneringen kunnen ophalen en hun eigen iconen een plek geven.</p> <p>Er is ook een ruimte voor bekende Nederlanders die hun roots in Almelo hebben liggen: Herman Krikhaar, Han Veneman, Jan Jans, Ilse de Lange en Herman Finkers. Ook zijn er exposities te bezichtigen; van, voor en door Almeloërs. Te zien zijn bijvoorbeeld nostalgische plaatjes en filmpjes, relikwieën van Heracles en de Wall of Fame.</p>",
+                "description_en": "<p>The Museum Van Katoen en Nu started with a musical about the textile history of Almelo. The performance was in honour of the 100th anniversary of the city of Almelo. This musical created pride and solidarity among the city residents. Now there is a place in the city where the people meet and recall memories.</p>  <p>For example, there is room for famous Dutch people who have their roots in Almelo: Herman Krikhaar, Han Veneman, Jan Jans, Ilse de Lange and Herman Finkers. There are also exhibitions to be seen by, created by, and for the inhabitants of Almelo. You can see nostalgic pictures and videos, relics of Heracles and the Wall of Fame, for example.</p>",
+                "description_de": "<p>Das Museum Van Katoen en Nu begann mit einem Musical über die Textilgeschichte von Almelo. Die Umsetzung war zu Ehren des 100-jährigen Jubiläums der Stadt Almelo. Dieses Musical schuf Stolz und Solidarität unter den Bewohnern.  Das Museum sorgt auch dafür, dass ein Ort, an dem sich die Almelo treffen, Erinnerungen wachrufen und ihren eigenen Ikonen einen Platz geben.</p>  <p>Jetzt gibt es auch einen physischen Ort, an dem man sich trifft und erinnert, und wo beispielsweise berühmte Niederländer, die ihre Wurzeln in Almelo haben einen Platz bekommen: Herman Krikhaar, Han Veneman, Jan Jans, Ilse de Lange und Herman Finkers. Es gibt auch Ausstellungen zu sehen: von, für und von die Almeloer Bevölkerung. Man kann beispielsweise nostalgische Bilder und Videos, Relikte von Herakles und den Wall of Fame sehen.</p>",
+                "category": "Sociaal",
+                "picture_folder": "14",
+                "icon": "walk",
+                "picture_name": [
+                    "museum van katoen en nu.png"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.662794947624206,
+                    52.35666465526089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Almelosche Ververij en Chemische Wasscherij Gebr. Palthe",
+                "name_en": "Palthe textile processing",
+                "name_de": "Färberei und chemische Wäscherei Gebr. Palthe",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Gebr. Palthe was een chemische wasserij en ververij, in 1873 opgericht door de gebroeders Palthe. Ze zijn erg minimalistisch begonnen, maar werkten erg hard om de wereldwijde innovaties en nieuwe technieken binnen de bedrijfstak bij te benen. Met de ontwikkeling van een techniek voor het reinigen van textiel met behulp van wasbenzine werd het bedrijf in 1881 gedwongen uit te breiden naar een grotere locatie. Vanaf dat moment groeide het bedrijf heel snel. Ze konden de hoeveelheid klanten niet meer aan, dus waren ze genoodzaakt uit te breiden en meer mensen in te huren.</p>   <p>Omstreeks 1915 had Palthe filialen in heel Nederland. Rond de jaren 40 werd er veel geïnvesteerd in modernere materialen en technieken. In het begin kostte het zo’n 6 weken om een kledingstuk te verwerken, in de jaren ’60 nog maar een uurtje. Het keerpunt voor Palthe kwam rond de jaren ’90 en vrij snel daarna kwam ook hun faillissement. Dit gebeurde in verband met modernisering waar het bedrijf niet tegenop kon.</p>",
+                "description_en": "<p>Gebr. Palthe was a chemical cloth dying and cleaning company founded by the Palthe brothers in 1873. They started off very minimalistic, but worked very hard to keep up with newly invented techniques within the industry. A process was developed for cleaning textile using petrol, for which the company had to move to a bigger location in 1881. From that moment, the company set in a growth spurt. The company got too many customers to handle, so they were forced to expand and hire more employees.</p>   <p>Fast forward to around 1915, Palthe now has locations all over the country, and the company has expanded their services to sewing. Around the 1940s, the company made a lot of investments into modern equipment and new methods. By the 1960s, the processing time for one piece of clothing decreased from about six weeks to an hour. Palthe’s downfall occurred around the 1990s due to lack of modernisation.</p>",
+                "description_de": "<p>Palthe war eine chemische Wäscherei und Färberei, die 1873 von den Brüdern Palthe gegründet wurde. Man startete sehr minimalistisch, arbeitete aber sehr hart, um mit den globalen Innovationen und neuen Technologien der Branche Schritt zu halten. 1881 Musste das Unternehmen mit der Entwicklung einer Technologie zur Reinigung von Textilien mit Benzol an einen größeren Standort umziehen. Von diesem Moment an wuchs das Unternehmen sehr schnell. Es konnte die große Kundenzahl kaum bewältigen, also musste erneut angebaut werden und es wurden mehr Leute eingestellt.</p>   <p>Etwa 1915 hatte Palthe Niederlassungen in den gesamten Niederlanden. Um die 40er Jahre wurde viel in moderne Materialien und Techniken investiert. Anfangs hat es etwa 6 Wochen gedauert, ein Kleidungsstück zu verarbeiten, in den 60er Jahren nur eine Stunde. Der Wendepunkt für Palthe kam um die 1990er Jahre und bald darauf auch die Insolvenz. Dies passierte im Zusammenhang mit der Modernisierung, mit der das Unternehmen nicht mithalten konnte.</p>",
+                "category": "Fabriek",
+                "picture_folder": "13",
+                "icon": "walk",
+                "picture_name": [
+                    "Palthe.jpeg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.661351919174194,
+                    52.359051366162085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Bankgebouw Ledeboer & Co.",
+                "name_en": "Bank building Ledeboer & Co.",
+                "name_de": "Bankgebäude Ledeboer & Co.",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Hier staat het voormalige bankgebouw van Ledeboer & Co. Bankiers uit 1909. Het kantoorgebouw werd ontworpen met de uitstraling van een statige 17e-eeuwse koopmanswoning. Dat was niet ongebruikelijk, nieuwe zakelijke panden werden in die tijd vaker in deze stijl gebouwd. Daarmee werd verwezen naar de Gouden Eeuw, een periode waarin de Nederlandse handel bloeide. De decoraties van natuursteen die het Ledeboerpand verfraaiden, benadrukten het gevoel van welvaart. De bank werd opgericht door Helmich Ledeboer, de zoon van een Twentse textielfabrikant en werd per 1 januari 1926 voortgezet als kantoor van De Twentsche Bank N.V. In 1964 volgde de fusie tot Algemene Bank Nederland. Tegenwoordig is het niet meer als bankgebouw in gebruik. De naam van het Grand Café Ledeboer herinnert echter nog aan vroegere tijden.",
+                "description_en": "Here stands the former bank building of Ledeboer & Co. Bankers from 1909. The office building’s design was inspired by stately 17th-century merchant's home’s. That was not unusual, many new business premises were built in this style at the time. This style referred to the Golden Age, a period in which Dutch trade flourished. The natural stone that decorated the Ledeboer building emphasized the feeling of prosperity. The bank was founded by Helmich Ledeboer, the son of a textile manufacturer from Twente, and was continued from 1 January 1926 as the office of De Twentsche Bank N.V. In 1964 the merger into Algemene Bank Nederland followed. Nowadays it is no longer used as a bank building, however, the name of the Grand Café Ledeboer still reminds us of earlier times.",
+                "description_de": "Hier ist das ehemalige Bankgebäude von Ledeboer & Co. Bankiers aus dem Jahr 1909. Das Bürogebäude wurde mit dem Aussehen eines Herrenhauses aus dem 17. Jahrhundert gestaltet. Das war nicht ungewöhnlich. Zu dieser Zeit wurden öfter neue Geschäftsräume in diesem Stil gebaut. Dies bezog sich auf das Goldene Zeitalter, eine andere Zeit, worin der niederländische Handel florierte. Die Dekorationen aus Naturstein, die das Ledeboer-Gebäude schmückten, betonten das Wohlstandsgefühl. Die Bank wurde von Helmich Ledeboer, dem Sohn eines Textilherstellers aus Twente, gegründet und wurde ab dem 1. Januar 1926 als Büro der De Twentsche Bank NV weitergeführt. 1964 erfolgte die Fusion mit der Algemene Bank Nederland. Heute wird es nicht mehr als Bankgebäude genutzt. Der Name des Grand Café Ledeboer erinnert jedoch noch an frühere Zeiten.",
+                "category": "Sociaal",
+                "picture_folder": "12",
+                "icon": "walk",
+                "picture_name": [
+                    "A1 Ledeboer bankgebouw - 1910.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.663540601730347,
+                    52.3552558292337
                 ]
             }
         },
@@ -293,55 +1210,146 @@
                 "marker-size": "medium",
                 "marker-symbol": "",
                 "name": "Stoomspinnerij Twenthe",
-                "name_en": "Spinning mill Twenthe",
-                "name_de": "Dampfspinnerei Twenthe",
+                "name_en": "Dampfspinnerei Twenthe",
+                "name_de": "Steam spinning mill Twenthe",
                 "short_description": "",
                 "short_description_en": "",
                 "short_description_de": "",
-                "description": "<p>De eerste poging door een samenwerking van protestantse Almelose ondernemers om na de sluiting van Hofkes een nieuwe spinnerij op te richten mislukt. Van de 400 aandelen worden slechts 70 ondergebracht bij Twentse investeerders. De oplossing werd gevonden in het Russisch kapitaal van Jan Jacob Engbers, een van de voormalige \"Ruslui\" uit Vriezenveen. Hij begint in 1863 een nieuwe stoomspinnerij. In 1872 wordt besloten samen te werken met twee kapitaalkrachtige doopsgezinde families: de familie Cardinaal en de familie Lamberts. Er wordt een contract aangegaan onder de naam N.V. Almelosche Stoomspinnerij, -weverij en -ververij.</p> <p>In 1892 werd de spinnerij met meer dan 20.000 spoelen ontbonden. Het bedrijf werd overgenomen door Twenthe NV. Het fabrieksgebouw bleef niet lang staan, omdat het platbrandde op 31 maart 1914. Het enorme inferno werd veroorzaakt door oververhitting van een machine en 5 arbeiders stierven. Het hele gebouw lag in as. De beslissing om de fabriek te herbouwen werd genomen en de Nederlandse architect Arend G. Beltman bewees dat fabrieksgebouwen niet op een saaie verzameling bakstenen hoefden te lijken. Voor de veiligheid heeft hij een watertoren ingebouwd in het ontwerp. Het bedrijf floreerde en in 1945 waren er meer dan 72.000 spoelen. Toch moest ook dit bedrijf in de jaren 90 sluiten. Later in de 20e eeuw herbouwde het bedrijf het gebouw voor andere doeleinden, zoals kantoren en andere bedrijven. Dit is nog steeds het geval en het gebouw heet Twenthe.</p>",
-                "description_en": "<p>The first attempt by a group of Protestant entrepreneurs in Almelo to set up a new spinning mill after Hofkes went bankrupt failed. Of the 400 shares, only 70 were placed with investors out of the region. The solution was found in the Russian capital of Jan Jacob Engbers, who lived in Vriezenveen and came to money as one of the migrants in Sankt Petersburg. He started a new steam mill in 1863. In 1872 it was decided to collaborate with two wealthy Mennonite families: the Cardinaal family and the Lamberts family. A contract was signed under the name “N. V. Almelosche Stoomspinnerij, -weverij en -ververij”.</p> <p>In 1892 the spinning mill was dissolved with more than 20,000 spindles. The company was taken over by Twenthe NV. The factory building did not stand for long because it burned down on March 31, 1914. The huge inferno was caused by overheating of a machine and 5 workers died. The entire building was in ashes. The decision to rebuild the factory was made and the Dutch architect Arend Beltman proved that factory buildings did not have to look like a boring collection of bricks. For safety, he built a water tower into the design. The company flourished and in 1945 there were more than 72,000 spindles. Nevertheless this company was also forced to close in the 90s. Later in the 20th century, the company rebuilt the building for other purposes, such as offices and other businesses. This is still the case and the building is called Twenthe.</p>",
-                "description_de": "<p>Der erste Versuch einer Gruppe aus protestantischen Unternehmern aus Almelo, um nach der Schließung der Firma Hofkes eine neue Spinnerei zu gründen, misslang. Von den 400 Aktien wurden nur 70 bei Investoren aus Twente platziert. Die Lösung wurde im russischen Kapital von Jan Jacob Engbers aus Vriezenveen gefunden, einem der ehemaligen Auswanderer nach Sankt Petersburg. Er führte 1863 eine neue Dampfspinnerei ein. 1872 wurde beschlossen, mit zwei wohlhabenden mennonitischen Familien zusammenzuarbeiten: die Familie Cardinaal und die Familie Lamberts. Unter dem Namen “N. V. Almelosche Stoomspinnerij, -weverij en -ververij” wird ein Vertrag unterzeichnet.</p> <p>1892 wurde die Spinnerei mit mehr als 20.000 Spindeln aufgelöst. Das Unternehmen wird dann von der Twenthe NV übernommen. Das Fabrikgebäude stand nicht lange, da es am 31. März 1914 bei einem Großbrand völlig niederbrannte. Das riesige Inferno wurde durch Überhitzung einer Maschine verursacht und 5 Arbeiter starben. Die Entscheidung für den Wiederaufbau der Fabrik fiel und der niederländische Architekt Arend Beltman bewies, dass Fabrikgebäude nicht wie eine langweilige Ziegelsammlung aussehen müssen. Zur Sicherheit hat er einen Wasserturm in das Design eingebaut. Das Unternehmen florierte und 1945 gab es mehr als 72.000 Spindeln. Dennoch musste auch dieses Unternehmen seine Tore in den neunziger Jahren schließen. Später im 20. Jahrhundert baute das Unternehmen das Gebäude für andere Zwecke wie Büros und andere Geschäfte um. Dies ist immer noch der Fall und das Gebäude heißt Twenthe.</p>",
-                "category": "Factory",
-                "picture_folder": "",
-                "picture_name" : [""]
+                "description": "<p>De eerste poging door een samenwerking van protestantse Almelose ondernemers om na de sluiting van Hofkes een nieuwe spinnerij op te richten mislukt. Van de 400 aandelen worden slechts 70 ondergebracht bij Twentse investeerders. De oplossing werd gevonden in het Russisch kapitaal van Jan Jacob Engbers, een van de voormalige \"Ruslui\" uit Vriezenveen. Hij begint in 1863 een nieuwe stoomspinnerij. In 1872 wordt besloten samen te werken met twee kapitaalkrachtige doopsgezinde families: de familie Cardinaal en de familie Lamberts. Er wordt een contract aangegaan onder de naam N.V. Almelosche Stoomspinnerij, -weverij en -ververij.</p> <p>In 1892 werd de spinnerij met meer dan 20.000 spoelen ontbonden. Het bedrijf werd overgenomen door Twenthe NV. Het fabrieksgebouw bleef niet lang staan, omdat het afbrandde op 31 maart 1914. Het enorme inferno werd veroorzaakt door oververhitting van een machine en 5 arbeiders stierven. Het hele gebouw lag in as. De beslissing om de fabriek te herbouwen werd genomen en de Nederlandse architect Arend G. Beltman bewees dat fabrieksgebouwen niet op een saaie verzameling bakstenen hoefden te lijken. Voor de veiligheid heeft hij een watertoren ingebouwd in het ontwerp. Het bedrijf floreerde en in 1945 waren er meer dan 72.000 spoelen. Toch moest ook dit bedrijf in de jaren 90 sluiten. Later in de 20e eeuw herbouwde het bedrijf het gebouw voor andere doeleinden, zoals kantoren en andere bedrijven. Dit is nog steeds het geval en het gebouw heet Twenthe.</p>",
+                "description_en": "<p>The first attempt by a group of Protestant entrepreneurs in Almelo to set up a new spinning mill after Hofkes went bankrupt, failed. Of the 400 shares, only 70 were placed with investors out of the region. The solution was found in the Russian capital of Jan Jacob Engbers, who lived in Vriezenveen and came to money as one of the migrants in Sankt Petersburg. He started a new steam mill in 1863. In 1872, it was decided to collaborate with two wealthy Mennonite families: the Cardinaal family and the Lamberts family. A contract was signed under the name “N. V. Almelosche Stoomspinnerij, -weverij en -ververij”.</p>  <p>In 1892, the spinning mill was dissolved with more than 20,000 spindles. The company was taken over by Twenthe NV. The factory building did not stand long because it burned down on March 31, 1914. The huge inferno was caused by overheating of a machine and 5 workers died. The entire building was in ashes. The decision to rebuild the factory was made and the Dutch architect Arend Beltman proved that factory buildings did not have to look like a boring collection of bricks. For safety, he built a water tower into the design. The company flourished and in 1945 there were more than 72,000 spindles. Nevertheless this company was also forced to close in the 90s. Later in the 20th century, the company rebuilt the building for other purposes, such as offices and other businesses. This is still the case and the building is called Twenthe.</p>",
+                "description_de": "<p>Der erste Versuch einer Gruppe aus protestantischen Unternehmern aus Almelo, um nach der Schließung der Firma Hofkes eine neue Spinnerei zu gründen, misslang. Von den 400 Aktien wurden nur 70 bei Investoren aus Twente platziert. Die Lösung wurde im russischen Kapital von Jan Jacob Engbers aus Vriezenveen gefunden, einem der ehemaligen Auswanderer nach Sankt Petersburg. Er führte 1863 eine neue Dampfspinnerei ein. 1872 wurde beschlossen, mit zwei wohlhabenden mennonitischen Familien zusammenzuarbeiten: die Familie Cardinaal und die Familie Lamberts. Unter dem Namen “N. V. Almelosche Stoomspinnerij, -weverij en -ververij” wird ein Vertrag unterzeichnet.</p>  <p>1892 wurde die Spinnerei mit mehr als 20.000 Spindeln aufgelöst. Das Unternehmen wird dann von der Twenthe NV übernommen. Das Fabrikgebäude stand nicht lange, da es am 31. März 1914 bei einem Großbrand völlig niederbrannte. Das riesige Inferno wurde durch Überhitzung einer Maschine verursacht und 5 Arbeiter starben. Die Entscheidung für den Wiederaufbau der Fabrik fiel und der niederländische Architekt Arend Beltman bewies, dass Fabrikgebäude nicht wie eine langweilige Ziegelsammlung aussehen müssen. Zur Sicherheit hat er einen Wasserturm in das Design eingebaut. Das Unternehmen florierte und 1945 gab es mehr als 72.000 Spindeln. Dennoch musste auch dieses Unternehmen seine Tore in den neunziger Jahren schließen. Später im 20. Jahrhundert baute das Unternehmen das Gebäude für andere Zwecke wie Büros und andere Geschäfte um. Dies ist immer noch der Fall und das Gebäude heißt Twenthe.</p>",
+                "category": "Fabriek",
+                "picture_folder": "11",
+                "icon": "walk",
+                "picture_name": [
+                    "Stoomspinnerij twente.jpeg"
+                ]
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.658535599708557,
-                    52.35631900559098
+                    6.657983064651489,
+                    52.35638453180243
                 ]
             }
         },
         {
+            "type": "Feature",
             "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "G. en H. Salomonson",
+                "name_en": "G. and H. Salomonson",
+                "name_de": "G. und H. Salomonson",
                 "short_description": "",
                 "short_description_en": "",
-                "picture_name": [
-                    "hofkes stoooom.jpg"
-                ],
-                "marker-symbol": "",
-                "marker-size": "medium",
-                "marker-color": "#7e7e7e",
-                "description": "Stoomspinnerij Hofkes Nadat de entrepreneur Egbert Hofkes zich had gevestigd in Almelo in 1775, komende uit Winterswijk, begon hij als eerste de textielnijverheid om te zetten in een serieuze textiel onderneming. Meneer Hofkes kocht een huis in Almelo, het Hofkeshuis, en liet deze ombouwen tot een prachtig pand met veel allure en grandeur, geïnspireerd door de Franse architectuur. Egbert Hofkes was een linnenhandelaar, dat wil zeggen dat hij de grondstof, vlas, opkocht, doorverkocht aan lui met vrije tijd in de winter, in de lente dan weer het verwerkte linnen terugkocht en dat dan weer doorverkocht op de markten van Noord Nederland. Nadat zijn onderneming erg succesvol was geworden, besloot Hofkes om zich te vestigen in een stad waar textielnijverheid behoorlijk aanwezig was, namelijk Almelo. Hier begon hij een bedrijf, dat zich ging focussen op een redelijk nieuwe grondstof, katoen. Voorheen werd de meeste textiel gemaakt van wol of linnen, maar Hofkes breidde dit uit tot de productie van katoen. Almelo was, na Haarlem, het grootste bleekcentrum voor linnennijverheid in Nederland. De drie zoons van Egbert Hofkes bauwden voort op het succes van hun vader. Zij probeerden katoen te favoriseren voor de productie van textiel en één van hen, de zakelijk leider van Hofkes, Herman Hofkes, bracht in 1828 een bezoek aan Gent, waar de mechanische textielproductie in volle opkomst was. Herman Hofkes was zo onder de indruk van de winstmogelijkheden van het machinaal spinnen van katoen, dat hij besloot om te gaan investeren in een stoomspinnerij. Dit was niet zomaar een stoomspinnerij, maar dit was de eerste van heel Noord-Nederland. Een stoomspinnerij produceerde op een andere schaal en manier, ongekend bij de nijverheid. Omstreeks 1830 konden mechanische spinmachines tot wel 600 spoelen per stoel aan, tegen gemiddeld 100 voor een handspinmachine. De bouw van de stoomspinnerij van Hofkes begon in 1829 en in de herfst van dat jaar was het klaar. Het duurde echter nog een jaar voordat de fabriek operationeel was. De mechanische Jennies, een verbeterde vorm van de Spinning Jenny, moesten worden geïmporteerd uit Frankrijk en België. In het begin verliep het niet zo goed, want er waren wat technische problemen, maar na een investering van de Nederlandse Handels Maatschappij (NHM), kwam de fabriek langzaam op gang. De Almelose werklieden waren echter niet geschikt voor het werk, dus ervaren Belgen werden naar Almelo gehaald. Dit hielp, maar er waren nog steeds problemen. Later ging het bedrijf Failliet. ",
-                "name_en": "Steam spinnery Hofkes",
-                "name": "Stoomspinnerij Hofkes",
-                "picture_folder": "HofkesSpinnerij",
-                "category": "Old factory",
-                "description_en": "",
-                "name_de": "",
                 "short_description_de": "",
-                "description_de": ""
+                "description": "In de late 18e eeuw was Mozes Salomonson uit Nordhorn een textielhandelaar die zich vestigde in Almelo. Zijn zoons Gotfried en Hein richtten het bedrijf G. en H. Salomonson op in 1830. Ze produceerden goedkope katoenen stof (calicot). Terwijl één van de broers aan het reizen was om het bedrijf uit te breiden, bleef de andere in Almelo en leidde het bedrijf. De onderneming ging erg goed en het nam een ander bedrijf in Nijverdal over en bouwde daar een grote fabriek aangedreven door stoom. Het bedrijf werd bekroond en kreeg de titel Koninklijke. Het bedrijf breidde uit in Nijverdal en daar waren op een gegeven moment wel 2000 mechanische weefgetouwen. De familie was bekend voor de goede behandeling van hun arbeiders. Ze stelden scholen, ziekenhuizen en postkantoren in en mensen waardeerden de goedheid van de joodse familie.",
+                "description_en": "In the late 18th century, Mozes Salomonson from Nordhorn was a textile merchant, who settled in Almelo. His sons Gotfried and Hein founded the company G. en H. Salomonson in 1830. They produced calicos. While one the brothers was travelling to make more benefits from trading, the other stayed in Almelo and led the business. The business went very well and the company took over another company in Nijverdal and created a large factory motorized by steam. The company was crowned and received the title Royal. The company expanded and the business in Nijverdal had reached a number of 2000 of power looms. The family was known for the good treatment of their labourers. They instituted schools, hospitals, and post offices and people appreciated the charity and good willing of the Jewish family.",
+                "description_de": "Ende des 18. Jahrhunderts war Mozes Salomonson aus Nordhorn ein Textilhändler, der sich in Almelo siedelte. Seine Söhne Gotfried und Hein gründeten 1830 die Firma G. und H. Salomonson. Sie stellten Kalikos her und exportierten ihre Produkte über Rotterdam. Während einer der Brüder reiste, um den Handel voranzutreiben, blieb der andere in Almelo und führte das Geschäft. Das Unternehmen verlief sehr gut und die Brüder übernahmen ein anderes Unternehmen in Nijverdal und gründeten dort eine große Fabrik, die mit Dampfmaschine angetrieben wurde. Das Unternehmen erhielt die Bezeichnung „königlich“.  Der Betrieb expandierte zu einer Firma mit 2.000 Webstühlen.  Die Familie war bekannt für die gute Behandlung ihrer Arbeiter. Sie errichteten Schulen, Krankenhäuser und Postämter und die Menschen schätzten die Wohltätigkeit und den guten Willen der jüdischen Familie.",
+                "category": "Villa",
+                "picture_folder": "2",
+                "icon": "walk",
+                "picture_name": [
+                    "A1 Villa Salomonson Wierdensestraat - oud.jpg"
+                ]
             },
-            "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.664146780967712,
-                    52.35459399313046
+                    6.661384105682373,
+                    52.355182110356274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Casa Cortina",
+                "name_en": "Casa Cortina",
+                "name_de": "Casa Cortina",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>In de Brugstraat heeft op de plek waar nu de Brandweerkazerne is ondergebracht ooit het eerste Casa Cortina gestaan. Hier woonden tot begin van de jaren ‘70 vooral Spaanse en Italiaanse gastarbeiders. Het tweede Casa Cortina stond aan de Kolthofsingel. Het werd gebouwd in opdracht van Ten Cate en bestond uit een barakkencomplex. Drie tot vier keer in de week werden arbeidsmigranten uit Turkije met een personeelsbusje van Ten Cate van Schiphol opgehaald en hier dan ondergebracht.</p>   <p>Het leven in zo´n woonoord was bepaald geen luxe: het was slechts een overnachtingsplaats met enkele voorzieningen. Zo sliepen er 4 bewoners in 2 stapelbedden op een kamer. De bewoners van een woonoord waren erg afhankelijk van hun baan; de huisbaas was namelijk ook de baas van het bedrijf waar je voor werkte. Dit hield in dat je alleen een woning had als je bij dat bedrijf werkte. Ontslag of een wisseling van baan betekende dat je je onderkomen kwijt was.</p>",
+                "description_en": "<p>In the Brugstraat, the first Casa Cortina once stood on the spot where the Fire Station is now housed. Up to the beginning of the 70s mainly Spanish and Italian guest workers lived here. The second Casa Cortina was here on the Kolthofsingel. It was built for Ten Cate and consisted of a barracks complex.</p> <p>Three or four times a week labor migrants from Turkey were picked up with a van from Ten Cate from Schiphol airport and then accommodated here. Living in such a residential place was by no means a luxury: it was just a place to stay with a few facilities. For example, 4 residents slept in 2 bunk beds in a room. The residents were very dependent on their job; the landlord was also the boss of the company you worked for. This meant that you only had a home if you worked at that company. If you resigned or switched jobs, you lost your accommodation.</p>",
+                "description_de": "<p>In der Brugstraat stand einst das erste Casa Cortina, wo sich jetzt die Feuerwache befindet. Bis Anfang der 70er Jahre lebten dort vor allem spanische und italienische Gastarbeiter. Das zweite Casa Cortina befand sich hier am Kolthofsingel. Es wurde für Ten Cate gebaut und bestand aus einem Barackenkomplex. Drei bis vier Mal pro Woche wurden Arbeitsmigranten aus der Türkei mit einem Personalbus von Ten Cate von Schiphol abgeholt und hier untergebracht.</p> <p>In solchen Wohnbaracken zu leben war keineswegs ein Luxus: Es war nur eine Unterkunft mit wenigen Einrichtungen. Zum Beispiel schliefen 4 Bewohner in zwei Etagenbetten in einem Raum. Die Bewohner einer Baracke waren sehr abhängig von ihrer Arbeit; der Vermieter war auch der Chef der Firma, für die gearbeitet wurde. Das bedeutet, dass man nur dann ein Zuhause hatte, wenn man in diesem Unternehmen gearbeitet hat. Wenn man also gekündigt hatte oder den Job wechseln wollte, verlor man auch die Unterkunft.</p>",
+                "category": "Sociaal",
+                "picture_folder": "9",
+                "icon": "cycle",
+                "picture_name": [
+                    "casa cortina.png"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.64898157119751,
+                    52.363808022473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Ambachts- en textielschool",
+                "name_en": "Handcraft and weaving school",
+                "name_de": "Handwerks- und Textilschule",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "<p>Nadat de Zuidelijke Nederlanden zich in 1830 hadden afgescheiden, werd het voor Nederland noodzakelijk om zelf linnen en katoen te weven. De nodige kennis werd door met name Belgische wevers overgedragen. Toen de Engelsman Thomas Ainsworth het snelweven bij de firma Hofkes introduceerde, ontstond behoefte aan een weefschool, die op 1 juni 1833 in Goor werd geopend. In de daaropvolgende jaren werden er in het oosten van het land 15 weefscholen opgericht, één daarvan in Almelo. In 1915 gaf de gemeente in De Riet een terrein in erfpacht, zodat de bouw van de eerste Ambachtsschool in Twente kon beginnen.</p>  <p>Door de tijden heen veranderde het soort onderwijs en werd de opleiding verbreed. De Ambachtsschool werd de Lagere Technische School (LTS) en later de Algemeen Technische School (ATS). Het gebouw werd daarna snel te klein en het was ontoereikend voor het moderne onderwijs. Maar in de plaats van nieuwbouw elders, werd de de ATS in 1962 uitgebreid met een ruime aanbouw achter de school en een grondige restauratie van het bestaande gedeelte.</p> <p>Eind vorige eeuw - rond 1994 - naderde het einde van de school aan de Veldkersstraat. In Almelo kwam een grote fusie voor het openbaar voortgezet onderwijs tot stand. Erasmus Lyceum, Bos mavo en ATS gingen samen op in de scholengemeenschap Erasmus. Het gebouw is tegenwoordig een appartementencomplex: De Rietpoort.</p>",
+                "description_en": "<p>After Belgium became independent in 1830, The Netherlands had to produce linen and cotton on its own. The required knowledge was conveyed by Belgian weavers. When the Englishman Thomas Ainsworth introduced the power loom to Hofkes, there was a need for a weaving school. The first one was opened on 1 June 1833 in Goor. In the following years, 15 weaving schools were founded in the east of the country, one of them in Almelo. In 1915, the municipality gave a plot of land for the construction of the first vocational school in Twente. </p> <p>Over time, the nature of the training changed and the vocational training was expanded. The building soon became too small and was insufficient for modern education. Instead of rebuilding elsewhere, the school was expanded in 1962 with an extensive expansion behind the school and a thorough restoration of the existing part.</p> <p>At the end of the last century - about 1994 - the end of the school approached. In Almelo, a large public-education merger had been established. Erasmus Lyceum, Bos mavo and ATS became one school: Het Erasmus. The former building here is now an apartment complex: De Rietpoort.</p>",
+                "description_de": "<p>Nachdem Belgien im Jahr 1830 unabhängig wurde, mussten die Niederlande selbst Leinen und Baumwolle herstellen. Das erforderliche Wissen wurde insbesondere von belgischen Webern vermittelt. Als der Engländer Thomas Ainsworth bei der Firma Hofkes die Schnellweberei einführte, entstand der Bedarf einer Webschule. Die erste wurde am 1. Juni 1833 in Goor eröffnet. In den folgenden Jahren wurden im Osten des Landes 15 Webschulen gegründet, eine davon in Almelo. 1915 gab die Gemeinde ein Grundstück zum Bau der ersten Berufsschule in Twente. Obwohl die offizielle Eröffnung erst am 15. September 1917 stattfand, begann die Handwerks- und Textilschule am 15. Dezember 1916 mit dem Unterricht. Die Textilschule hatte ab 1917 kein einfaches Dasein und der Unterricht wurde sogar für einige Jahre eingestellt. Danach, teilweise angeregt durch die Spanjaardfabriek in Borne, wurde es für eine Weile besser.</p> <p>Im Laufe der Zeit änderte sich die Art der Ausbildung und die Berufsausbildung wurde erweitert. Das Gebäude wurde bald zu klein und war für die moderne Ausbildung nicht ausreichend. Anstatt anderswo neu zu bauen, wurde die Schule 1962 mit einem umfangreichen Ausbau hinter der Schule und einer gründlichen Restaurierung des bestehenden Teils erweitert. Ende des letzten Jahrhunderts - etwa 1994 - näherte sich das Ende der Schule in der Veldkersstraat. In Almelo wurde eine große Fusion für öffentliche Sekundarbildung eingerichtet. Erasmus Lyceum, Bos mavo und ATS wurden eine Schule: Het Erasmus. Das ehemalige Gebäude hier ist heute ein Apartmentkomplex: De Rietpoort.</p>",
+                "category": "Sociaal",
+                "picture_folder": "32",
+                "icon": "cycle",
+                "picture_name": [
+                    "Ambachts en textiel school.png"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.66793406009674,
+                    52.34818317163888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "De boekhouder van Salomonson",
+                "name_en": "The bookkeeper of Salomonson",
+                "name_de": "Der Buchhalter von Salomonson",
+                "short_description": "",
+                "short_description_en": "",
+                "short_description_de": "",
+                "description": "Dit pand aan de Wierdensestraat was een woonhuis van de boekhouder van de textielonderneming van Salomonson. Hij heette Lion Mesritz en mede dankzij hem is het bedrijf van Salomonson erg succesvol geworden. Hij bouwde hier een huis in 1850. De directeuren van het ondernemen, Godfried en Hein Salomonson, hebben de eerste steen gelegd van dit pand. Deze is nog te vinden in de zijgevel van het gebouw.",
+                "description_en": "This building on the Wierdensestraat was a residence of the bookkeeper of the textile company of Salomonson. His name was Lion Mesritz and thanks to him, the Salomonson company had become very successful. He built a house here in 1850. The directors of the company, Godfried and Hein Salomonson, laid the foundation stone for this building. This can still be found in the sidewall of the building.",
+                "description_de": "Dieses Gebäude an der Wierdensestraat war eine Residenz des Buchhalters der Textilfirma von Salomonson. Sein Name war Lion Mesritz und dank ihm ist die Firma Salomonson sehr erfolgreich geworden. Hier baute er 1850 ein Haus. Die Geschäftsführer Godfried und Hein Salomonson legten den Grundstein für dieses Gebäude. Dies kann noch in der Seitenwand des Gebäudes gefunden werden.",
+                "category": "Sociaal",
+                "picture_folder": "45",
+                "icon": "walk",
+                "picture_name": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.66258305311203,
+                    52.35503139582415
                 ]
             }
         }
-    ],
-    "type": "FeatureCollection"
+    ]
 }
