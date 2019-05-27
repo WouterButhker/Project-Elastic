@@ -82,6 +82,8 @@ export class MapPage {
 
 
     private initMap() {
+
+        // SETUP VARIABLES
         // create the Map
         const Almelo = new google.maps.LatLng(52.3570267, 6.668491899999935);
 
@@ -273,9 +275,23 @@ export class MapPage {
             }
         };
 
+        const iconBike = {
+            path: "M330.666 131.202c18.668 0 33.598-14.935 33.598-33.601S349.334 64 330.666 64C312 64 297.07 78.935 297.07 97.601s14.93 33.601 33.596 33.601zm56 130.132c-51.332 0-93.332 42-93.332 93.333s42 93.333 93.332 93.333C438 448 480 406 480 354.667s-42-93.333-93.334-93.333zm0 158.666c-36.402 0-65.332-28.93-65.332-65.333s28.93-65.333 65.332-65.333c36.404 0 65.334 28.93 65.334 65.333S423.07 420 386.666 420zm-81.069-196H384v-32h-58.845l-34.62-60.134c-5.605-9.333-15.869-15.864-27.07-15.864-8.399 0-16.798 3.732-22.399 9.333L169.334 194.4c-5.601 5.601-9.333 14-9.333 22.399 0 12.131 9.202 21.465 18.535 27.065L240 282.134V368h32V256l-39.333-32 42.929-44.533L305.597 224zm-180.264 37.334C74 261.334 32 303.334 32 354.667S74 448 125.333 448s93.333-42 93.333-93.333-41.999-93.333-93.333-93.333zm0 158.666C88.934 420 60 391.07 60 354.667s28.934-65.333 65.333-65.333 65.333 28.93 65.333 65.333S161.732 420 125.333 420z",
+            scale: 0.08,
+            fillColor: "blue",
+            fillOpacity: 0.8
+        };
+        const iconWalk = {
+            path: "M288 112c22.223 0 39.997-17.776 39.997-40 0-22.225-17.774-40-39.997-40s-40.003 17.775-40.003 40c0 22.224 17.78 40 40.003 40zM288 232h104v-40h-72l-44.802-69.333c-7.698-11.667-18.136-18.136-30.933-18.136-3.198 0-8.828.531-12.799 1.747L120 144v112h40v-80l40.531-16L120 480h40l56.698-164.271L267 384v96h38V352l-57.031-96 19.745-61.864L288 232z",
+            scale: 0.07,
+            fillColor: "#3fa535",
+            fillOpacity: 0.9
+        };
+
         // TODO: add ground overlay (historical maps)
 
 
+        // create map and edit it
         this.map = new google.maps.Map(this.mapElement.nativeElement, options);
         const self = this; // access this from nested functions
 
@@ -283,8 +299,19 @@ export class MapPage {
         this.map.mapTypes.set('night_mode', nightMode);
 
         // support different icons for the markers
+        // this.map.data.setStyle(function(feature) {
+        //     return {icon: feature.getProperty('icon')};
+        // });
+
+
+        // support different icons
         this.map.data.setStyle(function(feature) {
-            return {icon:feature.getProperty('icon')};
+            if (feature.getProperty('icon') == "cycle") {
+                return {icon: iconBike}
+            } else if (feature.getProperty('icon') == "walk") {
+                return {icon: iconWalk}
+            }
+
         });
 
 
@@ -354,8 +381,10 @@ export class MapPage {
 
             // show the infowindow in the correct position (above markers and on lines)
             infoWindow.setOptions({pixelOffset: new google.maps.Size(0,0)});
-            if (event.feature.getGeometry().getType() === "Point") {
+            if (event.feature.getProperty('icon') == "" || null) {
                 infoWindow.setOptions({pixelOffset: new google.maps.Size(0,-40)});
+            } else if (event.feature.getProperty('icon') == "walk" || "cycle") {
+                infoWindow.setOptions({pixelOffset: new google.maps.Size(19, 0)})
             }
 
             infoWindow.open(self.map);
