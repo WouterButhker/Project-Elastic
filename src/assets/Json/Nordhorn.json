@@ -23,9 +23,12 @@
                 "description": "<h1>Nordhorner Stadtrundgang: Auf den Spuren der Nordhorner Textilindustrie</h1><p>Liebe Besucherin, lieber Besucher,</p><p>wir laden Sie ein, mit uns einen Rundgang durch Nordhorn zu machen, auf dem Sie auf den Spuren der ehemaligen Textilindustrie wandeln werden. Der Grundstein für die Entwicklung der Textilindustrie wurde bereits im 19. Jh. gelegt. Zu Beginn des 20. Jh. gab es drei große Textilfabriken: Rawe, Povel und NINO, die die Stadtentwicklung grundlegend prägten. Am Ende des Jahrhunderts existierte jedoch keiner der großen Betriebe mehr, die Stadt hat sich grundlegend gewandelt: Nordhorn ist zur ‚Wasserstadt‘ geworden, einer Stadt mit hoher Lebensqualität und einem großen Angebot an Arbeitsplätzen. Gehen Sie mit uns der Frage nach, was aus dem industriellen Erbe geworden ist.</p>",
                 "description_en": "<h1>Guided City Tour of Nordhorn: Tracing the Nordhorn textile industry</h1><p>Dear visitor,</p><p>we would like to invite you to a guided tour of Nordhorn tracing the sites of the former textile industry. The foundation of the development of the textile industry was already laid in the 19th century. By the beginning of the 20th century there were three large textil companies: Rawe, Povel and NINO, which fundamentally formed the city’s development. By the end of the century non of them existed any more and the city had been radically transformed: Nordhorn had become a ‚city by the water‘ (‚Wasserstadt‘), a city with a high quality of life and a large supply of jobs. Join us on a tour of Nordhorn trying to find out what has become of its rich industrial heritage.</p>",
                 "description_nl": "<h1>De Nordhorn City Tour: een speurtocht naar de Nordhorner Textielindustrie</h1><p>Beste bezoekers,</p><p>Wij nodigen u uit om met ons een speurtocht door Nordhorn te maken, waar u de voetsporen van de voormalige textielindustrie zult volgen. De eerste bouwsteen voor de ontwikkeling van de textielindustrie werd al in de 19de eeuw gemaakt. Aan het begin van de 20e eeuw waren er drie grote textielfabrieken: Rawe, Povel en NINO, die een fundamentele impact hadden op de stedelijke ontwikkeling. Aan het einde van de 20e eeuw, bestond er geen enkel bedrij van deze Globalplayers uit Nordhorn meer. De stad veranderde helemaal: Nordhorn is uitgegroeid tot een ' Waterstad ', een stad met een hoge levenskwaliteit en veel werkgelegenheid.</p><p>Gaat u met ons mee op een spanende tocht door Nordhorn en onderzoekt u de vraag wat uit het industrieel erfgood van deze drie wereldbekende bedrijven uit Nordhorn geworden is.</p>",
+                "audio": "Norhorn/German/1.mp3",
+                "audio_en": "Nordhorn/English/1.mp3",
+                "audio_nl": "Nordhorn/Dutch/1.mp3",
                 "category": "starting point",
-                "picture_folder": "Frau Mack",
-                "picture_name": [""]
+                "picture_folder": "1",
+                "picture_name": []
             }
         },
         {
@@ -33,8 +36,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    7.0637557,
-                    52.4396945
+                    7.063919305801391,
+                    52.438585885912815
                 ]
             },
             "properties": {
@@ -42,18 +45,29 @@
                 "marker-color": "#04fa00",
                 "marker-size": "medium",
                 "marker-symbol": 2,
-                "name_en": "Former textle factory Rawe at the Stadtring Nordhorn",
+                "name_en": "Former textile factory Rawe at the Stadtring Nordhorn",
                 "name_nl": "Voormalig fabrieksgebouw van Rawe in Nordhorn",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description": "",
-                "description_en": "",
-                "description_nl": "",
+                "short_description": "Das ehemalige Gelände des Rawe-Komplexes wurde 2001 geschlossen. Die Sanierung und Neubebauung wurde Ende 2016 abgeschlossen. Auf der anderen Seite des Stadtrings wurde der Spinnereihochbau renoviert.",
+                "short_description_en": "The former site of the Rawe complex closed in 2001. The refurbishment and rebuilding were completed at the end of 2016. On the other side of the city ring, the spinning extension has been renovated.",
+                "short_description_nl": "Het voormalige Rawe komplex, werd in 2001 gesloten en in  2016 nieuw als bureau gebouw geopend. ",
+                "description": "<h1>Der ehemalige Rawe-Komplex</h1><p>Sie stehen nun auf dem Gelände des weitläufigen ehemaligen Rawe-Komplexes, der durch den Stadtring in zwei Teile geteilt ist. Nach der Schließung 2001 lag das Gelände lange brach. Später wurde damit begonnen, den östlichen Teil wieder zu bebauen. Rechts von Ihnen entstanden das Ringcenter mit Baumarkt, Lebensmittelmarkt und diversen anderen Geschäften, sowie ein großer Parkplatz in zentraler Innenstadtlage. Doch der westliche Teil lag immer noch in Ruinen. Ende 2016  war die Sanierung und Neubebauung beendet. Der ehemalige Spinnereihochbau direkt auf der anderen Seite des Stadtrings wurde teilweise erhalten und einfühlsam renoviert; sogar die alte Patina an Wänden und Decken ist in manchen Räumen noch zu sehen und wurde zum Stilelement. Auf dem dahinter gelegenen Teil des Fabrikgeländes entstand eine neue Wohnsiedlung, deren Straßennamen daran erinnern, dass hier früher eine Textilfabrik stand.</p><p>Genießen Sie nun einen leckeren Kaffee im direkt neben dem Spinnereihochbau gelegenen Café Samocca, das von der Lebenshilfe Nordhorn betrieben wird. Hier befand sich früher das ehemalige Kesselhaus, ein interessantes Beispiel für sakral anmutende Industriearchitektur.</p>",
+                "description_en": "<h1>What has become of the former Rawe complex?</h1><p>After the factory was shut down in 2001 the grounds weren´t used for a long time.  Around the 2010s the first structures were built on the eastern part. The Ring Centre was erected including a hardware store, a grocery store and many more shops. The central location and nearby parking lot add to its appeal to customers. But the western part still laid waste or in ruins. In around 2016 it was at last partly filled with new housing and some of the original buildings were refurbished. The former spinning mill’s charming patina was retained in an array of small businesses.</p><p>Enjoy a cup of coffee in the Café Samocca, which is run by the “Lebenshilfe” (an organisation for handicapped people). It is located in the former boiler house behind the spinning mill, and stands out because of its unique industrial architecture reminiscent of a cathedral.</p>",
+                "description_nl": "<h1>Het voormalige Rawe-complex</h1><p>U staat nu op het terrein van de uitgestrekte, voormalige Rawe-complex, die is door de „Stadtring“ in twee delen gedeeld. Na de sluiting in het jaar 2001 lag het terrein lang braak. Later werd met de bebouwing van het deel in het oosten weer begonnen. Aan de rechte hand ontstond het Ringcenter met een bouwmarkt, een supermarkt en verschillende andere winkels,  bovendien is er een grote parkeerplaats in de buurt van de binnenstad ontstaan. Toch het westelijke gedeelte zag er lange tijd uit als een ruïne. Eind 2016 was de vernieuwing en de nieuwe bebouwing afgesloten. Het voormalige hoge gebouw van de spinnerij aan de andere kant van de Stadtring werd gedeeltelijk bewaard en met veel liefde voor het detail gerenoveerd; zelfs de patina aan de muren en de plavonds is in sommige ruimtes nog te zien en werd tot stijlelement. Op het terrein achter de textielfabriek ontstond een nieuwe woonwijk, waarvan de straatnamen aan de textielindustrie herinneren.</p><p>Gaat U genieten van een lekker copje coffie in het direct naast het gebouw van de spinnereij liggende Cafe´Samocca, dat van de sociale werkplaats “Lebenshilfe Nordhorn” in gebruik is. Hier was vroeger het voormalige ketelhuis, een interessant voorbeeld voor sakrale industriearchitektuur.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
                 "category": "Rawe",
-                "picture_folder": "",
+                "picture_folder": "2",
                 "picture_name": [
-                    ""
+                    "20171109_122322.jpg",
+                    "20171109_122336-01.jpeg",
+                    "20171109_122351-01.jpeg",
+                    "20171109_122410.jpg",
+                    "CJIG2755.JPG",
+                    "FVSP3770.JPG",
+                    "JAEG4772.JPG",
+                    "LRTY8491.JPG",
+                    "WJDP0500.JPG"
                 ]
             }
         },
@@ -62,27 +76,32 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    7.0630798,
-                    52.4398057
+                    7.062956392765044,
+                    52.4398154679772
                 ]
             },
             "properties": {
                 "name": "Ehemaliges Kesselhaus (Samocca)",
                 "marker-color": "#04fa00",
                 "marker-size": "medium",
-                "marker-symbol": 3,
+                "marker-symbol": 4,
                 "name_en": "Former power station of Rawe",
                 "name_nl": "De oude Krachtcentrale van Rawe",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description": "",
-                "description_en": "",
-                "description_nl": "",
+                "short_description": "Die Drei Etappen der Firma Rawe",
+                "short_description_en": "The three stages of Rawe.",
+                "short_description_nl": "Drie etappes van het bedrijf Rawe. ",
+                "description": "<h1>Gründung und Aufstieg</h1><p>1896 machte der aus Münster zugezogene Textilkaufmann Bernard Rawe aus dem Unternehmen seines Schwiegervaters dieses erfolgreiche Unternehmen, das zu Höchstzeiten 2.600 Beschäftigte hatte. Ein Zeuge dieser Erfolgsgeschichte ist das Gebäude, vor dem Sie stehen: der Spinnereihochbau mit angeschlossenem Kesselhaus von 1912. Zu derselben Zeit wurde in unmittelbarer Nähe die erste geschlossene Arbeitersiedlung Nordhorns gebaut. Bis 1938 wuchs die Beschäftigtenzahl rapide.</p><h1>Boom</h1><p>Besonders um 1950 erlebte die gesamte Stadt den Boom der Wirtschaftswunderjahre. Auch Rawe versuchte sich an eigenen Modelinien, mit dem Raben als Markenzeichen. Während der sechziger Jahre landete Rawe mit einem halb durchsichtigen Stoff unter dem Namen „Precious“ einen Verkaufshit. Ein weiteres Produkt, das mit dieser Firma in Verbindung gebracht wurde, ist der modisch bedruckte Stoff. Bis zuletzt wurde dieser produziert, und war besonders in den Achtzigern beliebt.</p>",
+                "description_en": "<h1>The Rawe Company, Nordhorn</h1><h3>Foundation and rise</h3><p>In 1896 Bernard Rawe remodelled the spinning company of his father in law, building the foundation of what was known as the Rawe Company. In 1911 he founded the Bussmaate Spinning Mill forming a part of the Rawe complex. It soon became very successful, leading to the construction of the first workers’ estates in Nordhorn. Many of the houses built in the 1910s are still there, and several streets are named after some factory owners of the time.</p><h3>Boom</h3><p>Especially around 1950, the entire city experienced a booming economy. Rawe also launched its own fashion line, with the raven as a trademark. During the 1960s, Rawe landed a hit with a semi-transparent fabric called \"Precious\". Other products associated with this company are fashionable printed fabrics. They were produced up until the 2000s and were particularly popular in the eighties.</p>",
+                "description_nl": "<h1>Rawe</h1><h3>Oprichting en opkomst</h3><p>In het jaar 1896 maakte de uit Münster  komstige textielkoopman Bernhard Rawe van het bedrijf van zijn schoonvader deze succesvolle onderneming, die op zijn hoogtepunt 2600 mensen in dienst had. Een getuige van dit succesvol verhaal is het gebouw waar u nu voor staat: het hoge spinnerijgebouw met het aangesloten ketelhuis uit het jaar 1912. In die tijd werden in de buurt de eerste arbeiderswoningen van Nordhorn gebouwd. Tot 1938 groeide het aantal arbeiders snel.</p><h3>Boom</h3><p>Vooral om het jaar 1950 profiteerde de stad van de boom van de economische wonderjaren. Ook Rawe ontwierp een eigen modelijn, met een raaf  als handelsmerk.  Tijdens de jaren zestig  had Rawe met een half doorzichtige stof met de naam “Precious” ein echte bestseller. Een ander product, dat in verbinding staat met dit bedrijf, is de modisch bedrukte stof.  Tot aan het eind werd deze stof geproduceerd en was vooral in de jaren tachtig populair.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
                 "category": "Rawe",
-                "picture_folder": "",
+                "picture_folder": "3",
                 "picture_name": [
-                    ""
+                    "Bild Kesselhaus.jpg",
+                    "Rawe Fabrik früher.jpg",
+                    "Rawe Villa.png"
                 ]
             }
         },
@@ -99,19 +118,22 @@
                 "name": "Ehemaliges Werksgelände",
                 "marker-color": "#04fa00",
                 "marker-size": "medium",
-                "marker-symbol": 4,
-                "name_en": "",
-                "name_nl": "",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description": "",
-                "description_en": "",
-                "description_nl": "",
+                "marker-symbol": 3,
+                "name_en": "Former factory premises",
+                "name_nl": "Voormalig fabrieksterrein",
+                "short_description": "Ein Streik, der ganz Nordhorn lahmlegte. ",
+                "short_description_en": "A strike that crippled all of Nordhorn. ",
+                "short_description_nl": "De staking, die heel Nordhorn verlamde. ",
+                "description": "<h1>Der Streik 1953</h1><p>Während des Wirtschaftswachstums wurde in Nordhorn der Ruf nach höheren Löhnen laut. Warum blieben die Löhne so niedrig, wenn doch die Textilunternehmen immer höhere Gewinne einfuhren? Der Konflikt ging mit Arbeitsniederlegungen einher, die Nordhorn um die Osterzeit so gut wie lahm legten. Einzelhändler wie zum Beispiel Bäcker blieben massenweise auf ihren Waren sitzen. Die Schlichtung des Konflikts durch eine Vermittlungsrunde bewirkte eine Lohnerhöhung von ca. 7-9 Pfennig die Stunde und brachte den Normalzustand nach Nordhorn zurück. Anders als in anderen Regionen, in denen zu derselben Zeit gestreikt wurde, kam es in Nordhorn nicht zu massenhaften Entlassungen. Die wenigen, die trotzdem ihre Anstellung verloren, mussten, um wieder in der Branche eingestellt zu werden, Nordhorn verlassen. Bis in die sechziger Jahre beeinflusste der Streik weitere Verhandlungen zwischen Arbeitgebern und –nehmern.</p>",
+                "description_en": "<h1>The strike of 1953</h1><p>While the economy was booming, workers complained about low wages, which were hardly enough to support their families. Around Easter time they laid down their work, effectively stunning almost all businesses in Nordhorn and other striking regions. Bakers and other independent store owners couldn´t sell their ware. Finally a meeting between the employers and the labour union of the region partially resolved the conflict. The workers got their way with a pay rise of 7-9 Pfenning per hour. This whole affair greatly impacted the dialogue between employers and employees in the next decade.</p>",
+                "description_nl": "<h1>De staking van 1953</h1><p>Tijdens de economische boom werd naar hogere lonen geroepen. Men vroeg zich hoezo de lonen zo lag bleven, hoewel de textielbedrijven altijd meer en meer winst maakten.</p><p>Het conflict eindigde in de staking, die Nordhorn in de paastijd van 1953 compleet lam legde. De middenstander, zoals bij voorbeeld bakkers, konden hen waren niet meer verkopen en bleven op massa’s zitten. Naar de staking konden de arbeid nemers een loonsverhoging van ca. 7 t/m 9 pfenning vieren en in Nordhorn kwam langzaam weer normaliteit weer. Anders dan in andere Regio’s, waar in dezelfde tijd ook werd gestaakt, werden in Norhorn geen werknemers collectief ontslagen. Die paar, die toch ontslagen werden, konden in Norhorn geen werk meer vinden en verhuisden.</p><p>Tot in de jaren zestig, beïnvloede de staking de onderhandelingen tussen werkgevers en werknemers.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
                 "category": "Rawe",
-                "picture_folder": "",
+                "picture_folder": "4",
                 "picture_name": [
-                    ""
+                    "rawe-historie-r3.jpg"
                 ]
             }
         },
@@ -120,27 +142,30 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    7.0619023,
-                    52.440149
+                    7.062044441699982,
+                    52.43927098972692
                 ]
             },
             "properties": {
-                "name": "5. Ehemalige Arbeitersiedlung Rawe",
+                "name": "Ehemalige Arbeitersiedlung Rawe",
                 "marker-color": "#04fa00",
                 "marker-size": "medium",
                 "marker-symbol": 5,
-                "name_en": "",
-                "name_nl": "",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description": "",
-                "description_en": "",
-                "description_nl": "",
+                "name_en": "Former worker's housing",
+                "name_nl": "Voormalig huis voor de werknemers",
+                "short_description": "Das Unternehmen Rawe war nach der Wirtschaftsrezession nur noch im Sinkflug unterwegs, bis es im Frühjahr 2000 die Werkstore endgültig schloss.",
+                "short_description_en": "After the economic recession, Rawe was only in the downflight until it closed the factory gates for good in the spring of 2000.",
+                "short_description_nl": "Het bedrijf Rawe was sinds de economische recessie 1966 aan het verfallen. In het voorjaar van 2000 slot het bedrijf zin laatste productie plek.",
+                "description": "<h1>Rezession und Niedergang</h1><p>Auch Rawe blieb von der 1966 einsetzenden Wirtschaftsrezession nicht unberührt.  Zwar wurde weiterhin fleißig Werbung gemacht, doch die Einnahmen deckten die Ausgaben nicht mehr. Bald waren die Lager überfüllt mit unverkäuflichen Produkten im Wert von mehreren Millionen deutschen Mark. Dennoch schien Rawe nicht aufgegeben zu haben, denn die im Frühjahr 1966 vorgestellte Kollektion von Druckstoffen  schien Hoffnung zu bringen. Doch nach Jahren der Hoffnung kam es 1974 zur wirtschaftlichen Flaute. Ausgelöst von der nachlassenden Nachfrage der Stoffe aus Nordhorn und aufgrund der wachsenden Billigimporte aus Südostasien. Vorahnend kündigten viele Arbeitnehmer ihren Job und die Arbeiterzahl ging zwischen 1991 und 1997 von 1.300 auf 800 zurück.</p><p>Mit einer risikoreichen Investition ließ man das Unternehmen sanieren und es folgte 1999 ein Tag der offenen Tür. Im Sommer 2000 wurde eine Aufwändige Modenschau veranstaltet. Kurz darauf wurde aber klar: Die Sanierung erfolgte vergebens. 1999 schloss man die Spinnerei, am 30. Juni 2000 wurden die Webereien stillgelegt und Produktion der Stoffe lief aus.</p>",
+                "description_en": "<h1>Decline of the Rawe Company</h1><p>Rawe, too, did not remain unaffected by the 1966 economic recession. Although there was still advertising, the revenue no longer covered the expenses. Soon the warehouses were overflowing with unmarketable products valued at several million German Marks. Nevertheless, Rawe did not seem to have given up, because the collection of printed materials presented in the spring of 1966 seemed to bring hope. But after years of hope, 1974 came to an economic slump, triggered by the declining demand of the materials from Nordhorn and due to the growing cheap imports from Southeast Asia. In anticipation, many workers quit their jobs and the number of workers fell from 1,300 to 800 between 1991 and 1997. The company was restructured with a risky investment, followed by an open house in 1999. In the summer of 2000, an elaborate fashion show was held. Shortly afterwards, however, it became clear that the renovation was in vain. The spinning mill was closed in 1999, and on June 30, 2000, the weaving mills were shut down and production of fabrics was stopped.</p>",
+                "description_nl": "<h1>Rawe - Recessie en verval</h1><p>Ook Rawe was niet onaangetast door de economische recessie die 1966 begon.  Ondanks het feit, dat er veel reclame door het berijf werd gemaakt, ontstond er tog een tekort op de begroting. Naar een korte periode waren de magazijnen gevult met niet verkoopbaree producten, die gezamenlijk een waarde hadden van meerdere miljoenen Duitse-Mark. Hoewel deze ontwikkeling plaats vond, bleef Rawe geloven in de toekomst van hun bedrijf. Deze posieve instelling werd gevoed door een nieuwe collectie van stoffen, die in het voorjaar van 1966 werden geintroduceerd. Maar na jaren van hoop, was er een economische flauwte in 1974. Veroorzaakt door de dalende vraag naar stoffen uit Nordhorn en door de goedkopere invoer van stoffen uit Zuidoost-Azië. Als reactie hierop namen veel werknemers ontslag. Het aantal arbeiders daalde tussen 1991 en 1997 met ca. 40%.</p><p>Na een risicovolle investering, werd het bedrijf gesaneerd en met een open dag in 1999 geopend. In de zomer van 2000 werd een uitgebreide modeshow gehouden. Maar kort ernaar werd duidelijk: de renovatie vond tevergeefs plaats. In 1999, werd de spinnmolen gesloten en op 30 juni 2000 volgte de weverij. De productie van de stoffen liep uit en het bedrijv Rawe bestond niet meer.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
                 "category": "Rawe",
-                "picture_folder": "",
+                "picture_folder": "5",
                 "picture_name": [
-                    ""
+                    "Rawe Fabrik früher.jpg"
                 ]
             }
         },
@@ -149,8 +174,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    7.07261749999998,
-                    52.4325999
+                    7.072797417640686,
+                    52.432861010226944
                 ]
             },
             "properties": {
@@ -158,278 +183,629 @@
                 "marker-color": "#fa7000",
                 "marker-size": "medium",
                 "marker-symbol": 6,
-                "name_en": "",
-                "name_nl": "",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description": "",
-                "description_en": "",
-                "description_nl": "",
+                "name_en": "Poveltower",
+                "name_nl": "Poveltoren",
+                "short_description": "Der ehemalige Staub und Wasserturm der Firma Povel. ",
+                "short_description_en": "The former dust and water tower of the company Povel.",
+                "short_description_nl": "De voormalige stof- en watertoren van Povel.",
+                "description": "<h1>Der Povelturm</h1><p>Sie stehen nun am 1906 gebauten sogenannten Povelturm, der in den Jahren 1993/94 als „Staub- und Wasserturm“ der Spinnerei Povel restauriert und umgebaut wurde. Heute ist als Ausstellungsort 2 Teil des Stadtmuseums. Hier eröffnete das im Jahre 1994 im Auftrag der Stadt Nordhorn vom „Museumsvereins für die Grafschaft Bentheim e.V.“ gegründete Stadtmuseum Nordhorn im Oktober 1996 eine erste Dauerausstellung. Im Dachgeschoss befindet sich das Museumscafé, von wo man einen schönen Blick über Nordhorn hat.</p>",
+                "description_en": "<h1>The Povel Tower</h1><p>You are now standing in front of the so-called Povel Tower, originally used as a „dust and water tower“ and rebuilt and renovated in 1993/94. Today, the exhibition is part of the city museum. This is where the city museum of Nordhorn, founded in 1994 by the „Museum Association of the county of Bentheim “, opened its first permanent exhibition in October 1996. The exhibition is now a part of the city museum. On the top floor there is a museum café from where you have a great view of the city of Nordhorn.</p>",
+                "description_nl": "<h1>De Poveltoren</h1><p>U staat nu voor de Poveltoren, die in 1906 gebouwd en in 1993/94 gerestaureerd en verbouwd werd. Hij was de   zogenaamde “stof- en watertoren” van de Povel spinnerij. Vandaag, word de toren door het stadsmuseum Nordhorn voor hen 2e permanente tentoonstelling, die in october 1996 geopend werd, gebruikt.</p><p>Het stadsmuseum Nordhorn werd in opdracht van de stad Nordhorn door de “Museums Vereniging Grafschaft Bentheim”opgericht.</p><p>Het museums cafetje, “hoch 5”, bevind zich boven in de toren. Hier kunt U van een heerlijk kopje koffie en een stuk gebak genieten, bovendien heeft U een fantastis zicht over Nordhorn.</p><p>Gaat U a.u.b verder naar punt 7, hier krijgt U uitleg over het bedrijf Povel.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
                 "category": "Povel",
-                "picture_folder": "",
+                "picture_folder": "6",
                 "picture_name": [
-                    ""
+                    "DSC_0214.JPG",
+                    "DSC_0216.JPG",
+                    "povelturm 6.jpg"
                 ]
             }
         },
         {
             "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.0744765,
-                    52.4341676
-                ]
-            },
             "properties": {
-                "name": "7. Saniertes Povelgelände (Klein Venedig)",
                 "marker-color": "#fa7000",
                 "marker-size": "medium",
                 "marker-symbol": 7,
-                "name_en": "",
-                "name_nl": "",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description": "",
-                "description_en": "",
-                "description_nl": "",
+                "name": "Povel Gründung bis 20er",
+                "name_en": "Povel from foundation to the 1920s",
+                "name_nl": "Povel van grondlegging tot 1920 ",
+                "short_description": "Das Unternehmen Povel und seiner Geschichte als erstes Textilunternehmen in unserer Region.",
+                "short_description_en": "The company Povel and its history as the first textile company in our region.",
+                "short_description_nl": "Het bedrijf Povel en zijn verhaal als eerst textielbedrijf in onze regio.",
+                "description": "<h1>Die Firma Povel von der Gründung bis zu den 1920ern</h1><p>Während die ersten Textilbetriebe der Region anfingen in Fahrt zu kommen, war Nordhorn nicht viel mehr als eine kleine Siedlung mit eher ländlichem Charakter. Einer dieser ist Povel & Co. Er wurde 1851 als Baumwollweberei unter dem Namen Kistemaker und Povel von Anton Povel und Hermann Kistemaker gegründet. Bald darauf wurden eine Spinnerei und eine Färberei hinzugefügt. Aufgrund der Verteuerung der Baumwolle zur Zeit des amerikanischen Bürgerkrieges trennten sich die Unternehmer, und Povel führte die Weberei allein weiter. In den folgenden Jahren erfolgten viele Investitionen in neue Maschinerie und weitere Fabrikgebäude und es schien kein Halten zu geben. Doch das kam Ende der 1870er Jahre, als eine Wirtschaftskrise die Textilindustrie heftig beutelte. Hinzu kam, dass wenige Jahre später Anton Povel verstarb. Daraufhin machten dessen Ehefrau und ältester Sohn einen Neuanfang, indem sie eine neue Firma mit ähnlichen Namen und den bereits bestehenden Fabriken und Maschinen gründeten. Diese neue Firma Ludwig Povel & Co, wie sie bis zu ihrer Schließung hieß.</p><h3>Neues Produkt: Waterschürzen</h3><p>Zu dem Neuanfang gehörte auch das Ausweiten der Produktpalette mit weiteren Stoffen und Arbeiterwohnungen für die 73 Arbeitnehmer, die an 100 Webstühlen die Stoffe produzierten. Die Waterschürzen kam 1889 auf den Markt und waren von nun an für das Unternehmen von großer Bedeutung. Durch diesen großen Erfolg der anfänglich nur blauweißen beziehungsweise grauweißen Waterschürzen wurden sie nachgeahmt, so von der Konkurrenz, der Textilfirma Niehues & Dütting, später NINO AG.</p><h3>Expansion ab 1896</h3><p>1896 wurde Nordhorn an das Eisenbahnnetz angeschlossen, im folgenden Jahr wurde der Dortmund-Ems-Kanal fertiggestellt. Dieser ermöglichte fortan Transport zum Nordhorner Stadthafen ((Klukkert-Hafen), wodurch die Transportkosten erheblich sanken und die Nordhorner Textilunternehmen wettbewerbsfähiger machten. Von 1896 bis 1909 wurden vielen neue Gebäude errichtet; die Nutzfläche lag nun bei 15.000 Quadratmetern. Bis ins Jahr 1905 steigerte Povel die Zahl seiner Webstühle von 160 auf 440 und die Zahl seiner Arbeiter von 130 auf 300. Bei Beginn des ersten Weltkrieges beschäftigte Povel 915 Arbeiter, aber nach Kriegsende waren es noch gerade einmal 365 Arbeiter. Anstelle der Waterschürzen produziert man nun Vorhangstoffe, Tischdecken, Kleider- und Blusenstoffe sowie Flanell für Herren- und Nachthemden. Auch der Export nach Skandinavien, den Balkan, die Türkei, Mittel-Amerika, Australien und Malaysia wurde für das Unternehmen immer wichtiger.</p>",
+                "description_en": "<h1>Povel – From Foundation until the 1920s</h1><p>During the time when the first textile industry started to develop, Nordhorn was nothing more than a small village with rural character. Povel & Co. was founded in 1851 as a cotton weaving mill by Anton Povel and Hermann Kistemaker. Soon, a spinning and colouring mill was added.</p><p>Due to rising prices of cotton during the American Civil War, the entrepreneurs separated and Povel continued weaving on his own. In the following years, many investments were made in new machinery and more factory buildings and there seemed to be no end. But this came to a halt in the 1870s, when an economic crisis hit the textile industry hard. In addition, Anton Povel died a few years later. His wife and eldest son then made a new start by founding a new company with similar names and existing factories and machines. This new company was Ludwig Povel & Co, as it was called until its closure.</p><h3>New product: Water aprons</h3><p>The new beginning also included the expansion of the product range with additional fabrics and workers' apartments for the 73 employees who produced the fabrics on 100 looms. Water aprons were launched in 1889 , from then on of great importance to the company. Due to this great success of the initially only blue and white or grey and white water aprons, they were imitated by their competitors, the textile company Niehues & Dütting, later NINO AG.</p><h3>Expansion from 1896</h3><p>In 1896 Nordhorn was connected to the railway network, in the following year the Dortmund-Ems-Canal was completed. This enabled transport to the Nordhorn city harbour (Klukkert-Hafen), which considerably reduced transport costs and made the Nordhorn textile companies more competitive. From 1896 to 1909 many new buildings were erected; the usable area was now 15,000 square metres. By 1905, Povel had increased the number of its looms from 160 to 440 and the number of its workers from 130 to 300. At the beginning of the First World War Povel employed 915 workers, but after the end of the war the number was reduced to just 365. Instead of just water aprons, curtain fabrics, tablecloths, clothing and blouse fabrics, flannel for men's shirts and nightdresses were produced as well. Exports to Scandinavia, the Balkans, Turkey, Central America, Australia and Malaysia also became increasingly important for the company.</p>",
+                "description_nl": "<h1>Het bedrijf Povel van de oprichting tot de 1920e jaren</h1><p>Het eerste Nordhorner textielbedrijf heette “Kistemaker & Povel”. Het werd in 1851 als katoenfabriek opgericht. De eigenaren waren Anton Povel en Hermann Kistemaker. Kort na dat het bedrijf opgericht was, werd ook al een spinnerij en een textielververij gebouwd. Tijdens de Amerikaanse Burgeroorlog stegen de prijzen van katoen zo snel, dat de eigenaren zich gedwongen zagen om zich op te splitsen. Povel voerde de katoenfabriek verder. In de daaropvolgende jaren werd veel in nieuwe machines en fabrieksgebouwen geïnvesteerd. Maar dit veranderde aan het einde van de 1870e jaren. Er was een zware economische crisis, die de textielindustrie veel schade berokkende. Ook overleed Anton Povel enkele jaren later. Als gevolg hiervan richtten zijn vrouw en zijn oudste zoon een nieuw bedrijf met de naam “Ludwig Povel & Co.” op. De bestaande machines en fabrieksgebouwen werden hiervoor weer gebruikt.</p><h3>Het nieuw product: “Waterschürzen”</h3><p>Tot het nieuw begin van “Ludwig Povel & Co.” hoorde ook de uitbreiding van het producten spectrum met extra stoffen en huizen voor de 73 werknemers, die de stoffen op 100 weefstoelen produceerden. In 1889 werden de zogenaamde “waterschorten” geïntroduceerd. Dit was een van de belangrijkste producten van het bedrijf Povel. De “waterschorten” of beter “waterschürtzen” bestonden door een erg strak geweefde stof, die ernaar blauwwit geverfd werd en daardoor watervast was.  Deze oorspronkelijk blauwwitte of grijs-witte stof werd vaak door de concurrentie geïmiteerd.</p><h3>Uitbreiding van af 1896</h3><p>1896 werd Nordhorn verbonden met het spoorwegnet van de regio en een jaar erna was de Dortmund-Ems-kanaal ook klaar. Met het gebruik van de Nordhorner haven, genoemd “Kluckkert Hafen”, kon de textielindustrie uit Nordhorn zijn kosten besparen en kon daardoor concurreren. Van af 1896 tot 1909 werden veel nieuwe fabrieken gebouwen gebouwd en het aantal van de weefgetouwen en werknemers verdrievoudigde zich. An het begin van de eerste wereldoorlog verdrievoudigde het aantal van der werknemers op ca. 900. Na de eerste wereldoorlog produceerde men geen “waterschürtzen” meer, maar stoffen voor gordijnen, tafelkleden, hemden etc.</p><p>Van af toen werden de exporten naar Scandinavië, Turkije, Malaysia, Australië en zo voord altijd belangerijker.</p><p>Ga nu a.u.b. verder naar punt 8.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
                 "category": "Povel",
-                "picture_folder": "",
+                "picture_folder": "7",
                 "picture_name": [
-                    ""
+                    "Povel erstes Fabrikgebäude.JPG"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.073481380939484,
+                    52.433359779328406
                 ]
             }
         },
         {
             "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.0751095,
-                    52.4329084
-                ]
-            },
             "properties": {
-                "name": "8. Alte Weberei: Maschienenmuseum Nordhorn",
                 "marker-color": "#fa7000",
                 "marker-size": "medium",
                 "marker-symbol": 8,
-                "name_en": "",
-                "name_nl": "",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description": "",
-                "description_en": "",
-                "description_nl": "",
+                "name": "Povel 20er bis 60er",
+                "name_en": "Povel 1920s to the 1960s",
+                "name_nl": "Povel 1920 tot 1960",
+                "short_description_en": "Povel in the post-war period up to the construction of the spinning mill building on the Nordhorn Almelo Canal.",
+                "short_description_nl": "Povel in de naoorlogse periode tot de bouw van de spinnerij-hochbouw an het Almelo-Nordhorn-kanaal.",
+                "description": "<h1>Die Firma Povel von den 20ern bis zu den 60ern</h1><h3>Der Spinnerei-Hochbau: Werk II</h3><p>1926/27 wurde der Spinnerei Hochbau am Nordhorn-Almelo-Kanal errichtet, Werk II genannt. 1927 hatte die Firma bereits 1.513 Beschäftigte und war damit hinter NINO Nordhorns zweitgrößtes Textilunternehmen. Die Weltwirtschaftskrise brachte auch Povel ins Wanken. 1938 starb Ludwig Povel; er wurde später zum ersten Ehrenbürger Nordhorns. Povel überstand den Krieg weitgehend schadlos und produzierte während des Krieges überwiegend Verbandmull, Futterstoffe, Hemden- und Lazarettstoffe.</p><h3>Nachkriegszeit</h3><p>Die höchste Beschäftigtenzahl erreichte Povel 1957 mit 3.000 Beschäftigten. In den 1960er Jahren wurden auch Synthetik-Mischgarne neben den buntgewebten Gebrauchsartikel produziert. 1968 wurde Povel zum Trendsetter im Modebereich mit der Kampagne um die Emma-Peel-Kollektion. Dieser Höhenflug endete schnell.</p>",
+                "description_en": "<h1>Povel – from the 1920s to the 1960s</h1><h3>The spinning mill building: Plant II</h3><p>In 1926/27 the spinning mill building at the Nordhorn-Almelo-Kanal was built, called Plant II. In 1927, the company already had 1,513 employees, making it the second largest textile company after NINO Nordhorn. The world economic crisis also shook Povel. Ludwig Povel died in 1938; he later became the first honorary citizen of Nordhorn. Povel survived the war largely unscathed and produced mainly gauze, linings, shirt and hospital fabrics during the war.</p><h3>The post-war period</h3><p>Povel had the highest number of employees in 1957 with 3,000. In the 1960s, synthetic blended yarns were also produced in addition to colourfully woven consumer goods. In 1968 Povel became a trendsetter in the fashion sector with the campaign for the Emma Peel collection. This flight of fancy ended quickly.</p>",
+                "description_nl": "<h1>Het bedrijf Povel van de jaren 20 tot de jaren 60</h1><h3>De Spinnerei-Hochbau: werk II</h3><p>In 1926/27 werd de spinnerij Hochbau gebouwd aan het Nordhorn-Almelo-kanaal, genaamd Werk II. In 1927 had het bedrijf al 1.513 werknemers en stond achter NINO Nordhorns op het na grootste textielbedrijf. De economische wereldcrisis schokte ook Povel. Ludwig Povel stierf in 1938; hij werd later de eerste ereburger van Nordhorn. Povel overleefde de oorlog grotendeels onschadelijk en produceerde tijdens de oorlog overwegend afval, voeringen, hemd-en ziekenhuisbenodigdheden.</p><h3>naoorlogse periode</h3><p>Het grootste aantal werknemers bereikte Povel 1957 met 3.000 werknemers. In de jaren zestig werden ook synthetische gemengde garens geproduceerd naast de kleurrijk geweven consumptiegoederen. In 1968 werd Povel trendsetter in de mode-industrie met de campagne voor de Emma Peel-collectie. Deze vlucht op grote hoogte eindigde snel.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
                 "category": "Povel",
-                "picture_folder": "",
+                "picture_folder": "8",
+                "short_description": "Povel in der Nachkriegszeit bis hin zum Bau des Spinnerei-Hochbaus am Nordhorn-Almelo-Kanal.",
                 "picture_name": [
-                    ""
+                    "csm_povelh01_4f45f42209.jpg",
+                    "povelh2.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.074117064476013,
+                    52.43385690750431
                 ]
             }
         },
         {
             "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.07503329999997,
-                    52.4324584
-                ]
-            },
             "properties": {
-                "name": "9. Alte Weberei: Kulturzentrum",
-                "description": "",
                 "marker-color": "#fa7000",
                 "marker-size": "medium",
                 "marker-symbol": 9,
-                "name_en": "",
-                "name_nl": "",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description_en": "",
-                "description_nl": "",
+                "name": "Povel Boomjahre 1970er bis Schließung",
+                "name_en": "Povel the boom years to the shut-down",
+                "name_nl": "Povel economische groei van 1970 tot 1978 ",
+                "short_description": "Nach der Übernahme durch die Van-Delden-Gruppe und das Ende der Wirtschaftswunderjahre, gab es Massenentlassungen und Kurzarbeit. Im Frühjahr 1979 meldete Povel Konkurs an, die Werkstore schlossen am 1.Juli des gleichen Jahres für immer.",
+                "short_description_en": "After the takeover by the Van Delden Group and the end of the economic miracle years, there were mass layoffs and short-time work. In the spring of 1979, Povel filed for bankruptcy, and the factory gates closed on July 1 of the same year for good.",
+                "short_description_nl": "Na der overname door de Van-Delden-Groep en het einde van de economische wonderjaren, waren er massaontslagen.",
+                "description": "<h1>Povel: Boomjahre 1970 bis 1978</h1><p>Das Ende der Wirtschaftswunderjahre brach an. Nachdem 1969 die Textilgruppe van Delden aus Ochtrup den Traditionsbetrieb Povel aus Nordhorn gekauft hatte und damit und mit weiteren Aufkäufen auch in Südamerika zum größten Textilunternehmen der Bundesrepublik wurde, gab es nun die ersten Rationalisierungen. Die Firma wurde komplett umgekrempelt, anstelle höherwertiger Stoffe für hochmodische Damenoberbekleidung wurden nur noch unifarbene Standardstoffe für Damen- und Herrenoberteile gefertigt. Nun stellten die rund 2.000 Beschäftigten synthetische und halbsynthetische Stoffe her. Es wurde für die Massen produziert, weniger Farbauswahl, viel Stoff mit hohem Kunstfaseranteil. Infolge der Rationalisierungsmaßnahmen verloren zunächst 200 Arbeiter ihren Job.</p><p>Inzwischen war die Nachfrage nach schlichten eintönigen Stoffen zurückgegangen war. Schon 1975 gab es Massenentlassungen und häufiger Kurzarbeit für die nun noch rund 1.500 Mitarbeiter. Von 1975 bis 1978 wurden weitere rund 400 Mitarbeiter entlassen. Trotz millionenschwerer Bürgschaften der Landesregierung Niedersachsens und Nordrhein-Westfalens konnte der Standort Nordhorn nicht gerettet werden.</p><p>Auf einer Betriebsversammlung in 1978  wurde bekanntgegeben, dass ein Vergleichsantrag gestellt wurde. Die noch übrigen 1.100 Mitarbeiter bangten nun um ihre Arbeitsplätze.</p><p>Auch eine Solidaritätsdemonstration konnte das Unausweichliche nicht aufhalten und der Betrieb wurde phasenweise bis Mitte 1979 stillgelegt.</p><p>Der Vergleich blieb erfolglos und im Frühjahr 1979 wurde  Konkurs angemeldet.</p><p>Die Werkstore  schlossen sich dann am 1. Juli 1979 endgültig.</p><p>Ausgerechnet die Van-Delden-Gruppe, einst das stärkste Textilunternehmen der Bundesrepublik Deutschland, wurde vom Fortschritt und von den veränderten Marktbedingungen in die Knie gezwungen.</p>",
+                "description_en": "<h1>Povel: boom years 1970 to 1978</h1><p>The end of the economic miracle years began. After 1969, the textile group van Delden from Ochtrup had bought the traditional company Povel from Nordhorn and with their further purchases in South America, the largest textile companies in the Federal Republic, there was now the first rationalization. The company has been completely restructured, compared to higher quality fabrics for fashionable ladieswear. Now the approximately 2,000 employees produced synthetic and semi-synthetic substances. It was produced for the masses, less color choices, much fabric with high fiber content. As a result of the rationalization measures initially 200 workers lost their jobs.</p><p>Meanwhile, the demand for plain monotonous fabrics had gone down. As early as 1975 there were mass redundancies and frequent short-time work for the now around 1,500 employees. From 1975 to 1978, another 400 employees were fired. Despite millions of guarantees from the state government of Lower Saxony and North Rhine-Westphalia Nordhorn.</p><p>At a company meeting in 1978 it was announced that a settlement request was made. The remaining 1,100 employees now worried about their jobs.</p><p>Even a solidarity demonstration could not stop and the operation was shut down by mid-1979.</p><p>The settlement was unsuccessful and in spring 1979 bankruptcy was filed.</p><p>The factory gates then closed on July 1, 1979 final.</p><p>The Van Delden Group, once the best textile company in the Federal Republic of Germany, was brought to its knees by progress and changed market conditions.</p>",
+                "description_nl": "<h1>Povel: economische groei van 1970 tot 1978</h1><p>Het einde van de economische wonderjaren kwam in zicht. Nadat in 1969 de textiel groep van Delden uit Ochtrup de traditionele business Povel uit Nordhorn overgenomen had en mede door meerdere aankopenen in Zuid-Amerika tot het grootste textielbedrijf van de Bundesrupublik was, waren de eerste veranderingen in gang gezet. Het bedrijf werd volledig herbouwd, in plaats van hoogwaardige stoffen voor bovenkleding voor dames, werden alleen effen standaardstoffen voor dames- en herenkleding vervaardigd. Nu werden door ongeveer 2.000 medewerkers synthetische en semi-synthetische stoffen geproduceerd. Het werd geproduceerd voor de massa, minder kleurkeuzes, veel textiel met een hoog synthetisch aandeel. Als gevolg van de modernisering verloren aanvankelijk 200 werknemers hun baan.</p><p>Ondertussen was er minder vraag naar eenvoudige stoffen. Reeds in 1975 werden er massaal mensen ontslagen en veelvuldig arbeidstijdverkorting ingevoerd voor de nu ongeveer 1.500 werknemers. Van 1975 tot 1978 werden nog eens 400 werknemers ontslagen. Ondanks miljoenen garanties van de deelstaatregering Nedersaksen en Noordrijn-Westfalen kon de locatie Nordhorn niet worden gered.</p><p>Op een bedrijfsvergadering in 1978 werd aangekondigd dat een schikkingsverzoek werd gedaan. De overige 1.100 werknemers maken zich nu zorgen over hun baan.</p><p>Zelfs een solidariteitsdemonstratie kon het onvermijdelijke niet stoppen en het bedrijf werd tot medio 1979 afgebouwd.</p><p>De regeling was niet succesvol en in het voorjaar van 1979 faillissement werd ingediend.</p><p>De fabriekspoorten werden vervolgens op 1 juli 1979 definitief gesloten. Ironisch genoeg ging de Van Delden Group, ooit het sterkste textielbedrijf in de Bondsrepubliek Duitsland, ten onder door vooruitgang en veranderde marktomstandigheden.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
                 "category": "Povel",
-                "picture_folder": "",
+                "picture_folder": "9",
                 "picture_name": [
-                    ""
+                    "Povel 1920-.JPG",
+                    "povel 1970.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.074511349201202,
+                    52.434161068688844
                 ]
             }
         },
         {
             "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.0761126,
-                    52.4321562
-                ]
-            },
             "properties": {
-                "name": "10. Aussichtsplattform: Die Pyramide",
                 "marker-color": "#fa7000",
                 "marker-size": "medium",
                 "marker-symbol": 10,
-                "name_en": "",
-                "name_nl": "",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description": "",
-                "description_en": "",
-                "description_nl": "",
+                "name": "Wasserstadt Povel",
+                "name_en": "Little Venice",
+                "name_nl": "Wasserstadt Povel",
+                "short_description": "Die Stadt Nordhorn wird durch die Modernisierung und Aufarbeitung des Povelgeländes zur Wasserstadt, eine einmalige Chance zur Stadtentwicklung. ",
+                "short_description_en": "The city of Nordhorn is becoming a unique opportunity for urban development through the modernization and reappraisal of the Povel site. ",
+                "short_description_nl": "De stad Nordhorn word door de modernisatie en de zuivering van het Povel komplex tot een waterstad, een unieke kans voor de stedelijke ontwikkeling. ",
+                "description": "<h1>Einmalige Chance für die Stadtentwicklung – die Wasserstadt Povel entsteht</h1><p>Nach der Sanierung standen 18 Hektar ehemaliges innerstädtisches Fabrikgelände in bester Wohnlage zur Verfügung – der attraktivste Standort aller verlassenen Nordhorner Industrieflächen.</p><p>Diese einmalige Chance für die Stadtentwicklung nutzte der Rat der Stadt Nordhorn und so kaufte die Stadt das gesamte Areal. Alle Gebäude, bis auf den Povelturm, zwei Werkshallen und das ehemalige Verwaltungsgebäude, wurden abgerissen und die erhaltenen Gebäude unter Denkmalschutz gestellt.</p><p>In vier Bauabschnitten entstand ein neuer Stadtteil mit Wohnraum für 750 Menschen sowie Büro- und Gewerbeflächen für 400 Arbeitsplätze. Durch die Anlage mehrerer zusätzlicher Wasserläufe in Form von Grachten erhielt das Quartier seinen Wiedererkennungswert und eine gesteigerte Aufenthalts-, Wohn-, Lebens- und Arbeitsqualität, woraus sich auch die Bezeichnung des Sanierungsgebietes als „Wasserstadt Povel“ ergab.</p><p>Die Architektur zeichnet sich durch starke Vorgaben, so genannter „Vielfalt in der Einheit“, bei rasterförmiger Linienführung der Verkehrswege und Wasserläufe, gleicher Farbgebung, durchgehender Bauhöhe und verdichteter Bebauung aus und ist durch klare geometrische Baukörper mit ähnlichen Proportionen und hellen Lochfassaden bei durchgehenden Bauhöhen gekennzeichnet. 80 Prozent der Wohnungen sind als zweigeschossige Reihen- oder Mehrfamilienhäuser konzipiert und zum Wasser orientiert, ergänzt durch lediglich fünf Einfamilienhäuser sowie eine mehrgeschossige Seniorenwohnanlage.</p><p>Mit 67,3 Einwohnern pro Hektar ist die Bevölkerungsdichte im Povel-Quartier mehr als doppelt so hoch wie in der übrigen Innenstadt. Durch die Integration von Sozialwohnungen und Altenwohnungen gelang eine heterogene Bevölkerungsstruktur, wobei Mietwohnungen, vorrangig für Single- und Zweipersonenhaushalte, vorherrschen.</p><p>Ladenlokale sind nicht entstanden, allerdings ist die Fußgängerzone nur wenige Schritte entfernt.</p>",
+                "description_en": "<h1>“ Little Venice “ – the new estate on the Povel industrial area</h1><p>Brownfields restoration of the former Povel industrial estate began after the soil rehabilitation was concluded. It was realized with an investment of 140 Million Euro from private funds. To save the aura of the former industrial estate the planners paid special attention to a design that is as simple and identical as possible. A part of the general layout are long rows of more or less uniform houses painted white with canals between them, which inspired  the nickname  “Little Venice\".  However, there are some colourful houses with pent roofs alluding to the shed roofs of the former production halls. The overall uniform design of the district is intended to illustrate the extent of the former textile industry in Nordhorn and is especially unique because of the canals. Architectural highlights include the preserved Povel Tower, formerly used as a staircase, which today accomodates a museum and a café on the top floor, the preserved old weaving mill, converted into a cultural centre, and the Povel Hill, a pyramid which was created by the rubble and waste of the former industrial site. From the top of the Povel Tower you get a stunning panorama of  the city of Nordhorn. Today, this unique district is a highly sought-after area to live in and an international model of award-winning brownfields recycling.</p>",
+                "description_nl": "<h1>Unieke kans voor stedelijke ontwikkeling - de water Povel ontstaat</h1><p>Na de renovatie waren 18 hectare voormalige binnenstedelijke fabrieksterrein in een uitstekende woonwijk beschikbaar - de meest aantrekkelijke locatie van alle verlaten industriegebieden in Nordhorn.</p><p>Van deze unieke kans voor de stedelijke ontwikkeling maakte de gemeenteraad van Nordhorn gebruik en zo kocht de stad het gehele gebied. Alle gebouwen, met uitzondering van de Povelturm, twee workshops en het voormalige administratief gebouw, werden afgebroken en de overlevende gebouwen als historische monumenten gezet.  In vier fasen werden niet alleen maar een nieuwe wijk met woningen voor 750 personen gecreëerd, maar ook een kantoor en commerciële ruimte voor 400 arbeidsplaatsen. Daardoor dat het terrein meer aanvullende stromen in de vorm van kanalen krijgt, heft de wijk een erkennings waarde en grotere woningen, beter wonen, werken en een betere levens kwaliteit, waaruit ook de naam van de herontwikkeling gebied als \"water Povel\" geretourneerd werd. De architectuur wordt gekenmerkt door strakke richtlijnen, zogenaamde \"diversiteit in de eenheid\" in rechte lijnen van wegen en rivieren, dezelfde kleur, gelijke bouwhoogte en dichte bebouwing. De ontwikkeling wordt gekenmerkt door duidelijke geometrische structuur met soortgelijke afmetingen en lichte gevels op gelijke hoogte. 80 procent van de appartementen zijn ontworpen als rijtjeshuizen of appartementen bestaand uit twee verdiepingen, gericht op het water, plus vijf eengezinswoningen en appartementen voor senioren.</p><p>Met 67,3 inwoners per hectare is de bevolkingsdichtheid in Povel-Quartier meer dan twee keer zo hoog als in de rest van het centrum.Er zijn veel verschillende verhuursgroepen.</p><p>Winkels hebben niet plaatsgevonden, maar het voetgangersgebied is slechts een paar stappen ver weg. </p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
                 "category": "Povel",
-                "picture_folder": "",
+                "picture_folder": "10",
                 "picture_name": [
-                    ""
+                    "DSC_0179.JPG",
+                    "DSC_0181.JPG",
+                    "DSC_0226.JPG",
+                    "wasserstadt povel.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.075549364089966,
+                    52.43344154421633
                 ]
             }
         },
         {
             "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.0675376,
-                    52.4285844
-                ]
-            },
             "properties": {
-                "name": "11. Nino: Ehemaliges Verwaltungsgebäude",
-                "marker-color": "#2100fa",
+                "marker-color": "#fa7000",
                 "marker-size": "medium",
                 "marker-symbol": 11,
-                "name_en": "",
-                "name_nl": "",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description": "",
-                "description_en": "",
-                "description_nl": "",
-                "category": "Nino",
-                "picture_folder": "",
+                "name": "Sanierung des Povelgeländes",
+                "name_en": "Rehabilitation of the Povel area",
+                "name_nl": "Restauratie van de Povel terrein",
+                "short_description": "Die Sanierung des Geländes begann 1987 und wurde nach dem neuesten Stand der Wissenschaft durchgeführt.",
+                "short_description_en": "The redevelopment of the site began in 1987 and was carried out according to the latest scientific.",
+                "short_description_nl": "De grond sanering begon in 1987 en werd naar de nieuwste wetenschappelijke technieken gedaan.",
+                "description": "<h1>Sanierung des Povelgeländes - die Entstehung der Wasserstadt Nordhorn</h1><p>Nachdem das Textilunternehmen Povel 1979 Insolvenz anmeldete, fand die Stadt Nordhorn ein circa 18 Hektar großes Gelände mit kontaminierten Böden vor. Zur der Zeit war es üblich, die verseuchten Böden auszuheben und diese endgültig auf einer Sondermülldeponie zu lagern. Auf dem Povel-Areal hätten dafür in etwa 200.000 Kubikmeter Erdreich ausgehoben, weggeschafft und endgelagert werden müssen. Diese Methode war weder praktikabel noch durchführbar, aufgrund des enormen logistischen Aufwands und der gewaltigen finanziellen Belastung für die Stadt Nordhorn; für den Abtransport des Erdreiches hätten LKW eine Strecke von 7 Millionen km zurücklegen müssen. Deshalb entschied man sich für ein Sanierungskonzept nach dem neuesten Stand der Wissenschaft, das sowohl ökologisch als auch ökonomisch vertretbar war. Es sah vor, den Boden an Ort und Stelle zu analysieren und die Sanierung dort vorzunehmen. Bei der Sanierung, die 1987 begann, wurden im Laufe der Arbeiten weitere Altlasten gefunden, die die geschätzten Kosten von circa 6 Mio. DM, heute über 3 Mio. Euro, in die Höhe trieben. Böden, die mit organischen Verbindungen belastet waren, wurden mikrobiologisch gesäubert. Schwermetalle wurden aus dem Erdreich mit einem physikalisch-chemisch-biologischen Verfahren gelöst, bei den mit Schwermetallen stark verseuchten Böden wurde eine Bodenwäsche vorgenommen. Für dieses Verfahren gab es internationale Anerkennung.  Die einstige Betriebsmülldeponie von Povel wurde gegen eine Auswaschung des Bodens abgekapselt und gesichert.  Die Sanierung kostete zum Schluss rund 15 Mio. Euro.</p><p>Der Bodenaushub, der nicht gereinigt werden konnte, wurde zu einer Pyramide angehäuft, die sich hinter der Alten Weberei befindet. Dies ist Standpunkt 14.</p>",
+                "description_en": "<h1>Rehabilitation of the Povel area - the emergence of the ‚water town‘ Nordhorn</h1><p>After the textile company Povel filed bankruptcy in 1979, the city of Nordhorn was left with an area of about 18 hectares with contaminated soil. At that time, it was customary to excavate the contaminated soil and finally store it in a special waste dump. On the Povel site, about 200,000 cubic metres of soil would have had to be excavated, removed and finally stored. This method was neither practical nor feasible due to the enormous logistic effort and financial burden for the city of Nordhorn; trucks would have had to cover a distance of 7 million km to transport the soil. Therefore, the decision was made to implement a state-of-the-art remediation concept that was both ecologically and economically justifiable. The plan was to analyse the soil on site and to carry out the remediation work there. During remediation, which began in 1987, further contaminated sites were found in the course of the work, driving up the estimated costs of approximately DM 6 million, today more than EUR 3 million. Chemical engineers developed a method to clean soils contaminated with organic compounds microbiologically. Heavy metals were dissolved from the soil using a physico-chemical-biological process, and soil contaminated with heavy metals was washed. This method gained international recognition. The former industrial waste landfill of Povel was encapsulated and secured against soil leaching. The whole project cost about 15 million Euros.  The excavated soil which could not be cleaned was piled up into a pyramid located behind the old weaving mill, you can see it at point 14.</p>",
+                "description_nl": "<h1>Reorganisatie van het Povelterrein - de totstandkoming van Nordhorn</h1><p>Naar dat het textielondernemen Povel in 1979 Insolvens aanmeldde, fond de stad Nordhorn een ongeveer 18 hectare groot gebied met vervuilde grond. In die tijd was het gebruikelijk om de vervuilde grond uit te graven en deze op een speciale afvalstortplaats op te slaan. Ob het Povel-gebied hadden er ongeveer 200.000 kubieke meters op gegraven, weggebracht en opgeslagen moeten worden. Deze methode was niet handig noch uitvoerbaar, toe te schrijven aan de enorme logistische uitgaven en de enorme financiële belasting voor de stad nordhorn; voor de evacuatie van de grond zouden de vrachtwagens een afstand van 7 miljoen km moeten rijden. Daarom besloten ze tot een state-of-the-art revalidatieconcept dat zowel ecologisch als economisch te rechtvaardigen was. Het was de bedoeling om de grond ter plats te analyseren en daar de sanering uit te voeren. Tijdens de renovatie, die in 1987 begon, werden tijdens het werk nog meer vervuilde locaties aangetroffen, waardoor de geschatte kosten ongeveer 6 miljoen DM bedroegen, momenteel meer dan 3 miljoen EUR. Gronde vervuild met organische verbindingen werden microbiologisch gereinigd. Zware metalen kwamen uit de bodem met een fysisch-chemisch-biologisch proces vrij, de zwaar vervuilde grond met zware metalen werd met een vloerwassing uitgevoerd. Voor dit proces was er internationale erkenning . De voormalige stortplaats van Povel werd afgesloten en beveiligd tegen uitloging van de grond. De renovatiekosten waren aan het einde ongeveer 15 miljoen euro.</p><p>De uitgegraven grond, die niet kon worden schoongemaakt, werd opgestapeld in een piramide die zich achter de oude weverij bevond.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
+                "category": "Povel",
+                "picture_folder": "11",
                 "picture_name": [
-                    ""
+                    "DSC_0160.JPG",
+                    "DSC_0244.JPG",
+                    "DSC_0298.JPG"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.074347734451294,
+                    52.43327474368403
                 ]
             }
         },
         {
             "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.06768999999997,
-                    52.42798
-                ]
-            },
             "properties": {
-                "name": "12. Nino: ehemalige Weberei (VHS)",
-                "description": "",
-                "marker-color": "#2100fa",
+                "marker-color": "#fa7000",
                 "marker-size": "medium",
                 "marker-symbol": 12,
-                "name_en": "",
-                "name_nl": "",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description_en": "",
-                "description_nl": "",
-                "category": "Nino",
-                "picture_folder": "",
+                "name": "Die Emma-Peel-Kollektion",
+                "name_nl": "De Emma Peel Kollektion",
+                "short_description": "Emma Peel, ein Weltstar kommt zu Werbezwecken in die Grafschaft. ",
+                "short_description_en": "Emma Peel, a world star, arrives in the county of Bentheim for promotional purposes. ",
+                "description": "<h1>Die Emma-Peel-Kollektion bei Povel</h1><p>Im Jahr 1968 startete Povel eine seitenfüllende Werbekampagne in Deutschlands größten Zeitschriften. Der Star dieser Anzeigen war die bekannte englische Schauspielerin Diana Rigg, die als „Emma Peel“ in der Serie „Mit Schirm, Charme und Melone“ bekannt geworden war. Das beworbene Produkt waren davon inspirierte Stoffe, die nach Lizenzvergaben an deutsche Bekleidungshersteller für Hosenanzüge, Röcke und Blusen verwendet wurden.</p>",
+                "description_en": "<h1>The Emma Peel collection</h1><p>During the year 1968 Povel issued page-filling advertisements in Germany’s most popular magazines. The star of those was the actress Diana Rigg, best known for her role as “Emma Peel”. The advertised products were Povel’s fabrics inspired by her adventure TV series “The Avengers”. The company gave out licenses to a Nordhorn manufacturer and to the well-known company Steilmann from Wattenscheid to produce blouses, pantsuits and skirts.</p>",
+                "description_nl": "<h1>De Emma Peel-collectie in Povel</h1><p>„Rond 1968 verschenen in verschillende tijdschriften zoals Stern, Bravo, Constanze, Freundin en Brigitte pagina grote advertenties van de Emma Peel collecties. De stoffen van deze collectie, vervaardigd door Povel, werden verkocht aan geselecteerde kledingfabrikanten met behulp van passende licentie overeenkomsten. Het bedrijf ERFO uit Nordhorn heeft bijvoorbeeld patent op de productie van 25 blouses uit de Emma Peel collectie. De firma Steilmann heeft patent op de productie van broekpakken en damesrokken.“</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
+                "category": "Povel",
+                "picture_folder": "12",
+                "name_en": "The Emma-Peel-Collection",
+                "short_description_nl": "Emma Peel, een wereld ster voor promotie redenen naar de Grafschaft Bentheim. ",
                 "picture_name": [
-                    ""
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            7.0680037,
-                            52.4252769,
-                            0
-                        ],
-                        [
-                            7.0704392,
-                            52.4261274,
-                            0
-                        ],
-                        [
-                            7.0698383,
-                            52.4270172,
-                            0
-                        ],
-                        [
-                            7.0675746,
-                            52.4282078,
-                            0
-                        ],
-                        [
-                            7.06736,
-                            52.4278873,
-                            0
-                        ],
-                        [
-                            7.0678321,
-                            52.4255452,
-                            0
-                        ],
-                        [
-                            7.0680037,
-                            52.4252769,
-                            0
-                        ]
-                    ]
+                    "emma peel grüner rock.jpg",
+                    "emma peel in zeitschriften.jpg",
+                    "emma peel povel.jpg",
+                    "emma peel roter rock.jpg"
                 ]
             },
-            "properties": {
-                "name": "13. Nino: ehemaliges Werksgelände ( evang. Gym, Stadtarchiv, Diakonie, Caritas, Kino, Mahlzeit)",
-                "stroke": "#2100fa",
-                "stroke-width": 2,
-                "stroke-opacity": 1,
-                "fill": "#0089a8",
-                "fill-opacity": 0.5,
-                "picture_folder": "",
-                "picture_name": [
-                    ""
-                ]
-            }
-        },
-        {
-            "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    7.07152180000003,
-                    52.4261604
+                    7.074299454689025,
+                    52.432417836879516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#fa7000",
+                "marker-size": "medium",
+                "marker-symbol": 13,
+                "name": "Das Kulturzentrum \"Alte Weberei\"",
+                "name_en": "The Cultural Centre ‚Alte Weberei‘",
+                "name_nl": "Cultuur centrum \"Alte Weberei\"",
+                "short_description": "Das Kulturzentrum \"Alte Weberei\" entstand aus dem Aus- und Umbau der Weberei II, ein großer Veranstaltungssaal entstand. Dazu befinden sich das Maschinenmuseum, die Städtische Galerie und das Grafschafter Brauhaus hier.",
+                "short_description_en": "The cultural center \"Old weaving\" arose from the expansion and conversion of Weaving II, a large event hall was built. In addition, the Machine Museum, the Municipal Gallery and the Grafschafter Brauhaus are located here.",
+                "short_description_nl": "Het cultureel centrum „Alte Weberei” ontstond door de uit- en verbouw van de weverij II van Povel. Het ontstond een groote saal voor bijvoorbeeld evenementen, het machinemuseum en plek voor de stedelijke galerij en het restaurant “Grafschafter Brauhaus”.",
+                "description": "<h1>Kulturzentrum Alte Weberei</h1><p>Nun stehen Sie vor der ehemaligen Povel Weberei II, dem heutigen Kulturzentrum Alte Weberei, Ausstellungsort 3 des Stadtmuseums Nordhorn. Die „Alte Weberei Povel“ aus dem Jahre 1950 ist eines der wenigen erhalten gebliebenen Gebäude auf dem Gelände der ehemaligen Textilfabrik Povel. Wo damals hunderte von Webmaschinen standen, befinden sich seit dem Aus- und Umbau 1999 ein großer Veranstaltungssaal für Veranstaltungen aller Art, von großen Musikveranstaltungen über Ausstellungen bis hin zu Messen, das Maschinenmuseum, wo Sie die Maschinen zur Textilherstellung in Arbeit erleben können, die Städtische Galerie sowie das Grafschafter Brauhaus.</p><p>Bitte gehen Sie nun weiter zum Standpunkt 14, der ‚Pyramide‘, von wo Sie einen guten Überblick über das ehemalige Povelgelände und Teile Nordhorn bekommen.</p>",
+                "description_en": "<h1>The Cultural Centre ‚Old Weaving Mill‘</h1><p>You are now standing in front of the former Povel weaving mill II, which is now the Cultural Centre ‚Old Weaving Mill‘. This complex from 1950 is one of the few remaining structures on the former Povel factory site. Where there were once hundreds of looms there is today, since its reconstruction in 1999, a large event hall for all sorts of events – from music events, exhibitions to fairs. This building also accomodates the Nordhorn Arts Club, a museum of various types of looms, which you can see at work on Saturdays, and a small brewery with a bar and restaurant.</p><p>We would like you now to move on to station 14 just behind this building, the Pyramid, from where you have a great view of Nordhorn.</p>",
+                "description_nl": "<h1>Cultureel centrum alte Weberei</h1><p>Nu stat u voor de voormalige Povel Weaving Plant II, het huidige culturele centrum Alte Weberei, tentoonstellingslocatie 3 van het Stadtmuseum Nordhorn. De \"Alte Weberei Povel\" uit 1950 is een van de weinige overgebleven gebouwen op de site van de voormalige textielfabriek Povel. Waar op dat moment honderden weefgetouwen waren, zijn naar de uitbreiding en renovatie in 1999, een grote conferentiezaal voor alle soorten evenementen, van grote muziekevenementen tot tentoonstellingen beurzen, het motor museum, waar u de machines voor de productie van textiel in het werk kan ervaren, de stads Galerij en de Grafschafter Brauhaus.</p><p>Ga verder naar uitkijkpunt 14, de 'Piramide', van waaruit u een goed overzicht krijgt van de voormalige Povel-site en delen van Nordhorn.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
+                "category": "Povel",
+                "picture_folder": "13",
+                "picture_name": [
+                    "DSC_0239.JPG",
+                    "DSC_0240.JPG",
+                    "DSC_0282.JPG",
+                    "DSC_0284.JPG"
                 ]
             },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0746588706970215,
+                    52.432026990266074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
             "properties": {
-                "name": "14. Nino Hochbau",
-                "description": "",
-                "marker-color": "#2100fa",
+                "marker-color": "#fa7000",
                 "marker-size": "medium",
                 "marker-symbol": 14,
-                "name_en": "",
-                "name_nl": "",
-                "short_description": "",
-                "short_description_en": "",
-                "short_description_nl": "",
-                "description_en": "",
-                "description_nl": "",
-                "category": "Nino",
-                "picture_folder": "",
+                "name": "Die Pyramide",
+                "name_en": "The Pyramide",
+                "name_nl": "De Pyramide",
+                "short_description": "Eine Pyramide aus Sondermüllabfällen. ",
+                "short_description_en": " A pyramid of hazardous waste. ",
+                "short_description_nl": "Een piramide bestaand uit gecontamineerde afval.",
+                "description": "<h1>Die Pyramide</h1><p>Die Pyramide ist die Sondermülldeponie, die zur Entsorgung des kontaminierten Erdreiches des Povel-Geländes errichtet wurde. Heutzutage ist sie ein Aussichtspunkt und über eine Treppe zu erreichen. Von hier haben Sie einen wundervollen Blick über Nordhorn.</p>",
+                "description_en": "<h1>The Pyramide</h1><p>The Pyramide was built as a toxic waste depot for the contaminated soil of the Povel area. Today it is a viewpoint you can reach by climbing the stairs. From there you have a great view of Nordhorn.</p>",
+                "description_nl": "<h1>De piramide</h1><p>De piramide is de stortplaats, die gebouwd is om de vervuilde grond van de Povel-site te verwijderen. Tegenwoordig is het een uitkijkpunt en kan worden bereikt via een trap. Vanaf hier heb je een prachtig uitzicht over Nordhorn.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
+                "category": "Povel",
+                "picture_folder": "14",
                 "picture_name": [
-                    ""
+                    "DSC_0263.JPG",
+                    "DSC_0275.JPG",
+                    "DSC_0277.JPG"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.076112627983093,
+                    52.43209076882041
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 15,
+                "name": "Neugestaltung des ehemaligen NINO-Gelände",
+                "name_en": "Restructuration of the NINO area former NINO area",
+                "name_nl": "Renovatie van de NINO terrein",
+                "short_description": "Aus dem ehemaligen NINO-Gelände entstand der NINO-Wirtschaftspark. Der NINO-Hochbau ist das Kernstück des Geländes.",
+                "short_description_en": "The NINO Economic Park was created from the former NINO site. The NINO construction is the centrepiece of the site.",
+                "short_description_nl": "Uit het voormalige NINO-areal ontstond het economisch park. De “NINO-hoogbouw” is de kern van het terrein.",
+                "description": "<h1>Neugestaltung des ehemaligen NINO Geländes: Der NINO-Wirtschaftspark</h1><p>Sie befinden sich jetzt auf dem ehemaligen NINO-Gelände, das heute der NINO-Wirtschaftspark ist. Am Ende der Achse erkennen Sie im Hintergrund das große weiße Gebäude des ehemaligen NINO-Hochbaus, dem Kernstück des Geländes.</p><p>Unter Ihnen sehen Sie noch die Reste der Bahngleise, die direkt vom Bahnhof in das NINO-Gelände führten. Links ist die ehemalige Verladerampe zu sehen. Das daran angeschlossene vierstöckige Gebäude war das NINO-Verwaltungsgebäude.  In dem denkmalgeschützten Gebäude befinden sich heute verschiedene Firmen.</p><p>Zu Ihrer Rechten befindet sich das ehemalige Rohgewebelager, das 1921 von dem Architekten Philipp Jakob Manz errichtet wurde. 2003 wurde das Gebäude denkmalsgerecht renoviert. Heute teilen sich das Evangelische Gymnasium Nordhorn sowie die Volkshochschule Nordhorn die 130 Räumlichkeiten.</p><p>Folgen Sie nun dem Weg in Richtung NINO-Hochbau. </p><p>Auf der rechten Seite hinter dem ehemaligen Rohgewebelager befindet sich das neue Gebäude des Evangelischen Gymnasiums, daneben der Neubau der Diakonie, gegenüber die Gebäude des Stadt- und Kreisarchivs sowie die neue UCI-Kinowelt, die  2018 eröffnet wurde. Gehen Sie nun weiter zum NINO-Hochbau.</p>",
+                "description_en": "<h1>Rehabilitation of the former NINO area</h1><p>Rehabilitation of the former NINO area had proven more complex than initially thought. The main problem was the purification of groundwater filled with chemicals. At that time, many different chemicals were used in the manufacturing of textiles, including the carcinogenic and mutagenic chlorinated hydrocarbon, which was even found in high concentrations in depths of 14 to 17 meters. When the buildings were demolished in 2000, NINO's branched sewer network, more than six kilometers long, was discovered, through which millions of cubic meters of wastewater had flowed and from where the chemicals were released into the groundwater. By 2006, 11,500 tons of contaminated soil had been disposed of. After an investigation of the groundwater, pumping of the contaminated groundwater began in 2002. A filter system filtered 800,000 m2 of water in 2017 alone. Almost two tons of chlorinated hydrocarbons were filtered out preventing worse contamination. In order to further reduce the massive groundwater damage, a new method was tested in 2006, the so-called active biological in-situ remediation. Bacteria were added to the polluted groundwater to convert the chemicals and biologically clean the groundwater. In September 2018, the „active phase\"; was completed, costing a total of just under 15, 5 million €. Instead of actively cleaning the groundwater, groundwater is now cleaned naturally.</p>",
+                "description_nl": "<h1>Herontwerp van het voormalige NINO-terrein: NINO Business Park</h1><p>U bevindt zich nu op het voormalige NINO-terrein, tegenwoordig dient deze als bedrijvenpark. Tegenover kunt U een groot wit gebouw zien, centraal gelegen in het hart van het terrein.</p><p>U staat nu op de overblijfselen van de spoorlijnen die rechtstreeks van het station naar het NINO-terrein reden. Aan de linkerkant ligt de oude oprijplaat. Het daaraan verbonden gebouw met vier verdiepingen, aan de linkerkant, was het oude administratiegebouw van NINO. In het monumentale gebouw zitten vandaag verschillende bedrijven.</p><p>Rechts van u is het oude “Rohgewebelager”, welk in 1921 door de architect Philipp Jakob Manz gebouwd werd. In 2003 werd het monumentale gebouw gerenoveerd. Vandaag zij<n de 130 kamers in gebruik door  het protestantse Gymnasium Nordhorn en het centrum voor volwasseneneducatie Nordhorn.</p><p>Volg nu het pad naar het NINO-gebouw, dat is het grote witte gebouw op het tweede plan.</p><p>Aan de rechterkant, direkt achter het oude “Rohgewerbelager”, ligt het nieuwe gebouw van het protestantse gymnasium en ernaast het nieuwe gebouw van de diaconie. Rechts van U, ziet U de nieuwe UCI-bioscoop, die in 2018 na een veel te lange bouwperiode geopend werd.</p><p>Gaat U nu verder naar de standpunt 16.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
+                "category": "NINO",
+                "picture_folder": "15",
+                "picture_name": [
+                    "20180620_133117.jpg",
+                    "20180620_133123.jpg",
+                    "20180620_133135.jpg",
+                    "20180620_133306.jpg",
+                    "20180620_133427.jpg",
+                    "20180620_133442.jpg",
+                    "20180620_133518.jpg",
+                    "20180620_133537.jpg",
+                    "20180620_133645.jpg",
+                    "20180620_133721.jpg",
+                    "20180620_133827.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0674437284469604,
+                    52.42839146010321
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 16,
+                "name": "Gründung bis 2. Weltkrieg",
+                "name_en": "Foundation to the WWII NINO",
+                "name_nl": "NINO grondlegging tot de tweede wereldoorlog",
+                "short_description": "Die Geschichte von NINO, von seiner Gründung bis zum zweiten Weltkrieg, welche das Unternehmen unbeschadet überstand.",
+                "short_description_en": "The history of NINO, from its foundation to the Second World War, which survived the company unscathed.",
+                "short_description_nl": "Het verhaal van het bedrijf NINO, van zijn oprichting tot de tweede wereldoorlog, die het bedrijf ongeacht overstond.",
+                "description": "<h1>NINO: Von der Gründung bis zum Zweiten Weltkrieg</h1><p>Die Textilfirma Nino wurde im Dezember 1897 von dem Textilingenieur Bernhard Niehues und dem Textilkaufmann Friedrich Dütting unter den Namen Niehues und Dütting gegründet. Die Lage direkt an der Eisenbahnlinie Coevorden – Bad Bentheim und dem Nordhorn-Almelo Kanal hatte große logistische Vorteile. Zu Anfang waren 60 Mitarbeiter an 30 Webstühlen damit beschäftigt, Waterschürzen zu produzieren. In den 1920ern hatte Niehues und Dütting schon 3.000 Angestellte und nahm eine Spitzenstellung in der deutschen Textilindustrie ein. 1929 wurde der Spinnerei-Hochbau nach Plänen des Architekten Phillip Manz errichtet, der höher sein sollte, als der Hochbau der Konkurrenz Povel.</p><p>Auch der Zweite Weltkrieg konnte diesen Erfolg nicht stoppen. Die Gebäude blieben unversehrt und die Produktion konnte weiter laufen.</p>",
+                "description_en": "<h1>Nino: Foundation until World War II</h1><p>The textile company NINO was founded under the name of “Niehues und Dütting” in December 1897 by textile engineer Bernhard Niehues and textile merchant Friedrich Dütting. Being located right next to the railway line Coevorden – Bad Bentheim and the Nordhorn-Almelo-canal had many benefits. At first, there were 60 employees working with only 30 weaving looms to produce “Waterschürzen” (see picture). In 1920, “Niehues und Dütting” had more than 3,000 employees and held a leading position in the German textile industry. The Spinning Mill was built in 1929 by Phillip Manz. This building was supposed to be taller than the building of the competitor, Povel. Not even the Second World War was able to stop this success. No buildings were destroyed and the production was not stopped.</p>",
+                "description_nl": "<h1>Nino: Oprichting tot tweede wereldoorlog</h1><p>Het Textielbedrijf Nino werd in December 1897 van Bernhard Niehues en Friedrich Dütting onder de naam Niehues und Dütting opgericht. Direct aan de spoorlijn Coevorden-Bad Bentheim en liggend aan het  Nordhorn-Almelo  kanaal, had het bedrijf goede logistieke voordelen. An het begin waren er 60 Medewerkers op 30 Weefgetouwen, die bezig waren om de zogenaamde “Waterschürzen”- “Waterschorten” te maken.</p><p>In de twintigers had het bedrijf 3.000 werknemers en hoorde het tot de top bedrijven van de textielindustrie. De grote hoogbouw werd ontworpen door de architect Phillip Manz en 1929 gebouwd. Voor de eigenaar was het belangrijk, dat het gebouw hoger was, dan de toren van de concurrent Powel.</p><p>Zelfs in de tweede wereldoorlog werd verder geproduceerd en de gebouwen bleven onaangetast.</p><p>Gaat U nu door naar Standpunt 17.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
+                "category": "NINO",
+                "picture_folder": "16",
+                "picture_name": [
+                    "Nino.jpg",
+                    "nino04.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0678460597991934,
+                    52.428116697997716
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 17,
+                "name": "Boomjahre",
+                "name_en": "Boom years NINO",
+                "name_nl": "NINO economische groei",
+                "short_description": "Die Anzahl der Arbeitnehmer bei NINO stieg und das Unternehmen wurde zu NINO GmbH + CO. Der große Erfolg van NINO wurde das Gewebe NINO-Flex.",
+                "short_description_en": "The number of employees at NINO increased and the company became NINO GmbH + CO. The great success van NINO became the fabric NINO-Flex.",
+                "short_description_nl": "Het aantal van werknemers bij NINO steeg en de onderneming werd tot de NINO GmbH + CO. Het grootste succes werd het weefsel NINO-FLEX.",
+                "description": "<h1>NINO Boomjahre</h1><p>1955 wurde mit 6.100 Beschäftigten der höchste Beschäftigungsstand erreicht. 1959 wurde aus Niehues und Dütting die NINO GmbH + Co mit dem Zweck, Gewebe wie Cord, beschichtete Textilien, Effektgarne und Chemiefasern herzustellen. Doch wodurch NINO wirklich berühmt wurde, war der Verkauf des  hochwertigen NINO-Flex-Stoffes, der als winddicht, wasserabweisend und atmungsaktiv beworben wurde.</p><p>In den Sechzigern hingen 80% der Arbeitsplätze in Nordhorn an der Textilindustrie. </p><p>In den Siebzigern waren 70% aller aus Baumwolle gefertigten Regen- und Stoffmäntel in Deutschland aus NINO-Stoff – Nordhorn ‚hing am Baumwollfaden‘.</p>",
+                "description_en": "<h1>NINO boom years</h1><p>In 1955, the highest employment level was achieved with 6,100 employees. In 1959, Niehues and Dütting became NINO GmbH & Co with the purpose of producing fabrics such as corduroy, coated textiles, fancy yarns and chemical fibers as well as the NINO-Flex fabric, which was advertised as windproof, water-repellent and breathable. In the sixties, 80% of jobs in Nordhorn were in the textile industry. In the seventies, 70% of all rain and cloth coats made of cotton in Germany were made of NINO fabric – Nordhorn.</p>",
+                "description_nl": "<h1>NINO-topjaren</h1><p>In het jaar 1959 werd uit “Niehues und Dütting” de “NINO GmbH + Co”, met als doel: gecoate textiel, mooie garens en synthetische of kunstmatige vezels te produceren. Maar de echte reden waarom NINO zo beroemd werd, was de verkoop van de “Nino-Flex-Stoff”, die in die tijd als zeer innovatief gold. Deze stof werd wereldwijd verkocht en werd overal als winddicht, waterafstotend en ademend bekend.</p><p>NINO-Flex was de eerste merknaam voor een weefsel, het was een succesvol product. Het innovatiefste product was de NINO-Flex-schede, een wereldwijde bestseller.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
+                "category": "NINO",
+                "picture_folder": "17",
+                "picture_name": [
+                    "nino-historie-r2.jpg",
+                    "ninoh3.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.068763375282288,
+                    52.42765221530546
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 18,
+                "name": "NINO-Flex",
+                "name_en": "NINO-Flex",
+                "name_nl": "NINO-Flex",
+                "short_description": "NINO-Flex, der Stoff, der „alles kann“. Er wurde für Outdoor-Kleidung entwickelt und war windfest, wasserresistent und atmungsaktiv.",
+                "short_description_en": "NINO Flex, the fabric that \"can do anything.\" Designed for outdoor clothing, it was wind-resistant, water-resistant and breathable.",
+                "short_description_nl": "NINO-Flex, de stof, die “alles kan”. Het weefsel werd voor Outdoor-kleding ontwickelt en was windfast, waterbestandig en ademde. ",
+                "description": "<h1>NINO-Flex</h1><p>Das innovative Gewebe NINO-Flex wurde für Outdoor-Kleidung entwickelt. Der windfeste, wasserresistente und atmungsaktive Stoff wurde weltweit ein Bestseller. Die Werbung war ein sehr wichtiger Aspekt des Marketings, deshalb wurde die deutsche Fußballnationalmannschaft mit neuen NINO-Flex-Mänteln ausgestattet, und berühmte Designer wie Karl Lagerfeld schufen exklusive NINO-Flex Kollektionen. Durch den weltweiten Erfolg wurde NINO-Flex zu einer eigenen Marke. Der NINO-Flex-Mantel, welcher NINOs Kassenschlager in Westeuropa war, ließ das Unternehmen florieren. 1959 produzierte NINO circa 20 Millionen Meter NINO-Flex und war das erfolgreichste Textilunternehmen der Bundesrepublik.</p>",
+                "description_en": "<h1>NINO-Flex</h1><p>The NINO-Flex-cloth was made for outdoor clothing. Sold in many different nations in the whole world, it was advertised as a wind-proof, water-resistant and breathable cloth. It was an important innovation in the European textile industry. A very important aspect of the marketing was the advertisement. That's why the German national team got provided with the brand new NINO-flex-coat and renowned designers like Karl Lagerfeld created exclusive NINO-flex-collections. After a while the NINO-flex-cloth was very successful and became its own brand. NINO’s bestseller in Western Europe, the NINO-flex-coat helped the company become a flourishing business. In 1959, NINO produced about 20 Million meters of NINO-flex-cloth and was the most successful textile company in Germany.</p>",
+                "description_nl": "<h1>NinoFlex</h1><p>De innovatieve stof NINO-Flex werd voor outdoor kleding ontworpen. De windvaste, waterbestendige en ademende stof werd een wereldwijde bestseller.</p><p>Reclame was een erg belangrijk onderdeel van het marketingconcept. En zelfs het Duitse elftal werd met deze revolutionaire NINO Flex-Jassen uitgerust. Beroemde ontwerpers als Karl Lagerfeld maakten exclusieve NINO-Flex collecties.</p><p>Dankzij het wereldwijde succes werd NINO-Flex al snel een eigen merk. De NINO Flex-Jas, die het verkoops succes van Nino in des westerse wereld werd, was booming business voor NINO.</p><p>In 1959 produceerde NINO ongeveer 20 miljoen meter NINO-Flex en werd daardoor het meest succesvolle textielbedrijf in West-Duitsland.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
+                "category": "NINO",
+                "picture_folder": "18",
+                "picture_name": [
+                    "1-DSC_0146.JPG",
+                    "20180601_095828.JPG",
+                    "20180607_101541.JPG",
+                    "csm_ninoh6_4a84506529.jpg",
+                    "DSC_0087.JPG"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.069659233093262,
+                    52.427213896163565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 19,
+                "name": "Elite der Modeschöpfer und Modefotografen in Nordhorn",
+                "name_en": "The elite of fashion designers and fashion photographers in Nordhornr",
+                "name_nl": "De elite van de modeontwerpers en modefotografen in Nordhorn",
+                "short_description": "Berühmte Modeschöpfer, wie beispielsweise der verstorbene Modezar Karl Lagerfeld, entwarfen und entwickelten für die drei Nordhorner Textilriesen.",
+                "short_description_en": "Famous fashion designers, such as the late fashion tsar Karl Lagerfeld, designed and developed textile giants for the three Nordhorn giants.",
+                "short_description_nl": "Beroemde modeontwerpers, zo als bijvoorbeeld de overledene modekoning Karl Lagerfeld, ontwierpen en ontwickelden voor de drie textiel giganten uit Nordhorn.",
+                "description": "<h1>Elite der Modeschöpfer und Modefotografen in Nordhorn</h1><p>Die drei großen Textilfirmen in Nordhorn, Povel, Rawe und NINO, hatten ein enormes Budget für Werbung. Vor allem von den 60ern bis in die 80er Jahre machten international bekannte Modeschöpfer, wie Karl Lagerfeld und Wolfgang Joop, Entwürfe für die Nordhorner Unternehmen, während Helmut Newton und Christa Peters die großen Namen der Modefotografie sind.</p><h3>Karl Lagerfeld und NINO</h3><p>Der Name des Modezar ist eng mit dem bekanntesten Stoff aus der NINO-Produktion verknüpft: NINO-Flex. In der Sammlung des Stadtmuseums sind einige seiner mit Kohlestift gezeichneten Mantelentwürfe für die Wintersaison 1977/78 zu sehen.</p>",
+                "description_en": "<h1>The elite of fashion designers and fashion photographers in Nordhorn</h1><p>The three great Nordhorn textile companies, Povel, Rawe and NINO, had an enormous budget for advertising. Especially from the sixties to the eighties internationally renowned fashion designers, like Karl Lagerfeld and Wolfgang Joop, made designs for the Nordhorn companies, while Helmut Newton and Christa Peters were the big names in fashion photography.</p><h3>Karl Lagerfeld and NINO</h3><p>The name of the fashion czar is closely connected with the most famous fabric of the NINO production: NINO-Flex. Some of his charcoal drafts for coats for the winter season of 1977/78 are on display in the Nordhorn textile museum.</p><h3>NINO-Flex</h3><p>The NINO-Flex-cloth was made for outdoor clothing. Sold in many different nations in the world, it was advertised as a wind-proof, water-resistant and breathable cloth. It was an important innovation in the European textile industry. A very important aspect of the marketing was the advertisement. That's why the German national team got provided with the brand new NINO-flex-coat and renowned designers like Karl Lagerfeld created exclusive NINO-flex-collections. After a while the NINO-flex-cloth was very successful and became its own brand. NINO’s bestseller in Western Europe, the NINO-flex-coat helped the company become a flourishing business. In 1959, NINO produced about 20 Million meters of NINO-flex-cloth and was the most successful textile company in Germany.</p>",
+                "description_nl": "<h1>De elite van de modeontwerpers en modefotografen in Nordhorn</h1><p>De drie grote textielbedrijven in Nordhorn, Povel, Rawe en NINO, hadden en enorm budget voor reclame. Vooral van de jaren zestig t/m de jaren tachtig maakten internationaal bekende modedesigner, zoals Karl Lagerfeld en Wolfgang Joop, ontwerpen voor de Nordhorner bedrijven, hoewel Helmut Newton en Christina Peters de stars van de modefotografie waren.</p><h3>Karl Lagerfeld en NINO</h3><p>De naam van de modekoning wordt vaak met de bekende stof van NINO – NINO-Flex gekoppeld. In het stadmuseum Nordhorn kunt U enkele met houtskoolstift getekende mantel ontwerpen voor het winterseizoen 1977/1978 van Karl Lagerfeld zien.</p><p>Gaat U nu verder naar standpunt 20.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
+                "category": "NINO",
+                "picture_folder": "19",
+                "picture_name": [
+                    "koenig-karl-beim-nino-mantelwettbewerb-1977-im-pariser-421513.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.071180045604706,
+                    52.42633724480418
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 20,
+                "name": "Das Ende eines Global Players",
+                "name_en": "The end of a global player NINO",
+                "name_nl": "Het eind van de Global Player NINO",
+                "short_description": "Wegen des Verfalls der Textilkonjunktur, kam es bei NINO zu Sanierungsmaßnahmen und zu einem aufgewühlten Nordhorn. Doch letztendlich war die Situation nicht mehr tragbar und das Unternehmen schloss im Dezember 1994.",
+                "short_description_en": "Due to the decay of the textile economy, NINO experienced renovation measures and an agitated Nordhorn. But at the end of the day, the situation was no longer sustainable and the company closed in December 1994.",
+                "short_description_nl": "Door het verval van de textiel conjunctuur, kwam het bij het bedrijf tot darstische saneeringsmaatregelingen en tot een aangewakkerd Nordhorn. Ten slotte was deze situatie niet meer draagbar en de onderneming sloot in december 1994.",
+                "description": "<h1>NINO – Das Ende eines Global Players</h1><p>Dem Verfall der Textilkonjunktur, ausgelöst durch die Energiekrise der Jahre 1973/74, wirkt NINO mit drastischen Sanierungsmaßnahmen, wie der Beendigung verlustbringender Auslandsengagements, oder der Reduzierung der Mitarbeiterzahl auf 4.000 bis 1980 entgegen. Des Weiteren geht das Unternehmen 1984 an die Börse. Allerdings wird den Anteilseignern nur über zwei Jahre eine Dividende ausgeschüttet. Ab 1986 wirkt sich die Produktionsverlagerung gen Fernost durch europäische Bekleidungshersteller merklich negativ auf NINO aus, da sich in Südostasien eine hochmoderne Textilindustrie entwickelt. Die westeuropäischen Märkte werden von den Billigimporten förmlich überschwemmt. In den folgenden Jahren wird es für das damals noch weltberühmte Textilunternehmen daher immer schwieriger, mit der fortschrittlichen Produktion in Asien Schritt zu halten. 1993, als das Unternehmen einen Umsatz von 320 Millionen DM bei einer Verschuldung über 200 Millionen DM machte, ist der Konkurs unausweichlich. Im Oktober 1994 demonstrieren die Mitarbeiter unter dem Slogan „NINO darf nicht sterben“ - jedoch erfolglos. Denn am 31. Dezember 1994 verlieren auch die verbliebenen 1.570 Mitarbeiter ihren Arbeitsplatz.</p>",
+                "description_en": "<h>NINO – The End of a global player</h1><p>NINO acted contrary to the decay of the textile boom, triggered by the energy crisis of 1973/74, with drastic restoration arrangements, like the ending of loss-generating foreign engagements or the decrease of the number of employees to 4,000 in 1980. Furthermore, the company went public in 1958, but the stockholders got dividends for more than two years. In 1968, the shift in production levels towards the Far East by European clothing producers had a negative effect on NINO, because of the development of a modern textile industry in Southeast Asia. The Western European market got virtually flooded with inexpensive imports. The following years were very hard for the former world-famous textile company, because of the advanced production in Asia. In 1993, a bankruptcy was inevitable, because the company made only 320 million DM while being over 200 million DM in debt. In 1994, employees demonstrated with the slogan: “NINO darf nicht sterben” („NINO must not die“). This was unsuccessful, because on 31st December, 1994, the rest of the 1,570 employees lost their jobs. Almost one hundred years of textile production in this company had come to an end.</p>",
+                "description_nl": "<h1>NINO – Het einde van een globalplayer</h1><p>Door de energiecrisis van 1973/74, begon de verval van het bedrijf NINO. Om deze te stoppen reageerden zij met drastische saneringsmaatregelen, daarbij hoorde ook de afbouw van het  het aantal arbeidsplaatsen  tot  4.000 medewerkers. Bovendien werd het bedrijf in 1984 openbaar. Aandeelhouders kregen echter alleen een dividend uitbetaald over een periode van twee jaar. Vanaf 1986 beïnvloedt de verschuiving van de productie naar het Verre Oosten door Europese kledingfabrikanten, dat heeft een merkbaar negatieve impact op NINO gehad, aangezien Zuidoost-Azië een ultramoderne textielindustrie ontwikkelt had. West-Europese markten werden overspoeld met goedkope import. In de volgende jaren zal het voor het toen wereldberoemde textielbedrijf steeds moeilijker worden om de progressieve productie in Azië bij te houden. In 1993, boekte het bedrijf een omzet van 320 miljoen DM en een schuld van meer dan 200 miljoen DM, was een faillissement onvermijdelijk. In oktober 1994 demonstreerden medewerkers onder de leus: \"NINO can not dead\" - maar zonder succes. Op 31 december 1994 verloren de resterende 1.570 werknemers hun baan.</p>",
+                "audio": "",
+                "audio_en": "",
+                "audio_nl": "",
+                "category": "NINO",
+                "picture_folder": "20",
+                "picture_name": [
+                    "csm_nino02_31bfdedae3.jpg",
+                    "csm_nino03_3a3f554181.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.071273922920227,
+                    52.42634869372163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 21,
+                "name": "Ehemaliger - Spinnereihochbau Kompetenzzentrum Wirtschaft",
+                "name_en": "The Former NINO Spinning Mill – The “Centre of Economic Competence”",
+                "name_nl": "De voormalige NINO spinnerij",
+                "short_description": "Der NINO Spinnerei-Hochbau wurde damals als ein Vergleichsprojekt zur Konkurrenz gebaut. Heute ist es das Kompetenzzentrum Wirtschaft der Grafschaft Bentheim.",
+                "short_description_en": "At the time, the NINO spinning mill construction was built as a comparative project to the competition. Today it is the competence centre economy of the county of Bentheim.",
+                "short_description_nl": "De NINO spinnerij-hochbouw werd toen als een verglijk project tot de concurrent gebouwd. Vandaag is het het kenniscentrum economie van de Grafschaft Bentheim.",
+                "description": "<h1>Der NINO Spinnerei Hochbau</h1><p>Der NINO Spinnerei Hochbau wurde 1928-1929 von Phillip Jakob Manz im Stil des Neuen Bauens konstruiert und war für Spinnmaschinen von insgesamt 50.000 Spindeln ausgelegt. Das nach dem NINO-Konkurs 1994 leerstehende Gebäude wurde 2008-2010 von der Münsteraner und Nordhorner Architektengemeinschaft Kresing & Lindschulte zum Kompetenzzentrum Wirtschaft umgebaut. Das bis heute größte Einzelgebäude Nordhorns und somit auch der Grafschaft Bentheim bietet mehr als 10.000 Quadratmeter Nutzfläche, davon ca. 7.000 Quadratmeter für Büro-, Seminar- und Besprechungsräume. In dem Gebäude befinden sich heute das Nordhorner Stadt- und Textilmuseum, ein Tagungscenter, diverse Firmen sowie Gastronomie. Der NINO-Hochbau bildet das Zentrum des NINO-Wirtschaftsparks auf dem früheren Webereiareal.</p><p>Im Textilmuseum befindet sich eine umfangreiche und sehr sehenswerte Dokumentation der Nordhorner Textilindustrie. Wir empfehlen Ihnen danach einen Besuch im Café Nino im Erdgeschoss!</p>",
+                "description_en": "<h1>The Former NINO Spinning Mill – The “Centre of Economic Competence”</h1><p>The tall building of the former NINO spinning mill was inspired by the „Bauhaus“ style of the “new building“ and constructed by Phillip Jakob Manz in 1928. The building was restored and turned into the „Centre of Economic Competence“ by the architectural firm, Kresing & Lindschulte, from 2008 to 2010. It comprises of than 10,000 square meters of which more than 7,000 are being used for offices, seminar- and conference rooms. It also contains the Nordhorn city and textile museum, some firms and a restaurant. The former NINO spinning mill forms the centre of the NINO economic park on the former factory site. It is the largest single building in the county of Bentheim.</p><p>In the textile museum you can see a comprehensive documentation of the Nordhorn textile industry which is very much worth seeing. We also recommend a visit to Café Nino on the ground floor!</p>",
+                "description_nl": "<h1>Het NINO Spinnerij gebouw</h1><p>Het NINO Spinnerij gebouw werd 1928 tot 1929 door Phillip Jakob Manz gebouwd in de stijl van het nieuwe bouwen. Het gebouw werd 2008-2010 gerenoveerd met hulp van de architecten Kresing & Lindschulte uit Münster en Nordhorn. Het gebouw biedt meer dan 10.000 vierkante meter aan vloeroppervlakte, waarvan ongeveer 7.000 vierkante meter voor kantoren, scholings- en vergaderruimten. In het gebouw zijn het Nordhorner stad en textielmuseum, een conferentiecentrum, verschillende bedrijven en een gastronomie gevestigd. Het NINO-gebouw vormt het centrum van het nieuwe NINO-bedrijvenpark, gevestigd op het voormalige weefterrein. Tot op heden is de NINO-bouwconstructie het grootste gebouw van Nordhorn.</p><p>In het textielmuseum is een uitgebreide documentatie van de textielindustrie in Nordhorn te zien. We raden een bezoek aan Café Nino op de begane grond aan!</p>",
+                "category": "NINO",
+                "picture_folder": "21",
+                "picture_name": [
+                    "20180620_133853.jpg",
+                    "20180620_134038.jpg",
+                    "20180620_134117.jpg",
+                    "20180620_134128.jpg",
+                    "20180620_134139.jpg",
+                    "nino 21,2.jpg",
+                    "nino 21.1.jpg",
+                    "nino 21.4.jpg",
+                    "ninpo 21.3.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.071493864059448,
+                    52.42612625707937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 22,
+                "name": "Sanierung des ehemaligen NINO-Geländes",
+                "name_en": "Rehabilitation of the former NINO area",
+                "name_nl": "Restauratie van de NINO terrein",
+                "short_description": "Bei Sanierung des verseuchten Geländes wurde ein spezielle angefertigtes Bio-Chemisches Verfahren verwendet.",
+                "short_description_en": "During the refurbishment of the contaminated site, a special prepared organic chemical process was used.",
+                "short_description_nl": "Bij de sanering van het verpeste terrein, werd een speciaal organisch-chemisch procedure toegepast.",
+                "description": "<h1>Sanierung des ehemaligen NINO-Geländes</h1><p>Die Sanierung des ehemaligen NINO-Geländes war viel komplexer  als man zuerst dachte. Das Hauptproblem lag hier bei der Säuberung des mit Chemikalien verseuchten Grundwassers. Man nutze damals bei der Herstellung der Textilien viele verschiedene Chemikalien, darunter auch den krebserzeugenden und erbgutverändernden Chlorkohlenwasserstoff, der sogar noch in 14 bis 17 Metern Tiefe in hohen Konzentrationen gefunden wurde.</p><p>Als im Jahr 2000 die Gebäude abgerissen wurden, entdeckte man das verzweigte, über sechs Kilometer lange Abwassernetzt von NINO, durch das Millionen Kubikmeter Abwasser geflossen waren und von wo aus die Chemikalien ins Grundwasser gelangten. 11.500 Tonnen verseuchte Erde wurden bis 2006 entsorgt.</p><p>Nach sorgfältiger Untersuchung des Grundwassers konnte im Jahr 2002 mit dem Abpumpen des belasteten Grundwassers begonnen werden. Eine Filteranlage filterte bis 2017 schon 800.000 Kubikmeter  Wasser. Fast zwei Tonnen Chlorkohlenwasserstoff wurden herausgefiltert und verhinderten die weitere Verseuchung.</p><p>Um den massiven Grundwasserschaden weiter zu reduzieren, testete man 2006 ein neues Verfahren, die sogenannte aktive Biologische In-Situ-Sanierung. Hierbei wurden dem verschmutzten Grundwasser Bakterien hinzugefügt, welche die Chemikalien umwandeln und das Grundwasser so biologisch säubern.</p><p>Im September 2018 wurde die „aktive Phase“ beendet, die insgesamt knapp 15,5 Millionen Euro gekostet hat. Anstelle von der aktiven Säuberung des Grundwassers wird das Grundwasser ab jetzt natürlich gesäubert.</p>",
+                "description_en": "",
+                "description_nl": "<h1>Renovatie van het voormalige NINO-terrein</h1><p>De renovatie van het voormalige NINO-terrein was veel complexer dan eerst aangenomen werd. Het grootste probleem was de schoonmaak van het, met chemicaliën verontreinigd, grondwater. Tijdens de productie van textiel  gebruikte  men  veel verschillende chemische stoffen, waaronder de kankerverwekkende en mutagene gechloreerde koolwaterstof, welke zelfs in een diepte van 14 tot 17 meter in hoge concentraties gevonden werd.</p><p>Toen in het jaar 2000 de gebouwen  gesloopt werden, ontdekten de slopers de vertakte, ongeveer zes kilometer lange riolering van NINO. Door dit systeem zijn miljoenen kubieke meters afvalwater gestroomd en van waar de chemische stoffen in het grondwater kwamen. In 2006 werd 11.500 ton vervuilde grond verwijderd.</p><p>Na een zorgvuldig onderzoek van het grondwater, was het mogelijk om in 2002 het vervuilde grondwater weg te pompen. Een filtersysteem filterde tot 2017 al 800.000 kubieke meter water. Bijna twee ton gechloreerd koolwaterstof werd uitgefilterd en verhinderde verdere verontreiniging.</p><p>Om de enorme grondwaterverontreiniging te verminderen kwam er  een nieuw proces in 2006, de zogenaamde actieve biologische in-situ sanering. Bacteriën werden toegevoegd aan het vervuilde grondwater, zodat de chemicaliën omgezet werden en het grondwater biologisch gereinigd werd.</p><p>In september 2018 werd de \"actieve fase\" voltooid, die in totaal iets minder dan 15,5 miljoen euro kostte. In plaats van het grondwater actief te zuiveren, werd het grondwater nu natuurlijk gereinigd.</p>",
+                "category": "NINO",
+                "picture_folder": "22",
+                "picture_name": [
+                    "nino 21.5.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.071029841899872,
+                    52.4260003181887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 24,
+                "name": "Verwaltungsgebäude II",
+                "name_en": "Administration building",
+                "name_nl": "Het administratieve gebouw",
+                "short_description": "Die Fabrikantenvillen der Textilbarone Niehuis und Dütting und ihre Geschichte.",
+                "short_description_en": " The factory villas of the textile barons Niehuis and Dütting and their history.",
+                "short_description_nl": "De fabrikanten villas van de textiel baronnen Niehuis en Dütting en hun geschiedenis.",
+                "description": "<h1>Die Fabrikantenvillen Niehues und Dütting</h1><h3>Villa Niehues</h3><p>Die Villa Niehues wurde 1912 für den Textilfabrikanten J. Stroink in der Bahnhofstraße 19 erbaut. Auf einer Plakette am Haus wird das Gebäude als ‚Villa im Park‘ bezeichnet.</p><h3>Villa Dütting</h3><p>Die Villa Dütting befindet sich in der Bahnhofstraße 10. Sie wurde 1879von dem Architekten Hubert Holtmann für den NINO-Gründer Friedrich Dütting erbaut. Die Villa beinhaltet eine Garage, ein Gartenhäuschen, zwei Gewächshäuser und eine Parkanlage.</p><p>Dieses als ‚Juwel der Textilära‘ bezeichnete Gebäude ist von der Bahnhofstraße kaum zu sehen. Auf dem weitläufigen Areal, dem ‚Düttingpark‘,  zwischen Bahnhofstraße, Rathausstraße und Bernhard-Niehues-Straße wurden 2014 drei Stadtvillen mit 21 Eigentumswohnungen mit gehobener Ausstattung erbaut.</p><p>Wenn Sie wollen schauen Sie doch noch beim alten Verwaltungsgebäude von NINO vorbei. Dieses ist beim Standpunkt 24 zu finden.</p>",
+                "description_en": "<h1>The Former Factory Owners‘ Mansions</h1><h3>Villa Niehues</h3><p>Villa Niehues was built in 1912 for the textile manufacturer J. Stroink at 19 Bahnhofstraße. On a plaque  the building is called ‘villa in the park’.</p><h3>Villa Dütting</h3><p>Villa Dütting was located just across the road from Villa Niehues, at 10 Bahnhofstraße. It comprises of a mansion, a garage, a summer house, two greenhouses and a park. This building, also called ‘jewel of the textile era’, is hardly visible from Bahnhofstraße.  On the extensive area called ‘Düttingpark’, located between Bahnhofstraße, Rathausstraße and Bernhard-Niehues-Straße,, three town mansions with 21 upmarket owner-occupied flats were built  in 2014.</p>",
+                "description_nl": "<h1>De villa’s van de fabrikanten Niehues en Dütting</h1><h3>Villa Niehues</h3><p>De villa Niehues werd voor de textielfabrikant J. Stroink in 1912 gebouwd. Ze staat in de Stationsstraat 19. Op een embleem van het huis wordt het gebouw als ' Villa in het Park ' beschreven.</p><h3>Villa Dütting</h3><p>De villa Dütting staat in de Stationsstraat 10, van waar ze nauwelijks te zien is.  Het gebouw werd 1879 door de architect Hubert Holtmann voor Friedrich Dütting, de grondlegger van NINO, gebouwd. De villa beschikt over een garage, een tuinhuisje, twee serres en een groot park.</p><p>Deze villa wordt graag als 'juweel van de textielera' beschreven. Op het uitgestrekte terrein van het “Düttingpark” werden 2014 drie villa’s met 21 luxe appatementen gebouwd. Het terrein bevindt zich tussen de Stationsstaat, de Raadhuisstraat en de Bernhard-Niehues-Straat.</p><p>Als U willt, kunt U ook nog het oude administratiegebouw van NINO bezoeken. Deze kunt U bij standpunt 24 vinden.</p>",
+                "category": "NINO",
+                "picture_folder": "24",
+                "picture_name": [
+                    "nino 24.2.jpg",
+                    "nino 24.jpg",
+                    "Nino Verwaltungsgebäude.JPG"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0762038230896,
+                    52.42466894219513
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 23,
+                "name": "Die Fabrikantenvillen Niehuis und Dütting",
+                "name_en": "The Former Factory Owners‘ Mansions",
+                "name_nl": "De voormalige fabrikanten woningen",
+                "short_description": "Das modernste Großraumbüro Deutschlands seinerzeit. ",
+                "short_description_en": "The most modern open-plan office in Germany at the time. ",
+                "short_description_nl": "De modernste kantoortuin van duitsland indertijds.",
+                "description": "<h1>NINO-Verwaltungsgebäude II</h1><p>Das neue NINO-Verwaltungsgebäude wurde zwischen 1961 und 1963 an der Bentheimer Straße, errichtet. In dem Gebäude wurden die kaufmännische Abteilung und das Recherchezentrum untergebracht. Das von dem Architekten Werner Zobel entworfene Gebäude wurde als  „Bürohaus der Zukunft“  bezeichnet und galt als modernstes Großraumbüro Deutschlands. Er entschied sich für offene und flexible Großraumzellen und einen wabenförmigen Grundriss, der den Vorteil hatte, dass sich die Räume freier anordnen ließen und beliebig erweitern lassen konnten.</p><p>Das fünfstöckige Gebäude hatte eine Gesamtfläche von 8000 Quadratmetern und  10,8 Quadratmetern Grundfläche pro Arbeitsplatz. Die Außenwände bestehen aus weißem Sichtbeton.</p><p>Das Gebäudeinnere wurde gestaltet mit speziell entwickelten Leuchtkörpern, flexiblen, schallschluckenden Trennwänden, sensiblen Raumfarben und einer farblich passenden Möbelausstattung. Seit 2001 ist das Gebäude denkmalgeschützt. Es war Vorbild für viele Gebäude der sechziger Jahre und viele Architekten aus aller Welt kamen nach Nordhorn um sich das anzusehen.</p><p>Heute befindet sich dieses Gebäude im Besitz der Horstmann-Gruppe.</p>",
+                "description_en": "<h1>NINO Administration Building II</h1><p>The new NINO administration building was built between 1961 and 1963 on Bentheimer Strasse. The commercial department and the research center were housed in the building. Designed by the architect Werner Zobel, the building was called the \"Office Building of the Future\" and was considered the most modern open-plan office in Germany. He opted for open and flexible open-plan cells and a honeycomb-shaped floor plan, which had the advantage that the rooms could be arranged more freely and could be extended as desired.</p><p>The five-story building had a total area of 8000 square meters and 10.8 square meters of floor space per workplace. The outer walls are made of white exposed concrete.</p><p>The interior of the building was designed with specially developed luminaires, flexible, sound-absorbing partitions, sensitive room colors and matching furniture fittings. Since 2001, the building is listed. It was a model for many buildings of the sixties and many architects from all over the world came to Nordhorn to look at it.</p><p>Today this building is owned by the Horstmann Group.</p> ",
+                "description_nl": "<h1>NINO administratie gebouw II</h1><p>Het nieuwe administratiekantoor van NINO werd tussen 1961 en 1963 aan de Bentheimer Straße opgericht. De commerciële afdeling en het onderzoekscentrum waren in het gebouw gehuisvest. Het gebouw, ontworpen door de architect Werner Zobel, werd ook  'kantoorgebouw van de toekomst' genoemd en werd beschouwd als het meest moderne open kantoor in Duitsland. Hij koos voor open en flexibele cellen en een honingraatvormige plattegrond, wat het voordeel had dat de kamers vrijer konden worden gerangschikt en naar wens konden worden uitgebreid.</p><p>Het vijf verdiepingen tellende gebouw had een totale oppervlakte van 8000 vierkante meter en 10,8 vierkante meter vloeroppervlak per werkplek. De buitenmuren zijn gemaakt van wit zichtbaar beton.</p><p>Het interieur van het gebouw is ontworpen met speciaal ontwikkelde lichttechniek, flexibele, geluidsabsorberende scheidingswanden, gevoelige kamerkleuren en bijpassende meubelbeslag. Sinds 2001 wordt het gebouw vermeld. Het was een voorbeeld voor veel gebouwen uit de jaren zestig en veel architecten van over de hele wereld kwamen naar Nordhorn om ernaar te kijken.</p><p>Vandaag is dit gebouw eigendom van de Horstmann Group.</p>",
+                "category": "NINO",
+                "picture_folder": "23",
+                "picture_name": [
+                    "260px-Villa_Dütting_Villa_im_Park_1912_Nordhorn.JPG"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.064756155014038,
+                    52.432094039513004
                 ]
             }
         }
