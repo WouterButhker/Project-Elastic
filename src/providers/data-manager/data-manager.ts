@@ -226,7 +226,9 @@ export class DataManagerProvider {
     }
 
     public gaTrackView(viewName) {
-        this.ga.trackView(viewName)
+        this.ga.trackView(viewName).catch((e)=> {
+            console.log("ERROR: ",e)
+        })
     }
 
 

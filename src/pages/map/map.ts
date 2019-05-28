@@ -359,7 +359,15 @@ export class MapPage {
                 name = event.feature.getProperty('name_en');
                 description = event.feature.getProperty('short_description_en');
 
-            // otherwise use the native language
+                // exceptions for german and dutch
+            } else if (self.dataManager.city == "Almelo" && self.dataManager.language == "German") {
+                name = event.feature.getProperty('name_de');
+                description = event.feature.getProperty('short_description_de')
+            } else if (self.dataManager.city == "Nordhorn" && self.dataManager.language == "Dutch") {
+                name = event.feature.getProperty('name_nl');
+                description = event.feature.getProperty('short_description_nl');
+
+                // otherwise use native language
             } else {
                 name = event.feature.getProperty('name');
                 description = event.feature.getProperty('short_description');
@@ -442,6 +450,7 @@ export class MapPage {
         // open detailpage with the correct data
         this.navCtrl.push(DetailPage, {
             locationFeature: locationFeature,
+            openedFromMap: true
         });
 
 
