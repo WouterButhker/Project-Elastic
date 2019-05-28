@@ -58,9 +58,6 @@ export class DetailPage {
 
     }
 
-    ionViewWillLeave() {
-        this.tts.speak("")
-    }
 
 
 
