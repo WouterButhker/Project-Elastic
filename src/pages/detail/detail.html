@@ -33,13 +33,14 @@
 
 <!--    TODO: implement native audioFiles-->
 <!--    audioFiles player for recorded files-->
-    <audio controls #audioFiles>
-        <source (error)="noAudioFiles()" src="{{dataManager.getAudio(locationDetails)}}" type="audio/mpeg">
+    <audio controls *ngIf="displayAudioFiles">
+        <source (error)="this.displayAudioFiles = false" src="{{dataManager.getAudio(locationDetails)}}" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
+
 <!--    audioFiles player for TTS-->
-    <button #audioTTS id="audioButton" (click)="playAudioTTS()" class="cityButton">
+    <button *ngIf="displayAudioTTS" id="audioButton" (click)="playAudioTTS()" class="cityButton" [ngStyle]="{ 'background-color': audioButtonColor}">
         <ion-icon name="play"></ion-icon>
         /
         <ion-icon name="pause"></ion-icon>
@@ -54,7 +55,7 @@
     <!--TODO: fix static maps-->
 
 
-    <button class="cityButton" id="map-page" (click)="openMapPage()">
+    <button *ngIf="!openedFromMap" class="cityButton" id="map-page" (click)="openMapPage()">
         {{'open map' | translate}}
     </button>
 

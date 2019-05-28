@@ -15,8 +15,6 @@ import {TextToSpeech} from "@ionic-native/text-to-speech";
 export class DetailPage {
     @ViewChild('slider') slider: Slides;
     @ViewChild('baseTabs') tabRef: Tabs;
-    @ViewChild('audioFiles') audioFiles;
-    @ViewChild('audioTTS') audioTTS;
 
     locationDetails;
     city: string;
@@ -24,6 +22,10 @@ export class DetailPage {
     color: string;
     pictures: string[];
     isPlayingAudio: boolean = false;
+    audioButtonColor: string = '#222';
+    displayAudioFiles = true;
+    displayAudioTTS = true;
+    openedFromMap: boolean;
 
     constructor(
         public navCtrl: NavController,
@@ -38,7 +40,9 @@ export class DetailPage {
 
         this.dataManager.gaTrackView("Detail");
 
+        this.setupAudioPlayer();
 
+        this.openedFromMap = this.navParams.get('openedFromMap');
     }
 
     // TODO: on Iphone the audioFiles bar gets displayed even though there is no audioFiles
@@ -51,19 +55,14 @@ export class DetailPage {
 
         this.slider.autoHeight = true;
 
-        // do not display secondary audioFiles by default
-        this.audioTTS.nativeElement.style.display= 'none';
 
     }
 
-    private noAudioFiles() {
-        // hide audioFiles player
-        console.log("error loading audioFiles file, hiding audioFiles player");
-        this.audioFiles.nativeElement.style.display='none';
-
-        //TODO: display TTS play button
-        this.audioTTS.nativeElement.style.display= 'block';
+    ionViewWillLeave() {
+        this.tts.speak("")
     }
+
+
 
     public hideImage() {
         document.getElementById('slides-element').style.display='none';
@@ -97,38 +96,34 @@ export class DetailPage {
 
     private playAudioTTS() {
         if (this.isPlayingAudio) {
+
+            this.audioButtonColor = '#222';
+            this.isPlayingAudio = false;
+
             // stop the audio by sending a empty string
             this.tts.speak("")
-                .then(() => {
-                    this.isPlayingAudio = false;
-                    this.audioTTS.nativeElement.style.backgroundColor = '#222'
-                })
                 .catch((reason: any) => {
                     console.log("Error stopping audioFiles: "+ reason)
                 });
 
-            this.isPlayingAudio = false;
 
         } else {
-
+            this.audioButtonColor = '#3fa535';
+            this.isPlayingAudio = true;
+            this.displayAudioFiles = false;
             // play the text
             this.tts.speak({
                 text: this.dataManager.getPropertyDescription(this.locationDetails),
                 locale: this.getLocale()})
-                .then(() => {
-                    console.log("SUCCES PLAYING AUDIO");
-                    this.isPlayingAudio = true;
-                    this.audioTTS.nativeElement.style.backgroundColor = '#3fa535'
-                })
                 .catch((reason: any) => {
                     console.log(reason);
-                });
 
-            this.isPlayingAudio = true;
+                });
         }
     }
 
     private getLocale() {
+        // TODO: android only supports English and German
         switch (this.dataManager.language) {
             case "English":
                 return "en-GB";
@@ -143,6 +138,34 @@ export class DetailPage {
         }
 
         return "en-GB";
+    }
+
+    private setupAudioPlayer() {
+
+        if (this.dataManager.language == "Dutch") {
+            this.displayAudioTTS = false;
+        } else if (this.dataManager.language == "English") {
+            this.displayAudioTTS = true;
+        }
+
+        // TODO: update for audio files from Zelow and Nordhorn
+        switch (this.dataManager.city) {
+            case "Almelo":
+                this.displayAudioFiles = false;
+                break;
+            case "Valasske":
+                this.displayAudioFiles = true;
+                this.displayAudioTTS = false;
+                break;
+            case "Zelow":
+                this.displayAudioTTS = false;
+                break;
+            case "Norhorn":
+                this.displayAudioTTS = true;
+                this.displayAudioFiles = true;
+                break;
+        }
+
     }
 
 

@@ -24,7 +24,6 @@ export class HomePage {
         private event: Events,
         public dataManager: DataManagerProvider
         ) {
-
             this.locations = this.dataManager.loadDataFromJson();
 
             // this.categories = ["factory", "factory owner's home", "other"];
@@ -46,7 +45,7 @@ export class HomePage {
     viewDetailPage(locationFeature) {
         //alert(loc.properties.name);
         this.navCtrl.push(DetailPage,
-            {locationFeature: locationFeature})
+            {locationFeature: locationFeature, openedFromMap: false})
     }
 
     private openLanguageSelector(myEvent) {
