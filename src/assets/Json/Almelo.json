@@ -50,6 +50,7 @@
                 "picture_folder": "1",
                 "icon": "walk",
                 "picture_name": [
+                    "scholco.jpg",
                     "Scholten (nu Kreta).jpeg"
                 ]
             },
@@ -79,7 +80,10 @@
                 "category": "Sociaal",
                 "picture_folder": "15",
                 "icon": "walk",
-                "picture_name": []
+                "picture_name": [
+                    "2thumbnail_IMG_8271.jpg",
+                    "thumbnail_IMG_8269.jpg"
+                ]
             },
             "geometry": {
                 "type": "Point",
@@ -138,6 +142,8 @@
                 "picture_folder": "4",
                 "icon": "walk",
                 "picture_name": [
+                    "oudestation .jpeg",
+                    "spoorbanen station almelo.jpg",
                     "station almelo perron.jpeg",
                     "station.jpg"
                 ]
@@ -171,7 +177,10 @@
                 "picture_name": [
                     "B2 SESA fabriek met markante vierkante schoorsteenpijp.jpg",
                     "B3 Luchtfoto SESA fabriek gelegen aan de toenmalige Poulinkstraat (rood).jpg",
-                    "D4 Na blussen van brand bij SESA gezien vanuit de Poulinkstraat.jpg"
+                    "D4 Na blussen van brand bij SESA gezien vanuit de Poulinkstraat.jpg",
+                    "sesa brand.jpg",
+                    "sesa vuur.jpg",
+                    "thumbnail_Bild 28.05.19 um 07.02.jpg"
                 ]
             },
             "geometry": {
@@ -441,7 +450,9 @@
                 "category": "fabriek",
                 "picture_folder": "26",
                 "icon": "cycle",
-                "picture_name": []
+                "picture_name": [
+                    "ruinck.jpg"
+                ]
             },
             "geometry": {
                 "type": "Point",
@@ -504,6 +515,8 @@
                 "picture_folder": "28",
                 "icon": "walk",
                 "picture_name": [
+                    "bendien gebouw.jpg",
+                    "bendien oxford.jpg",
                     "bendien-24.jpeg"
                 ]
             },
@@ -653,7 +666,10 @@
                 "category": "Sociaal",
                 "picture_folder": "41",
                 "icon": "cycle",
-                "picture_name": []
+                "picture_name": [
+                    "beeklust.jpg",
+                    "thumbnail_img-r0x0x4864x3648-C800x450.jpg"
+                ]
             },
             "geometry": {
                 "type": "Point",
@@ -983,7 +999,8 @@
                 "icon": "walk",
                 "picture_name": [
                     "8 - pand hofkes.jpg",
-                    "header1.jpg"
+                    "header1.jpg",
+                    "hofkeshuis.jpg"
                 ]
             },
             "geometry": {
@@ -1162,7 +1179,9 @@
                 "picture_folder": "13",
                 "icon": "walk",
                 "picture_name": [
-                    "Palthe.jpeg"
+                    "004587d0e669668f1a598706de019c51.jpg",
+                    "Palthe.jpeg",
+                    "thumbnail_Bild 28.05.19 um 07.00.jpg"
                 ]
             },
             "geometry": {
@@ -1341,13 +1360,77 @@
                 "category": "Sociaal",
                 "picture_folder": "45",
                 "icon": "walk",
-                "picture_name": []
+                "picture_name": [
+                    "huis tegenwoordig zwartwit.jpg",
+                    "huis tegenwoordig.jpg",
+                    "mesritz.jpg",
+                    "steen.jpg"
+                ]
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     6.66258305311203,
                     52.35503139582415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Bleekkerk en bleekvelden",
+                "name_en": "Bleekkerk and bleaching fields",
+                "name_de": "Bleekkerk und Bleichfelder",
+                "short_description": "Het grote gebied van de bleekvelden",
+                "short_description_en": "The large area of the bleaching fields",
+                "short_description_de": "Die große Fläche der Bleichfelder",
+                "description": "Met haar naam herinnert de Bleekkerk ons aan de tijd waarin de textielindustrie van grote betekenis was voor Almelo. De Bleekkerk in Almelo dankt haar naam aan de weiden vlakbij de wateren waar men katoenen en linnen weefsels bleekte voor de textielindustrie. Het pad naar deze velden heette de ‘Bleekweg’ en heet nu de Hofstraat. Deze weg liep door het huidige Hagenpark, dat zich achter het gebied De Bleek bevindt. Het park grenst aan de Gravenallee en is vernoemd naar P.M. Rogmans, rentmeester van Huize Almelo. Het park ligt op een voor Almelo historische locatie en heeft tegenwoordig een ruime vijver waar eenden, zwanen en ganzen hun thuis hebben. Het hele gebied vanaf Natuur-Stoomblekerij Ten Bruggencate tot aan hier bij de bleekkerk, vormde de bleekvelden.",
+                "description_en": "With its name, De Bleekkerk reminds us of the time when the textile industry was of great importance to Almelo. The Bleekkerk in Almelo owes its name to the meadows near the waters where they bleached cotton and linen fabrics for the textile industry. The path to these fields was called the \"Bleekweg\" and is now called the Hofstraat. This road ran through the current Hagenpark, which is behind the area De Bleek. The park borders the Gravenallee and is named after P.M. Rogmans, steward of Huize Almelo. The park is in a location that is historic for Almelo and now has a large pond where ducks, swans and geese have their home. The entire area from Natuur-Stoomblekerij Ten Bruggencate to here at the bleaching church formed the bleaching fields.",
+                "description_de": "De Bleekkerk erinnert mit seinem Namen an die Zeit, als die Textilindustrie für Almelo von großer Bedeutung war. Die Bleekkerk in Almelo verdankt ihren Namen den Wiesen in der Nähe des Wassers, auf denen Baumwoll- und Leinenstoffe für die Textilindustrie gebleicht wurden. Der Weg zu diesen Feldern hieß \"Bleekweg\", und heißt jetzt Hofstraat. Diese Straße verlief durch den heutigen Hagenpark, der hinter das Gebiet De Bleek liegt. Der Park grenzt an die Gravenallee und ist nach P.M. Rogmans, Steward von Huize Almelo. Der Park befindet sich in einer für Almelo historischen Gegend und verfügt nun über einen großen Teich, in dem Enten, Schwäne und Gänse leben. Das gesamte Gebiet von Natuur-Stoomblekerij Ten Bruggencate bis hier bei der Bleichkirche bildete die Bleichfelder.",
+                "category": "sociaal",
+                "picture_folder": "46",
+                "picture_name": [
+                    "Helaas niet uit Almelo maar toont wel de natuurbleek rond 1630 ; Adriaen van de  Venne.jpg"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.669076681137085,
+                    52.35563425086881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Ten Cate Indië en watertoren",
+                "name_en": "Ten Cate Indië and water tower",
+                "name_de": "Ten Cate Indië und Wasserturm",
+                "short_description": "Het voormalige industrieterrein Indië van Ten Cate .",
+                "short_description_en": "The former industry terrain Indië of Ten Cate",
+                "short_description_de": "Das ehemalige Industriegebiet Indië von Ten Cate",
+                "description": "<p>Egbert ten Cate ontwikkelde aan de kruising van het Overijssels Kanaal en het Almelo-Nordhornkanaal in 1916 het Indiëterrein. Hier verrezen twee spinnerijen met in totaal ruim 135.000 spillen en een weverij met 860 weefgetouwen. De naam Indië dateert uit de tijd dat het in Almelo geproduceerde textiel geëxporteerd werd naar Indonesië. Daar kregen de lappen textiel met verf een decoratie. Het ging goed met het textielbedrijf van Ten Cate en het breidde uit op het Indiëterrein. Zo werd het Indiëterrein het grootste fabrieksterrein van heel Almelo. De laatste productiewerkzaamheden van Ten Cate zijn hier pas in 2012 opgehouden. Het gehele terrein wordt nu ontwikkeld tot een levendig en eigentijds woon-, werk-, en leefgebied. Daarbij wordt veel van het oorspronkelijke karakter van het terrein behouden. Zo vind je er bijvoorbeeld een unieke evenement- en vergaderlocatie in het voormalige laboratorium van de fabriek: het Stadslab.</p> \t <p>Het werken in de textielfabrieken was zeker niet altijd een pretje. Mannen, vrouwen en zelfs kinderen werkten der zo´n 11 uur per dag en dat zes dagen per week. Ze staan in slecht geventileerde kamers vol machines en verdienden nét genoeg om rond te komen. Het lawaai van de weefmachines was letterlijk oorverdovend. De werkzaamheden waren bovendien gevaarlijk en niet zelden ontstond er brand. Er werd immers met kolen gestookt om de machines Om die snel te kunnen blussen ontstonden er watertorens bij de fabrieken. Deze is nog blijven staan op het voormalige industrieterrein Indië van Ten Cate.</p>",
+                "description_en": "<p>Egbert ten Cate developed the Indië terrain at the intersection of the Overijssels Canal and the Almelo-Nordhorn Canal in 1916. Two spinning mills with a total of more than 135000 spindles and a weaving mill with 860 looms were built here. The name Indië dates from the time that the textile produced in Almelo was exported to Indonesia. The textile cloths were given a decoration with paint there. The textile business of Ten Cate went well and it expanded on the Indië terrain. The Indië terrain became the largest factory site in Almelo. The last production activities of Ten Cate were not stopped here until 2012. The entire terrain is now being developed into a lively and contemporary living, working and living area. In addition, much of the original character of the site is preserved. For example, you will find a unique event and meeting location in the factory's former laboratory: the City Lab.</p>  <p>Working in the textile factories was certainly not always fun. Men, women and even children worked around 11 hours a day and six days a week. They were in poorly ventilated rooms full of machines and earned just enough to live. The noise from the weaving machines was literally deafening. Moreover, the work was dangerous and a fire started often. After all, coal was used for the machines. In order to be able to extinguish it quickly, water towers were built at the factories. This one has remained on the former industrial terrain Indië of Ten Cate.</p>",
+                "description_de": "<p>Egbert ten Cate baute 1916 das Indië-gelände an der Kreuzung des Overijssels-Kanals und des Almelo-Nordhorn-Kanals auf. Hier wurden zwei Spinnereien mit insgesamt mehr als 135.000 Spindeln und eine Weberei mit 860 Webstühlen gebaut. Der Name Indië stammt aus der Zeit, als das in Almelo hergestellte Textil nach Indonesien exportiert wurde. Die Textiltücher erhielten dort mit Farbe eine Dekoration. Das Textilgeschäft von Ten Cate verlief gut und dehnte sich auf dem indischen Terrain aus. Das Indië-gelände wurde zum größten Fabrikgelände in ganz Almelo. Die letzten Produktionstätigkeiten von Ten Cate wurden hier erst 2012 eingestellt. Der gesamte Standort entwickelt sich zu einem lebendigen und zeitgemäßen Wohn-, Arbeits- und Wohnbereich. Darüber hinaus bleibt ein Großteil des ursprünglichen Charakters der Indië-gelände erhalten. So finden Sie im ehemaligen Labor der Fabrik einen einzigartigen Veranstaltungs- und Tagungsort: das Stadslab.</p>  <p>Die Arbeit in den Textilfabriken hat sicherlich nicht immer Spaß gemacht. Männer, Frauen und sogar Kinder arbeiteten rund 11 Stunden am Tag und sechs Tage die Woche. Sie waren in schlecht belüfteten Räumen voller Maschinen und verdienten gerade genug, um über die Runden zu kommen. Das Geräusch der Webmaschinen war buchstäblich ohrenbetäubend. Außerdem war die Arbeit gefährlich und es kam häufig zu einem Brand. Schließlich wurden die Maschinen mit Kohle geheizt, und um eventuelle Feuer schnell löschen zu können, wurden bei den Fabriken Wassertürme gebaut. Dieser ist auf dem ehemaligen Industriegebiet Indië von Ten Cate erhalten geblieben.</p>",
+                "category": "factory",
+                "picture_folder": "47",
+                "picture_name": [
+                    "A7 Zicht op Ten Cate Indië vanaf het Overijsselskanaal.jpg",
+                    "image.png"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.6548824310302725,
+                    52.360964573235336
                 ]
             }
         }
