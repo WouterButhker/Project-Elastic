@@ -39,7 +39,6 @@
         "cordova-plugin-file-transfer": "^1.7.1",
         "cordova-plugin-geolocation": "4.0.1",
         "cordova-plugin-google-analytics": "^1.8.6",
-        "cordova-plugin-googlemaps": "^2.4.6",
         "cordova-plugin-ionic": "^5.2.9",
         "cordova-plugin-ionic-keyboard": "^2.1.3",
         "cordova-plugin-ionic-webview": "^2.4.1",
@@ -81,14 +80,6 @@
                 "UPDATE_API": "https://api.ionicjs.com",
                 "MAX_STORE": "2",
                 "MIN_BACKGROUND_DURATION": "30"
-            },
-            "cordova-plugin-googlemaps": {
-                "API_KEY_FOR_ANDROID": "AIzaSyBLF3QJJlJ8U14JI1duYGIOh9mdjgV-ADI",
-                "API_KEY_FOR_IOS": "AIzaSyB3VyyQN-bIwtUVr1FW4trrlr3vz8ZdM_Q",
-                "PLAY_SERVICES_VERSION": "15.0.1",
-                "ANDROID_SUPPORT_V4_VERSION": "27.+",
-                "LOCATION_WHEN_IN_USE_DESCRIPTION": "This app wants to get your location while this app runs only.",
-                "LOCATION_ALWAYS_USAGE_DESCRIPTION": "This app wants to get your location always, even this app runs in background."
             },
             "cordova-plugin-geolocation": {
                 "GEOLOCATION_USAGE_DESCRIPTION": "To locate you"
