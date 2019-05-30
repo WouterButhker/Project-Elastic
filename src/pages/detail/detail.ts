@@ -155,6 +155,7 @@ export class DetailPage {
                 this.displayAudioTTS = false;
                 break;
             case "Zelow":
+                this.displayAudioFiles = true;
                 this.displayAudioTTS = false;
                 break;
             case "Norhorn":
