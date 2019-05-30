@@ -522,9 +522,11 @@ export class MapPage {
     private centerOnUser() {
         console.log("TEST");
 
-        this.presentToast("Getting your location, please be patient");
+        let toast = this.presentToast("Getting your location, please be patient");
 
-        this.geolocation.getCurrentPosition().then((resp) => {
+        this.geolocation.getCurrentPosition({enableHighAccuracy: true}).then((resp) => {
+            toast.dismissAll();
+
             console.log("latitude: " + resp.coords.latitude);
             console.log("longitude: " + resp.coords.longitude);
 
@@ -554,12 +556,13 @@ export class MapPage {
             });
     }
 
-    private async presentToast(text) {
-        const toast = await this.toastController.create({
+    private presentToast(text) {
+        const toast = this.toastController.create({
             message: text,
-            duration: 3000
+            duration: 5000
         });
         toast.present();
+        return toast;
     }
 
 }
