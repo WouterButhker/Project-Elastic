@@ -96,4 +96,12 @@ export class IntroPage {
         });
 
     }
+
+    private static isApp(): boolean {
+        return (
+            document.URL.indexOf('http://localhost') === 0 ||
+            document.URL.indexOf('ionic') === 0 ||
+            document.URL.indexOf('https://localhost') === 0
+        );
+    }
 }
