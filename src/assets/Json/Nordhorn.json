@@ -100,7 +100,7 @@
                 "picture_folder": "3",
                 "picture_name": [
                     "Bild Kesselhaus.jpg",
-                    "Rawe Fabrik früher.jpg",
+                    "Rawe Fabrik fruher.jpg",
                     "Rawe Villa.png"
                 ]
             }
@@ -165,7 +165,7 @@
                 "category": "Rawe",
                 "picture_folder": "5",
                 "picture_name": [
-                    "Rawe Fabrik früher.jpg"
+                    "Rawe Fabrik fruher.jpg"
                 ]
             }
         },
@@ -224,7 +224,7 @@
                 "category": "Povel",
                 "picture_folder": "7",
                 "picture_name": [
-                    "Povel erstes Fabrikgebäude.JPG"
+                    "Povel_erstes_Fabrikgebaude.JPG"
                 ]
             },
             "geometry": {
@@ -391,7 +391,7 @@
                 "name_en": "The Emma-Peel-Collection",
                 "short_description_nl": "Emma Peel, een wereld ster voor promotie redenen naar de Grafschaft Bentheim. ",
                 "picture_name": [
-                    "emma peel grüner rock.jpg",
+                    "emma peel gruner rock.jpg",
                     "emma peel in zeitschriften.jpg",
                     "emma peel povel.jpg",
                     "emma peel roter rock.jpg"
@@ -769,7 +769,7 @@
                 "picture_name": [
                     "nino 24.2.jpg",
                     "nino 24.jpg",
-                    "Nino Verwaltungsgebäude.JPG"
+                    "Nino_Verwaltungsgebaude.JPG"
                 ]
             },
             "geometry": {
@@ -798,7 +798,7 @@
                 "category": "NINO",
                 "picture_folder": "23",
                 "picture_name": [
-                    "260px-Villa_Dütting_Villa_im_Park_1912_Nordhorn.JPG"
+                    "260px-Villa_Dutting_Villa_im_Park_1912_Nordhorn.JPG"
                 ]
             },
             "geometry": {
