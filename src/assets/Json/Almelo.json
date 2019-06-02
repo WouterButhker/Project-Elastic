@@ -491,8 +491,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    6.656320095062255,
-                    52.36092526159479
+                    6.656599044799805,
+                    52.35860581289716
                 ]
             }
         },
@@ -1393,6 +1393,7 @@
                 "description_de": "De Bleekkerk erinnert mit seinem Namen an die Zeit, als die Textilindustrie für Almelo von großer Bedeutung war. Die Bleekkerk in Almelo verdankt ihren Namen den Wiesen in der Nähe des Wassers, auf denen Baumwoll- und Leinenstoffe für die Textilindustrie gebleicht wurden. Der Weg zu diesen Feldern hieß \"Bleekweg\", und heißt jetzt Hofstraat. Diese Straße verlief durch den heutigen Hagenpark, der hinter das Gebiet De Bleek liegt. Der Park grenzt an die Gravenallee und ist nach P.M. Rogmans, Steward von Huize Almelo. Der Park befindet sich in einer für Almelo historischen Gegend und verfügt nun über einen großen Teich, in dem Enten, Schwäne und Gänse leben. Das gesamte Gebiet von Natuur-Stoomblekerij Ten Bruggencate bis hier bei der Bleichkirche bildete die Bleichfelder.",
                 "category": "sociaal",
                 "picture_folder": "46",
+                "icon" : "walk",
                 "picture_name": [
                     "Helaas niet uit Almelo maar toont wel de natuurbleek rond 1630 ; Adriaen van de  Venne.jpg"
                 ]
@@ -1422,6 +1423,7 @@
                 "description_de": "<p>Egbert ten Cate baute 1916 das Indië-gelände an der Kreuzung des Overijssels-Kanals und des Almelo-Nordhorn-Kanals auf. Hier wurden zwei Spinnereien mit insgesamt mehr als 135.000 Spindeln und eine Weberei mit 860 Webstühlen gebaut. Der Name Indië stammt aus der Zeit, als das in Almelo hergestellte Textil nach Indonesien exportiert wurde. Die Textiltücher erhielten dort mit Farbe eine Dekoration. Das Textilgeschäft von Ten Cate verlief gut und dehnte sich auf dem indischen Terrain aus. Das Indië-gelände wurde zum größten Fabrikgelände in ganz Almelo. Die letzten Produktionstätigkeiten von Ten Cate wurden hier erst 2012 eingestellt. Der gesamte Standort entwickelt sich zu einem lebendigen und zeitgemäßen Wohn-, Arbeits- und Wohnbereich. Darüber hinaus bleibt ein Großteil des ursprünglichen Charakters der Indië-gelände erhalten. So finden Sie im ehemaligen Labor der Fabrik einen einzigartigen Veranstaltungs- und Tagungsort: das Stadslab.</p>  <p>Die Arbeit in den Textilfabriken hat sicherlich nicht immer Spaß gemacht. Männer, Frauen und sogar Kinder arbeiteten rund 11 Stunden am Tag und sechs Tage die Woche. Sie waren in schlecht belüfteten Räumen voller Maschinen und verdienten gerade genug, um über die Runden zu kommen. Das Geräusch der Webmaschinen war buchstäblich ohrenbetäubend. Außerdem war die Arbeit gefährlich und es kam häufig zu einem Brand. Schließlich wurden die Maschinen mit Kohle geheizt, und um eventuelle Feuer schnell löschen zu können, wurden bei den Fabriken Wassertürme gebaut. Dieser ist auf dem ehemaligen Industriegebiet Indië von Ten Cate erhalten geblieben.</p>",
                 "category": "factory",
                 "picture_folder": "47",
+                "icon" : "walk",
                 "picture_name": [
                     "A7_Zicht_op_Ten_Cate_Indie_vanaf_het_Overijsselskanaal.jpg",
                     "image.png"
