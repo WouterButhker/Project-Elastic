@@ -5,6 +5,7 @@ import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {TranslateService} from "@ngx-translate/core";
 import {LanguageSelectorComponent} from "../../components/language-selector/language-selector";
 import {GoogleAnalytics} from "@ionic-native/google-analytics";
+import {ButtonPage} from "../button/button";
 
 /**
  * Generated class for the IntroPage page.
@@ -20,6 +21,8 @@ import {GoogleAnalytics} from "@ionic-native/google-analytics";
 })
 export class IntroPage {
 
+    openButton: boolean = true;
+
     constructor(public navCtrl: NavController,
                 private dataManager: DataManagerProvider,
                 private translate: TranslateService,
@@ -30,11 +33,20 @@ export class IntroPage {
         this.checkUserLanguage();
 
 
+
+
     }
 
     ionViewDidLoad() {
         this.gaStartTracker();
         // this.dataManager.gaTrackView("Intro")
+
+
+        if (this.openButton) {
+            this.navCtrl.push(ButtonPage)
+        }
+
+        this.openButton = false;
     }
 
 

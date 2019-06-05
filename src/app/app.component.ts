@@ -8,6 +8,7 @@ import {TabsPage} from "../pages/tabs/tabs";
 import {ContactPage} from "../pages/contact/contact";
 import {DataManagerProvider} from "../providers/data-manager/data-manager";
 
+
 @Component({
     templateUrl: 'app.html'
 })

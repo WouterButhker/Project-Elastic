@@ -23,6 +23,7 @@ import { DataManagerProvider } from '../providers/data-manager/data-manager';
 import {Geolocation } from "@ionic-native/geolocation";
 import {GoogleAnalytics} from "@ionic-native/google-analytics";
 import {TextToSpeech } from "@ionic-native/text-to-speech";
+import {ButtonPage} from "../pages/button/button";
 
 @NgModule({
     declarations: [
@@ -33,6 +34,7 @@ import {TextToSpeech } from "@ionic-native/text-to-speech";
         IntroPage,
         TabsPage,
         DetailPage,
+        ButtonPage,
         LanguageCitySelectorComponent,
         LanguageSelectorComponent
     ],
@@ -57,6 +59,7 @@ import {TextToSpeech } from "@ionic-native/text-to-speech";
         IntroPage,
         TabsPage,
         DetailPage,
+        ButtonPage,
         LanguageCitySelectorComponent,
         LanguageSelectorComponent
     ],
