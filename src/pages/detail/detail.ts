@@ -138,31 +138,26 @@ export class DetailPage {
     }
 
     private setupAudioPlayer() {
+        // only display TTS for Almelo as the other cities have recorded audio
+        // TTS disabled for Dutch as it does not work on Iphone
 
         if (this.dataManager.language == "Dutch") {
             this.displayAudioTTS = false;
         } else if (this.dataManager.language == "English") {
             this.displayAudioTTS = true;
+        } else if (this.dataManager.language == "German") {
+            this.displayAudioTTS = true;
         }
 
-        // TODO: update for audio files from Zelow and Nordhorn
-        switch (this.dataManager.city) {
-            case "Almelo":
-                this.displayAudioFiles = false;
-                break;
-            case "Valasske":
-                this.displayAudioFiles = true;
-                this.displayAudioTTS = false;
-                break;
-            case "Zelow":
-                this.displayAudioFiles = true;
-                this.displayAudioTTS = false;
-                break;
-            case "Norhorn":
-                this.displayAudioTTS = true;
-                this.displayAudioFiles = true;
-                break;
+        // Almelo should display TTS if possible
+        // Other cities display recorded audio
+        if (this.dataManager.city == "Almelo") {
+            this.displayAudioFiles = false;
+        } else {
+            this.displayAudioFiles = true;
+            this.displayAudioTTS = false;
         }
+
 
     }
 

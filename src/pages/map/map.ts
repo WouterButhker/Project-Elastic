@@ -305,13 +305,22 @@ export class MapPage {
 
 
         // support different icons
+        // bicycle and walking man for Almelo
+        // marker with number for Nordhorn
+        // others will be default red markers
         this.map.data.setStyle(function(feature) {
             if (feature.getProperty('icon') == "cycle") {
                 return {icon: iconBike}
             } else if (feature.getProperty('icon') == "walk") {
                 return {icon: iconWalk}
+            } else if (self.dataManager.city == "Nordhorn") {
+                return {
+                    icon:
+                        self.dataManager.imgBasePath +
+                        "Nordhorn/icon/" +
+                        feature.getProperty("icon")
+                };
             }
-
         });
 
 
@@ -377,7 +386,6 @@ export class MapPage {
                 <div id="infoWindowDiv">
                     <ion-item ion-item id="infoWindowButton" (click)="self.viewDetailPage()">
                         <img src=" ` + picture + `" id="infoWindowPicture" alt="">
-                        <br clear="left">
                         <h2> ` + name + `</h2>
                         <p> ` + description + ` </p>
                     </ion-item>
@@ -387,12 +395,15 @@ export class MapPage {
             infoWindow.setContent(content);
             infoWindow.setPosition(event.latLng);
 
-            // show the infowindow in the correct position (above markers and on lines)
+            // show the infowindow in the correct position relative to the marker
             infoWindow.setOptions({pixelOffset: new google.maps.Size(0,0)});
             if (event.feature.getProperty('icon') == "" || null) {
                 infoWindow.setOptions({pixelOffset: new google.maps.Size(0,-40)});
-            } else if (event.feature.getProperty('icon') == "walk" || "cycle") {
+            } else if (event.feature.getProperty('icon') == "walk" || event.feature.getProperty('icon') == "cycle") {
                 infoWindow.setOptions({pixelOffset: new google.maps.Size(19, 0)})
+            } else {
+                // must be numbered markers in Nordhorn
+                infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -37)})
             }
 
             infoWindow.open(self.map);

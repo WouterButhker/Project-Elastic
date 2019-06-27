@@ -12,9 +12,12 @@ page-map {
     max-height: 200px;
     display: block;
     margin-left: auto;
-    margin-right: 5px;
+    margin-right: auto;
 
 }
 
-img[src="http://maps.gstatic.com/intl/en_us/mapfiles/iw_close.gif"]
-{ content:url("https://image.flaticon.com/icons/svg/190/190406.svg"); }
+button.gm-ui-hover-effect:nth-child(2) > img:nth-child(1) {
+    height: 28px !important;
+    width: 28px !important;
+    margin: 0 !important;
+}
