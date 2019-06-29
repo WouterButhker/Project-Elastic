@@ -22,7 +22,7 @@
 <ion-content>
 
 
-    <h2 class="welcome">{{'welcome title' | translate}}</h2>
+    <h2 class="welcome" [innerHTML]="'welcome title' | translate"></h2>
 
         <button id="Almelo" class="cityButton" (click)="start('Almelo')">
             Almelo
