@@ -338,7 +338,7 @@ export class MapPage {
         controlUI.style.height = '40px';
         controlUI.style.width= '40px';
         controlUI.title = 'Click to recenter the map';
-        controlUI.innerHTML = "<img src='http://hackersbende.nl/elastic/assets/Pictures/locate.svg'>";
+        controlUI.innerHTML = "<img src='" + this.dataManager.imgBasePath + "locate.svg" + "'>";
 
         ding.appendChild(controlUI);
 
