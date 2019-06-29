@@ -61,15 +61,17 @@
                 "audio_en": "Norhorn/English/2.mp3",
                 "audio": "Norhorn/German/2.mp3",
                 "picture_name": [
-                    "20171109_122322.jpg",
-                    "20171109_122336-01.jpeg",
-                    "20171109_122351-01.jpeg",
-                    "20171109_122410.jpg",
-                    "CJIG2755.JPG",
-                    "FVSP3770.JPG",
-                    "JAEG4772.JPG",
-                    "LRTY8491.JPG",
-                    "WJDP0500.JPG"
+                    "1.1.jpg",
+                    "20190613_101843.jpg",
+                    "20190613_101915.jpg",
+                    "20190613_101928.jpg",
+                    "20190613_102130.jpg",
+                    "banner10-6530d4d38dafc04g329d7f49f03caeb7.jpg",
+                    "CJIG2755.jpg",
+                    "Download.jpg",
+                    "JAEG4772.jpg",
+                    "K.jpg",
+                    "LRTY8491.jpg"
                 ]
             }
         },
@@ -102,9 +104,10 @@
                 "audio_en": "Norhorn/English/3.mp3",
                 "audio": "Norhorn/German/3.mp3",
                 "picture_name": [
-                    "Bild Kesselhaus.jpg",
-                    "Rawe Fabrik fruher.jpg",
-                    "Rawe Villa.png"
+                    "1.1.jpg",
+                    "1.jpg",
+                    "AFEDA856-6B64-42C5-BBC7-922A7342EC52.jpg",
+                    "Bild Kesselhaus.jpg"
                 ]
             }
         },
@@ -170,7 +173,7 @@
                 "audio_en": "Norhorn/English/5.mp3",
                 "audio": "Norhorn/German/5.mp3",
                 "picture_name": [
-                    "Rawe Fabrik fruher.jpg"
+                    "Download.jpg"
                 ]
             }
         },
@@ -203,9 +206,8 @@
                 "audio_en": "Norhorn/English/6.mp3",
                 "audio": "Norhorn/German/6.mp3",
                 "picture_name": [
-                    "DSC_0214.JPG",
-                    "DSC_0216.JPG",
-                    "povelturm 6.jpg"
+                    "1.jpg",
+                    "images.jpg"
                 ]
             }
         },
@@ -231,7 +233,7 @@
                 "audio_en": "Norhorn/English/7.mp3",
                 "audio": "Norhorn/German/7.mp3",
                 "picture_name": [
-                    "Povel_erstes_Fabrikgebaude.JPG"
+                    "Povel erstes Fabrikgebäude.JPG"
                 ]
             },
             "geometry": {
@@ -264,8 +266,7 @@
                 "audio_en": "Norhorn/English/8.mp3",
                 "audio": "Norhorn/German/8.mp3",
                 "picture_name": [
-                    "csm_povelh01_4f45f42209.jpg",
-                    "povelh2.jpg"
+                    "csm_povelh01_4f45f42209.jpg"
                 ]
             },
             "geometry": {
@@ -332,10 +333,10 @@
                 "audio_en": "Norhorn/English/10.mp3",
                 "audio": "Norhorn/German/10.mp3",
                 "picture_name": [
-                    "DSC_0179.JPG",
+                    "Bild1.jpg",
+                    "Download (1).jpg",
                     "DSC_0181.JPG",
-                    "DSC_0226.JPG",
-                    "wasserstadt povel.jpg"
+                    "DSC_0226.JPG"
                 ]
             },
             "geometry": {
@@ -368,6 +369,7 @@
                 "audio_en": "Norhorn/English/11.mp3",
                 "audio": "Norhorn/German/11.mp3",
                 "picture_name": [
+                    "Download (1).jpg",
                     "DSC_0160.JPG",
                     "DSC_0244.JPG",
                     "DSC_0298.JPG"
@@ -403,7 +405,7 @@
                 "audio_en": "Norhorn/English/12.mp3",
                 "audio": "Norhorn/German/12.mp3",
                 "picture_name": [
-                    "emma peel gruner rock.jpg",
+                    "emma peel grüner rock.jpg",
                     "emma peel in zeitschriften.jpg",
                     "emma peel povel.jpg",
                     "emma peel roter rock.jpg"
@@ -441,8 +443,7 @@
                 "picture_name": [
                     "DSC_0239.JPG",
                     "DSC_0240.JPG",
-                    "DSC_0282.JPG",
-                    "DSC_0284.JPG"
+                    "DSC_0282.JPG"
                 ]
             },
             "geometry": {
@@ -510,9 +511,9 @@
                 "audio_en": "Norhorn/English/15.mp3",
                 "audio": "Norhorn/German/15.mp3",
                 "picture_name": [
+                    "1.jpg",
                     "20180620_133117.jpg",
                     "20180620_133123.jpg",
-                    "20180620_133135.jpg",
                     "20180620_133306.jpg",
                     "20180620_133427.jpg",
                     "20180620_133442.jpg",
@@ -621,11 +622,7 @@
                 "audio_en": "Norhorn/English/18.mp3",
                 "audio": "Norhorn/German/18.mp3",
                 "picture_name": [
-                    "1-DSC_0146.JPG",
-                    "20180601_095828.JPG",
-                    "20180607_101541.JPG",
-                    "csm_ninoh6_4a84506529.jpg",
-                    "DSC_0087.JPG"
+                    "csm_ninoh6_4a84506529.jpg"
                 ]
             },
             "geometry": {
@@ -658,6 +655,8 @@
                 "audio_en": "Norhorn/English/19.mp3",
                 "audio": "Norhorn/German/19.mp3",
                 "picture_name": [
+                    "20180601_095828.JPG",
+                    "DSC_0146.JPG",
                     "koenig-karl-beim-nino-mantelwettbewerb-1977-im-pariser-421513.jpg"
                 ]
             },
@@ -691,8 +690,8 @@
                 "audio_en": "Norhorn/English/20.mp3",
                 "audio": "Norhorn/German/20.mp3",
                 "picture_name": [
-                    "csm_nino02_31bfdedae3.jpg",
-                    "csm_nino03_3a3f554181.jpg"
+                    "1.jpg",
+                    "csm_nino02_31bfdedae3.jpg"
                 ]
             },
             "geometry": {
@@ -766,7 +765,10 @@
                 "audio_en": "Norhorn/English/22.mp3",
                 "audio": "Norhorn/German/22.mp3",
                 "picture_name": [
-                    "nino 21.5.jpg"
+                    "1.gif",
+                    "bad4305d-f8e5-43fd-bc60-504e03146902.jpeg",
+                    "EAB_Verfahrensschema.jpg",
+                    "image.png"
                 ]
             },
             "geometry": {
@@ -801,7 +803,7 @@
                 "picture_name": [
                     "nino 24.2.jpg",
                     "nino 24.jpg",
-                    "Nino_Verwaltungsgebaude.JPG"
+                    "Nino Verwaltungsgebäude.JPG"
                 ]
             },
             "geometry": {
@@ -834,7 +836,7 @@
                 "audio_en": "Norhorn/English/23.mp3",
                 "audio": "Norhorn/German/23.mp3",
                 "picture_name": [
-                    "260px-Villa_Dutting_Villa_im_Park_1912_Nordhorn.JPG"
+                    "260px-Villa_Dütting_Villa_im_Park_1912_Nordhorn.JPG"
                 ]
             },
             "geometry": {
