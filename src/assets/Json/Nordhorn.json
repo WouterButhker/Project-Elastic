@@ -784,7 +784,7 @@
             "properties": {
                 "marker-color": "#2100fa",
                 "marker-size": "medium",
-                "marker-symbol": 24,
+                "marker-symbol": 23,
                 "name": "Die Fabrikantenvillen",
                 "name_en": "The Former Factory Owners‘ Mansions",
                 "name_nl": "De voormalige fabrikanten woningenHet administratieve gebouw",
@@ -794,6 +794,39 @@
                 "description": "<h1>Die Fabrikantenvillen Niehues und Dütting</h1><h3>Villa Niehues</h3><p>Die Villa Niehues wurde 1912 für den Textilfabrikanten J. Stroink in der Bahnhofstraße 19 erbaut. Auf einer Plakette am Haus wird das Gebäude als ‚Villa im Park‘ bezeichnet.</p><h3>Villa Dütting</h3><p>Die Villa Dütting befindet sich in der Bahnhofstraße 10. Sie wurde 1879von dem Architekten Hubert Holtmann für den NINO-Gründer Friedrich Dütting erbaut. Die Villa beinhaltet eine Garage, ein Gartenhäuschen, zwei Gewächshäuser und eine Parkanlage.</p><p>Dieses als ‚Juwel der Textilära‘ bezeichnete Gebäude ist von der Bahnhofstraße kaum zu sehen. Auf dem weitläufigen Areal, dem ‚Düttingpark‘,  zwischen Bahnhofstraße, Rathausstraße und Bernhard-Niehues-Straße wurden 2014 drei Stadtvillen mit 21 Eigentumswohnungen mit gehobener Ausstattung erbaut.</p><p>Wenn Sie wollen schauen Sie doch noch beim alten Verwaltungsgebäude von NINO vorbei. Dieses ist beim Standpunkt 24 zu finden.</p>",
                 "description_en": "<h1>The Former Factory Owners‘ Mansions</h1><h3>Villa Niehues</h3><p>Villa Niehues was built in 1912 for the textile manufacturer J. Stroink at 19 Bahnhofstraße. On a plaque  the building is called ‘villa in the park’.</p><h3>Villa Dütting</h3><p>Villa Dütting was located just across the road from Villa Niehues, at 10 Bahnhofstraße. It comprises of a mansion, a garage, a summer house, two greenhouses and a park. This building, also called ‘jewel of the textile era’, is hardly visible from Bahnhofstraße.  On the extensive area called ‘Düttingpark’, located between Bahnhofstraße, Rathausstraße and Bernhard-Niehues-Straße,, three town mansions with 21 upmarket owner-occupied flats were built  in 2014.</p>",
                 "description_nl": "<h1>De villa’s van de fabrikanten Niehues en Dütting</h1><h3>Villa Niehues</h3><p>De villa Niehues werd voor de textielfabrikant J. Stroink in 1912 gebouwd. Ze staat in de Stationsstraat 19. Op een embleem van het huis wordt het gebouw als ' Villa in het Park ' beschreven.</p><h3>Villa Dütting</h3><p>De villa Dütting staat in de Stationsstraat 10, van waar ze nauwelijks te zien is.  Het gebouw werd 1879 door de architect Hubert Holtmann voor Friedrich Dütting, de grondlegger van NINO, gebouwd. De villa beschikt over een garage, een tuinhuisje, twee serres en een groot park.</p><p>Deze villa wordt graag als 'juweel van de textielera' beschreven. Op het uitgestrekte terrein van het “Düttingpark” werden 2014 drie villa’s met 21 luxe appatementen gebouwd. Het terrein bevindt zich tussen de Stationsstaat, de Raadhuisstraat en de Bernhard-Niehues-Straat.</p><p>Als U willt, kunt U ook nog het oude administratiegebouw van NINO bezoeken. Deze kunt U bij standpunt 24 vinden.</p>",
+                "audio_nl": "",
+                "category": "NINO",
+                "picture_folder": "23",
+                "icon": "23.png",
+                "audio_en": "Norhorn/English/23.mp3",
+                "audio": "Norhorn/German/23.mp3",
+                "picture_name": [
+                    "260px-Villa_Dütting_Villa_im_Park_1912_Nordhorn.JPG"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.064756155014038,
+                    52.432094039513004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#2100fa",
+                "marker-size": "medium",
+                "marker-symbol": 24,
+                "name": "Verwaltungsgebäude NINO II",
+                "name_en": "Administration building NINO II",
+                "name_nl": "Het administratieve gebouw NINO II",
+                "short_description": "Das modernste Großraumbüro Deutschlands seinerzeit. ",
+                "short_description_en": "The most modern open-plan office in Germany at the time. ",
+                "short_description_nl": "De modernste kantoortuin van duitsland indertijds.",
+                "description": "<h1>NINO-Verwaltungsgebäude II</h1><p>Das neue NINO-Verwaltungsgebäude wurde zwischen 1961 und 1963 an der Bentheimer Straße, errichtet. In dem Gebäude wurden die kaufmännische Abteilung und das Recherchezentrum untergebracht. Das von dem Architekten Werner Zobel entworfene Gebäude wurde als  „Bürohaus der Zukunft“  bezeichnet und galt als modernstes Großraumbüro Deutschlands. Er entschied sich für offene und flexible Großraumzellen und einen wabenförmigen Grundriss, der den Vorteil hatte, dass sich die Räume freier anordnen ließen und beliebig erweitern lassen konnten.</p><p>Das fünfstöckige Gebäude hatte eine Gesamtfläche von 8000 Quadratmetern und  10,8 Quadratmetern Grundfläche pro Arbeitsplatz. Die Außenwände bestehen aus weißem Sichtbeton.</p><p>Das Gebäudeinnere wurde gestaltet mit speziell entwickelten Leuchtkörpern, flexiblen, schallschluckenden Trennwänden, sensiblen Raumfarben und einer farblich passenden Möbelausstattung. Seit 2001 ist das Gebäude denkmalgeschützt. Es war Vorbild für viele Gebäude der sechziger Jahre und viele Architekten aus aller Welt kamen nach Nordhorn um sich das anzusehen.</p><p>Heute befindet sich dieses Gebäude im Besitz der Horstmann-Gruppe.</p>",
+                "description_en": "<h1>NINO Administration Building II</h1><p>The new NINO administration building was built between 1961 and 1963 on Bentheimer Strasse. The commercial department and the research center were housed in the building. Designed by the architect Werner Zobel, the building was called the \"Office Building of the Future\" and was considered the most modern open-plan office in Germany. He opted for open and flexible open-plan cells and a honeycomb-shaped floor plan, which had the advantage that the rooms could be arranged more freely and could be extended as desired.</p><p>The five-story building had a total area of 8000 square meters and 10.8 square meters of floor space per workplace. The outer walls are made of white exposed concrete.</p><p>The interior of the building was designed with specially developed luminaires, flexible, sound-absorbing partitions, sensitive room colors and matching furniture fittings. Since 2001, the building is listed. It was a model for many buildings of the sixties and many architects from all over the world came to Nordhorn to look at it.</p><p>Today this building is owned by the Horstmann Group.</p> ",
+                "description_nl": "<h1>NINO administratie gebouw II</h1><p>Het nieuwe administratiekantoor van NINO werd tussen 1961 en 1963 aan de Bentheimer Straße opgericht. De commerciële afdeling en het onderzoekscentrum waren in het gebouw gehuisvest. Het gebouw, ontworpen door de architect Werner Zobel, werd ook  'kantoorgebouw van de toekomst' genoemd en werd beschouwd als het meest moderne open kantoor in Duitsland. Hij koos voor open en flexibele cellen en een honingraatvormige plattegrond, wat het voordeel had dat de kamers vrijer konden worden gerangschikt en naar wens konden worden uitgebreid.</p><p>Het vijf verdiepingen tellende gebouw had een totale oppervlakte van 8000 vierkante meter en 10,8 vierkante meter vloeroppervlak per werkplek. De buitenmuren zijn gemaakt van wit zichtbaar beton.</p><p>Het interieur van het gebouw is ontworpen met speciaal ontwikkelde lichttechniek, flexibele, geluidsabsorberende scheidingswanden, gevoelige kamerkleuren en bijpassende meubelbeslag. Sinds 2001 wordt het gebouw vermeld. Het was een voorbeeld voor veel gebouwen uit de jaren zestig en veel architecten van over de hele wereld kwamen naar Nordhorn om ernaar te kijken.</p><p>Vandaag is dit gebouw eigendom van de Horstmann Group.</p>",
                 "audio_nl": "",
                 "category": "NINO",
                 "picture_folder": "24",
@@ -811,39 +844,6 @@
                 "coordinates": [
                     7.0762038230896,
                     52.42466894219513
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-color": "#2100fa",
-                "marker-size": "medium",
-                "marker-symbol": 23,
-                "name": "Verwaltungsgebäude NINO II",
-                "name_en": "Administration building NINO II",
-                "name_nl": "Het administratieve gebouw NINO II",
-                "short_description": "Das modernste Großraumbüro Deutschlands seinerzeit. ",
-                "short_description_en": "The most modern open-plan office in Germany at the time. ",
-                "short_description_nl": "De modernste kantoortuin van duitsland indertijds.",
-                "description": "<h1>NINO-Verwaltungsgebäude II</h1><p>Das neue NINO-Verwaltungsgebäude wurde zwischen 1961 und 1963 an der Bentheimer Straße, errichtet. In dem Gebäude wurden die kaufmännische Abteilung und das Recherchezentrum untergebracht. Das von dem Architekten Werner Zobel entworfene Gebäude wurde als  „Bürohaus der Zukunft“  bezeichnet und galt als modernstes Großraumbüro Deutschlands. Er entschied sich für offene und flexible Großraumzellen und einen wabenförmigen Grundriss, der den Vorteil hatte, dass sich die Räume freier anordnen ließen und beliebig erweitern lassen konnten.</p><p>Das fünfstöckige Gebäude hatte eine Gesamtfläche von 8000 Quadratmetern und  10,8 Quadratmetern Grundfläche pro Arbeitsplatz. Die Außenwände bestehen aus weißem Sichtbeton.</p><p>Das Gebäudeinnere wurde gestaltet mit speziell entwickelten Leuchtkörpern, flexiblen, schallschluckenden Trennwänden, sensiblen Raumfarben und einer farblich passenden Möbelausstattung. Seit 2001 ist das Gebäude denkmalgeschützt. Es war Vorbild für viele Gebäude der sechziger Jahre und viele Architekten aus aller Welt kamen nach Nordhorn um sich das anzusehen.</p><p>Heute befindet sich dieses Gebäude im Besitz der Horstmann-Gruppe.</p>",
-                "description_en": "<h1>NINO Administration Building II</h1><p>The new NINO administration building was built between 1961 and 1963 on Bentheimer Strasse. The commercial department and the research center were housed in the building. Designed by the architect Werner Zobel, the building was called the \"Office Building of the Future\" and was considered the most modern open-plan office in Germany. He opted for open and flexible open-plan cells and a honeycomb-shaped floor plan, which had the advantage that the rooms could be arranged more freely and could be extended as desired.</p><p>The five-story building had a total area of 8000 square meters and 10.8 square meters of floor space per workplace. The outer walls are made of white exposed concrete.</p><p>The interior of the building was designed with specially developed luminaires, flexible, sound-absorbing partitions, sensitive room colors and matching furniture fittings. Since 2001, the building is listed. It was a model for many buildings of the sixties and many architects from all over the world came to Nordhorn to look at it.</p><p>Today this building is owned by the Horstmann Group.</p> ",
-                "description_nl": "<h1>NINO administratie gebouw II</h1><p>Het nieuwe administratiekantoor van NINO werd tussen 1961 en 1963 aan de Bentheimer Straße opgericht. De commerciële afdeling en het onderzoekscentrum waren in het gebouw gehuisvest. Het gebouw, ontworpen door de architect Werner Zobel, werd ook  'kantoorgebouw van de toekomst' genoemd en werd beschouwd als het meest moderne open kantoor in Duitsland. Hij koos voor open en flexibele cellen en een honingraatvormige plattegrond, wat het voordeel had dat de kamers vrijer konden worden gerangschikt en naar wens konden worden uitgebreid.</p><p>Het vijf verdiepingen tellende gebouw had een totale oppervlakte van 8000 vierkante meter en 10,8 vierkante meter vloeroppervlak per werkplek. De buitenmuren zijn gemaakt van wit zichtbaar beton.</p><p>Het interieur van het gebouw is ontworpen met speciaal ontwikkelde lichttechniek, flexibele, geluidsabsorberende scheidingswanden, gevoelige kamerkleuren en bijpassende meubelbeslag. Sinds 2001 wordt het gebouw vermeld. Het was een voorbeeld voor veel gebouwen uit de jaren zestig en veel architecten van over de hele wereld kwamen naar Nordhorn om ernaar te kijken.</p><p>Vandaag is dit gebouw eigendom van de Horstmann Group.</p>",
-                "audio_nl": "",
-                "category": "NINO",
-                "picture_folder": "23",
-                "icon": "23.png",
-                "audio_en": "Norhorn/English/23.mp3",
-                "audio": "Norhorn/German/23.mp3",
-                "picture_name": [
-                    "260px-Villa_Dütting_Villa_im_Park_1912_Nordhorn.JPG"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    7.064756155014038,
-                    52.432094039513004
                 ]
             }
         }
