@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="072" id="com.elastic.ionic" ios-CFBundleVersion="0.7.2" version="0.7.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="073" id="com.elastic.ionic" ios-CFBundleVersion="0.7.3" version="0.7.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Elastic</name>
     <description>Information about Textile history</description>
     <author email="wouterbuthker@live.nl" href="">Wouter Buthker</author>
