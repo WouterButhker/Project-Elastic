@@ -445,7 +445,7 @@ export class MapPage {
         // the detailpage needs the data in an object
 
         let locationFeature = {
-            "properties": event.feature.l,
+            "properties": event.feature.h,
             "type" : "Feature",
             "geometry" : {
                 "type" : event.feature.getGeometry().getType(),
