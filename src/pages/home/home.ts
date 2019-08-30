@@ -1,5 +1,5 @@
-import {Component} from '@angular/core';
-import {Events, NavController, PopoverController} from "ionic-angular";
+import {Component, ViewChild} from '@angular/core';
+import {Content, Events, NavController, PopoverController} from "ionic-angular";
 import {DetailPage} from "../detail/detail";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
@@ -11,8 +11,10 @@ import {LanguageCitySelectorComponent} from "../../components/language-city-sele
 // TODO: hedeman afbeelding klopt niet
 
 export class HomePage {
+    @ViewChild('pageTop') pageTop: Content;
 
     locations: object;
+    searchTerm: string = "";
     categories; // TODO: categories (kleuren op de kaart)
     // TODO: route
     // TODO: pc view beautiful
@@ -49,6 +51,9 @@ export class HomePage {
     }
 
     private openLanguageSelector(myEvent) {
+        // remove search in case user changes language
+        // this.searchTerm = "";
+
         let popover = this.popoverCtrl.create(
             LanguageCitySelectorComponent,
             {},
@@ -57,6 +62,28 @@ export class HomePage {
         popover.present( {
             ev: myEvent
         });
+
+    }
+
+    private search(ev: any) {
+
+        const term = ev.target.value;
+        if (term == undefined) {
+            this.searchTerm = "";
+        } else {
+            this.searchTerm = term;
+        }
+    }
+
+    private toggleSearchBar() {
+        const searchBar = document.getElementById('searchBar');
+
+        if (searchBar.hidden) {
+            this.pageTop.scrollToTop();
+        }
+
+        searchBar.hidden = !searchBar.hidden;
+
 
     }
 

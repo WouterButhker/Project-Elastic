@@ -14,6 +14,11 @@
         <ion-title class="ion-nav-title">Home</ion-title>
 
         <ion-buttons end>
+            <button class="search" (click)="toggleSearchBar()">
+                <ion-icon name="search" ></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-buttons end>
             <button class="flag" (click)="openLanguageSelector($event)">
                 <img src="{{dataManager.flag}}" alt="" float="right">
             </button>
@@ -27,9 +32,15 @@
 
 
 
-<ion-content padding>
+<ion-content padding #pageTop>
+    <ion-searchbar id="searchBar" placeholder="{{'search' | translate}}" (ionInput)="search($event)" [hidden]="true" ></ion-searchbar>
 
-    <button ion-item *ngFor="let loc of locations | async" (click)="viewDetailPage(loc)" >
+    <ng-container *ngFor="let loc of locations | async">
+<!--        loop through the locations and only show them when they match the search term-->
+    <button ion-item (click)="viewDetailPage(loc)"
+            *ngIf="dataManager.getPropertyName(loc).toLowerCase().includes(searchTerm.toLowerCase()) ||
+            dataManager.getPropertyShortDescription(loc).toLowerCase().includes(searchTerm.toLowerCase())">
+
         <ion-card id="card">
 
             <img src="{{dataManager.getPicturePath(loc)}}" onerror="this.style.display='none'" padding="10px">
@@ -46,7 +57,7 @@
             </ion-card-content>
         </ion-card>
     </button>
-
+    </ng-container>
 
 
 
