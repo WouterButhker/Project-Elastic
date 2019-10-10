@@ -531,7 +531,6 @@ export class MapPage {
     }
 
     private centerOnUser() {
-        console.log("TEST");
 
         let toast = this.presentToast("Getting your location, please be patient");
 
