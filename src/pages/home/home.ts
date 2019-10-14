@@ -1,5 +1,5 @@
 import {Component, ViewChild} from '@angular/core';
-import {Content, Events, NavController, PopoverController} from "ionic-angular";
+import {Content, Events, NavController, PopoverController, Searchbar} from "ionic-angular";
 import {DetailPage} from "../detail/detail";
 import {DataManagerProvider} from "../../providers/data-manager/data-manager";
 import {LanguageCitySelectorComponent} from "../../components/language-city-selector/language-city-selector";
@@ -8,10 +8,11 @@ import {LanguageCitySelectorComponent} from "../../components/language-city-sele
     selector: 'page-home',
     templateUrl: 'home.html'
 })
-// TODO: hedeman afbeelding klopt niet
+
 
 export class HomePage {
     @ViewChild('pageTop') pageTop: Content;
+    @ViewChild('searchBar') searchBar: Searchbar;
 
     locations: object;
     searchTerm: string = "";
@@ -52,7 +53,7 @@ export class HomePage {
 
     private openLanguageSelector(myEvent) {
         // remove search in case user changes language
-        // this.searchTerm = "";
+        this.searchBar.clearInput(null);
 
         let popover = this.popoverCtrl.create(
             LanguageCitySelectorComponent,
@@ -67,6 +68,11 @@ export class HomePage {
 
     private search(ev: any) {
 
+        if (ev == null) {
+            this.searchTerm = "";
+            return;
+        }
+
         const term = ev.target.value;
         if (term == undefined) {
             this.searchTerm = "";
@@ -76,10 +82,14 @@ export class HomePage {
     }
 
     private toggleSearchBar() {
+        // this.searchbar is the ionic searchbar
+        // searchbar is the html searchbar
         const searchBar = document.getElementById('searchBar');
 
         if (searchBar.hidden) {
             this.pageTop.scrollToTop();
+        } else {
+            this.searchBar.clearInput(null);
         }
 
         searchBar.hidden = !searchBar.hidden;

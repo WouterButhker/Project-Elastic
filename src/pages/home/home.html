@@ -33,30 +33,30 @@
 
 
 <ion-content padding #pageTop>
-    <ion-searchbar id="searchBar" placeholder="{{'search' | translate}}" (ionInput)="search($event)" [hidden]="true" ></ion-searchbar>
+    <ion-searchbar #searchBar id="searchBar" placeholder="{{'search' | translate}}" (ionInput)="search($event)" [hidden]="true" ></ion-searchbar>
 
     <ng-container *ngFor="let loc of locations | async">
 <!--        loop through the locations and only show them when they match the search term-->
-    <button ion-item (click)="viewDetailPage(loc)"
-            *ngIf="dataManager.getPropertyName(loc).toLowerCase().includes(searchTerm.toLowerCase()) ||
-            dataManager.getPropertyShortDescription(loc).toLowerCase().includes(searchTerm.toLowerCase())">
+        <button ion-item (click)="viewDetailPage(loc)"
+                *ngIf="dataManager.getPropertyName(loc).toLowerCase().includes(searchTerm.toLowerCase()) ||
+                dataManager.getPropertyShortDescription(loc).toLowerCase().includes(searchTerm.toLowerCase())">
 
-        <ion-card id="card">
+            <ion-card id="card">
 
-            <img src="{{dataManager.getPicturePath(loc)}}" onerror="this.style.display='none'" padding="10px">
+                <img src="{{dataManager.getPicturePath(loc)}}" onerror="this.style.display='none'" padding="10px">
 
 
-            <ion-card-header text-wrap="white-space: normal">
-                <h2><b>{{dataManager.getPropertyName(loc)}}</b></h2>
-            </ion-card-header>
+                <ion-card-header text-wrap="white-space: normal">
+                    <h2><b>{{dataManager.getPropertyName(loc)}}</b></h2>
+                </ion-card-header>
 
-            <ion-card-content text-wrap="white-space: normal">
-                <p>
-                    {{dataManager.getPropertyShortDescription(loc)}}
-                </p>
-            </ion-card-content>
-        </ion-card>
-    </button>
+                <ion-card-content text-wrap="white-space: normal">
+                    <p>
+                        {{dataManager.getPropertyShortDescription(loc)}}
+                    </p>
+                </ion-card-content>
+            </ion-card>
+        </button>
     </ng-container>
 
 
