@@ -1,14 +1,17 @@
 {
     "name": "Elastic",
     "version": "0.0.1",
-    "author": "Ionic Framework",
-    "homepage": "http://ionicframework.com/",
+    "author": "Wouter Buthker",
+    "homepage": "http://elastic-app.eu/download",
     "private": true,
     "scripts": {
         "start": "ionic-app-scripts serve",
         "clean": "ionic-app-scripts clean",
         "build": "ionic-app-scripts build",
         "lint": "ionic-app-scripts lint"
+    },
+    "config" : {
+        "ionic_generate_source_map" : "true"
     },
     "dependencies": {
         "@angular/animations": "5.2.11",
