@@ -12,6 +12,7 @@ This hybrid webapp was made to make the information generated in this project ea
 - [Kunsttorentje](https://www.kunsttorentje.nl/portfolio_page/project-elastic-textielroute-almelo/) Project Elastic textielroute Almelo
 - [Almelo's weekblad](https://www.almeloosweekblad.nl/reader/55796/1096627/app-over-roemrijk-textielverleden-almelo-project-erasmus-) App over roemrijk textielverleden Almelo
 - [Het Erasmus](https://www.het-erasmus.nl/bericht/lancering-app-door-burgemeester-en-dhr-ten-cate/) Lancering app door burgemeester en Dhr Ten Cate
+- [Almelo's weekblad](https://www.almeloosweekblad.nl/reader/68724#p=5) Almelose textielgeschiedenis in een app (25-08-2020)
 
 ## Project Elastic and Erasmus+
 <p>Erasmus+ is the European Union’s programme for education, youth and sports. The programme was created with the intention to enable Europeans to meet with each other, to learn together and share knowledge together, and to get acquainted with the many different cultures within Europe.</p>
