@@ -4,7 +4,7 @@
 This hybrid webapp was made to make the information generated in this project easily accessible by the general public. It was launched June 6, 2019 by Mayor Arjen Gerritsen and Mr. Ten Cate.
 
 ## In the news
-- [Tubantia](https://www.tubantia.nl/almelo/ivan-en-wouter-18-leren-ons-over-de-textielgeschiedenis-van-almelo~ab686d2a) Ivan en Wouter leren ons over de textielgeschiedenis van Almelo
+- [Algemeen Dagblad](https://www.ad.nl/almelo/ivan-en-wouter-18-leren-ons-over-de-textielgeschiedenis-van-almelo~ab686d2a/) Ivan en Wouter leren ons over de textielgeschiedenis van Almelo
 - [Almelo's weekblad](https://www.almeloosweekblad.nl/nieuws/algemeen/742990/burgemeester-lanceert-app-over-textielverleden) Burgemeester lanceert app over textielverleden
 - [Tubantia](https://www.tubantia.nl/almelo/kunsttorentje-almelo-ingepakt-voor-lancering-nieuwe-app~ad5a89fd/) Kunsttorentje Almelo ingepakt voor lancering nieuwe app
 - [Erasmus plus](https://www.erasmusplus.nl/actueel/nieuws/expositieruimte-kunst-torentje-almelo-krijgt-nieuw-jasje-voor-lancering-app-elastic) Expositieruimte Kunst-Torentje in Almelo krijgt 'nieuw jasje' voor lancering app Elastic
